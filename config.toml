@@ -4,7 +4,7 @@ baseURL = "https://examplesite.com/"
 # theme
 theme = "dot"
 # site title
-title = "Symbiota (Unofficial) Docs"
+title = "Symbiota Docs"
 # disable language
 disableLanguages = []
 # google analytics
@@ -63,7 +63,7 @@ copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
 
 # banner
 [Languages.en.params.banner]
-title = "Symbiota (Unofficial) Documentation"
+title = "Symbiota Documentation"
 subtitle = "Growing archive of help files for one of the most popular Natural History content management systems in North America"
 bg_image = "images/banner.jpg"
 placeholder = "Try searching for terms here"
