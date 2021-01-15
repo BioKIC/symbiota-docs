@@ -6,7 +6,7 @@ theme = "dot"
 # site title
 title = "Symbiota Docs"
 # disable language
-disableLanguages = []
+# disableLanguages = []
 # google analytics
 googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 # unsafe html
@@ -51,8 +51,9 @@ icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
 link = "#"
   
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+# icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+# link = "#"
+
 
 ################################ English Language ######################
 [Languages.en]
@@ -120,12 +121,78 @@ hasChildren = true
   url = "features"
   weight = 3
 
+################################ Spanish Language ######################
+[Languages.es]
+languageName = "Es"
+languageCode = "es"
+weight = 2
+copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
+
+# banner
+[Languages.es.params.banner]
+title = "Guía de Consulta de Symbiota"
+subtitle = "Un archivo creciente de artículos de referéncia para uno de los más populares sistema de gerencia de contenidos de Historia Natural"
+bg_image = "images/banner.jpg"
+placeholder = "Try searching for terms here"
+
+# call to action
+[Languages.es.params.cta]
+enable = true
+title = "¿Aún necesitas ayuda?"
+content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+
+# call to action button
+[Languages.es.params.cta.button]
+enable = true
+label = "contáctenos"
+link = "contact"
+
+
+################## spanish navigation #################
+[[Languages.es.menu.main]]
+name = ""
+url = "/"
+weight = 1
+
+[[Languages.es.menu.main]]
+name = "Faq"
+url = "faq"
+weight = 2
+
+[[Languages.es.menu.main]]
+name = "contáctenos"
+url = "contact"
+weight = 3
+
+# Dropdown menu
+[[Languages.es.menu.main]]
+weight = 4
+name = "guía"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Installation"
+  url = "installation"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Customizing"
+  url = "customizing"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Features"
+  url = "features"
+  weight = 3
 
 ################################### Franch Language ######################
 [Languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
-weight = 2
+weight = 3
 copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
 
 # banner
