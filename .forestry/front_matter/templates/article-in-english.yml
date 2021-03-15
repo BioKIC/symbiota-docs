@@ -11,9 +11,12 @@ fields:
 - type: text
   name: icon
   label: icon
+  hidden: true
 - type: text
   name: description
   label: description
 - type: text
   name: type
   label: type
+  default: docs
+  hidden: true
