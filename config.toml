@@ -65,7 +65,7 @@ copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
 # banner
 [Languages.en.params.banner]
 title = "Symbiota Documentation"
-subtitle = "Growing archive of help files for one of the most popular Natural History content management systems in North America"
+subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
 bg_image = "images/banner.jpg"
 placeholder = "Try searching for terms here"
 
@@ -88,44 +88,37 @@ url = "/"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "Faq"
 url = "faq"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "contact"
 url = "contact"
-weight = 3
+weight = 4
 
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 4
+weight = 5
 name = "docs"
 hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Installation"
-  url = "installation"
+  name = "Developer Guide"
+  url = "dev"
   weight = 1
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Customizing"
-  url = "customizing"
+  name = "User Guide"
+  url = "user"
   weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Miscellaneous How-Tos"
-  url = "misc"
-  weight = 4
 
 ################################ Spanish Language ######################
 [Languages.es]
@@ -139,7 +132,7 @@ copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
 title = "Guía de Consulta de Symbiota"
 subtitle = "Un archivo creciente de artículos de referéncia para uno de los más populares sistema de gerencia de contenidos de Historia Natural"
 bg_image = "images/banner.jpg"
-placeholder = "Try searching for terms here"
+placeholder = "Términos de búsqueda aquí"
 
 # call to action
 [Languages.es.params.cta]
@@ -156,49 +149,42 @@ link = "contact"
 
 ################## spanish navigation #################
 [[Languages.es.menu.main]]
-name = ""
+name = "Início"
 url = "/"
 weight = 1
 
 [[Languages.es.menu.main]]
-name = "Faq"
-url = "faq"
+name = "About"
+url = "about"
 weight = 2
 
 [[Languages.es.menu.main]]
-name = "contáctenos"
-url = "contact"
+name = "Faq"
+url = "faq"
 weight = 3
+
+[[Languages.es.menu.main]]
+name = "Contáctenos"
+url = "contact"
+weight = 4
 
 # Dropdown menu
 [[Languages.es.menu.main]]
-weight = 4
-name = "guía"
+weight = 5
+name = "docs"
 hasChildren = true
 
-  [[Languages.en.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "docs"
-  name = "Installation"
-  url = "installation"
+  name = "Developer Guide"
+  url = "dev"
   weight = 1
 
-  [[Languages.en.menu.main]]
+  [[Languages.es.menu.main]]
   parent = "docs"
-  name = "Customizing"
-  url = "customizing"
+  name = "User Guide"
+  url = "user"
   weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Miscellaneous How-Tos"
-  url = "misc"
-  weight = 4
 
 ################################### Franch Language ######################
 [Languages.fr]
@@ -209,8 +195,8 @@ copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethug
 
 # banner
 [Languages.fr.params.banner]
-title = "Comment pouvons nous aider?"
-subtitle = "Trouvez rapidement des conseils et des réponses auprès de notre équipe d'assistance ou contactez-nous."
+title = "Symbiota Documentation"
+subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
 bg_image = "images/banner.jpg"
 placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
 
@@ -233,41 +219,34 @@ url = "/"
 weight = 1
 
 [[Languages.fr.menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[Languages.fr.menu.main]]
 name = "Faq"
 url = "faq"
-weight = 2
+weight = 3
 
 [[Languages.fr.menu.main]]
 name = "contact"
 url = "contact"
-weight = 3
+weight = 4
 
 # Dropdown menu
 [[Languages.fr.menu.main]]
-weight = 4
+weight = 5
 name = "docs"
 hasChildren = true
 
   [[Languages.fr.menu.main]]
   parent = "docs"
-  name = "Installation"
-  url = "installation"
+  name = "Developer Guide"
+  url = "dev"
   weight = 1
 
   [[Languages.fr.menu.main]]
   parent = "docs"
-  name = "Billing and Pricing"
-  url = "billing-pricing"
+  name = "User Guide"
+  url = "user"
   weight = 2
-
-  [[Languages.fr.menu.main]]
-  parent = "docs"
-  name = "Features"
-  url = "features"
-  weight = 3
-
-  [[Languages.fr.menu.main]]
-  parent = "docs"
-  name = "Miscellaneous How-Tos"
-  url = "misc"
-  weight = 4
