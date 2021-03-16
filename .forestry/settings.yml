@@ -19,23 +19,13 @@ sections:
 - type: heading
   label: Content Folders
 - type: directory
-  path: content/customizing
-  label: Customizing
+  path: content/dev
+  label: Developer Guide
   create: all
   match: "**/*"
 - type: directory
-  path: content/features
-  label: Features
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/installation
-  label: Installation
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/misc
-  label: Misc
+  path: content/user
+  label: User Guide
   create: all
   match: "**/*"
 upload_dir: static/images
