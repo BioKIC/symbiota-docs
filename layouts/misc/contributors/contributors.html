@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}">
+  {{ partial "head.html" . }}
+  
+  <body>
+    <header class="shadow-bottom sticky-top bg-white">
+      {{ partial "navigation.html" . }}
+    </header>
+    <h1>Contributors</h1>
+    <h2>Authors</h2>
+    <ul>
+      {{ range .Pages }}
+      <li>
+        {{ .Params.authors }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ partial "footer.html" . }}
+  </body>
+
+</html>
