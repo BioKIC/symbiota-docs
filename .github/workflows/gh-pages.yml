@@ -1,4 +1,5 @@
 name: GitHub Pages action
+
 on:
   push:
     branches:
