@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "/symbiota-docs/"
+baseURL = "symbiota-docs/"
 # theme
 theme = "dot"
 # site title
