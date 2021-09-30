@@ -23,6 +23,16 @@ sections:
   match: "**/*"
 - type: heading
   label: Content Folders
+- type: directory
+  path: content/user
+  label: User Guide
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/dev
+  label: Dev Guide
+  create: all
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
