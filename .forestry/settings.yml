@@ -7,13 +7,18 @@ sections:
 - type: heading
   label: Static Pages
 - type: directory
-  path: content/contact
-  label: Contact
+  path: content/about
+  label: About
   create: all
   match: "**/*"
 - type: directory
   path: content/faq
   label: Faq
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contact
+  label: Contact
   create: all
   match: "**/*"
 - type: heading
