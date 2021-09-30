@@ -5,9 +5,15 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+  default: Title in English
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
+  default: now
 - type: text
   name: icon
   label: icon
