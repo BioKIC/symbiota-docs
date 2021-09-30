@@ -33,6 +33,11 @@ sections:
   label: Dev Guide
   create: all
   match: "**/*"
+- type: directory
+  path: content
+  label: All Content
+  create: all
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
