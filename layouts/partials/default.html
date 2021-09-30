@@ -29,7 +29,8 @@
           {{ end }}
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">{{ if .Params.authors }}Content by {{ delimit .Params.authors ", " " and " }}.{{ end }}</p>
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">{{ if .Params.author }}Content by {{ .Params.author.full_name }}{{ end }}{{ if .Params.editor }}; edited by {{ .Params.editor.full_name }}{{ end }}{{ if .Params.reviewer }}; reviewed by {{ .Params.reviewer.full_name }}.{{ end }}</p>
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on {{ .Lastmod.Format "02 Jan 2006" }}</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Created on {{ .Date.Format "02 Jan 2006" }} {{ if ne .Lastmod .Date }}, last edited on {{ .Lastmod.Format "02 Jan 2006" }}{{ end }}</p>
+          <!-- <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on {{ .Lastmod.Format "02 Jan 2006" }}</p> -->
           <nav class="pagination mt-3">
             <!-- Next prev page -->
             {{ $currentNode := . }}
