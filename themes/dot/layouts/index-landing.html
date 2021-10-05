@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-us{{ end }}" style="height: 100%;">
+  {{ partial "head.html" . }}
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+  <body style="height: 100%; display: flex; align-items: center; padding-top: 40px; padding-bottom: 40px; background-color: #f5f5f5;">
+    <main class="mx-auto">
+      <section class="mb-4">
+        <button id="en" class="btn btn-primary btn-sm idiom en" disabled>English</button>
+        <button id="fr" class="btn btn-primary btn-sm idiom fr">Français</button>
+        <button id="es" class="btn btn-primary btn-sm idiom es">Español</button>
+      </section>
+      <section style="max-width: 450px; ">
+        <h1 class="text-center display-4">Symbiota Docs</h1>
+        <p class="text-center lead info en">Documentation and help files for Symbiota software</p>
+        <p class="text-center lead info fr hidden">Documentation et des fichiers d'aide pour le logiciel Symbiota</p>
+        <p class="text-center lead info es hidden">Documentación y archivos de ayuda para el software Symbiota</p>
+        <h3 class="text-center info en">Coming Soon</h2>
+        <h3 class="text-center info fr hidden">À venir</h2>
+        <h3 class="text-center info es hidden">En breve</h2>
+        <p class="text-center info en">Sign up to get notified about Symbiota Docs official launch and updates</p>
+        <p class="text-center info fr hidden">Inscrivez-vous pour être informé du lancement officiel et des mises à jour de Symbiota Docs</p>
+        <p class="text-center info es hidden">Regístrese para recibir notificaciones sobre el lanzamiento oficial y las actualizaciones de Symbiota Docs</p>
+      </section>
+      <section> 
+        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLScl0xVmAFaFh9X1ujfYbFMWSS-cmcEVcAx9Cf67W5jjWhbRZQ/formResponse" id="mG61Hd" style="width: 100%; max-width: 330px; padding: 15px; margin: auto;">
+          <div class="mb-3">
+            <label for="first" class="form-label info en">First Name</label>
+            <label for="first" class="form-label info fr hidden">Prénom</label>
+            <label for="first" class="form-label info es hidden">Nombre</label>
+            <input type="text" class="form-control" style="border-radius: initial" name="entry.273823564" id="first">
+          </div>
+          <div class="mb-3">
+            <label for="last" class="form-label info en">Last Name</label>
+            <label for="last" class="form-label info fr hidden">Nom de famille</label>
+            <label for="last" class="form-label info es hidden">Apellido</label>
+            <input type="text" class="form-control" style="border-radius: initial" name="entry.862920500" id="last">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label"><span class="info en">Email (Required)</span><span class="info fr hidden">Courrier électronique (Obligatoire)</span><span class="info es hidden">Correo electrónico (Requerido)</span></label>
+            <input type="email" class="form-control"style="border-radius: initial"  name="entry.521721372" id="email" required=true>
+          </div>
+          <button type="submit" class="btn btn-primary col col-sm"><span class="info en">Submit</span><span class="info fr hidden">Soumettre</span><span class="info es hidden">Enviar</span></button>
+        </form>
+        <img src="{{ .Site.BaseURL }}/images/biokic-logo.png" alt="ASU BioKIC Logo" width="300px" height="auto" class="img-fluid mx-auto d-block">
+      </section>
+    </main>
+    
+  </body>
+<script>
+  const infos = document.querySelectorAll('.info');
+  const btns = document.querySelectorAll('.idiom');
+ 
+  function changeIdiom(idiom) {
+    infos.forEach(info => {
+      // hides all infos
+      info.classList.add('hidden');
+      // displays only idiom
+      let showEls = document.querySelectorAll(`.${idiom}`);
+      showEls.forEach(el => el.classList.remove('hidden'));
+    });
+    // hides current idiom button
+    btns.forEach(btn => {
+      btn.id == idiom ? btn.disabled = true : btn.disabled = false;
+    })
+  };
+
+  btns.forEach(btn => {
+    btn.addEventListener("click", function(){
+      changeIdiom(this.id);
+    }, false)
+  });
+
+</script>
+</html>
