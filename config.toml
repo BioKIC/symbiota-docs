@@ -61,7 +61,8 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 languageName = "En"
 languageCode = "en-us"
 weight = 1
-copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
+#copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
+copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.en.params.banner]
@@ -126,7 +127,8 @@ hasChildren = true
 languageName = "Es"
 languageCode = "es"
 weight = 2
-copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
+#copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
+copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.es.params.banner]
@@ -192,7 +194,8 @@ hasChildren = true
 languageName = "Fr"
 languageCode = "fr-fr"
 weight = 3
-copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+#copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethugothemes.com/)"
+copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.fr.params.banner]
