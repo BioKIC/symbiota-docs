@@ -23,7 +23,8 @@ logo_white = ""
 # when logo is empty, it will shown your site title
 
 # customize color
-primary_color = "#02007e"
+#primary_color = "#02007e"
+primary_color = "#428500"
 body_color = "#f9f9f9"
 text_color = "#636363"
 text_color_dark = "#242738"
@@ -66,7 +67,7 @@ copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
 [Languages.en.params.banner]
 title = "Symbiota Documentation"
 subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
-bg_image = "images/banner.jpg"
+bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
 placeholder = "Try searching for terms here"
 
 # call to action
@@ -131,7 +132,7 @@ copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
 [Languages.es.params.banner]
 title = "Guía de Consulta de Symbiota"
 subtitle = "Un archivo creciente de artículos de referéncia para uno de los más populares sistema de gerencia de contenidos de Historia Natural"
-bg_image = "images/banner.jpg"
+bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
 placeholder = "Términos de búsqueda aquí"
 
 # call to action
@@ -197,7 +198,7 @@ copyright = "Copyright © 2020 un thème Hugo par [Gethugothemes](https://gethug
 [Languages.fr.params.banner]
 title = "Symbiota Documentation"
 subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
-bg_image = "images/banner.jpg"
+bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
 placeholder = "Avoir une question? Il suffit de demander ici ou de saisir les termes"
 
 # call to action
