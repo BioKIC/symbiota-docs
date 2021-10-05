@@ -2,12 +2,11 @@
 title: "Chapter 1"
 date: 2018-12-29T11:02:05+06:00
 lastmod: 2021-09-29T11:02:05+06:00
-authors: ["Laura Rocha Prado", "Edward Gilbert"]
-editor: 
-  full_name: "Katelin Pearson"
+authors: ["Laura Rocha Prado", "Katie Pearson"]
+editors: ["Katie Pearson"]
+translators: ["Samanta Orellana"]
 weight: 3
 draft: false
-# search related keywords
 keywords: ["money","payment"]
 ---
 
