@@ -1,5 +1,6 @@
-+++
-title = "¿Tienes alguna duda?"
+---
+title: "¿Tienes alguna duda?"
+draft: false
+---
 
-+++
-Submit the form and confirm your email address at [Formspree](https://formspree.io/).
+Send us an [email](mailto:symbiota@asu.edu)!
