@@ -20,13 +20,13 @@ There are three catefories of images that can be linked to a Symbiota portal:
 
   {{< tab "Field Images with Location" >}}
   Field images with specific locality information can adequately serve as vouchers for field observations of many birds, mammals, and easy-to-identify plants. In some instances, they may actually be preferable, for instance if the organism is rare or the observer does not have the appropriate collecting permit. These images are similar to georeferenced specimen records in that they are searchable occurrence records that place a dot on the species distribution maps. There are, however, some taxonomic groups that typically require microscopic or chemical analysis for accurate identification (e.g. lichens, bryophytes, fungi). For such organisms, field images will have limited value. For this reason, some data portals might not allow the submission of observations without a physical specimen.
-  
+  <br><br>
   Image Vouchers are displayed on both the Occurrence Details and the Taxon Profile pages. Image-supported observations can be uploaded using the Observation Submission page. Up to three images can be submitted for a single observation. Data fields required for an image to qualify as a voucher include: observer name, observation date, country, state, locality description, latitude, longitude, and at least one image. Contact your data portal administrator for information on whether observations are allowed and the necessary protocols for submitting an observation. Some portals require the review of a tutorial before one is authorized to submit an observation.
-  See [Uploading Images](https://biokic.github.io/symbiota-docs/user/images/upload_images/) for more details.
+  See <a href=https://biokic.github.io/symbiota-docs/user/images/upload_images/>Uploading Images</a> for more details.
   {{</ tab >}}
 
   {{< tab "Specimen Images" >}}
-  Images of physical specimens should be linked to their respective specimen records. Specimen images are available both from the Occurrence Details page and the Taxon Profile page for the taxon associated with the most recent determination. If the specimen identification is annotated, the identification of the image will be automatically re-mapped to that taxon. Specimen images can be added through the Occurrence Editor or in batch via multiple processes.
-  See [Uploading Images](https://biokic.github.io/symbiota-docs/user/images/upload_images/) for more details.
+  Images of physical specimens should be linked to their respective specimen records. Specimen images are available both from the Occurrence Details page and the Taxon Profile page for the taxon associated with the most recent determination. If the specimen identification is annotated, the identification of the image will be automatically re-mapped to that taxon. Specimen images can be added through the Occurrence Editor or in batch via multiple processes.<br>
+  See <a href=https://biokic.github.io/symbiota-docs/user/images/upload_images/>Uploading Images</a> for more details.
   {{</ tab >}}
 {{</ tabs >}}
