@@ -26,7 +26,8 @@ There are three catefories of images that can be linked to a Symbiota portal:
   {{</ tab >}}
 
   {{< tab "Specimen Images" >}}
-  Images of physical specimens should be linked to their respective specimen records. Specimen images are available both from the Occurrence Details page and the Taxon Profile page for the taxon associated with the most recent determination. If the specimen identification is annotated, the identification of the image will be automatically re-mapped to that taxon. Specimen images can be added through the Occurrence Editor or in batch via multiple processes.<br>
+  Images of physical specimens should be linked to their respective specimen records. Specimen images are available both from the Occurrence Details page and the Taxon Profile page for the taxon associated with the most recent determination. If the specimen identification is annotated, the identification of the image will be automatically re-mapped to that taxon. Specimen images can be added through the Occurrence Editor or in batch via multiple processes.
+  <br><br>
   See <a href=https://biokic.github.io/symbiota-docs/user/images/upload_images/>Uploading Images</a> for more details.
   {{</ tab >}}
 {{</ tabs >}}
