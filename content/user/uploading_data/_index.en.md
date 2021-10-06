@@ -3,7 +3,7 @@ title: "Importing & Uploading Data"
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
 draft: true
-keywords: ["data upload","data import"]
+keywords: ["data upload","data import","file upload","IPT"]
 ---
 
 {{< notice note >}}
@@ -45,17 +45,23 @@ Perform final transfer.
     * To edit your upload profile in the future, you can click the pencil icon on this page.
 4. Click the Choose File button and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
 5. Click the Analyze File button. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
+
 ![Example of Data Upload Module](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/DataUploadModule.png)
-7. 
 
+6. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](http://symbiota.org/docs/symbiota-occurrence-data-fields-2/) for definitions of each data field. Also see the **Uploading Tips** section below.
+7. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
+8. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
+9. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
+10. Click the Start Upload button. This will upload your data into a *temporary* table so you can review it before committing the final upload.
+11. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
 
-CSV File Upload – Upload flat CSV files that have been extracted from source database.
+![Screenshot of Pending Data Transfer Report](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/PendingDataTransport.png)
 
-Create new profile with the following fields: profile title, stored procedure for data cleaning and integrity checks.
-Select primary key for source specimen record. Field must be a non-null, unique ID for the specimen record. Field can be numeric or text field type. This field will be used to update modified records during future uploads, therefore field is required and must remain the same for all uploads.
-Map source fields to the Symbiota fields. Source column names do not have to match those of Symbiota, but data type and definitions must be compliant to the one of the Darwin Core Standards. The Automap button will automatically map and save all matching field names for future uploads. If the source field definition changes, mapping will have to be adjusted to match new upload definition.
-Upload data. During upload, data is placed in temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed. Cleaning stored procedure specific for this collection is performed on this table.
-Perform final transfer.
+12. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
+    * Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.
+    * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
+13. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
+
 System Script – MySQL source to Symbiota database that islocated on a different server
 
 Write file script used to transfer records. A sample Linux script is located here: SampleSystemUpload.sh
@@ -69,6 +75,7 @@ Setup script to run as a regular cronjob
 
 ## Uploading Tips
 
+* •	If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
 eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
 * Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
