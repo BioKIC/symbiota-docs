@@ -1,9 +1,16 @@
 ---
-title: 'User Guide'
-date: 2018-12-29T11:02:05+06:00
+title: "Introduction & PDF User Guides"
+date: 2021-10-06
+lastmod: 2021-10-06
 icon: 'ti-map'
-description: 'Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet'
+authors: ["Katie Pearson","Laura Rocha Prado"]
+editors: ["Katie Pearson"]
+translators: ["Samanta Orellana"]
 type: 'docs'
 ---
 
-This page will list the inner topics and can also contain whatever intro you'd like.
+Welcome to the documentation pages of Symbiota Docs! This site is under construction.
+
+The following Symbiota guides and websites will help you get started:
+* [Symbiota Guide](https://github.com/BioKIC/Symbiota-light/blob/master/docs/SymbiotaGuide_v5.pdf) (developed for the Consortium of California Herbaria CCH2 data portal)
+* [Symbiota YouTube Channel](https://www.youtube.com/channel/UC7glMVLRnTA6ES3VTsci7iQ)
