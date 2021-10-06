@@ -20,13 +20,10 @@ keywords: ["data upload","data import","file upload","IPT"]
     * **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). Note that any data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
     * **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
     * **Direct Database Mapping:**
-    * **Stored Procedure:**
-    * **Script Upload:**
+    * **Stored Procedure:** Use this option if you are transferring from a source schema to a Symbiota database located on the same MySQL database server.
+    * **Script Upload:** Use this option if you are transferring from a MySQL source to Symbiota database that is located on a different server.
 
 5. Follow the directions below according to the Upload Type you have selected.
-
-
-7. Create new profile with the following fields: profile title, database platform, server name or IP address, port, login name, password, schema (database) name, stored procedure with instructions for data cleaning this specific upload, and SQL statement used in querying data. Note that SQL can be written only to return a subset of data, such as records modified or added within the last month.
 
 ## Darwin Core Archive Manual Upload
 
@@ -60,12 +57,13 @@ keywords: ["data upload","data import","file upload","IPT"]
     * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
 15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
 
-System Script – MySQL source to Symbiota database that islocated on a different server
+## System Script
 
 Write file script used to transfer records. A sample Linux script is located here: SampleSystemUpload.sh
 Collection cleanup scripts can be put in central stored procedure or kept separate
 Setup script to run as a regular cronjob
-SQL Stored Procedure – transfer from source schema to Symbiota database located on the same MySQL database server
+
+## SQL Stored Procedure
 
 Write file stored procedure used to transfer records
 Collection cleanup scripts can be put in central stored procedure or kept separate
