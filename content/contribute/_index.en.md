@@ -19,4 +19,5 @@ Content on this site managed through GitHub.
 2. Contact the [Symbiota Support Hub](mailto:symbiota@asu.edu) indicating your intent to contribute via GitHub. We will meet with you to discuss your contributions.
 
 **If you are not familiar with GitHub or unwilling to learn (don't be afraid to learn new things!).**
+
 Send your contributions as Word or text documents to the [Symbiota Support Hub](mailto:symbiota@asu.edu). Make sure you include your full name so we can credit you as the author! Please include any images as separate files.
