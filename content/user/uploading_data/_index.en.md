@@ -59,19 +59,17 @@ keywords: ["data upload","data import","file upload","IPT"]
 
 ## System Script
 
-Write file script used to transfer records. A sample Linux script is located here: SampleSystemUpload.sh
-Collection cleanup scripts can be put in central stored procedure or kept separate
-Setup script to run as a regular cronjob
+1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
+2. Set up the script to run as a regular cronjob.
 
 ## SQL Stored Procedure
 
-Write file stored procedure used to transfer records
-Collection cleanup scripts can be put in central stored procedure or kept separate
-Setup script to run as a regular cronjob
+1. Write a stored procedure used to transfer records (the collection cleanup scripts can be put in central stored procedure or kept separate)
+2. Set up the script to run as a regular cronjob.
 
 ## Uploading Tips
 
-* •	If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
+* If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
 eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
 * Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
