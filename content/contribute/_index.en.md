@@ -7,7 +7,7 @@ authors: ["Katie Pearson","Laura Prado"]
 keywords: ["contribute"]
 ---
 
-## How to Contribute to Symbiota Docs
+### How to Contribute to Symbiota Docs
 
 Symbiota Docs is a collaborative effort of the Symbiota community, coordinated by the Symbiota Support Hub. We welcome and encourage all contributions.
 
