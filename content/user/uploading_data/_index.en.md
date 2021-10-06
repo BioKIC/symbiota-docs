@@ -28,6 +28,15 @@ Map source fields to the Symbiota fields. Source column names do not have to mat
 Upload data. During upload, data is placed in a temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed by the collection specific stored procedure.
 Perform final transfer.
 
+##Darwin Core Archive Manual Upload
+
+
+##IPT Resource / Darwin Core Archive Provider
+
+
+##File Upload or Skeletal File Upload
+
+
 CSV File Upload – Upload flat CSV files that have been extracted from source database.
 
 Create new profile with the following fields: profile title, stored procedure for data cleaning and integrity checks.
@@ -51,9 +60,10 @@ Setup script to run as a regular cronjob
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
 eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
 * Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
+* If your elevation field is not consistently in meters, map it to the verbatimElevation field. Elevations in feet will be converted to meters as long as the units are specified in the field.
 * Coordinate values:
   * Upon upload, background scripts will attempt to extract lat/long coordinate values from the verbatimCoordinates field. The field is evaluated for DMS and UTM formats, which are converted to decimal latitude and longitude.
-  * Map verbatim lat/long that exist in a single field to decimalLatitude and leaving decimalLongitude null in order to direct scripts to parse using only the lat/long parser.
-  * Mapping separate UTM fields (northing, easting, zone) to their matching UTM fields will direct scripts to convert UTM to decimal latitude longitude. UTM values will be placed in verbatiumCoordinate field.
-  * Map verbatim UTM that exist in a single field to utmNorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
-  * Scripts attempt to extract elevation values from the verbatimElevation field. Elevations in feet will be converted to meters.
+  * If you have lat/long in a single field, you can map this field to verbatimCoordinates, and decimal latitude and longitude fields will be automatically parsed.
+  * If you have UTM coordinates in multiple fields, map the fields (northing, easting, zone) to their matching UTM fields (utmnorthing, utmeasting, utmzone). This will instigate conversion of UTM coordinates to decimal latitude and longitude. The values will additionally be stored in the verbatiumCoordinates field.
+  * If you have UTM coordinates in a single field, map this field to utmnorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
+  * TRS coordinates (Public Lands Survey System) can be entered as a single field into verbatimCoordinates, or into separate fields (trstownship, trsrange, trssection, trssectiondetails); however, these coordinates will not be automatically converted into decimal degrees due to potential differences in interpretation. See the georeferencing section of this guide (coming soon) for information about converting TRS coordinates to decimal degrees.
