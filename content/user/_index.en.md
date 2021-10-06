@@ -4,8 +4,6 @@ date: 2021-10-06
 lastmod: 2021-10-06
 icon: 'ti-map'
 authors: ["Katie Pearson","Laura Rocha Prado"]
-editors: ["Katie Pearson"]
-translators: ["Samanta Orellana"]
 type: 'docs'
 ---
 
