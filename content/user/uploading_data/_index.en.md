@@ -45,14 +45,15 @@ SQL Stored Procedure – transfer from source schema to Symbiota database locate
 Write file stored procedure used to transfer records
 Collection cleanup scripts can be put in central stored procedure or kept separate
 Setup script to run as a regular cronjob
-Uploading Tips
 
-Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
+##Uploading Tips
+
+* Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
 eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
-Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
-Coordinate values
-Scripts will attempt to extract lat/long coordinate values from the verbatimCoordinates field. Field is evaluated for DMS and UTM formats which are converted to decimal latitude and longitude.
-Map verbatim lat/long that exist in a single field to decimalLatitude and leaving decimalLongitude null in order to direct scripts to parse using only the lat/long parser.
-Mapping separate UTM fields (northing, easting, zone) to their matching UTM fields will direct scripts to convert UTM to decimal latitude longitude. UTM values will be placed in verbatiumCoordinate field.
-Map verbatim UTM that exist in a single field to utmNorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
-Scripts attempt to extract elevation values from the verbatimElevation field. Elevations in foot units will be converted to meters.
+* Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
+* Coordinate values:
+  * Upon upload, background scripts will attempt to extract lat/long coordinate values from the verbatimCoordinates field. The field is evaluated for DMS and UTM formats, which are converted to decimal latitude and longitude.
+  * Map verbatim lat/long that exist in a single field to decimalLatitude and leaving decimalLongitude null in order to direct scripts to parse using only the lat/long parser.
+  * Mapping separate UTM fields (northing, easting, zone) to their matching UTM fields will direct scripts to convert UTM to decimal latitude longitude. UTM values will be placed in verbatiumCoordinate field.
+  * Map verbatim UTM that exist in a single field to utmNorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
+  * Scripts attempt to extract elevation values from the verbatimElevation field. Elevations in feet will be converted to meters.
