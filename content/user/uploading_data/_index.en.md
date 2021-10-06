@@ -14,14 +14,14 @@ keywords: ["data upload","data import","file upload","IPT"]
 2. Click Import/Update Specimen Records, then select "Create a new Import Profile".
 3. Create a title for your upload in the Title field.
 4. Select the desired Upload Type from the dropdown menu.
-  * **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](https://dwc.tdwg.org/text/). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset ([http://en.wikipedia.org/wiki/Darwin_Core_Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive)). A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and images.
-  * **IPT Resource / Darwin Core Archive Provider:** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
-  * **File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types.
-  * **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). Note that any data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
-  * **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
-  * **Direct Database Mapping:**
-  * **Stored Procedure:**
-  * **Script Upload:**
+    * **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](https://dwc.tdwg.org/text/). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset ([http://en.wikipedia.org/wiki/Darwin_Core_Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive)). A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and images.
+    * **IPT Resource / Darwin Core Archive Provider:** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
+    * **File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types.
+    * **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). Note that any data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
+    * **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
+    * **Direct Database Mapping:**
+    * **Stored Procedure:**
+    * **Script Upload:**
 
 5. Follow the directions below according to the Upload Type you have selected.
 
