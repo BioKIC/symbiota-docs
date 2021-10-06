@@ -27,10 +27,6 @@ keywords: ["data upload","data import","file upload","IPT"]
 
 
 7. Create new profile with the following fields: profile title, database platform, server name or IP address, port, login name, password, schema (database) name, stored procedure with instructions for data cleaning this specific upload, and SQL statement used in querying data. Note that SQL can be written only to return a subset of data, such as records modified or added within the last month.
-If collection type is a data “snapshot” of a specimen database managed within the home institution, select the primary key for source specimen record. Snapshot datasets must contain a field that will serve as the primary record identifier. This field will serve as the permanent link between the source database and the portal records. This field must be populated for every record with unique values. The values need to be stable without changing over time. Field can be numeric or text field type. The typical data used for this field is the catalog number (accession number), barcode, or database primary key from the source database specimen table.
-Map source fields to the Symbiota fields. Source column names do not have to match those of Symbiota, but data type and definitions must comply with one of the Darwin Core Standards. The Automap button will automatically map and save all matching field names for future uploads. If the source SQL statement is changed, mapping will have to be adjusted to match new upload definition.
-Upload data. During upload, data is placed in a temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed by the collection specific stored procedure.
-Perform final transfer.
 
 ## Darwin Core Archive Manual Upload
 
@@ -44,23 +40,25 @@ Perform final transfer.
 3. On the next page, you will see a list of existing upload profiles. Select the profile that you wish to use (the one you just greated) and click Initialize Upload.
     * To edit your upload profile in the future, you can click the pencil icon on this page.
 4. Click the Choose File button and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
-5. Click the Analyze File button. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
+5. Click the Analyze File button.
+6. If the collection to which you are uploading data is live managed (the portal is your database system), proceed to step 7. If the collection to which you are uploading data is a “snapshot” of a specimen database managed within the home institution, select the primary key for the source specimen record from the dropdown menu. The primary key is a required field for snapshot datasets that will serve as the primary record identifier (the permanent link between the source database and the portal records). This field must be populated for every record with unique values. These values must also be stable and not changed in the central database over time. Snapshots will typically use the catalog number (accession number), barcode, or database primary key from the source database specimen table for this field.
+7. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
 
 ![Example of Data Upload Module](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/DataUploadModule.png)
 
-6. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](http://symbiota.org/docs/symbiota-occurrence-data-fields-2/) for definitions of each data field. Also see the **Uploading Tips** section below.
-7. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
-8. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
-9. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
-10. Click the Start Upload button. This will upload your data into a *temporary* table so you can review it before committing the final upload.
-11. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
+8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](http://symbiota.org/docs/symbiota-occurrence-data-fields-2/) for definitions of each data field. Also see the **Uploading Tips** section below.
+9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
+10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
+11. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
+12. Click the Start Upload button. This will upload your data into a *temporary* table so you can review it before committing the final upload.
+13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
 
 ![Screenshot of Pending Data Transfer Report](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/PendingDataTransport.png)
 
-12. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
+14. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
     * Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.
     * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
-13. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
+15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
 
 System Script – MySQL source to Symbiota database that islocated on a different server
 
