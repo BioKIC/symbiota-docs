@@ -15,7 +15,7 @@ There are three catefories of images that can be linked to a Symbiota portal:
 
 {{< tabs >}}
   {{< tab "Field Images without Location" >}}
-   Images without specific locality information (e.g. lat/long coordinates) are linked only to the scientific name of the organism. These images can be viewed through Taxon Profile Pages, which have general information such as descriptions, distribution maps, synonyms, and common names. Field images are uploaded and managed through the Taxon Profile pages by users with Taxon Profile editing permissions. Field images with specific locality details (e.g. coordinates) can be loaded as Image Vouchers (see "Field Images with Location" tab). See [Uploading Images](https://biokic.github.io/symbiota-docs/user/images/upload_images/) for more details.
+   Images without specific locality information (e.g. lat/long coordinates) are linked only to the scientific name of the organism. These images can be viewed through Taxon Profile Pages, which have general information such as descriptions, distribution maps, synonyms, and common names. Field images are uploaded and managed through the Taxon Profile pages by users with Taxon Profile editing permissions. Field images with specific locality details (e.g. coordinates) can be loaded as Image Vouchers (see "Field Images with Location" tab). See <a href=https://biokic.github.io/symbiota-docs/user/images/upload_images/>Uploading Images</a>for more details.
   {{</ tab >}}
 
   {{< tab "Field Images with Location" >}}
