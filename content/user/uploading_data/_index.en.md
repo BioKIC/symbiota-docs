@@ -57,14 +57,14 @@ keywords: ["data upload","data import","file upload","IPT"]
     * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
 15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
 
-## System Script
-
-1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
-2. Set up the script to run as a regular cronjob.
-
-## SQL Stored Procedure
+## Stored Procedure
 
 1. Write a stored procedure used to transfer records (the collection cleanup scripts can be put in central stored procedure or kept separate)
+2. Set up the script to run as a regular cronjob.
+
+## Script Upload
+
+1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
 2. Set up the script to run as a regular cronjob.
 
 ## Uploading Tips
