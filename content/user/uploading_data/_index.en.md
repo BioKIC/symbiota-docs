@@ -22,19 +22,31 @@ keywords: ["data upload","data import"]
   * **Direct Database Mapping:**
   * **Stored Procedure:**
   * **Script Upload:**
-6. Create new profile with the following fields: profile title, database platform, server name or IP address, port, login name, password, schema (database) name, stored procedure with instructions for data cleaning this specific upload, and SQL statement used in querying data. Note that SQL can be written only to return a subset of data, such as records modified or added within the last month.
+
+5. Follow the directions below according to the Upload Type you have selected.
+
+
+7. Create new profile with the following fields: profile title, database platform, server name or IP address, port, login name, password, schema (database) name, stored procedure with instructions for data cleaning this specific upload, and SQL statement used in querying data. Note that SQL can be written only to return a subset of data, such as records modified or added within the last month.
 If collection type is a data “snapshot” of a specimen database managed within the home institution, select the primary key for source specimen record. Snapshot datasets must contain a field that will serve as the primary record identifier. This field will serve as the permanent link between the source database and the portal records. This field must be populated for every record with unique values. The values need to be stable without changing over time. Field can be numeric or text field type. The typical data used for this field is the catalog number (accession number), barcode, or database primary key from the source database specimen table.
 Map source fields to the Symbiota fields. Source column names do not have to match those of Symbiota, but data type and definitions must comply with one of the Darwin Core Standards. The Automap button will automatically map and save all matching field names for future uploads. If the source SQL statement is changed, mapping will have to be adjusted to match new upload definition.
 Upload data. During upload, data is placed in a temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed by the collection specific stored procedure.
 Perform final transfer.
 
-##Darwin Core Archive Manual Upload
+## Darwin Core Archive Manual Upload
 
 
-##IPT Resource / Darwin Core Archive Provider
+## IPT Resource / Darwin Core Archive Provider
 
 
-##File Upload or Skeletal File Upload
+## File Upload or Skeletal File Upload
+1. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
+2. Click the Create Profile button.
+3. On the next page, you will see a list of existing upload profiles. Select the profile that you wish to use (the one you just greated) and click Initialize Upload.
+    * To edit your upload profile in the future, you can click the pencil icon on this page.
+4. Click the Choose File button and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
+5. Click the Analyze File button. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
+![Example of Data Upload Module](symbiota-docs/static/images/DataUploadModule.png)
+7. 
 
 
 CSV File Upload – Upload flat CSV files that have been extracted from source database.
@@ -55,7 +67,7 @@ Write file stored procedure used to transfer records
 Collection cleanup scripts can be put in central stored procedure or kept separate
 Setup script to run as a regular cronjob
 
-##Uploading Tips
+## Uploading Tips
 
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
 eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
