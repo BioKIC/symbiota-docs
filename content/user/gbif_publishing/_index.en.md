@@ -1,5 +1,5 @@
 ---
-title: "Publishing Data to GBIF from a Symbiota Portal"
+title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson"]
 keywords: ["aggregator","gbif","data publishing"]
