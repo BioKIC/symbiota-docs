@@ -10,6 +10,8 @@ keywords: ["data upload","data import","file upload","IPT"]
   This page provides instructions for uploading data into an existing collection in a Symbiota portal. Contact your portal manager if you do not already have a collection in your desired Symbiota portal.
 {{</ notice >}}
 
+# Initiating the Upload
+
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
 2. Click Import/Update Specimen Records, then select "Create a new Import Profile".
 3. Create a title for your upload in the Title field.
@@ -67,7 +69,7 @@ keywords: ["data upload","data import","file upload","IPT"]
 1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
 2. Set up the script to run as a regular cronjob.
 
-## Uploading Tips
+# Uploading Tips
 
 * If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
