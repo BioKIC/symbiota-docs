@@ -1,5 +1,5 @@
 ---
-title: "Introduction & PDF User Guides"
+title: "Introduction"
 date: 2021-10-06
 lastmod: 2021-10-06
 icon: 'ti-map'
