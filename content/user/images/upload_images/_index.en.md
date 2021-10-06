@@ -32,6 +32,10 @@ Images without specific locality information (e.g. lat/long coordinates) are lin
 8. Field images are uploaded and managed through the Taxon Profile Editing interface. Users with Taxon Profile editing permissions can submit an image by clicking on the editing symbol located in the upper right of any Taxon Profile page, or through the image submission links available on the sitemap page. Field images with specific locality details (e.g. coordinates) can be loaded as Image Vouchers (see below). 
 
 ### Image Vouchers (field images with location information)
+[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
 
 ### Specimen images
+
+[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
+
 Note that if the image is given a sort order value of greater than 500, that image will be displayed on the Occurrence Details page but not on the Species Profile display. This is typically done for images of poor quality or due to aesthetic issues (e.g. road kills). Specimen images can be added via the user interface by clicking on the Image tab within the Occurrence Editor. See below for screen captures of the Occurrence Editor interface. See the Image Batch Loading page for workflows being used to load images in mass. A field image can be linked to a specimen record, but the image must be of the specific individual that was collected. Field images of a vouchered specimen are considered high valued images since species identifications can be verified or annotated years afterwards by close inspection of the physical specimen.
