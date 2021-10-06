@@ -26,10 +26,10 @@ keywords: ["data upload","data import","file upload","IPT"]
 5. Follow the directions below according to the Upload Type you have selected.
 
 ## Darwin Core Archive Manual Upload
-
+[Contribute to this section!]()
 
 ## IPT Resource / Darwin Core Archive Provider
-
+[Contribute to this section!]()
 
 ## File Upload or Skeletal File Upload
 1. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
