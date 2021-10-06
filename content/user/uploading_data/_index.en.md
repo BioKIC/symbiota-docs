@@ -19,7 +19,6 @@ keywords: ["data upload","data import"]
   * **File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types.
   * **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). Note that any data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
   * **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
-  * **DiGIR Provider:**
   * **Direct Database Mapping:**
   * **Stored Procedure:**
   * **Script Upload:**
@@ -28,23 +27,6 @@ If collection type is a data “snapshot” of a specimen database managed withi
 Map source fields to the Symbiota fields. Source column names do not have to match those of Symbiota, but data type and definitions must comply with one of the Darwin Core Standards. The Automap button will automatically map and save all matching field names for future uploads. If the source SQL statement is changed, mapping will have to be adjusted to match new upload definition.
 Upload data. During upload, data is placed in a temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed by the collection specific stored procedure.
 Perform final transfer.
-DiGIR Upload – one of the most widely endorsed protocols for data exchange of natural history collections
-
-Create new data upload profile with the following fields:
-Profile title
-Server (host) – domain name where DiGIR provider has been installed (e.g. http://ourserver.edu).
-Port – usually 80
-Code for collection that was assigned when DiGIR provider was established. Visiting the target DiGIR page (e.g. http://ourserver.edu/digir/DiGIR.php) will display the resources available along with their resource codes.
-Path – url path to DiGIR provider on target server (/digir/DiGIR.php).
-DiGIR Primary Key – field that can be used as the primary key for that collection (e.g. catalogNumber or occurrenceId).
-Schema – schema used to define which fields should be returned (e.g. http://swbiodiversity.org/seinet/collections/admin/util/darwinsymbiota.xsd)
-Query String – XML fragment defining which records should be returned.
-If left blank, following default query will be used to retrieve all records: <like><darwin:collectioncode></darwin:collectioncode></like>
-For specific records: darwin: <and><equals>darwin:country>Canada</darwin:country></equals><like<darwin:family>Asteraceae</darwin:family></like></and>
-Stored Procedure used for data cleaning and integrity checks.
-Upload data. During upload, data is placed in temporary specimen table (uploadspectemp) so that data cleaning and integrity checks can be performed.
-Perform final transfer.
-*Note that DiGIR harvesting is not the fastest method for grabbing data. Sometimes it makes sense to establish several DiGIR harvesting profiles to upload records in sets and append to existing records. For example, one profile using <equals>darwin:country>Costa Rica</darwin:country></equals>, another using <equals>darwin:country>Panama</darwin:country></equals>, etc. Each record set would be downloaded separately and appended to previously obtained records.
 
 CSV File Upload – Upload flat CSV files that have been extracted from source database.
 
