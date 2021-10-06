@@ -45,7 +45,7 @@ Perform final transfer.
     * To edit your upload profile in the future, you can click the pencil icon on this page.
 4. Click the Choose File button and navigate to the file that you wish to upload in your File Manager or Finder window. Select that file and click Open.
 5. Click the Analyze File button. You will then see a page that will look similar to the one shown below. The length and contents of the Source Field/Target Field table will depend on what columns were included in the original CSV file.
-![Example of Data Upload Module](symbiota-docs/static/images/DataUploadModule.png)
+![Example of Data Upload Module](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/DataUploadModule.png)
 7. 
 
 
