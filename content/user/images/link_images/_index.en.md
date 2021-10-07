@@ -20,7 +20,7 @@ keywords: ["images"]
   This protocol describes how to add a barcode number to each of the specimens that you image during the imaging process.
 {{</ notice >}}
 
-(Example instructions for an herbarium collection)
+_(Example instructions for an herbarium collection)_
 1. Acquire a specimen.
 3. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
 4. Click Edit Existing Occurrence Records.
@@ -49,7 +49,7 @@ keywords: ["images"]
   This protocol describes how to update your old accession number with the specimen’s new barcode number. You can do this only after you have uploaded specimen images into your portal through a batch process that has created new "unprocessed" records consisting of only a barcode number and an image.
 {{</ notice >}}
 
-(Example instructions for an herbarium collection)
+_(Example instructions for an herbarium collection)_
 1. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
 2. Click Edit Existing Occurrence Records.
 3. In the Record Search Form, click the Processing Status field and select “Unprocessed” from the dropdown menu.
