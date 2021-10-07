@@ -23,4 +23,4 @@ keywords: ["images"]
 4. In the Custom Field 1 field, select Other Catalog Number from the first dropdown menu and IS NULL from the second dropdown menu.
 5. Click the “Display Editor” button.
 6. Locate the accession number (the stamped number, rather than the barcoded number or the collector number) on the specimen in the image to the right of the Occurrence Editor form.
-  * You can zoom in by pressing Command (Mac) or Control (Windows) and clicking on the image where you want to zoom in. Alternatively, you can hold Shift, click on the area where you want to zoom in, and move the mouse up (to zoom in) or down (to zoom out).
+    * You can zoom in by pressing Command (Mac) or Control (Windows) and clicking on the image where you want to zoom in. Alternatively, you can hold Shift, click on the area where you want to zoom in, and move the mouse up (to zoom in) or down (to zoom out).
