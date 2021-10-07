@@ -30,8 +30,8 @@ _(Example instructions for an herbarium collection)_
 7. In the Record Search Form, enter the stamped number into the Other Catalog Numbers field. Do not include leading zeros (e.g., if the stamp is 01499, enter 1499). Click Display Editor.
     *	If no record is returned, double check that you entered the accession number correctly into the Other Catalog Numbers field and that there are no extra spaces before or after the numbers you typed. If the number is correct, contact a supervisor.
     *	If a record is returned, check that the data on the specimen record match the data on the label of the specimen in front of you, particularly collector, collector number, and date.
-      1. If these data match, place your cursor in the Catalog Number field (top left) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
-      2. If these data do NOT match, contact a supervisor.
+      i. If these data match, place your cursor in the Catalog Number field (top left) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
+      ii. If these data do NOT match, contact a supervisor.
 
 {{< notice tip >}}
   To re-open the Record Search Form after you have performed a search, click the magnifying glass icon at the top right side of the specimen record.
@@ -40,8 +40,8 @@ _(Example instructions for an herbarium collection)_
 8.	In the Record Search Form, enter the last name of the collector preceded by a percent sign (%), the collector number, and the date (in YYYY-MM-DD format) into the top three fields (see example below) and click Display Editor.
     * If no record is returned, double check that you entered data correctly into the appropriate fields. If everything looks correct, contact a supervisor.
     * If a record is returned, check that the data on the specimen record match the data on the label of the specimen in front of you, particularly collector, collector number, and date.
-      1.	If these data match, place your cursor in the Catalog Number field (top right) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
-      2.	If these data do NOT match, contact a supervisor.
+      i.	If these data match, place your cursor in the Catalog Number field (top right) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
+      ii.	If these data do NOT match, contact a supervisor.
 
 ### Option 2: View new images in the portal and link by manually entering the accession number
 
