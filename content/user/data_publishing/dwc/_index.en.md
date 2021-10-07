@@ -1,0 +1,19 @@
+---
+title: "Creating a Darwin Core Archive"
+authors: ["Katie Pearson"]
+keywords: ["data publishing","Darwin Core", "DwC-A","Darwin Core Archive"]
+---
+
+{{< notice info >}}
+  This page describes how you can package your data as a Darwin Core Archive (standard format for data publishing and sharing) in a Symbiota portal.
+{{</ notice >}}
+
+A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset [http://en.wikipedia.org/wiki/Darwin_Core_Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications), images, and any other data extensions.
+
+{{< notice note >}}
+  You can only publish a Darwin Core Archive of occurrences that have unique occurrence IDs and GUIDs. In your [collection metadata page](https://biokic.github.io/symbiota-docs/contribute/), make sure that you have selected a source for your GUID and that this source contains unique values for each occurrence.
+{{</ notice >}}
+
+1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
+2. Click Darwin Core Archive Publishing.
+3. Click the Create/Refresh Darwin Core Archive button.
