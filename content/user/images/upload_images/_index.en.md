@@ -8,8 +8,14 @@ keywords: ["images"]
 ---
 
 {{< notice info >}}
-  This page describes how to upload *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Linking Images from External Sources](https://biokic.github.io/symbiota-docs/user/images/linking_images/) page.
+  This page describes how to upload individual *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/user/images/batch_images/) page.
 {{</ notice >}}
+
+### Specimen images
+
+[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
+
+Note that if the image is given a sort order value of greater than 500, that image will be displayed on the Occurrence Details page but not on the Species Profile display. This is typically done for images of poor quality or due to aesthetic issues (e.g. road kills). Specimen images can be added via the user interface by clicking on the Image tab within the Occurrence Editor. See below for screen captures of the Occurrence Editor interface. See the Image Batch Loading page for workflows being used to load images in mass. A field image can be linked to a specimen record, but the image must be of the specific individual that was collected. Field images of a vouchered specimen are considered high valued images since species identifications can be verified or annotated years afterwards by close inspection of the physical specimen.
 
 There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
 
@@ -33,9 +39,3 @@ Images without specific locality information (e.g. lat/long coordinates) are lin
 
 ### Image Vouchers (field images with location information)
 [Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
-
-### Specimen images
-
-[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
-
-Note that if the image is given a sort order value of greater than 500, that image will be displayed on the Occurrence Details page but not on the Species Profile display. This is typically done for images of poor quality or due to aesthetic issues (e.g. road kills). Specimen images can be added via the user interface by clicking on the Image tab within the Occurrence Editor. See below for screen captures of the Occurrence Editor interface. See the Image Batch Loading page for workflows being used to load images in mass. A field image can be linked to a specimen record, but the image must be of the specific individual that was collected. Field images of a vouchered specimen are considered high valued images since species identifications can be verified or annotated years afterwards by close inspection of the physical specimen.
