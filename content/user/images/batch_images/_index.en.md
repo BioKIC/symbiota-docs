@@ -1,7 +1,6 @@
 ---
 title: "Batch Uploading/Linking Images"
 date: 2021-10-07
-lastmod: 
 weight: 3
 draft: false
 authors: ["Ed Gilbert"],["Katie Pearson"]
