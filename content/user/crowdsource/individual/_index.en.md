@@ -1,5 +1,5 @@
 ---
-title: "Crowdsourcing (Setup Instructions)"
+title: "Crowdsourcing (Volunteer Instructions)"
 date: 2021-10-07
 weight: 3
 draft: false
