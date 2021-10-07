@@ -32,9 +32,9 @@ keywords: ["images"]
        2. Press the Save Edits button (or press Tab and Enter on your keyboard)
        3. Move on to step 9.
     2. If a pop-up window shows up that says “Record(s) using the same identifier already exists. Do you want to view this record?”:
-      1. Click OK.
-      2. Check that the identified duplicate does not already have an image associated with it (if it does, you will see a bold barcode number on that record). If the duplicate does have an image already, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button. Otherwise, move to step c.
-      3. Check that the data of the identified duplicate matches the data on the label of the specimen image you were viewing. You need not check every field, just two or three important fields such as Scientific Name, Collector, and Locality.
-      4. If the data match up, click “Merge Records” and exit the duplicate window. If the data do not match up, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button.
+        1. Click OK.
+        2. Check that the identified duplicate does not already have an image associated with it (if it does, you will see a bold barcode number on that record). If the duplicate does have an image already, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button. Otherwise, move to step c.
+        3. Check that the data of the identified duplicate matches the data on the label of the specimen image you were viewing. You need not check every field, just two or three important fields such as Scientific Name, Collector, and Locality.
+        4. If the data match up, click “Merge Records” and exit the duplicate window. If the data do not match up, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button.
 9. Click the double arrow icon at the top right corner of the occurrence editor.
 10.	Repeat steps 7-9.
