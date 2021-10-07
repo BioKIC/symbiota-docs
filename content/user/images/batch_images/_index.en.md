@@ -5,8 +5,6 @@ lastmod:
 weight: 3
 draft: false
 authors: ["Ed Gilbert"],["Katie Pearson"]
-editors:
-translators:
 keywords: ["images"]
 ---
 
