@@ -2,6 +2,7 @@
 title: "Publishing Data to GBIF"
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson"]
+date: 2021-10-07
 keywords: ["aggregator","gbif","data publishing"]
 ---
 
