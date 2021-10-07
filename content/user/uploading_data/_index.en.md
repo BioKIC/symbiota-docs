@@ -1,5 +1,6 @@
 ---
 title: "Importing & Uploading Data"
+date: 2021-10-07
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
 draft: true
