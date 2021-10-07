@@ -1,7 +1,7 @@
 ---
 title: "Batch Uploading/Linking Images"
-date: 2021-10-07
-authors: ["Ed Gilbert"],["Katie Pearson"]
+date: 2021-10-06
+authors: ["Ed Gilbert","Katie Pearson"]
 keywords: ["images"]
 ---
 
