@@ -17,6 +17,7 @@ keywords: ["images"]
 ### Option 1: Add catalog (barcode) numbers to occurrence records while imaging
 
 ### Option 2: View new images in the portal and link by manually entering the accession number
+(Example instructions for an herbarium collection)
 1. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
 2. Click Edit Existing Occurrence Records.
 3. In the Record Search Form, click the Processing Status field and select “Unprocessed” from the dropdown menu.
