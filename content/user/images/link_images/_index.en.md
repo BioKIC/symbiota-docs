@@ -25,7 +25,7 @@ keywords: ["images"]
 6. Locate the accession number (the stamped number, rather than the barcoded number or the collector number) on the specimen in the image to the right of the Occurrence Editor form.
     * You can zoom in by pressing Command (Mac) or Control (Windows) and clicking on the image where you want to zoom in. Alternatively, you can hold Shift, click on the area where you want to zoom in, and move the mouse up (to zoom in) or down (to zoom out).
 7.	Enter the accession number, without leading zeros (e.g., if the number reads “0145”, you will enter “145”), into the Other Cat. #s field (circled in screenshot below).
-![Occurrence Editor Screenshot](static/images/Inkedoccedit_LI.jpg)
+![Occurrence Editor Screenshot](https://github.com/BioKIC/symbiota-docs/blob/master/static/images/Inkedoccedit_LI.jpg)
 8. Click outside of the Other Cat. #s field (or press the Tab button). A message should show up under the “Dupes?” button. Make sure that your browser’s pop-up blocker is disabled so you can see these messages.
     1. If the message shows “No Dupes Found”:
        1. Check that the specimen sheet is not stamped “Databased” or has any other indication that it SHOULD have a record in the database. If it is, try adding a leading zero to the accession number and repeat step 9.
