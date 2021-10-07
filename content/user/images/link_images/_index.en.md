@@ -16,7 +16,39 @@ keywords: ["images"]
 
 ### Option 1: Add catalog (barcode) numbers to occurrence records while imaging
 
+{{< notice info >}}
+  This protocol describes how to add a barcode number to each of the specimens that you image during the imaging process.
+{{</ notice >}}
+
+(Example instructions for an herbarium collection)
+1. Acquire a specimen.
+3. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
+4. Click Edit Existing Occurrence Records.
+5. Place a barcode on your specimen.
+6. Look for a stamped number (“accession number”) on the specimen.
+    * If a stamped number does not exist, proceed to step 8.
+7. In the Record Search Form, enter the stamped number into the Other Catalog Numbers field. Do not include leading zeros (e.g., if the stamp is 01499, enter 1499). Click Display Editor.
+    *	If no record is returned, double check that you entered the accession number correctly into the Other Catalog Numbers field and that there are no extra spaces before or after the numbers you typed. If the number is correct, contact a supervisor.
+    *	If a record is returned, check that the data on the specimen record match the data on the label of the specimen in front of you, particularly collector, collector number, and date.
+      1. If these data match, place your cursor in the Catalog Number field (top left) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
+      2. If these data do NOT match, contact a supervisor.
+
+{{< notice tip >}}
+  To re-open the Record Search Form after you have performed a search, click the magnifying glass icon at the top right side of the specimen record.
+{{</ notice >}}
+
+8.	In the Record Search Form, enter the last name of the collector preceded by a percent sign (%), the collector number, and the date (in YYYY-MM-DD format) into the top three fields (see example below) and click Display Editor.
+    * If no record is returned, double check that you entered data correctly into the appropriate fields. If everything looks correct, contact a supervisor.
+    * If a record is returned, check that the data on the specimen record match the data on the label of the specimen in front of you, particularly collector, collector number, and date.
+      1.	If these data match, place your cursor in the Catalog Number field (top right) and scan the barcode of the specimen in front of you. The barcode number will then appear in this field. Press Tab on your keyboard, followed by Enter. Proceed with imaging the specimen and return to step 1.
+      2.	If these data do NOT match, contact a supervisor.
+
 ### Option 2: View new images in the portal and link by manually entering the accession number
+
+{{< notice info >}}
+  This protocol describes how to update your old accession number with the specimen’s new barcode number. You can do this only after you have uploaded specimen images into your portal through a batch process that has created new "unprocessed" records consisting of only a barcode number and an image.
+{{</ notice >}}
+
 (Example instructions for an herbarium collection)
 1. Log in to your account and navigate to your Data Editor Control Panel (My Profile > Occurrence Management > name of collection).
 2. Click Edit Existing Occurrence Records.
@@ -38,4 +70,4 @@ keywords: ["images"]
         3. Check that the data of the identified duplicate matches the data on the label of the specimen image you were viewing. You need not check every field, just two or three important fields such as Scientific Name, Collector, and Locality.
         4. If the data match up, click “Merge Records” and exit the duplicate window. If the data do not match up, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button.
 9. Click the double arrow icon at the top right corner of the occurrence editor.
-10.	Repeat steps 7-9.
+10.	Repeat steps 6-9.
