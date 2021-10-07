@@ -1,5 +1,6 @@
 ---
 title: "Creating a Darwin Core Archive"
+date: 2021-10-07
 authors: ["Katie Pearson"]
 keywords: ["data publishing","Darwin Core", "DwC-A","Darwin Core Archive"]
 ---
