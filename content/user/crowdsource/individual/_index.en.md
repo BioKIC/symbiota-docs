@@ -17,7 +17,9 @@ First, you’ll need to create an account in the portal for which you will be cr
 2.	On the right side of the grey menu, click New Account.
 3.	Enter the requested information, check the I’m not a robot box, and click Create Login.
 
-* Once you’ve created an account once, you will use this login information for all future sessions. Just click Login and enter your username and password.
+{{< notice tip >}}
+  Once you’ve created an account once, you will use this login information for all future sessions. Just click Login and enter your username and password.
+{{</ notice >}}
 
 ### Navigating to Records to Transcribe
 1.	Once you are logged in, click the Crowdsourcing tab from the main menu.
