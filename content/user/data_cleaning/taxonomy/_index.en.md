@@ -16,7 +16,9 @@ The taxonomic cleaning tools are great resources for cleaning up misspellings an
 
 ### Analyze Taxonomic Names
 
+{{< notice tip >}}
 A video tutorial for using this tool can be found here: [https://youtu.be/QAsypzpY-aA](https://youtu.be/QAsypzpY-aA).
+{{</ notice >}}
 
 This function analyzes the values that exist in the Scientific Name field in your database and flags the values that are not linked to the taxonomic thesaurus (i.e., are not linked to a recognized name). Note that this tool does NOT evaluate whether that name is accepted according to current taxonomy. The number of unrecognized scientific names is listed at the top of the Action Menu box.
 
