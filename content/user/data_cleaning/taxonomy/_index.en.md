@@ -42,7 +42,7 @@ In this case, you find that the name listed on the specimen was not published or
 ![Taxonomy Cleaning Example 3](static/images/taxclean3.png)
 When the portal does not find a name in the taxonomic thesaurus, but it does find the name in the taxonomic resource, it will import the taxonomic name into the taxonomic thesaurus. This will automatically map the specimen’s taxonomic name to this newly added entry in the taxonomic thesaurus as well.
 
-If you have not analyzed all the taxonomic names in one pass, you can click the Continue Analyzing Names button to have CCH2 check the next 20 (or whatever number is defined by the user) names.
+If you have not analyzed all the taxonomic names in one pass, you can click the Continue Analyzing Names button to have Symbiota check the next 20 (or whatever number is defined by the user) names.
 
 ### Taxonomic Distributions
 
