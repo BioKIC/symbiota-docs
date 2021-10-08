@@ -1,6 +1,6 @@
 ---
 title: "Data Cleaning"
 authors: ["Katie Pearson"]
-draft: "true"
+draft: false
 keywords: ["data cleaning","taxonomy"]
 ---
