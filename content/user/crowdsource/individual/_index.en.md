@@ -29,3 +29,5 @@ First, you’ll need to create an account in the portal for which you will be cr
 4. On the resulting page, you’ll see a table of specimen records that require transcription. Randomly select one of the specimens by clicking on its Symbiota ID number (leftmost column).
     * If you see a message that says Record Locked!, go to the next specimen by clicking the double arrows at the top of the form, just under the magnifying glass
 5. Transcribe the record as instructed.
+
+_This material is based upon work supported by the National Science Foundation under Grant Numbers 2001500, 2001509, 2001394, 2001422, 2001427, 2001431, 2001299, 2001354, 2001288, and 2001345. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation._
