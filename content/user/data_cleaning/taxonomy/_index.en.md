@@ -47,4 +47,4 @@ If you have not analyzed all the taxonomic names in one pass, you can click the 
 Much like the Geographic Distribution viewer, the Taxonomic Distribution viewer can be used to examine the families, genera, species, and infraspecific taxa that exist in your database. Misspellings, non-standardized entries, or suspected mistakes can be detected using this tool. To view the genera for each family, click the name of the family. Then, to view the species for each genus, click the name of the genus, and so on.
 A user with administrator permissions can correct errors in taxonomic names individually by clicking the number next to the taxonomic name (circled below), or the user can search for those records using the record search form and batch edit them.
 
-![Taxonomic Distribution Viewer](static/images/taxonomycleanviewer.jpg)
+![Taxonomic Distribution Viewer](/../static/images/taxonomycleanviewer.jpg)
