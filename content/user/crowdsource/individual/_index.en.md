@@ -18,7 +18,7 @@ First, you’ll need to create an account in the portal for which you will be cr
 3.	Enter the requested information, check the I’m not a robot box, and click Create Login.
 
 {{< notice tip >}}
-  Once you’ve created an account once, you will use this login information for all future sessions. Just click Login and enter your username and password.
+  After you’ve created an account once, you will use this login information for all future sessions. Just click Login and enter your username and password.
 {{</ notice >}}
 
 ### Navigating to Records to Transcribe
