@@ -15,8 +15,6 @@ keywords: ["crowdsourcing","volunteer","citizen science","community science"]
   A webinar demonstrating this process can be found here: [https://youtu.be/1IZhUMqCGvs](https://youtu.be/1IZhUMqCGvs)
 {{</ notice >}}
 
-### Adding Specimens to the Crowdsource Queue
-
 Specimens can be crowdsourced for transcription if they (1) have an associated image, and (2) have a processing status of "unprocessed." To manage the processing status of specimens, you can use the Batch Editor Tool if necessary. Specimen images that are added to a portal without associated data are automatically assigned a processing status of "unprocessed"; however, if skeletal data were uploaded with the images, the processing status was defined by the person who uploaded the data.
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection).
