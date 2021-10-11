@@ -3,6 +3,7 @@ title: "Searching for Records"
 date: 2021-10-11
 authors: ["Katie Pearson"]
 draft: false
+weight: 60
 keywords: ["search","specimens","observations"]
 ---
 
