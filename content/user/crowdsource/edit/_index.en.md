@@ -27,7 +27,7 @@ Specimens can be crowdsourced for transcription if they (1) have an associated i
 
 4. On the resulting page, you will see tallies of how many records are in the queue, how many have been processed, and how many could be added to the queue. Click the Add to Queue button to see additional options for refining which specimens you will include in the queue (shown in screenshot below).
 
-![Add Specimens to Crowdsourcing Queue](/images/crowdsourcing2.PNG)
+![Add Specimens to Crowdsourcing Queue](/symbiota-docs/images/crowdsourcing2.PNG)
 
 {{< notice tip >}}
   You can't conduct a search for values that don't exist! Many "unprocessed" records don't have data for any fields; therefore, they might not be included if you narrow your search by one of the additional fields shown above.
