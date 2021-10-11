@@ -1,7 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
 baseURL = "https://biokic.github.io/symbiota-docs/"
-relativeURLS = true
 # theme
 theme = "dot"
 # site title
