@@ -10,3 +10,7 @@ keywords: ["crowdsourcing","volunteer","citizen science","community science"]
 {{< notice info >}}
   This page describes how a collection manager or administrator can add specimen records to the queue to be crowdsourced and how to review crowdsourced transcriptions.
 {{</ notice >}}
+
+{{< notice tip >}}
+  A webinar demonstrating this process can be found here: [https://youtu.be/1IZhUMqCGvs](https://youtu.be/1IZhUMqCGvs)
+{{</ notice >}}
