@@ -2,6 +2,7 @@
 title: "Contacting a Collection"
 date: 2021-10-08
 authors: ["Katie Pearson"]
+weight: 10
 draft: false
 keywords: ["contact"]
 ---
