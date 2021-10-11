@@ -8,4 +8,4 @@ type: docs
 ---
 **Header in french**
 
-![](/images/biokic-logo.png)
+![BioKIC Logo](/symbiota-docs/images/biokic-logo.png)
