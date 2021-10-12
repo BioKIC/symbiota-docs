@@ -3,6 +3,7 @@ title: "Data Cleaning"
 date: 2021-10-08
 authors: ["Katie Pearson"]
 draft: false
+weight: 40 
 keywords: ["data cleaning","taxonomy","geography","duplicates"]
 ---
 
