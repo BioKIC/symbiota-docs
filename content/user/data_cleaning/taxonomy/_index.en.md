@@ -1,7 +1,7 @@
 ---
 title: "Taxonomic Cleaning Tools"
 date: 2021-10-08
-weight: 3
+weight: 4
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["taxonomy","data cleaning"]
