@@ -1,5 +1,6 @@
 ---
 title: "Publishing Data to iDigBio"
+Date: 2021-10-08
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson"]
 keywords: ["data publishing","idigbio"]
