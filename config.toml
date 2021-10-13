@@ -13,9 +13,9 @@ googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
 [markup.goldmark.renderer]
 unsafe = true
 
-
 ############################# Default Parameters ##########################
 [params]
+editURL = "https://github.com/BioKIC/symbiota-docs/edit/master/content/"
 # logo is for all page
 logo = ""
 # logo white is for homepage logo, you can use colorful logo too...
@@ -37,6 +37,8 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 # contact form action
 #contact_form_action = "#" # contact form works #with : https://formspree.io
 
+[[params.plugins.css]]
+link = "/assets/css/custom.css"
 
 ############################## social links ##############################
 [[params.social]]
