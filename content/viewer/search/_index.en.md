@@ -17,13 +17,13 @@ Symbiota portals serve data from specimens and observations according to regiona
 
 {{< notice tip >}}
   There may be three tabs at the top of the page, "Specimens & Observations", "Specimens", and "Observations". Specimens are phyiscal collections of an organism, while observations are human observations or photos of organisms that are not supported by physical specimens. Use these tabs to select between these types of occurrences, if desired.
-{{ </ notice >}}
+{{</ notice >}}
 
 ![Specimen and Observation Collections](/symbiota-docs/static/images/search2.PNG)
 
 {{< notice tip >}}
   Notice that collections may be grouped together into categories. These categories may be minimized or maximized by clicking the small grey plus or minus box, respectively, to the bottom left of the name of the group.
-{{ </ notice >}}
+{{</ notice >}}
 
 ![Search Collections Options](/symbiota-docs/static/images/search1.PNG)
 
@@ -42,11 +42,11 @@ Symbiota portals serve data from specimens and observations according to regiona
 
 {{< notice tip >}}
   To return to the Search Criteria page and refine your search, click Search Criteria from the navigation menu at the top of the page.
-{{ </ notice >}}
+{{</ notice >}}
 
 {{< notice tip >}}
    To sort the search results, click Display Table (or the Table Display button ![Table Display Button](/symbiota-docs/static/images/tabledisplaybutton.PNG). In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
-{{ </ notice >}}
+{{</ notice >}}
 
 ### Map Search
 
