@@ -38,6 +38,7 @@ Symbiota portals serve data from specimens and observations according to regiona
 ![List Display](/symbiota-docs/images/search3.PNG)
 **List Display**
 
+
 ![Table Display](/symbiota-docs/images/search4.PNG)
 **Table Display**
 
@@ -46,7 +47,7 @@ Symbiota portals serve data from specimens and observations according to regiona
 {{</ notice >}}
 
 {{< notice tip >}}
-   To sort the search results, click Display Table (or the Table Display button ![Table Display Button](/symbiota-docs/images/tabledisplaybutton.PNG). In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
+   To sort the search results, click Display Table (or the Table Display button ![Table Display Button](/symbiota-docs/images/tabledisplaybutton.PNG) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
 {{</ notice >}}
 
 ### Map Search
