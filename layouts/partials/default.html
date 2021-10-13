@@ -19,7 +19,7 @@
         <div class="p-lg-5 p-4 bg-white">
           <h2 class="mb-5">{{ .Title }}</h2>
           {{ if .Content }}
-          <div class="content">{{.Content}}</div>
+          <div class="content mb-6">{{.Content}}</div>
           {{ else }}
           <div class="bg-light p-4">
             <ul class="page-list">
@@ -32,6 +32,10 @@
           <p class="pb-3 pt-3 float-right"><a class="btn btn-sm btn-info" href='{{ .Site.Params.EditURL }}{{ replace $editOnGH "%5C" "/" }}' target="_blank" rel="noopener noreferrer">Edit this content on GitHub</a></p>
           <p class="post-meta pb-3 mt-3 mb-0">{{ if .Params.authors }}Content by {{ delimit .Params.authors ", " " and " }}.{{ end }}{{ if .Params.editors }} Reviewed by {{ delimit .Params.editors ", " " and " }}.{{ end }}{{ if .Params.translators }} Translated by {{ delimit .Params.translators ", " " and " }}.{{ end }}</p>
           <p class="post-meta pb-3 mb-0">Created on {{ .Date.Format "02 Jan 2006" }}{{ if ne .Lastmod .Date }}, last edited on {{ .Lastmod.Format "02 Jan 2006" }}{{ end }}.</p>
+          </div>
+          <div class="citation-div mt-3 pl-3 border-bottom">
+            <h6>Cite this page:</h6>
+            <p>{{ if .Params.authors }}{{ delimit .Params.authors ", " }}{{ end }}{{ if .Params.editors }}, {{ delimit .Params.editors ", " }}{{ end }}{{ if .Params.translators }}, {{ delimit .Params.translators ", " }}{{ end }}. <span class="font-weight-bold">{{ .Page.Title }}</span>. <span class="font-italic">In</span>: Symbiota Support Hub (2021). Symbiota Documentation. <a href="{{ .Permalink }}">{{ .Permalink }}</a>. Created on {{ .Date.Format "02 Jan 2006" }}{{ if ne .Lastmod .Date }}, last edited on {{ .Lastmod.Format "02 Jan 2006" }}{{ end }}.</p>
           </div>
           <nav class="pagination mt-3">
             <!-- Next prev page -->
