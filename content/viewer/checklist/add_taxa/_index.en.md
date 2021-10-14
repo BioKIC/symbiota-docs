@@ -6,9 +6,7 @@ draft: false
 keywords: ["checklist","inventory","flora"]
 ---
 
-{{ < notice info > }}
-  This page describes how to add taxa (species) to a checklist in a Symbiota portal.
-{{ </ notice > }}
+{{< notice info >}} This page describes how to add taxa (species) to a checklist in a Symbiota portal. {{</ notice >}}
 
 There are two ways to add taxa to a checklist, either individually or via batch upload. You may want to start by adding them individually so you can become familiar with the information that can be uploaded and the care one needs to take in doing so.
 
