@@ -43,7 +43,7 @@ You can also include “family”, “habitat”, “abundance”, and “notes�
 
 Below is a screenshot of uploading the previous example “file”. Note that only one name, the one that was correctly spelled, was uploaded.
 
-![Sample Checklist](/symbiota-docs/images/samplechecklist.png)
+![Sample Checklist](/symbiota-docs/images/samplechecklist.jpg)
 
 To return to the Checklist, click “Return to Checklist” at the top left of the page (underlined below).
 
