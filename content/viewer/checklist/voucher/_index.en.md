@@ -34,34 +34,34 @@ There are two main ways to add voucher specimens to a research checklist. You ca
 
 ![Checklist Search Statement](/symbiota-docs/images/checklistsearchstatement.jpg)
 
-    * You can enter search terms for a number of fields on the left side of the form.
-    * You can use the polygon footprint that you defined when creating the checklist (see 29:1 Creating a checklist, step 3c) to search for specimen records by checking the “Search based on polygon defining checklist research boundaries” box. If you did not define a polygon previously, you can also do so from here by clicking the pencil icon to the right of this option and following the steps outlined in 29:1 Creating a checklist, step 3c.
-    * You can define a specific bounding box by entering the latitude and longitude values that delimit the box, or by defining the lat/long values on a map. To do the latter:
-      1. Click the globe icon to the right of the Lat North field
-      2. In the pop-up window, pan and zoom to the location where you want to place the bounding box.
-      3. Click on the approximate center where you want the bounding box to be located.
-      4. Adjust the location and size of the bounding box as desired by clicking and dragging inside the box (to move the box) or clicking and dragging one of the circles on the sides or corners of the box (to resize the box).
-      5. To save the bounding box, click Save and Close.
+   * You can enter search terms for a number of fields on the left side of the form.
+   * You can use the polygon footprint that you defined when creating the checklist (see 29:1 Creating a checklist, step 3c) to search for specimen records by checking the “Search based on polygon defining checklist research boundaries” box. If you did not define a polygon previously, you can also do so from here by clicking the pencil icon to the right of this option and following the steps outlined in 29:1 Creating a checklist, step 3c.
+   * You can define a specific bounding box by entering the latitude and longitude values that delimit the box, or by defining the lat/long values on a map. To do the latter:
+     1. Click the globe icon to the right of the Lat North field
+     2. In the pop-up window, pan and zoom to the location where you want to place the bounding box.
+     3. Click on the approximate center where you want the bounding box to be located.
+     4. Adjust the location and size of the bounding box as desired by clicking and dragging inside the box (to move the box) or clicking and dragging one of the circles on the sides or corners of the box (to resize the box).
+     5. To save the bounding box, click Save and Close.
 
 ![Bounding Box Assignment](/symbiota-docs/images/checklistboundingbox.png)
 
-    * There are a number of important checkboxes below the Lat/Long fields that you can use to refine your search. For example, you can allow the search to return specimens with the desired search terms OR within certain latitude and longitude coordinates.
-    * You can use any combination of the above options to search for voucher specimens.
+   * There are a number of important checkboxes below the Lat/Long fields that you can use to refine your search. For example, you can allow the search to return specimens with the desired search terms OR within certain latitude and longitude coordinates.
+   * You can use any combination of the above options to search for voucher specimens.
 4. Once you have entered the desired search terms, click the Save Search Terms button.
 5. There are a number of ways to add voucher specimens from this point.
 
 ![Checklist Voucher Tools](/symbiota-docs/images/checklistvouchertab.png)
 
-    * If you have already defined a taxon list for your checklist, you can add voucher specimens from the New Vouchers tab. From this tab, you can:
-        1. View taxa that do not currently have voucher specimens in your checklist (select Non-vouchered taxa list from the Display Mode dropdown list).
-        2. View specimen records that match your search criteria and are one of the taxa defined in your taxon list that is NOT currently vouchered (select Occurrences for non-vouchered taxa from the Display Mode dropdown list).
-            * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-        3. View specimen records that match your search criteria and are one of the taxa defined in your taxon list, regardless of whether that taxon has been vouchered previously (select New occurrences for all taxa from the Display Mode dropdown list).
-    * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-    * Regardless of whether you have previously defined a taxon list for your checklist, you can add voucher specimens through the Missing Taxa tab. From this tab, you can:
-        1. View the taxa that are not found in the checklist currently but are represented by one or more specimens that align with your search criteria (select Species List from the Display Mode dropdown list).
+   * If you have already defined a taxon list for your checklist, you can add voucher specimens from the New Vouchers tab. From this tab, you can:
+       1. View taxa that do not currently have voucher specimens in your checklist (select Non-vouchered taxa list from the Display Mode dropdown list).
+       2. View specimen records that match your search criteria and are one of the taxa defined in your taxon list that is NOT currently vouchered (select Occurrences for non-vouchered taxa from the Display Mode dropdown list).
+           * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
+       3. View specimen records that match your search criteria and are one of the taxa defined in your taxon list, regardless of whether that taxon has been vouchered previously (select New occurrences for all taxa from the Display Mode dropdown list).
+   * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
+   * Regardless of whether you have previously defined a taxon list for your checklist, you can add voucher specimens through the Missing Taxa tab. From this tab, you can:
+      1. View the taxa that are not found in the checklist currently but are represented by one or more specimens that align with your search criteria (select Species List from the Display Mode dropdown list).
           * You can then view a list of the specimens associated with each taxon by clicking the page and link icon ![Link Icon](/symbiota-docs/images/link.png). From there, you can link the desired specimens individually by clicking the add voucher icon ![Add Voucher Icon](/symbiota-docs/images/voucheradd.png) to the right of the specimen record in the list.
-        2. View the specimens that are not yet added as voucher specimens for your checklist but do align with your search criteria (select Batch Linking from the Display Mode dropdown menu).
+       2. View the specimens that are not yet added as voucher specimens for your checklist but do align with your search criteria (select Batch Linking from the Display Mode dropdown menu).
           * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
-        3. View specimen records that align with your search criteria, but have scientific names that are not linked to a particular name in the taxonomic thesaurus (select Problem Taxa from the Display Mode dropdown menu).
+       3. View specimen records that align with your search criteria, but have scientific names that are not linked to a particular name in the taxonomic thesaurus (select Problem Taxa from the Display Mode dropdown menu).
           * To add voucher specimens from this list, enter the name of the taxon to which this specimen belongs into the text box to the right of the specimen’s scientific name. Note that the name you enter in this box must already be found in the list of taxa in your checklist. Click the Link Voucher button.
