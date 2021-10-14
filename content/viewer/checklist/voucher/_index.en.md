@@ -32,7 +32,7 @@ There are two main ways to add voucher specimens to a research checklist. You ca
   You will be able to change the search statement in the future, so you are not necessarily defining the bounds forever.
 {{</ notice >}}
 
-![Checklist Search Statement](/symbiota-docs/images/checklistsearchstatement.jpg)
+![Checklist Search Statement](/symbiota-docs/images/checklistsearchstatement.png)
 
    * You can enter search terms for a number of fields on the left side of the form.
    * You can use the polygon footprint that you defined when creating the checklist (see 29:1 Creating a checklist, step 3c) to search for specimen records by checking the “Search based on polygon defining checklist research boundaries” box. If you did not define a polygon previously, you can also do so from here by clicking the pencil icon to the right of this option and following the steps outlined in 29:1 Creating a checklist, step 3c.
@@ -43,7 +43,7 @@ There are two main ways to add voucher specimens to a research checklist. You ca
      4. Adjust the location and size of the bounding box as desired by clicking and dragging inside the box (to move the box) or clicking and dragging one of the circles on the sides or corners of the box (to resize the box).
      5. To save the bounding box, click Save and Close.
 
-![Bounding Box Assignment](/symbiota-docs/images/checklistboundingbox.png)
+![Bounding Box Assignment](/symbiota-docs/images/checklistboundingbox.PNG)
 
    * There are a number of important checkboxes below the Lat/Long fields that you can use to refine your search. For example, you can allow the search to return specimens with the desired search terms OR within certain latitude and longitude coordinates.
    * You can use any combination of the above options to search for voucher specimens.
