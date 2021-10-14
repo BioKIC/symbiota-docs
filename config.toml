@@ -102,13 +102,18 @@ url = "faq"
 weight = 3
 
 [[Languages.en.menu.main]]
+name = "Citing The Docs"
+url = "citing"
+weight = 4
+
+[[Languages.en.menu.main]]
 name = "contact"
 url = "contact"
-weight = 4
+weight = 5
 
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 5
+weight = 6
 name = "docs"
 hasChildren = true
 
@@ -169,13 +174,18 @@ url = "faq"
 weight = 3
 
 [[Languages.es.menu.main]]
+name = "Citing The Docs"
+url = "citing"
+weight = 4
+
+[[Languages.es.menu.main]]
 name = "Contáctenos"
 url = "contact"
-weight = 4
+weight = 5
 
 # Dropdown menu
 [[Languages.es.menu.main]]
-weight = 5
+weight = 6
 name = "docs"
 hasChildren = true
 
@@ -235,13 +245,18 @@ url = "faq"
 weight = 3
 
 [[Languages.fr.menu.main]]
+name = "Citing The Docs"
+url = "citing"
+weight = 4
+
+[[Languages.fr.menu.main]]
 name = "contact"
 url = "contact"
-weight = 4
+weight = 5
 
 # Dropdown menu
 [[Languages.fr.menu.main]]
-weight = 5
+weight = 6
 name = "docs"
 hasChildren = true
 
