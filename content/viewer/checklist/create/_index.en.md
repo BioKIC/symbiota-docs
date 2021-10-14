@@ -6,9 +6,9 @@ draft: false
 keywords: ["checklist","inventory","flora"]
 ---
 
-{{ < notice info > }}
-  This page describes how to create a checklist or biotic inventory in a Symbiota portal.
-{{ </ notice > }}
+{{< notice info >}}
+   This page describes how to create a checklist or biotic inventory in a Symbiota portal.
+{{</ notice >}}
 
 1.	Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
 2.	Click “My Profile”
