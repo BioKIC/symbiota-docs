@@ -12,7 +12,7 @@ There are two ways to add taxa to a checklist, either individually or via batch 
 
 ### Adding Individual Taxa
 
-({< youtube jm2_mn2nClo >}}
+{{< youtube jm2_mn2nClo >}}
 
 1. On the checklist page, click the rightmost pencil icon (labeled spp.) at the top right of the page. This will bring up a panel on the lower right side of the screen.
 2. Add the name of a taxon you wish to add. Do NOT include the authorship of the taxon. You can start typing, and a dropdown list will allow you to select the taxon from available options.
@@ -30,7 +30,7 @@ There are two ways to add taxa to a checklist, either individually or via batch 
 
 ### Batch Adding Taxa
 
-({< youtube Hnk09MYlMVg >}}
+{{< youtube Hnk09MYlMVg >}}
 
 If you have several taxa to add at one time, you can upload them in a CSV (comma separated value) file. The easiest way to create the desired listing is to use Microsoft Excel or OpenOffice Calc and then save the file as a CSV file.
 In your CSV file, one column in the file should be labeled sciname. This should contain the scientific name of the taxon WITHOUT the authorship included. In this CSV file, you must be very careful to spell the scientific names correctly. If you have an error in your spelling, you will not be able to load that name into your checklist.
