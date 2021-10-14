@@ -1,7 +1,7 @@
 ---
 title: "Adding Taxa to Checklist"
 date: 2021-10-14
-authors: ["Katie Pearson; Mary Barkworht; Ed Gilbert"]
+authors: ["Katie Pearson; Mary Barkworth; Ed Gilbert"]
 draft: false
 keywords: ["checklist","inventory","flora"]
 ---
