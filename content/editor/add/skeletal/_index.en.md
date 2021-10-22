@@ -28,7 +28,7 @@ This tool can be used to collect basic collection information, for example, duri
 6. If desired and/or possible (given the data provided on the specimen sheet), enter the State/Province and the County/Parish of the specimen if the specimen was collected in the U.S. or Canada. The authorship and family of the name of the taxon will automatically populate if the taxon is in the portal’s taxon table.
 7. Enter the barcode number into the Catalog Number field by clicking inside the Catalog Number field and scanning the barcode of the specimen.
 8. Once all fields are filled, click Add Record.
-9. 
+
 {{< notice note >}}
   **Important:** After Add Record is clicked, the data in the Skeletal Data box fields will NOT be cleared. Only the Catalog Number field will be cleared. This is designed to facilitate rapid skeletal data entry for folders of similar specimens (i.e., specimens of the same species). Close attention should be paid to these fields when transitioning between species or specimen localities. It is easy to forget to change the data in these fields.
 {{</ notice >}}
