@@ -1,5 +1,5 @@
 ---
-title: "Adding Specimens"
+title: "Adding Records"
 date: 2021-10-22
 weight: 10
 draft: false
