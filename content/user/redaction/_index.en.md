@@ -12,5 +12,5 @@ Some collections redact location information data (latitude/longitude and locali
 Users may gain access to redacted location information by being granted Rare Species Reader permissions. To obtain these permissions, contact the curator or manager of the collection and provide information about yourself and why you would like access to their data.
 
 {{< notice tip >}}
-  Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](https://biokic.github.io/symbiota-docs/viewer/contact/) page.
+  Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](https://biokic.github.io/symbiota-docs/user/contact/) page.
 {{</ notice >}}
