@@ -2,7 +2,7 @@
 title: "Editor Guide"
 date: 2021-10-06
 lastmod: 2021-10-06
-icon: 'ti-map'
+icon: 'ti-marker-alt'
 weight: 2
 authors: ["Katie Pearson","Laura Rocha Prado"]
 description: "Learn to edit, manage, import, and export data in Symbiota portals"
