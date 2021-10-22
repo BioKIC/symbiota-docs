@@ -1,7 +1,7 @@
 ---
 title: "Adding Specimens"
 date: 2021-10-22
-weight: 80
+weight: 10
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["add","create"]
