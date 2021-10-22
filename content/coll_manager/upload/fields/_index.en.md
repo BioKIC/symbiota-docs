@@ -12,8 +12,8 @@ keywords: ["data upload","data import","file upload","IPT"]
 
 If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names.
 
-*Italic* = Darwin Core fields
-**Bold** = strongly encouraged fields, though none of the fields are technically required
+*Italic* = Darwin Core fields<br/>
+**Bold** = strongly encouraged fields, though none of the fields are technically required<br/>
 \* = for import only, merged into another field after import
 
 | Name                           | Type                                     | Notes                                                                                                                                                                                                                                                                                                                                                                   |
