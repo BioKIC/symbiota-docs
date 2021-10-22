@@ -3,7 +3,6 @@ title: "Importing & Uploading Data"
 date: 2021-10-07
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
-draft: true
 weight: 150
 keywords: ["data upload","data import","file upload","IPT"]
 ---
@@ -72,6 +71,10 @@ keywords: ["data upload","data import","file upload","IPT"]
 2. Set up the script to run as a regular cronjob.
 
 # Uploading Tips
+
+{{< notice tip >}}
+  A list of fields that can be imported into a Symbiota data portal can be [found here](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
+{{</ notice >}}
 
 * If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
 * Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
