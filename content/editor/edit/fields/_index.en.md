@@ -5,6 +5,7 @@ lastmod: 2010-10-25
 weight: 30
 draft: true
 authors: ["Ed Gilbert"]
+editors: ["Katie Pearson"]
 keywords: ["edit","fields","data fields"]
 ---
 
