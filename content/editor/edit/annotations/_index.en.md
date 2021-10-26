@@ -22,17 +22,17 @@ In the Add a New Determination Box, enter, at minimum, the scientific name, dete
 If the specimen previously had an identification and you have checked the box next to “Make this the current determination,” a historic annotation will be added to the record automatically as shown in the next screenshot. For this reason, you do not need to manually add a historic determination before you add a new determination.
 {{</ notice >}}
 
-![Determination History Example](/symbiota-docs/images/dethistoryexample.PNG)
+![Determination History Example](/symbiota-docs/images/dethistoryexample.png)
 
 ### Batch Adding Annotations/Determinations
 
 You can add many annotations at once using the Add Batch Determinations/Nomenclatural Adjustments tool. Navigate to this tool by accessing the Data Editor Control Panel (My Profile > Occurrence Records > name of collection) and clicking “Add Batch Determinations/Nomenclatural Adjustments.” To select the specimens to which determination data will be added (“Define Specimen Recordset”), either enter a list of catalog numbers (separated by commas) in the “Catalog Number:” field or select a taxon to evaluate by entering its name in the “Taxon:” field. Click the Add Record(s) to List button.
 
-![Batch Annotation Search Form](/symbiota-docs/images/addbatchannotations.PNG)
+![Batch Annotation Search Form](/symbiota-docs/images/addbatchannotations.png)
 
 A table of specimens of the indicated taxon will appear below the “Define Specimen Recordset” box (see screenshot below). You can then select all the specimens that you wish to annotate by checking or unchecking the boxes in the leftmost column of the table. Use the “Select/Deselect all Specimens” box to uncheck or check all the boxes if you would prefer to select specimens one by one.
 
-![Batch Annotation Entry Form](/symbiota-docs/images/batchannotationform.PNG)
+![Batch Annotation Entry Form](/symbiota-docs/images/batchannotationform.png)
 
 Add information about the name change in the “New Determination Details” box. Here you can indicate whether the change is due to a new identification (“Identification Adjustment/Verification”) or a nomenclatural change (“Nomenclatural Adjustment”). An identification qualifier (e.g., “aff.” or “cf.”) can be added in the “Identification Qualifier:” field. Enter the new scientific name in the “Scientific Name” field, and the “Author:” field will automatically populate if the taxon is already in the taxon table. If the taxon is not in the taxon table, you will have to manually enter the author of the scientific name. You should also enter the name of the determiner in the “Determiner:” field, as well as the full date of determination in the “Date:” field. You can indicate the confidence in the determination (Low, Medium, or High) in the “Confidence of Determination:” field, list your determination references in the “Reference:” field, or include any other notes in the “Notes:” field. Finally, if you check the “Make this the current determination” box, the scientific name will be updated for the selected records. Otherwise, the determination will be added to the specimens’ records, but the most current ID name will not be changed.
 
