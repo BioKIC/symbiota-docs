@@ -1,5 +1,5 @@
 ---
-title: "Annotations/Determinations"
+title: "Annotations / Determinations"
 date: 2021-10-26
 draft: false
 authors: ["Katie Pearson"]
