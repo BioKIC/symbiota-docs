@@ -2,7 +2,6 @@
 title: "Symbiota Data Fields"
 date: 2014-07-21
 lastmod: 2010-10-25
-weight: 30
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
