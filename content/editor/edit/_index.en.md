@@ -17,7 +17,7 @@ keywords: ["edit","change","record search form"]
 
 To edit individual records, select "Edit Existing Occurrence Records" from the Data Editor Control Panel (accessed via My Profile > Occurrence Management > name of collection). From this page, you can search for specific records by entering search terms into the Record Search Form. You can search by multiple search terms using this form.
 
-![Record Search Form](/symbiota-docs/images/recordsearchform.jpg)
+![Record Search Form](/symbiota-docs/images/recordsearchform.PNG)
 
 To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 4 Custom fields in your search. The second dropdown lists after the Custom Fields will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
 * EQUALS: the field contains **only** the provided text
@@ -40,4 +40,4 @@ To view a specific record from the Table Display, click the Symbiota ID number o
 
 To re-open the record search form after you have conducted a search, click the magnifying glass icon to the right of the name of your collection at the top of the window.
 
-![Return to Record Search Form](/symbiota-docs/images/returntorecordsearchform.jpg)
+![Return to Record Search Form](/symbiota-docs/images/returntorecordsearchform.PNG)
