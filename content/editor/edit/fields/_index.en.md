@@ -9,12 +9,12 @@ editors: ["Katie Pearson"]
 keywords: ["edit","fields","data fields"]
 ---
 
-{{< notice note >}}
-  This page describes the fields available in Symbiota. The Symbiota data schema is strongly aligned to the Darwin Core data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term.
+{{< notice info >}}
+This page describes the fields available in Symbiota. The Symbiota data schema is strongly aligned to the Darwin Core data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term.
 {{</ notice >}}
 
-{{< notice info >}}
-Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
+{{< notice note >}}
+  Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
 {{</ notice >}}
 
 ### Standard Fields
