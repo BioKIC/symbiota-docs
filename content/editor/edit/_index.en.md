@@ -20,15 +20,15 @@ To edit individual records, select "Edit Existing Occurrence Records" from the D
 ![Record Search Form](/symbiota-docs/images/recordsearchform.PNG)
 
 To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 4 Custom fields in your search. The second dropdown lists after the Custom Fields will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
-* EQUALS: the field contains **only** the provided text
-* NOT EQUALS: the field does not match the provided text exactly (does not only contain the provided text)
-* STARTS WITH: the field starts with the provided text
-* CONTAINS: the field contains the provided text anywhere in the field
-* DOESN'T CONTAIN: the field does not contain the provided text anywhere in the field
-* GREATER THAN
-* LESS THAN
-* IS NULL: the entire field contains no value
-* IS NOT NULL: the field contains any value
+    * EQUALS: the field contains **only** the provided text
+    * NOT EQUALS: the field does not match the provided text exactly (does not only contain the provided text)
+    * STARTS WITH: the field starts with the provided text
+    * CONTAINS: the field contains the provided text anywhere in the field
+    * DOESN'T CONTAIN: the field does not contain the provided text anywhere in the field
+    * GREATER THAN
+    * LESS THAN
+    * IS NULL: the entire field contains no value
+    * IS NOT NULL: the field contains any value
 
 To conduct a search, click the Display Editor (to view one record at a time) or Display Table (to view the first 1000 records at a time) buttons.
 
