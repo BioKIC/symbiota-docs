@@ -2,7 +2,7 @@
 title: "Batch Editing"
 date: 2021-10-28
 draft: false
-authors: ["Cynthia Skema", "Ann Barber", "Katie Pearson"]
+authors: ["Cynthia Skema", "Ann Barber"]
 editors: ["Katie Pearson"]
 keywords: ["batch", "edit","change","record search form"]
 ---
