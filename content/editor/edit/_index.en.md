@@ -1,7 +1,6 @@
 ---
 title: "Editing Records"
 date: 2021-10-26
-weight: 30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["edit","change","record search form"]
