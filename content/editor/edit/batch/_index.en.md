@@ -12,7 +12,7 @@ keywords: ["batch", "edit","change","record search form"]
 {{</ notice >}}
 
 * For batch georeferenceing instructions, visit [this page](https://biokic.github.io/symbiota-docs/editor/georeference/batch/).
-* Scientific names can only be batch changed through the Batch Annotation tools. For information about these tools, visit [this page](https://biokic.github.io/symbiota-docs/editor/edit/annotations/).
+* Scientific names can only be batch changed through the [Batch Annotation tools]((https://biokic.github.io/symbiota-docs/editor/edit/annotations/)) or the [Taxonomic Cleaning tools]((https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/taxonomy).
 
 {{< notice note >}}
  Exercise caution when using this tool. Only experienced Symbiota users should perform batch edits. We also recommend downloading a copy of your database prior to making batch edits
