@@ -1,7 +1,6 @@
 ---
 title: "Batch Editing"
 date: 2021-10-28
-weight: 30
 draft: false
 authors: ["Cynthia Skema", "Ann Barber", "Katie Pearson"]
 editors: ["Katie Pearson"]
