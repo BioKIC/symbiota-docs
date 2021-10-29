@@ -3,6 +3,7 @@ title: "Annotations / Determinations"
 date: 2021-10-26
 draft: false
 authors: ["Katie Pearson"]
+weight: 10
 keywords: ["edit","annotation","identification","determination"]
 ---
 
