@@ -3,6 +3,7 @@ title: "Crowdsourcing"
 date: 2021-10-07
 lastmod: 2021-10-11
 draft: false
+weight: 40
 authors: ["Katie Pearson"]
 keywords: ["crowdsourcing","volunteer","citizen science","community science"]
 ---
