@@ -2,6 +2,7 @@
 title: "Adding Records"
 date: 2021-10-22
 draft: false
+weight: 5
 authors: ["Katie Pearson"]
 keywords: ["add","create"]
 ---
