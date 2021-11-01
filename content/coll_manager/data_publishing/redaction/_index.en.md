@@ -23,7 +23,7 @@ The locality data can be redacted for individual occurrences by checking the Loc
 
 If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the Exporter tool, then add a column called LocalitySecurity. Enter a 1 in this column for all specimens for which you wish to redact data. Use the Skeletal File Uploader to upload this spreadsheet into the portal, mapping the new column to localitysecurity.
 
-### Globablly redacting locality data for certain taxa
+### Globally redacting locality data for certain taxa
 
 In addition, locality data and images can be redacted on a per-species level by someone with superadministrator or taxon editor permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change the Locality Security field  to "hide locality data".
 
