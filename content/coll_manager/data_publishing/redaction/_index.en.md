@@ -27,4 +27,6 @@ If you wish to batch redact data, you can download a CSV file of all the specime
 
 In addition, locality data and images can be redacted on a per-species level by someone with superadministrator or taxon editor permissions. To do this, find the species in the Taxonomic Tree Viewer or Taxonomy Explorer and open the editor (either by clicking on the taxon name or clicking the pencil next to the name). Change the Locality Security field  to "hide locality data".
 
+![Taxonomy Editor Example](/symbiota-docs/images/taxoneditorexample.PNG)
+
 This will hide locality data for all occurrences of that taxon throughout the portal. Collections can opt out of this option by individually unchecking the Locality Security box or contacting their portal administrator for batch changes.
