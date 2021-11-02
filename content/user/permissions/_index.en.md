@@ -1,9 +1,8 @@
 ---
 title: "User Permissions"
 date: 2021-11-02
-authors:
-draft: false
-keywords: ["user"],["permissions"],["access"]
+authors: ["Katie Pearson"]
+keywords: ["users","permissions","access"]
 ---
 
 {{< notice info >}}
