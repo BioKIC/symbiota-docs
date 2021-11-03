@@ -20,7 +20,7 @@ There are three catefories of images that can be linked to a Symbiota portal. In
 2. Navigate to the Occurrence Editor page of the specimen to which you would like to add an image (My Profile > Occurrence Management > name of collection > Edit Existing Occurrence Records > conduct search for specimen)
 3. Click the Images tab.
 
-![Images Tab](/symbiota-docs/images/newrecordoptions.PNG)
+![Images Tab](/symbiota-docs/images/imagestab.png)
 
 4. If an image has already been added to the specimen, and you wish to add another click the green plus sign at the top right of the window. Otherwise, the image uploading interface will be highlighted in yellow on this page.
 5. Click the Choose File button and navigate to the image file you wish to upload. If you instead have a URL to the image, you can click Enter URL and paste the URL into the resulting field instead.
