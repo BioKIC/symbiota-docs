@@ -11,13 +11,29 @@ keywords: ["images"]
   This page describes how to upload individual *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/user/images/batch_images/) page.
 {{</ notice >}}
 
+There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
+
 ### Specimen images
 
-[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
+#### To add images individually:
+1. Log in to your account in the portal.
+2. Navigate to the Occurrence Editor page of the specimen to which you would like to add an image (My Profile > Occurrence Management > name of collection > Edit Existing Occurrence Records > conduct search for specimen)
+3. Click the Images tab.
 
-Note that if the image is given a sort order value of greater than 500, that image will be displayed on the Occurrence Details page but not on the Species Profile display. This is typically done for images of poor quality or due to aesthetic issues (e.g. road kills). Specimen images can be added via the user interface by clicking on the Image tab within the Occurrence Editor. See below for screen captures of the Occurrence Editor interface. See the Image Batch Loading page for workflows being used to load images in mass. A field image can be linked to a specimen record, but the image must be of the specific individual that was collected. Field images of a vouchered specimen are considered high valued images since species identifications can be verified or annotated years afterwards by close inspection of the physical specimen.
+!(Images Tab)[(/symbiota-docs/images/newrecordoptions.PNG]
 
-There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
+4. If an image has already been added to the specimen, and you wish to add another click the green plus sign at the top right of the window. Otherwise, the image uploading interface will be highlighted in yellow on this page.
+5. Click the Choose File button and navigate to the image file you wish to upload. If you instead have a URL to the image, you can click Enter URL and paste the URL into the resulting field instead.
+6. Enter any additional information, if desired, in the other image uploading fields.
+
+{{< notice tip >}}
+   You can enter a number into the Sort field if you wish to define the order in which mutliple images will appear on the occurrence page. If you enter a number greater than 500 in the Sort field, that image will be displayed on the Occurrence Details page but on the Taxon Profile page for that taxon. This is ideal for poor-quality or sensitive images (e.g. road kills). 
+{{</ notice >}}
+
+7. Click the Submit New Image button.
+
+#### To batch add images:
+Batch adding images can be facilitated in multiple ways but requires discussion with a portal manager. Contact the manager of your Symbiota portal to establish an agreeable workflow.
 
 ### Field image without location information
 
