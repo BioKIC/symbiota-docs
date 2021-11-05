@@ -1,11 +1,13 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest a new tool, function, or change.
 title: ''
 labels: ''
 assignees: ''
 
 ---
+**In which Symbiota portal would you like to see this change/tool/feature?**
+e.g., SEINet, CCH2
 
 **Is your feature/tool request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
