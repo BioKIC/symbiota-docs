@@ -40,8 +40,8 @@ body:
         - Windows
         - MacOS
         - Linux
-        - Phone/Tablet Android
-        - Phone/Tablet Apple iOS
+        - (Phone/Tablet) Android
+        - (Phone/Tablet) Apple iOS
   - type: dropdown
     id: browsers
     attributes:
@@ -52,5 +52,3 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-
-
