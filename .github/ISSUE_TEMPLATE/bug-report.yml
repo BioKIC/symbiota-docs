@@ -20,7 +20,7 @@ body:
     attributes:
       label: Symbiota portal name
       description: In which portal are you having this issue?
-      placeholder: E.g., SEINet, CCH2
+      placeholder: e.g., SEINet, CCH2
     validations:
       required: true
   - type: textarea
@@ -28,7 +28,7 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen? You can also add URLs and screenshots here if desired.
-      placeholder: E. g.: I tried doing something, but I see an error message.
+      placeholder: e.g., I tried doing something, but the result page shows an error message.
     validations:
       required: true
   - type: dropdown
