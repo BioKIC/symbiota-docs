@@ -1,0 +1,56 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: portal
+    attributes:
+      label: Symbiota portal name
+      description: In which portal are you having this issue?
+      placeholder: E.g., SEINet, CCH2
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen? You can also add URLs and screenshots here if desired.
+      placeholder: E. g.: I tried doing something, but I see an error message.
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: What operational systems are you seeing the problem on?
+      multiple: true
+      options:
+        - Windows
+        - MacOS
+        - Linux
+        - (Phone/Tablet) Android
+        - (Phone/Tablet) Apple iOS
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+
+
