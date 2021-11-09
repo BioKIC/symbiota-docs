@@ -12,7 +12,7 @@ Documentation is sourced from the Symbiota user community and the Symbiota Suppo
 {{</ faq >}}
 
 {{< faq "Where can I find a list of Symbiota portals?" >}}
-A list of existing Symbiota portals can be found [here](https://symbiota.org/docs/symbiota-introduction/active-symbiota-projects/).
+A list of existing Symbiota portals can be found [here](https://symbiota.org/symbiota-portals/).
 {{</ faq >}}
 
 {{< faq "I would like to use Symbiota for my collection. What should I do?" >}}
