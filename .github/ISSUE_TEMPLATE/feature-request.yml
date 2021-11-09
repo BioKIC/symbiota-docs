@@ -1,6 +1,5 @@
----
 name: Feature request
-about: Suggest a new tool, function, or change.
+description: Suggest a new tool, function, or change.
 title: "[Feature Request]: "
 labels: ["enhancement"]
 body:
@@ -52,4 +51,3 @@ body:
       description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
----
