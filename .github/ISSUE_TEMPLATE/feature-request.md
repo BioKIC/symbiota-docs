@@ -1,0 +1,55 @@
+---
+name: Feature request
+about: Suggest a new tool, function, or change.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes: 
+      value: | 
+        Thanks for taking the time to fill out this feature request form!
+  - type: input
+    id: portal
+    attributes:
+      label: Symbiota Portal Name
+      description: In which Symbiota portal would you like to see this change/tool/feature?
+      placeholder: e.g., SEINet, CCH2
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature/tool request related to a problem? Please describe.
+      description: A clear and concise description of what the problem is.
+      placeholder: Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like.
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: false
+  - type: input
+    id: backers
+    attributes:
+      label: Who else has expressed a desire for this feature/tool?
+      description: Please name other individuals or organizations that support the need for this feature/tool.
+    validations:
+      required: false
+  - type: textarea
+    id: cases
+    attributes:
+      label: When and how would this feature be used? What are some use cases?
+      description: Please describe instances in which this feature would be used and provide some thoughts about how frequently it would be used and by whom.
+    validations:
+      required: false
+  - type: textarea
+    id: other
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
+---
