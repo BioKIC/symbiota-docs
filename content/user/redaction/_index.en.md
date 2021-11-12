@@ -3,6 +3,7 @@ title: "Redacted and Protected Data"
 date: 2021-10-08
 authors: ["Ed Gilbert","Katie Pearson"]
 draft: false
+weight: 80
 keywords: ["rare species","redacted data","protected data","protected species"]
 ---
 
