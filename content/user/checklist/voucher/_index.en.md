@@ -10,13 +10,6 @@ keywords: ["checklist","inventory","flora","voucher"]
 
 There are two main ways to add voucher specimens to a research checklist. You can add specific, individual specimens from your own collection to the checklist through the occurrence editor (the page of the specimen record) or add specimens from any collection through the Manage Linked Voucher tool on the checklist page.
 
-### Adding Individual Specimens from Your Own Collection
-1. Look up a specific specimen in your own collection (e.g., by clicking Edit Existing Occurrence Records in your Data Editor Control Panel and searching by a specific catalog number or by using other search terms).
-2. On the resulting page, click the Linked Resources tab.
-3. In the Checklist Voucher Linkages box (see below), select the desired Checklist from the dropdown menu and click Link to Checklist as Voucher. A new window will likely pop up as a result, but you can ignore this window and close the editor. The specimen has been successfully linked as a voucher to the desired checklist.
-
-![Checklist Voucher Linkages](/symbiota-docs/images/checklistvoucherlinkage.png)
-
 ### Adding Specimens from Any Collection (Manage Linked Voucher Tool)
 
 {{< youtube NRW2kh6xln0 >}}
@@ -65,3 +58,14 @@ There are two main ways to add voucher specimens to a research checklist. You ca
           * To add voucher specimens from this list, click the box to the left of the specimen record(s) that you wish to add and click the Add Vouchers button.
        3. View specimen records that align with your search criteria, but have scientific names that are not linked to a particular name in the taxonomic thesaurus (select Problem Taxa from the Display Mode dropdown menu).
           * To add voucher specimens from this list, enter the name of the taxon to which this specimen belongs into the text box to the right of the specimen’s scientific name. Note that the name you enter in this box must already be found in the list of taxa in your checklist. Click the Link Voucher button.
+
+### Adding Individual Specimens from Your Own Collection
+
+{{< notice note >}} You must be an editor of a collection to assign specimens in this way. {{</ notice >}}
+
+1. Look up a specific specimen in your own collection (e.g., by clicking Edit Existing Occurrence Records in your Data Editor Control Panel and searching by a specific catalog number or by using other search terms).
+2. On the resulting page, click the Linked Resources tab.
+3. In the Checklist Voucher Linkages box (see below), select the desired Checklist from the dropdown menu and click Link to Checklist as Voucher. A new window will likely pop up as a result, but you can ignore this window and close the editor. The specimen has been successfully linked as a voucher to the desired checklist.
+
+![Checklist Voucher Linkages](/symbiota-docs/images/checklistvoucherlinkage.png)
+
