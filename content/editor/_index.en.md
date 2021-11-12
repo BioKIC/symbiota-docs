@@ -9,8 +9,10 @@ description: "Learn to edit, manage, import, and export data in Symbiota portals
 type: 'docs'
 ---
 
-Welcome to the documentation pages of Symbiota Docs! This site is under construction.
+#### Welcome to the Editor Guide!
 
-The following Symbiota guides and websites will help you get started:
-* [Symbiota Guide](https://github.com/BioKIC/Symbiota-light/blob/master/docs/SymbiotaGuide_v5.pdf) (developed for the Consortium of California Herbaria CCH2 data portal)
-* [Symbiota YouTube Channel](https://www.youtube.com/channel/UC7glMVLRnTA6ES3VTsci7iQ)
+This guide contains instructions for users with **Editor** permissions for a collection in a Symbiota site.
+
+Users with Administrator permissions automatically inherit Editor permissions as well, but not vice versa, so much of this content pertains to Administrators as well.
+
+Not sure what level of permissions you are working with? See the [User Permissions](https://biokic.github.io/symbiota-docs/user/permissions/) page.
