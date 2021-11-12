@@ -7,8 +7,16 @@ keywords: ["users","permissions","access"]
 ---
 
 {{< notice info >}}
-  This page describes how to assign permissions to users and defines each of the possible permission levels that can be assigned by an administrator of a collection.
+  This page defines each of the possible permission levels that can be assigned by an administrator of a collection and describes how to assign permissions to users.
 {{</ notice >}}
+
+### Permissions Definitions
+
+**Administrator**: can use all tools in the Administration Control Panel. For example, this user can edit the contact information and description for your collection, view edits made to your records, batch upload data, and use data cleaning tools. Administrators can also delete records.
+
+**Editor**: can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records.
+
+**Rare Species Reader**: can view locality data for all specimens in your collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/)).
 
 ### Adding / Changing User Permissions
 
@@ -25,12 +33,3 @@ keywords: ["users","permissions","access"]
 {{< notice tip >}}
   If you don't see someone's name in the dropdown list, they might not have a profile yet. Contact the user and have them create a user profile.
 {{</ notice >}}
-
-
-### Permissions Definitions
-
-**Administrator**: can use all tools in the Administration Control Panel. For example, this user can edit the contact information and description for your collection, view edits made to your records, batch upload data, and use data cleaning tools. Administrators can also delete records.
-
-**Editor**: can use all tools in the Data Editor Control Panel, including adding and editing records, printing labels, batch annotating specimens, batch georeferencing specimens, and managing loans. Editors cannot delete records.
-
-**Rare Species Reader**: can view locality data for all specimens in your collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/)).
