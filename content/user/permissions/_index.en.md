@@ -2,6 +2,7 @@
 title: "User Permissions"
 date: 2021-11-02
 authors: ["Katie Pearson"]
+weight: 120
 keywords: ["users","permissions","access"]
 ---
 
