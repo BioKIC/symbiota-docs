@@ -11,7 +11,7 @@ keywords: ["data upload","data import","file upload","IPT"]
   This page provides instructions for uploading data into an existing collection in a Symbiota portal. Contact your portal manager if you do not already have a collection in your desired Symbiota portal.
 {{</ notice >}}
 
-# Initiating the Upload
+## Initiating the Upload
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
 2. Click Import/Update Specimen Records, then select "Create a new Import Profile".
@@ -28,13 +28,13 @@ keywords: ["data upload","data import","file upload","IPT"]
 
 5. Follow the directions below according to the Upload Type you have selected.
 
-## Darwin Core Archive Manual Upload
+### Darwin Core Archive Manual Upload
 [Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
 
-## IPT Resource / Darwin Core Archive Provider
+### IPT Resource / Darwin Core Archive Provider
 [Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
 
-## File Upload or Skeletal File Upload
+### File Upload or Skeletal File Upload
 1. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
 2. Click the Create Profile button.
 3. On the next page, you will see a list of existing upload profiles. Select the profile that you wish to use (the one you just greated) and click Initialize Upload.
@@ -60,17 +60,17 @@ keywords: ["data upload","data import","file upload","IPT"]
     * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
 15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
 
-## Stored Procedure
+### Stored Procedure
 
 1. Write a stored procedure used to transfer records (the collection cleanup scripts can be put in central stored procedure or kept separate)
 2. Set up the script to run as a regular cronjob.
 
-## Script Upload
+### Script Upload
 
 1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
 2. Set up the script to run as a regular cronjob.
 
-# Uploading Tips
+## Uploading Tips
 
 {{< notice tip >}}
   A list of fields that can be imported into a Symbiota data portal can be [found here](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
