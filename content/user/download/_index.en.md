@@ -10,7 +10,7 @@ keywords: ["download"]
 
 Downloading data from Symbiota portals can easily be done from a public search.
 
-After [conducting a search](https://biokic.github.io/symbiota-docs/user/search/), click the button with the download icon ![Download Icon](https://biokic.github.io/symbiota-docs/images/dl2.png height=10px)
+After [conducting a search](https://biokic.github.io/symbiota-docs/user/search/), click the button with the download icon ![Download Icon height=10px](https://biokic.github.io/symbiota-docs/images/dl2.png)
 
 This is usually displayed at the top right corner of the page, as shown below:
 
