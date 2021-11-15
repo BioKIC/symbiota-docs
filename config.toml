@@ -149,7 +149,7 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "docs"
   name = "Portal Manager Guide"
-  url = "coll_manager"
+  url = "portal_manager"
   weight = 4
 
 
