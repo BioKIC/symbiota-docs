@@ -111,9 +111,14 @@ name = "contact"
 url = "contact"
 weight = 5
 
+[[Languages.en.menu.main]]
+name = "Contributing"
+url = "contribute"
+weight = 6
+
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 6
+weight = 7
 name = "docs"
 hasChildren = true
 
@@ -146,6 +151,7 @@ hasChildren = true
   name = "Portal Manager Guide"
   url = "coll_manager"
   weight = 4
+
 
 
 
