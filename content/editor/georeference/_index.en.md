@@ -1,5 +1,5 @@
 ---
-title: "Images"
+title: "Georeferencing"
 date: 2021-11-16
 draft: false
 authors: ["Katie Pearson"]
