@@ -2,7 +2,7 @@
 title: "Editing Collection Metadata and Contact Info"
 date: 2021-11-16
 lastmod: 2021-11-16
-weight: 3
+weight: 60
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["collection name","metadata","contact info"]
