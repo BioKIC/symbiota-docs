@@ -33,4 +33,4 @@ keywords: ["collection name","metadata","contact info"]
       * **Collection ID** - Global Unique Identifier for this collection (see dwc:collectionID): If your collection already has a previously assigned GUID, that identifier should be represented here. For physical specimens, the recommended best practice is to use an identifier from a collections registry such as the [Global Registry of Biodiversity Repositories](http://grbio.org).
 3. In the Contacts & Resource tab, you can add links to other resources (e.g., homepages or lab pages), add or edit contact information, or add or edit the mailing address for your institution. Click a pencil icon to edit or an X icon to delete existing links/resources.
 
-![Edit Metadata Example](/symbiota-docs/images/metadata_example.PNG)
+![Edit Metadata Example](/symbiota-docs/images/metadata_editor.PNG)
