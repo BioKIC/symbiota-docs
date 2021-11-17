@@ -1,0 +1,13 @@
+<p>
+  <a id='{{ .Get "id" }}'><b>{{ .Get "verbatim" }}:</b> </a>
+  {{ .Get "descr" }}<br>
+  {{ if .Get "ex"}}
+    Ex: {{ .Get "ex"}}<br>
+  {{ end }}
+  {{ if .Get "dwc" }}
+    See Darwin Core's <a href='https://dwc.tdwg.org/terms/#dwc:{{ .Get "dwc" }}' target="_blank" rel="noopener noreferrer">{{ .Get "dwc"}}</a>
+  {{ end }}
+  {{ if .Get "obs" }}
+    {{ .Get "obs"}}
+  {{ end }}
+</p>

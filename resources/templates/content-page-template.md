@@ -54,6 +54,9 @@ Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendiss
   {{</ tab >}}
 {{</ tabs >}}
 
+#### Darwin Core Definition
+{{< dwc-term id="catalogNumber" verbatim="Catalog Number" descr="The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection." ex="WIS-L-0123456, ASU0012345, 12345" dwc="catalogNumber" >}}
+
 Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla. Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit.
 
 ### Image Example
