@@ -1,3 +1,10 @@
+/* Adds padding on top of items with anchors
+* so that the sticky menu doesn't hide items
+ */
+html {
+  scroll-padding-top: 4rem;
+}
+
 .btn-sm {
   color: white !important;
   font-size: 12px;
