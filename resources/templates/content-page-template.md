@@ -38,6 +38,7 @@ Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendiss
   This is a simple info.
 {{</ notice >}}
 
+{{< button href="http://mylink.com" text="Click here to go to my link" >}}
 
 {{< tabs >}}
   {{< tab "first" >}}
