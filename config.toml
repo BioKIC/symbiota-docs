@@ -126,7 +126,7 @@ hasChildren = true
   parent = "docs"
   name = "Developer Guide"
   url = "dev"
-  weight = 5
+  weight = 4
 
   [[Languages.en.menu.main]]
   parent = "docs"
@@ -145,12 +145,6 @@ hasChildren = true
   name = "Collection Manager Guide"
   url = "coll_manager"
   weight = 3
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Portal Manager Guide"
-  url = "portal_manager"
-  weight = 4
 
 
 
