@@ -2,7 +2,7 @@
 title: "Label Customization and Printing"
 date: 2021-11-22
 draft: false
-weight: 115
+weight: 105
 authors: ["Katie Pearson"]
 keywords: ["labels","printing"]
 ---
