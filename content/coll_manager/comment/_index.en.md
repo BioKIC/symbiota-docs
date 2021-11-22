@@ -2,7 +2,7 @@
 title: "Comments on Records"
 date: 2021-11-22
 draft: false
-weight: 200
+weight: 5
 authors: ["Katie Pearson"]
 keywords: ["comments"]
 ---
