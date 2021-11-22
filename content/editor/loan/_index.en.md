@@ -2,6 +2,7 @@
 title: "Managing Loans"
 date: 2021-11-22
 draft: false
+weight: 110
 authors: ["Katie Pearson"]
 keywords: ["loan"]
 ---
