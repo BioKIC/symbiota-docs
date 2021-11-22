@@ -11,7 +11,7 @@ keywords: ["labels","printing","packet"]
   This guide describes the use of the label printing tool in Symbiota to print lichen and bryophyte packets: full sheets of paper with a 3”x5” label printed on the bottom third of the sheet. For instructions on folding packets, see [this guide](https://core.ac.uk/download/pdf/151510978.pdf).
 {{</ notice >}}
 
-![Print Label Queue](/symbiota-docs/images/printlabel1.png)
+{{< youtube \_1_QN4e_N9A >}}
 
 ### Using the Default Packet-Printing Profile
 
