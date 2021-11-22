@@ -29,15 +29,15 @@ The default packet label looks like this:
 5. Scroll down to the Label Printing form at the bottom of the page.
 6. From the Label Profiles dropdown menu, select Generic Lichen Packet.
 7. From here, you can customize your packet in a limited number of ways:
-    a. To change the heading prefix: edit the text in the Heading Prefix field
-    b. To change the auto-generated middle section of the heading by selecting a button from the Heading Mid-Section options.
-    c. To change the end of the heading: edit the text in the Heading Suffix field
-    d. To change the name of your collection that will show up on top of your barcode: edit the text in the Label Footer field
-        * NOTE: There is no actual “Footer” on lichen and bryophyte packets. Instead, the label footer is shown atop the printed barcode. Leave this blank if you would not like any text on top of your barcode OR if you are not including a barcode on your packet
-    e. To show the authorship of the species before the infraspecific epithet, if you are printing taxa with infraspecific epithets: check the box next to “Print species authors for infraspecific taxa”
-    f. You do NOT need to check the box next to Print Catalog Numbers. The catalog number will be displayed underneath the barcode if “Include barcode of Catalog Number” is checked.
-    g. Clicking “Print only Barcode” will print a barcode only with no packet or other data
-    h. Note that Other Catalog Numbers are not listed on packets by default. To add this field, create a custom label packet profile as described in the next section and include Other Catalog Numbers in your list of printed fields.
+  1. To change the heading prefix: edit the text in the Heading Prefix field
+  2. To change the auto-generated middle section of the heading by selecting a button from the Heading Mid-Section options.
+  3. To change the end of the heading: edit the text in the Heading Suffix field
+  4. To change the name of your collection that will show up on top of your barcode: edit the text in the Label Footer field
+      * NOTE: There is no actual “Footer” on lichen and bryophyte packets. Instead, the label footer is shown atop the printed barcode. Leave this blank if you would not like any text on top of your barcode OR if you are not including a barcode on your packet
+  5. To show the authorship of the species before the infraspecific epithet, if you are printing taxa with infraspecific epithets: check the box next to “Print species authors for infraspecific taxa”
+  6. You do NOT need to check the box next to Print Catalog Numbers. The catalog number will be displayed underneath the barcode if “Include barcode of Catalog Number” is checked.
+  7. Clicking “Print only Barcode” will print a barcode only with no packet or other data
+  8. Note that Other Catalog Numbers are not listed on packets by default. To add this field, create a custom label packet profile as described in the next section and include Other Catalog Numbers in your list of printed fields.
 8. When printing your packet, make sure to print at 100% scale. Use Print Preview and adjust the margins as necessary so that the packet is centered and the correct size. If printing from Google Chrome, click the More Settings option and uncheck the Headers and footers box.
 
 ![Print Preview when Printing a Packet](/symbiota-docs/images/printpreviewpacket.png)
@@ -57,12 +57,12 @@ The default packet label looks like this:
 
 ![Print Visual Interface](/symbiota-docs/images/printvisualinterface.png)
 
-    * In the bottom center of the screen, you will see a preview of the label that you are customizing.
-    * The left-hand Fields Available column contains a bank of fields that you can draw from and include on your label
-    * The grey Label Content Area in the center is where you can place and move the fields that you have selected from the Fields Available column for your label
-    * The Field Options on the top right can be used to edit the prefix, suffix, font size, position, and font family of a field after selecting a field in the Label Content Area. 
-    * The Line Options on the bottom right can be used to select a delimiter between fields on the same line and edit the text alignment and spacing after selecting a line in the Label Content Area.
-    * To add a new line, scroll to the bottom of the Label Content Area and click the ADD LINE button. Beware of adding additional lines to the Label Content Area! If you have too much content, it may not fit on the packet label.
+  * In the bottom center of the screen, you will see a preview of the label that you are customizing.
+  * The left-hand Fields Available column contains a bank of fields that you can draw from and include on your label
+  * The grey Label Content Area in the center is where you can place and move the fields that you have selected from the Fields Available column for your label
+  * The Field Options on the top right can be used to edit the prefix, suffix, font size, position, and font family of a field after selecting a field in the Label Content Area. 
+  * The Line Options on the bottom right can be used to select a delimiter between fields on the same line and edit the text alignment and spacing after selecting a line in the Label Content Area.
+  * To add a new line, scroll to the bottom of the Label Content Area and click the ADD LINE button. Beware of adding additional lines to the Label Content Area! If you have too much content, it may not fit on the packet label.
     
 ![Print Customization](/symbiota-docs/images/printcustomize.png)
 
