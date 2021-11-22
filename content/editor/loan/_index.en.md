@@ -21,7 +21,7 @@ Once you click “Create Loan,” you will be taken to the Loan Out Details page
 ![Generate Loan Paperwork](/symbiota-docs/images/generateloanpaperwork.png)
 
 To link specimens to the loan, click the “Specimens” tab, click the green plus sign, enter the catalog number of the desired specimen in the field (preferably by scanning the barcode of the physical specimen), and click “Add Specimen.” Repeat as necessary.
-To edit an outgoing loan or link specimens to the loan in the future, navigate to the “Outgoing Loans” tab and click on the loan identifier (number or name given to the loan) directly to the right of the appropriate bullet point (see arrow in next screenshot).
+To edit an outgoing loan or link specimens to the loan in the future, navigate to the “Outgoing Loans” tab and click on the loan identifier (number or name given to the loan) directly to the right of the appropriate bullet point (circled in next screenshot).
 
 ![Edit Loan](/symbiota-docs/images/editloan.jpg)
 
