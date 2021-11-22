@@ -15,7 +15,7 @@ keywords: ["labels","printing"]
   For instructions on printing specimen packets, see [this page](https://biokic.github.io/symbiota-docs/editor/label/packet/)
 {{</ notice >}}
 
-{{< youtube QAsypzpY-aA >}}
+{{< youtube ult9QAWax9I >}}
 
 ### Printing Specimen Labels
 
