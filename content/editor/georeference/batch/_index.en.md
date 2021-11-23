@@ -37,7 +37,7 @@ keywords: ["georeferencing","batch edits"]
     * If there is not enough information in the Locality String to assign an approximate point, view the specimen record by returning to the search results page (see screenshot below) and clicking the pencil icon on the top right of the search results box. This will bring up the specimen record, where you can see whether there is more locality information in another data field (e.g., habitat) or on the specimen image (if available).
          * If you are still not able to assign an approximate point from this information, scroll down to the bottom of the specimen record until you see the Processing Status field. Select “Expert Required” from the dropdown menu of this field. In the “Notes (Occurrence Remarks)” field above and to the left, enter a brief note in brackets, such as “[Not enough data to georeference]”. Click the “Save Edits” button, close the record, and select a new record to georeference.
 
-![GEOLocate Options](/symbiota-docs/images/geolocateoptions2.tif)
+![GEOLocate Options](/symbiota-docs/images/geolocateoptions2.jpg)
 
 9.	Once you have found an approximate location for the specimen record, click the button next to “Place Marker” and click on the map where you want to place the GeoLocate dot. We recommend using the [Georeferencing Quick Guide](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/) to determine where to place the point.
 
