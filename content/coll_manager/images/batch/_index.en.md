@@ -17,7 +17,7 @@ There are several workflows used to batch upload/link specimen images. Batch pro
 {{</ notice >}}
 
 ### Common Workflows
-* **Image Drop Folder:** Using a mapped network drive, FTP, SFTP, Dropbox, or other cloud storage, a drop folder is made available so that imaging team can regularly deposit new images. This folder is referred to as the "source folder". Once images are uploaded to the source folder, you can use the Processing Toolbox to create web-ready derivatives and move the images to a local server. The derivatives are then mapped to specimen records through image URLs.
+* **Image Drop Folder:** Using a mapped network drive, FTP, SFTP, Dropbox, or other cloud storage, a drop folder is made available so that the imaging team can regularly deposit new images. This folder is referred to as the "source folder". Once images are uploaded to the source folder, you can use the Processing Toolbox to create web-ready derivatives and move the images to a local server. The derivatives are then mapped to specimen records through image URLs.
 
 * **Local Storage:** If images are stored on a local server that is write-accessible to the portal code, image processing can be performed directly through the portal interface. Image URLs stored locally can be mapped into the database using relative links without the domain name. In this case, the the web server user (e.g. Apache user) must have write access to both the source and target folders.
 
