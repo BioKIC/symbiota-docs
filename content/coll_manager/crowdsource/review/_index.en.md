@@ -25,6 +25,8 @@ keywords: ["crowdsourcing","volunteer"]
 5. Review records in the provided table, or click the pencil icon to view individual records along with their images.
 6. To approve records, click the check box next to the records you wish to approve, scroll down to the bottom of the page, and click Submit Reviews.
 
+![Crowdsourcing Example](/symbiota-docs/images/crowdsourceexample.PNG)
+
 {{< notice tip >}}
   Click "Additional Options" at the bottom of the page for more options. From here you can, instead of reviewing a record, "Remove Points and change to Not Reviewed" (if the record had previously been reviewed" or "Move back into crowdsourcing queue as Open Records"
 {{</ notice >}}
