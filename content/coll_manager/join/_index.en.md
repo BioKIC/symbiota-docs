@@ -11,7 +11,7 @@ keywords: ["join","contribute"]
 
 Click the button below to find a list of active Symbiota portals. You will want to select a Symbiota portal that matches the scope of your data.
 
-{{< button href="https://symbiota.org/symbiota-portals/" text="List of Symbiota Portals" target = "\_blank">}}
+{{< button href="https://symbiota.org/symbiota-portals/" text="List of Symbiota Portals" >}}
 
 Once you have identified an existing Symbiota portal to which you want to publish specimen data, contact the project or portal managers to become a data provider. Portal contacts are typically listed on the homepage or within the left menu of the data portal. Contact symbiota@asu.edu for help if you are unable to find the portal contact.
 
