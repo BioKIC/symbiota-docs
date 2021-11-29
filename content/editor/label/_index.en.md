@@ -33,7 +33,7 @@ Once you have selected your desired options, you can print the labels directly f
 
 To create a new label profile that will apply custom formatting to your printed labels, click the pencil icon to the right of Label Profiles (highlighted below).
 
-![Print Label Profile](/symbiota-docs/images/printlabelprofile.PNG)
+![Print Label Profile](/symbiota-docs/images/printprofile.png)
 
 Then click the green plus sign in the User Profiles box. Enter the title of the user profile and any desired header and footer information. Select the desired options from the Options box.
 
