@@ -22,7 +22,7 @@ keywords: ["georeferencing","batch edits"]
     * The green dot is GeoLocate’s best guess for the locality of the specimen. You may also see red dots, which are alternative guesses.
     * To view the reasons why GeoLocate selected these dots, click the “# possible locations found” tab to the right of the Workbench tab. The words in all caps are those that GeoLocate used to infer a location.
 
-![GEOLocate Options](/symbiota-docs/images/georeferenceguesses.tif)
+![GEOLocate Options](/symbiota-docs/images/georeferenceguesses.jpg)
 
 5. Click the “Options” button on the bottom left of the GeoLocate window and ensure the “Do Uncertainty” box is checked. Close the Georeferencing options window.
 6. Make sure that all of the boxes (latitude, longitude, uncertainty, and error polygon) near the bottom right of the window are checked.
