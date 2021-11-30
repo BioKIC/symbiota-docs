@@ -71,3 +71,7 @@ _(Example instructions for an herbarium collection)_
         4. If the data match up, click “Merge Records” and exit the duplicate window. If the data do not match up, close the window, scroll down to the Processing status field in the Curation box, select “Expert Required” from the dropdown menu, and then click the Save Edits button.
 9. Click the double arrow icon at the top right corner of the occurrence editor.
 10.	Repeat steps 6-9.
+
+This protocol is demonstrated in the following video:
+
+{{< youtube s-2FuOpLhnI >}}
