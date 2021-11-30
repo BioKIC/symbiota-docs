@@ -27,8 +27,7 @@ keywords: ["batch", "edit","change","record search form"]
 7. Click “Batch Update Field” to enact your batch edit. A pop-up screen will tell you the number of records to be updated, warn you that the replace operation cannot be undone, and prompt you to OK the update. Proceed with caution and see examples below.
 
 {{< notice note >}}
-It is easy to inadvertently change text you did not intend to change. Generally, the more specific your “Current Value:” text, the less likely you are to run into unintended consequences. If possible, get an estimate from your record table of how many records should be affected, and check that against the number of records cited in the warning. If the numbers do not match, rethink your strategy.<br>
-
+It is easy to inadvertently change text you did not intend to change. Generally, the more specific your “Current Value:” text, the less likely you are to run into unintended consequences. If possible, get an estimate from your record table of how many records should be affected, and check that against the number of records cited in the warning. If the numbers do not match, rethink your strategy.<br><br>
 It is not possible to check the record count when sorting by “Modified By” first. Doing so returns a count of the number of fields edited by the “Modified By” user for all records to be affected, rather than the number of records to be affected.
 {{</ notice >}}
 
