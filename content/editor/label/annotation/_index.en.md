@@ -2,7 +2,7 @@
 title: "Annotation Label Printing"
 date: 2021-11-22
 draft: false
-weight: 105
+weight: 1
 authors: ["Katie Pearson"]
 keywords: ["labels","printing","annotation"]
 ---
