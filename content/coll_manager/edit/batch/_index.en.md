@@ -12,7 +12,7 @@ keywords: ["batch", "edit","change","record search form"]
 {{</ notice >}}
 
 * For batch georeferencing instructions, visit [this page](https://biokic.github.io/symbiota-docs/editor/georeference/batch/).
-* Scientific names can only be batch changed through the [Batch Annotation tools]((https://biokic.github.io/symbiota-docs/editor/edit/annotations/)) or the [Taxonomic Cleaning tools]((https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/taxonomy).
+* Scientific names can only be batch changed through the [Batch Annotation tools](https://biokic.github.io/symbiota-docs/editor/edit/annotations/) or the [Taxonomic Cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/taxonomy).
 
 {{< notice note >}}
  Exercise caution when using this tool. We also recommend downloading a copy of your database prior to making batch edits
@@ -28,6 +28,7 @@ keywords: ["batch", "edit","change","record search form"]
 
 {{< notice note >}}
 It is easy to inadvertently change text you did not intend to change. Generally, the more specific your “Current Value:” text, the less likely you are to run into unintended consequences. If possible, get an estimate from your record table of how many records should be affected, and check that against the number of records cited in the warning. If the numbers do not match, rethink your strategy.<br>
+
 It is not possible to check the record count when sorting by “Modified By” first. Doing so returns a count of the number of fields edited by the “Modified By” user for all records to be affected, rather than the number of records to be affected.
 {{</ notice >}}
 
