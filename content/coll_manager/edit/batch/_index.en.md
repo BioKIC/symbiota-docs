@@ -1,6 +1,7 @@
 ---
 title: "Batch Editing"
 date: 2021-10-28
+lastmod: 2021-11-30
 draft: false
 authors: ["Cynthia Skema", "Ann Barber"]
 editors: ["Katie Pearson"]
