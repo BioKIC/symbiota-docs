@@ -3,7 +3,7 @@ title: "Collection Statistics"
 date: 2021-11-30
 authors: ["Katie Pearson"]
 weight: 4
-keywords: ["statistics","number of specimens"]
+keywords: ["statistics","number of specimens","reports"]
 ---
 
 {{< notice info >}}
