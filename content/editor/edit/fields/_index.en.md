@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2021-11-16
+lastmod: 2021-11-30
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Laura Rocha Prado","Katie Pearson"]
