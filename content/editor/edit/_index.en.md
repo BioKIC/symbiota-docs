@@ -11,7 +11,7 @@ keywords: ["edit","change","record search form"]
   This page provides instructions on how to search for and edit records.
 {{</ notice >}}
 
-* To batch edit records, visit [this page](https://biokic.github.io/symbiota-docs/editor/edit/batch/).
+* To batch edit records (only available to collection administrators), visit [this page](https://biokic.github.io/symbiota-docs/coll_manager/edit/batch/).
 * For an overview of fields in the occurrence editor form, visit [this page](https://biokic.github.io/symbiota-docs/editor/edit/fields).
 * For an explanation of the record editor tabs, visit [this page](https://biokic.github.io/symbiota-docs/editor/edit/tabs/).
 
