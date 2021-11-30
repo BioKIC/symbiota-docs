@@ -20,7 +20,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 {{< button href="https://github.com/BioKIC/symbiota-docs/blob/master/static/documents/SymbiotaDataFields_202111.csv" text="See full content as a CSV" >}}
 
 
-## Standard Fields
+### Standard Fields
 
 {{< dwc-term id="catalogNumber" verbatim="Catalog Number" descr="The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection" ex="WIS-L-0123456, ASU0012345, 12345" dwc="catalogNumber" >}}
 
@@ -154,7 +154,7 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 {{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for speicmen." ex="10" >}}
 
 
-## Paleontology Fields
+### Paleontology Fields
 
 <a id="eon"><b>Eon:</b></a> The longest geologic time intervals.
 Ex: Archean, Proterozoic, Phanerozoic
