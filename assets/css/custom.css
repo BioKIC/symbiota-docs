@@ -19,3 +19,7 @@ img {
   width: 100%;
   height: auto;
 }
+
+.content > p > a {
+  color: #007bff;
+}
