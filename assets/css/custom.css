@@ -20,6 +20,6 @@ img {
   height: auto;
 }
 
-.content > p > a {
+.content p > a, .content li > a {
   color: #007bff;
 }
