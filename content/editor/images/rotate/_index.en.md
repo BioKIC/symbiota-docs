@@ -24,4 +24,5 @@ Adjusting the camera settings to define the correct orientation, or batch rotati
 The safest solution is to rotate the actually image data (pixel definition) rather than just the setting the orientation tag. This can be done as a batch processing using image editing programs such as Adobe Lightroom or Photoshop. The link below provides a list of a number of free options for lossless rotation of images. For example, you can download “JPEG Lossless Rotator”, which is easy to use, shows the true rotation of the images within a folder, and provides lossless rotation tools. 
 
 [List of Lossless Rotation Apps](http://jpegclub.org/losslessapps.html)
+
 [Lossless Rotator App by Anny Studio](http://annystudio.com/software/jpeglosslessrotator/)
