@@ -36,7 +36,7 @@ keywords: ["images"]
 
 #### Deleting an Image
 
-1. Complete steps 1-4 in the instrctions above.
+1. Complete steps 1-4 in the instructions above.
 2. Scroll down to the box labeled **Delete Image**.
     * If your images are stored on ASU servers (i.e., you upload them to Dropbox or otherwise transfer them to ASU), check the "Remove image from server" box. Otherwise, leave this box unchecked
     * If your images are stored on another server, such as CyVerse, leave the "Remove image from server" box unchecked.
