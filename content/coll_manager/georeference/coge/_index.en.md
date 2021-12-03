@@ -4,7 +4,6 @@ date: 2021-12-02
 draft: false
 authors: ["Katie Pearson"]
 weight: 15
-draft: true
 keywords: ["georeferencing","collaborative georeferencing","GEOLocate"]
 ---
 
