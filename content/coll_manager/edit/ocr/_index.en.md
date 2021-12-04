@@ -16,11 +16,11 @@ To run OCR on many specimen images at a time
 3. If OCR is enabled in your portal, click the OCR tab.
 4. From here, you can view how many specimens have a saved OCR output, and you can run OCR on a designated number of specimens using the **Batch OCR Images using the Tesseract OCR Engine** box. Indicate the processing status of the records for which you would like to run OCR in the "processing status" field, and indicate how many of these records you would like to run at one time using the "Number of records to process" field.
 
-![Batch OCR Tool](/symbiota-docs/images/batchocr.png)
+![Batch OCR Tool](/symbiota-docs/images/batchocr1.PNG)
 
 A video tutorial of this process is shown here:
 
-{{ < youtube VUMVb3-R8mw > }}
+{{< youtube VUMVb3-R8mw >}}
 
 ### Uploading Pre-Generated OCR
 
@@ -35,4 +35,4 @@ To upload a file, make sure your collection and files meet the following require
 * Since OCR text needs to be linked to source image, images must have been previously uploaded into portal
 * If there are more than one image linked to a specimen, the full file name will be used to determine which image to link the OCR
 
-![Batch OCR Upload](/symbiota-docs/images/batchocr2.png)
+![Batch OCR Upload](/symbiota-docs/images/batchocr2.PNG)
