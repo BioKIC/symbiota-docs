@@ -53,3 +53,19 @@ In the Associated Occurrences box of the Linked Resources tab, you can link an o
 1. Click the plus sign icon in the Associated Occurrences box to add a new link.
 2. Enter the scientific name of the taxon that has a relationship with your occurrence.
 3. Complete steps 7-10 as above.
+
+### Linking an occurrence to a checklist
+1. In the **Checklist Voucher Linkages** box of the Linked Resources tab, select the checklist to which you would like to link you occurrence from the dropdown menu. Note that you will only see checklists for which you have editor or administrator permissions.
+
+{{< notice note >}}
+  To batch link vouchers to a checklist, see the [Adding Vouchers to Checklist page](https://biokic.github.io/symbiota-docs/user/checklist/voucher/).
+{{</ notice >}}
+
+### Linking an occurrence to a duplicate specimen
+There are several ways to link an occurrence to duplicate specimens. You can:
+* In the Linked Resource tab of the occurrence editor, click the Search for Records to Link button in the **Specimen Duplicates** box. This will open a search window that you can use to identify and link duplicate specimens. You can search according to collector name, collector number, date, catalog number, or occid (SymbiotaID) using this tool.
+* In the main Occurrence Data tab of the occurrence editor, click the Duplicates button. This will search the portal for occurrences with the same collector last name, number, and date. If a potential identical duplicate is identified, you can check the box next to Link as Duplicate, then click Transfer All Fields or Transfer to Empty Fields Only to initiate the link. This will also transfer any data from that duplicate into your specimen record. Newly transferred data will be highlighted in blue.
+* Batch link records to their duplicates using the [Duplicate Clustering tool](https://biokic.github.io/symbiota-docs/coll_manager/dup).
+
+### Linking an occurrence to a genetic resource
+In the **Genetic Resources** box of the Linked Resources tab, enter information about the genetic sequence associated with your occurrence in the provided fields. Be sure to provide a URL to the sequence. Here is an example for a URL from GenBank: [https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1](https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1).
