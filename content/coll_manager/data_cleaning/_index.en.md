@@ -11,4 +11,4 @@ Symbiota has a number of useful built-in tools for data cleaning processes. Each
 
 A webinar about data cleaning can be found here:
 
-{{< youtube k3VkKqLoecs >}}
+{{< youtube k3VkKqLoecs >}} 
