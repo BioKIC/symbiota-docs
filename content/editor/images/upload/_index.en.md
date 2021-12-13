@@ -1,7 +1,7 @@
 ---
 title: "Uploading Images"
 date: 2021-10-06
-weight: 6
+weight: 10
 draft: false
 authors: ["Ed Gilbert","Katie Pearson"]
 keywords: ["images"]
