@@ -13,9 +13,8 @@ keywords: ["images"]
 
 There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
 
-### Specimen images
+### Individual specimen images
 
-#### To add images individually:
 1. Log in to your account in the portal.
 2. Navigate to the Occurrence Editor page of the specimen to which you would like to add an image (My Profile > Occurrence Management > name of collection > Edit Existing Occurrence Records > conduct search for specimen)
 3. Click the Images tab.
@@ -31,9 +30,6 @@ There are three catefories of images that can be linked to a Symbiota portal. In
 {{</ notice >}}
 
 7. Click the Submit New Image button.
-
-#### To batch add images:
-Batch adding images can be facilitated in multiple ways but requires discussion with a portal manager. Contact the manager of your Symbiota portal to establish an agreeable workflow.
 
 ### Field image without location information
 
