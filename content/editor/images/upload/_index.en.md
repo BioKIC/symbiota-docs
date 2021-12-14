@@ -3,7 +3,7 @@ title: "Uploading Images"
 date: 2021-10-06
 weight: 10
 draft: false
-authors: ["Ed Gilbert","Katie Pearson"]
+authors: ["Ed Gilbert","Ben Brandt","Katie Pearson"]
 keywords: ["images"]
 ---
 
@@ -54,4 +54,11 @@ Images without specific locality information (e.g. lat/long coordinates) are lin
 8. Field images are uploaded and managed through the Taxon Profile Editing interface. Users with Taxon Profile editing permissions can submit an image by clicking on the editing symbol located in the upper right of any Taxon Profile page, or through the image submission links available on the sitemap page. Field images with specific locality details (e.g. coordinates) can be loaded as Image Vouchers (see below). 
 
 ### Image Vouchers (field images with location information)
-[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
+
+Field images with specific locality information can serve as vouchers for field observations of many birds, mammals, and easy-to-identify plants. There are, however, some taxonomic groups that typically require microscopic or chemical analysis for accurate identification (e.g. lichens, bryophytes, fungi). For such organisms, field images will have limited value. For this reason, some data portals might not allow the submission of observations without a physical specimen.
+
+It is particularly important that images intended as vouchers for an observation be of high quality and clearly display diagnostic morphology of the organism. Data fields required for an image to qualify as a voucher include: observer name, observation date, country, state, locality description, latitude, longitude, and at least one image.
+
+As is the case with images of physical specimen, Image Vouchers are displayed on both the Occurrence Details and the Taxon Profile pages. Image-supported observations can be uploaded in a General Research Observation profile. The following video describes how to gain access to and submit observations to such a collection:
+
+{{< youtube uJ1f6IPlzyk >}} 
