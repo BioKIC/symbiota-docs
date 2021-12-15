@@ -3,6 +3,7 @@ title: "Adding Taxa to Checklist"
 date: 2021-10-14
 authors: ["Neil Cobb; Katie Pearson"]
 draft: false
+weight: 10
 keywords: ["checklist","inventory","flora"]
 ---
 

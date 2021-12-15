@@ -3,6 +3,7 @@ title: "Dynamic Checklists"
 date: 2021-10-11
 authors: ["Katie Pearson"]
 draft: false
+weight: 30
 keywords: ["checklists","dynamic"]
 ---
 
