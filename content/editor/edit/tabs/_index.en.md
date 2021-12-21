@@ -17,7 +17,11 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 ![Occurrence Editor Tabs](/symbiota-docs/images/editortabs.png)
 
 Occurrence Data – See [Symbiota Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/)
+
 Determination History – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](https://biokic.github.io/symbiota-docs/editor/edit/annotations/)
+
 Images – provides information on image(s) associated with the record. See [Images](https://biokic.github.io/symbiota-docs/editor/images/)
+
 Linked Resources – allows linkage of checklists, duplicates, and genetic resources to the record
+
 Admin – tracks changes made to Edit History, allows for transfers of specimens between collections, and provides a means for deleting an occurrence record. Only users with administrative permissions can view this tab
