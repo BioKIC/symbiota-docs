@@ -15,8 +15,9 @@ While providing foundational data to the science of taxonomy, Symbiota portals a
 
 Symbiota portals are built with a taxonomic backbone so that:
 1. Users can perform searches for occurrences of a taxon, and occurrences of that taxon's synonyms will be included in the search results.
-2. Data entry personnel can select taxonomic names from a pick-list rather than typing entire Latin names.
-3. Family names and taxonomic authorships can be auto-populated for occurrences with provided taxonomic names.
+2. Taxa can be linked hierarchically so that searches for higher taxa (e.g., families) result in lists including lower taxa (e.g., species) 
+3. Data entry personnel can select taxonomic names from a pick-list rather than typing entire Latin names.
+4. Family names and taxonomic authorships can be auto-populated for occurrences with provided taxonomic names.
 
 
 ### Curation of Taxonomic Information
