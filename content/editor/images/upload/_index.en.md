@@ -8,7 +8,7 @@ keywords: ["images"]
 ---
 
 {{< notice info >}}
-  This page describes how to upload individual *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/user/images/batch_images/) page.
+  This page describes how to upload individual *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/coll_manager/images/batch/) page.
 {{</ notice >}}
 
 There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
@@ -57,4 +57,4 @@ It is particularly important that images intended as vouchers for an observation
 
 As is the case with images of physical specimen, Image Vouchers are displayed on both the Occurrence Details and the Taxon Profile pages. Image-supported observations can be uploaded in a General Research Observation profile. The following video describes how to gain access to and submit observations to such a collection:
 
-{{< youtube uJ1f6IPlzyk >}} 
+{{< youtube 4uj15JCzHg4 >}} 
