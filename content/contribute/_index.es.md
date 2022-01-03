@@ -11,7 +11,7 @@ palabras clave: ["contribuciones", "traducciones"]
 
 ## Contribuyendo con los Symbiota Docs
 
-Symbiota Docs is a collaborative effort of the Symbiota community, coordinated by the Symbiota Support Hub. We welcome and encourage all contributions.
+Los Symbiota Docs son un esfuerzo colaborativo de la comunidad de Symbiota, coordinado por el Symbiota Support Hub. Le damos la bienvenida y alentamos todas las contribuciones.
 
 ### ¿Con qué puedo contribuir?
 
@@ -31,16 +31,16 @@ Symbiota Docs is a collaborative effort of the Symbiota community, coordinated b
 {{</ faq >}}
 
 {{< faq "Si está dispuesto a aprender a manejar contenido en GitHub" >}}
-1. Set up a user account in [**GitHub**](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
-2. Familiarize yourself with [**Markdown**](https://en.wikipedia.org/wiki/Markdown). Here's a link to a nice [**cheatsheet provided by the Markdown Guide**](https://www.markdownguide.org/cheat-sheet/).
-3. Learn the basics of the Git flow on GitHub: [**forking a repository**](https://docs.github.com/en/get-started/quickstart/fork-a-repo), [**pushing**](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) and [**opening a pull request on GitHub**]((https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)).
-4. Browse the structured topics inside the `content` folder in the [**Symbiota Docs GitHub repository**](https://github.com/BioKIC/symbiota-docs).
-5. Explore the available formatting options inside the `resources/templates` directory.
-6. Optionally: contact the [**Symbiota Support Hub**](mailto:symbiota@asu.edu) indicating your intent to contribute via GitHub. We will meet with you to discuss your contributions and answer any remaining questions.
+1. Genere una cuenta de usuario en [**GitHub**](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
+2. Familiarícese con [**Markdown**](https://en.wikipedia.org/wiki/Markdown). Aquí hay un enlace a una buena [**guía rápida provista por la Guía de Markdown**](https://www.markdownguide.org/cheat-sheet/).
+3. Aprenda lo básico del flujo de trabajo Git en GitHub: [**bifurcando un repositorio (_forking_)**](https://docs.github.com/en/get-started/quickstart/fork-a-repo), [**haciendo cambios (_pushing_)**](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) y [**abriendo una solicitud de incorporación (_pull request_)**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) en GitHub.
+4. Busque los temas estructurados en el folder de `content` en el [**repositorio de Symbiota Docs en GitHub**](https://github.com/BioKIC/symbiota-docs).
+5. Explore los formatos disponibles dentro del directorio `resources/templates`.
+6. Opcionalmente: contacte al [**Symbiota Support Hub**](mailto:symbiota@asu.edu) indicando su interés de contribuir vía GitHub. Nos reuniremos con usted para discutir sus contribuciones y responder cualquier pregunta pendiente.
 {{</ faq >}}
 
-{{< faq "If you are not familiar with GitHub or unwilling to learn (don't be afraid to learn new things!)" >}}
-Send your contributions as Word or text documents to the [**Symbiota Support Hub**](mailto:symbiota@asu.edu). Make sure you include your full name so we can credit you as the author! Please include any images as separate files.
+{{< faq "Si no está familiarizado con GitHub o no está dispuesto a aprender (¡no tema aprender cosas nuevas!)" >}}
+Envíenos sus contribuciones como documentos de Word o de texto al correo del [**Symbiota Support Hub**](mailto:symbiota@asu.edu). Asegúrese de incluir su nombre completo para que podamos agregar sus créditos como autor! Por favor incluya las imágenes como archivo separados.
 {{</ faq >}}
 
 
