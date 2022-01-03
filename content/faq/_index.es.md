@@ -1,23 +1,31 @@
-+++
-title = "Preguntas Frecuentes"
+---
+title: 'Preguntas Frecuentes'
+draft: false
+---
 
-+++
-{{< faq "What is this site?" >}}
-Lorem, [link](https://examplesite.com) _ipsum_ dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "¿Qué es este sitio?" >}}
+**Symbiota Docs** es un repositorio central de documentación acerca de la instalación, uso y manejo de los portales basados en Symbiota, y los datos que contienen.
 {{</ faq >}}
 
-{{< faq "Who is writing these docs?" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "¿Quién está escribiendo estos documentos?" >}}
+La documentación proviene de la comunidad de usuarios de Symbiota y del equipo del Symbiota Support Hub.
 {{</ faq >}}
 
-{{< faq "Where can I find a list of Symbiota portals?" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "¿Dónde puedo encontral la lista de portales Symbiota?" >}}
+Una lista de portales Symbiota existentes puede ser encontrada [**aquí**](https://symbiota.org/symbiota-portals/).
 {{</ faq >}}
 
-{{< faq "I would like to use Symbiota for my collection. What should I do?" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "Me gustaría usar Symbiota para mi colección. ¿Qué debo hacer?" >}}
+1. Visite el [**listado de portales Symbiota existentes**](https://symbiota.org/docs/symbiota-introduction/active-symbiota-projects/) y determine si su colección encaja en el enfoque de alguno de los portales.
+2. Contacte al administrador del portal o al correo de ayuda del portal al que desea unirse. Si no puede encontrar esto, [**puede enviarle un correo al equipo del Symbiota Support Hub**](mailto:symbiota@asu.edu), y nosotros podemos ayudarle a contactarse con las personas adecuadas.
+3. Trabaje con el administrador del portal para crear una colección y añadir sus datos. 
+¿No ve un portal que se ajuste a sus datos? [**Contacte al Symbiota Support Hub**](mailto:symbiota@asu.edu) para más información.
 {{</ faq>}}
 
-{{< faq "How can I contribute with this Documentation project?" >}}
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto, mollitia delectus [link](https://examplesite.com) ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed temporibus, repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus. Perferendis, ipsum? Cum, reprehenderit. Sapiente atque quam vitae, magnam dolore consequatur temporibus harum odit ab id quo qui aspernatur aliquid officiis sit error asperiores eveniet quibusdam, accusantium enim recusandae quas ea est! Quaerat omnis, placeat vitae laboriosam doloremque recusandae mollitia minima!
+{{< faq "¿Cómo puedo contribuir con los Symbiota Docs?" >}}
+Damos la bienvenida y alentamos nuevas contribuciones o sugerencias para el sitio de Symbiota Docs. Por favor ver nuestra [**página de contribuciones**](https://biokic.github.io/symbiota-docs/contribute/) para mayor información.
+{{</ faq>}}
+
+{{< faq "¿A cuál versión de Symbiota aplica esta documentación?" >}}
+Por ahora, la documentación en este sitio se refiere al código central de Symbiota desarrollado en el Biodiversity Knowledge Integration Center de Arizona State University. El código central para esta versión de Symbiota puede ser encontrado en [**GitHub**](https://github.com/BioKIC/Symbiota).
 {{</ faq>}}
