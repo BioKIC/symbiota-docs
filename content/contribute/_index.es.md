@@ -1,5 +1,5 @@
 ---
-title: "Contributing"
+title: "Contribuyendo"
 date: 2021-10-06
 lastmod: 2021-10-27
 weight: 3
@@ -8,25 +8,25 @@ authors: ["Laura Rocha Prado", "Katie Pearson"]
 keywords: ["contribute", "translations"]
 ---
 
-## Contributing to the Symbiota Docs
+## Contribuyendo con los Symbiota Docs
 
 Symbiota Docs is a collaborative effort of the Symbiota community, coordinated by the Symbiota Support Hub. We welcome and encourage all contributions.
 
-### What can I contribute?
+### ¿Con qué puedo contribuir?
 
-- Minor error fixing (misspellings, formatting issues, broken link reporting)
-- Reviewing existing content
-- Creating new content or expanding existing content
-- Translating content (currently we support Spanish, French and Brazilian Portuguese)
-- Bug reporting
-- Content ideas
+- Arreglo de errores menores (errores ortográficos, problemas de formato, reportes de enlaces rotos)
+- Revisión de contenido existente
+- Creación de nuevo contenido o expansión de contenido existente
+- Traducción de contenido (actualmente contamos con español, francés y portugués brasileño)
+- Reportes de problemas
+- Ideas de contenido
 
-### How to contribute
+### Cómo contribuir
 
-{{< notice note >}}We'll be offering hands-on workshops on how to manage content in GitHub! Stay tuned.{{</ notice >}}
+{{< notice note >}}Estaremos ofreciendo talleres interactivos acerca de cómo manejar contenido en GitHub. ¡Estén atentos!{{</ notice >}}
 
-{{< faq "Technical details (for users familiar with GitHub)" >}}
-  Content on this site is open source and managed through the [**GitHub**](https://github.com/) development platform. The front-end is compiled with [**Hugo**](https://gohugo.io/). Each topic is structured in directories that include a markdown file that receives the name of `_index.<language tag>.md`. Anyone with a GitHub account can create a fork of this repository and contribute directly in the folder structure, or look for the "Edit this content on GitHub" button in the bottom of a particular page to edit its content in a new fork. To submit your contribution, please [**open a pull request**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). To submit bug reports, please open an issue in our [**GitHub repository**](https://github.com/BioKIC/symbiota-docs/). To see discussions or start a new conversation, please visit our [**Discussions tab in our GitHub repository**](https://github.com/BioKIC/symbiota-docs/discussions).
+{{< faq "Detalles técnicos (para usuarios familiarizados con GitHub)" >}}
+  El contenido en este sitio es de código abierto y manejado a través de la plataforma de desarrollo [**GitHub**](https://github.com/). La interfaz es compilada con [**Hugo**](https://gohugo.io/). Cada tema es estructurado en directorios que incluyen un archivo markdown que recibe el nombre de `_index.<language tag>.md`. Cualquiera con una cuenta en GitHub puede crear una bifurcación de este repositorio y contribuir directamente en el folder de la estructura, o bucar los botones "Editar este contenido en GitHub" en la parte inferior de una página en particular para editar el contenido en una nueva bifurcación. Para enviar sus contribuciones, por favor [**abra una solicitud de integración o _pull request_**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Para enviar reportes de problemas, por favor abra un reporte o _issue_ en nuestro [**repositorio GitHub**](https://github.com/BioKIC/symbiota-docs/). Para ver discusiones o iniciar una conversación, por favor visite nuestra [**sección de Discusiones en nuestro repositorio de GitHub**](https://github.com/BioKIC/symbiota-docs/discussions).
 {{</ faq >}}
 
 {{< faq "If you are willing to learn to manage content in GitHub" >}}
