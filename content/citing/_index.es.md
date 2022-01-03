@@ -1,10 +1,11 @@
 ---
-title: 'Citing This Website'
+title: 'Para Citar este Sitio Web'
 
 ---
 
-To cite the entire website use this snippet:
+Para citar el sitio web entero use este formato:
 {{< citation >}}
 
-To cite one particular page, you can use this template, or navigate to the bottom of the desired page and copy it from there:
+Para citar una página en particular, puede usar este modelo, o navegar a la parte inferior de la página deseada y copiarlo desde ahí:
 {{< citation-page >}}
+
