@@ -11,7 +11,7 @@ palabras clave: ["contribuciones", "traducciones"]
 
 ## Contribuyendo con los Symbiota Docs
 
-Symbiota Docs is a collaborative effort of the Symbiota community, coordinated by the Symbiota Support Hub. We welcome and encourage all contributions.
+Los Symbiota Docs son un esfuerzo colaborativo de la comunidad de Symbiota, coordinado por el Symbiota Support Hub. Le damos la bienvenida y alentamos todas las contribuciones.
 
 ### ¿Con qué puedo contribuir?
 
