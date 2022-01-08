@@ -4,9 +4,8 @@ date: 2021-10-06
 lastmod: 2022-01-03
 weight: 3
 draft: false
-autoras: ["Laura Rocha Prado", "Katie Pearson"]
-traductora: ["Samanta Orellana"]
-palabras clave: ["contribuciones", "traducciones"]
+authors: ["Laura Rocha Prado", "Katie Pearson"]
+keywords: ["contribuyendo", "traducciones"]
 ---
 
 ## Contribuyendo con los Symbiota Docs

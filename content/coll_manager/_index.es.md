@@ -1,5 +1,5 @@
 ---
-title: 'Guía para los Encargados de Colecciones'
+title: 'Guía para Encargados de Colecciones'
 date: 2021-10-22
 icon: 'ti-panel'
 weight: 3
