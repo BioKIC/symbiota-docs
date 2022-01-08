@@ -1,4 +1,4 @@
-
+---
 title: "Tipos de Manejo"
 date: 2021-12-16
 lastmod: 2021-12-16
@@ -6,6 +6,7 @@ weight: 3
 draft: false
 authors: ["Katie Pearson"]
 editors: ["Katie Pearson"]
+translators: ["Samanta Orellana"]
 keywords: ["manejo","en vivo","snapshot"]
 ---
 
