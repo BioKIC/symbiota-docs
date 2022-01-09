@@ -22,7 +22,7 @@ Los especímenes pueden ser trabajados por voluntarios si (1) tienen una imagen 
 3. Haga click en la Tabla de Crowdsourcing.
 
 {{< notice note >}}
-  ¿No ve la tabla de Crowdsourcing? El crowdsourcing puede no estar habilitado para su portal. Contacte al administrador del portal para más información.
+  ¿No ve una pestaña de Crowdsourcing? La opción de crowdsourcing puede no estar habilitada en su portal. Contacte al administrador de su portal para más información.
 {{</ notice >}}
 
 4. En la página resultante, verá conteos de cuántos registros están en la lista de espera, cuántos han sido procesados, y cuántos han sido sido añadidos a la lista de espera. Haga click en el botón de Añadir a la Lista de Espera para ver opciones adicionales para refinar cuáles especímenes quiere incluir en la lista (mostrado en la imagen de abajo).
