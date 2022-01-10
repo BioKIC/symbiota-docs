@@ -1,5 +1,5 @@
 ---
-title: "Estadísticas de las Collecciones"
+title: "Estadísticas de las Colecciones"
 date: 2021-11-30
 authors: ["Katie Pearson"]
 weight: 4
