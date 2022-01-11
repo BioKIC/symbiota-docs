@@ -8,7 +8,7 @@ title = "Symbiota Docs"
 # disable language
 # disableLanguages = []
 # google analytics
-googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+googleAnalytics = "G-MPX39Z5FZQ"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
@@ -147,27 +147,24 @@ hasChildren = true
   weight = 3
 
 
-
-
 ################################ Spanish Language ######################
 [Languages.es]
 languageName = "Es"
 languageCode = "es"
 weight = 2
-#copyright = "Hecho con \u2665 por [Laura](https://laura.rochaprado.com/)"
 copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.es.params.banner]
-title = "Guía de Consulta de Symbiota"
-subtitle = "Un archivo creciente de artículos de referéncia para uno de los más populares sistema de gerencia de contenidos de Historia Natural"
+title = "Documentación de Symbiota"
+subtitle = "Un archivo creciente de documentos de ayuda para uno de los sistemas de manejo de contenido de Historia Natural más populares"
 bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
-placeholder = "Términos de búsqueda aquí"
+placeholder = "Busque contenido aquí"
 
 # call to action
 [Languages.es.params.cta]
 enable = true
-title = "¿Aún necesitas ayuda?"
+title = "¿Aún necesita ayuda?"
 content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
 
 # call to action button
@@ -179,12 +176,12 @@ link = "contact"
 
 ################## spanish navigation #################
 [[Languages.es.menu.main]]
-name = "Início"
+name = "Inicio"
 url = "/"
 weight = 1
 
 [[Languages.es.menu.main]]
-name = "About"
+name = "Acerca De"
 url = "about"
 weight = 2
 
@@ -194,7 +191,7 @@ url = "faq"
 weight = 3
 
 [[Languages.es.menu.main]]
-name = "Citing The Docs"
+name = "Citando los Documentos"
 url = "citing"
 weight = 4
 
@@ -203,23 +200,40 @@ name = "Contáctenos"
 url = "contact"
 weight = 5
 
+[[Languages.es.menu.main]]
+name = "Contribuyendo"
+url = "contribute"
+weight = 6
+
 # Dropdown menu
 [[Languages.es.menu.main]]
-weight = 6
+weight = 7
 name = "docs"
 hasChildren = true
 
   [[Languages.es.menu.main]]
   parent = "docs"
-  name = "Developer Guide"
+  name = "Guía para Desarrolladores"
   url = "dev"
-  weight = 2
+  weight = 4
 
   [[Languages.es.menu.main]]
   parent = "docs"
-  name = "User Guide"
+  name = "Guía para Usuarios"
   url = "user"
   weight = 1
+
+  [[Languages.es.menu.main]]
+  parent = "docs"
+  name = "Guía para Editores"
+  url = "editor"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Guía para Encargados de Colleciones"
+  url = "coll_manager"
+  weight = 3
 
 ################################### Franch Language ######################
 [Languages.fr]
