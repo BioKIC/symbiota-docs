@@ -67,7 +67,7 @@ keywords: ["data upload","data import","file upload","IPT"]
 
 ### Script Upload
 
-1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](http://symbiota.org/docs/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
+1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](https://symbiota.org/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
 2. Set up the script to run as a regular cronjob.
 
 ## Uploading Tips
