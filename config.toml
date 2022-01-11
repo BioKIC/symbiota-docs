@@ -107,7 +107,7 @@ url = "citing"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "contact"
+name = "Contact"
 url = "contact"
 weight = 5
 
@@ -119,29 +119,29 @@ weight = 6
 # Dropdown menu
 [[Languages.en.menu.main]]
 weight = 7
-name = "docs"
+name = "Docs"
 hasChildren = true
 
   [[Languages.en.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Developer Guide"
   url = "dev"
   weight = 4
 
   [[Languages.en.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "User Guide"
   url = "user"
   weight = 1
 
   [[Languages.en.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Editor Guide"
   url = "editor"
   weight = 2
 
   [[Languages.en.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Collection Manager Guide"
   url = "coll_manager"
   weight = 3
@@ -208,29 +208,29 @@ weight = 6
 # Dropdown menu
 [[Languages.es.menu.main]]
 weight = 7
-name = "docs"
+name = "Docs"
 hasChildren = true
 
   [[Languages.es.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Guía para Desarrolladores"
   url = "dev"
   weight = 4
 
   [[Languages.es.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Guía para Usuarios"
   url = "user"
   weight = 1
 
   [[Languages.es.menu.main]]
-  parent = "docs"
+  parent = "Docs"
   name = "Guía para Editores"
   url = "editor"
   weight = 2
 
-  [[Languages.en.menu.main]]
-  parent = "docs"
+  [[Languages.es.menu.main]]
+  parent = "Docs"
   name = "Guía para Encargados de Colleciones"
   url = "coll_manager"
   weight = 3
