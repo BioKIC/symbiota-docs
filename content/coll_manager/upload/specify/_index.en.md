@@ -1,5 +1,5 @@
 ---
-title: "Importing from Specify into Specify"
+title: "Importing from Symbiota into Specify"
 date: 2021-12-16
 weight: 35
 draft: true
