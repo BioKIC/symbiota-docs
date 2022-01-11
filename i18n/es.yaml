@@ -3,3 +3,24 @@
 
 - id: enviar
   translation: enviar
+
+- id: and
+  translation: "y"
+
+- id: content_by
+  translation: Contenido por
+
+- id: reviewed_by
+  translation: Revisado por
+
+- id: translated_by
+  translation: Traducido por
+
+- id: created_on
+  translation: Creado en 
+
+- id: edited_on
+  translation: editado por última vez el
+
+- id: cite_page
+  translation: Cita esta página
