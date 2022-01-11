@@ -5,6 +5,7 @@ weight: 3
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["crowdsourcing","voluntario","ciencia ciudadana","ciencia comunitaria"]
+translators: ["Samanta Orellana"]
 ---
 
 {{< notice info >}}

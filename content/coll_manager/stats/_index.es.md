@@ -4,6 +4,7 @@ date: 2021-11-30
 authors: ["Katie Pearson"]
 weight: 4
 keywords: ["estadísticas","número de especímenes","reportes"]
+translators: ["Samanta Orellana"]
 ---
 
 {{< notice info >}}

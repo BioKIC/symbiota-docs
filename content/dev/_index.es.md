@@ -6,6 +6,7 @@ draft: false
 description: 'Aprender a editar y desarrollar el código de Symbiota'
 type: 'docs'
 authors: ['Laura Rocha Prado']
+translators: ["Samanta Orellana"]
 ---
 
 ¡Muy pronto!

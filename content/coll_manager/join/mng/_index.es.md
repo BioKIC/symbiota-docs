@@ -8,6 +8,7 @@ authors: ["Katie Pearson"]
 editors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
 keywords: ["manejo","en vivo","snapshot"]
+translators: ["Samanta Orellana"]
 ---
 
 Existen dos tipos principales en los que las colecciones pueden presentar sus datos en los portales Symbiota: **en vivo** o como una **snapshot** (imagen o copia).

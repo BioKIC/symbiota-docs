@@ -7,6 +7,7 @@ draft: false
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
 keywords: ["join","contribute"]
+translators: ["Samanta Orellana"]
 ---
 
 Haga click en el botón de abajo para encontrar una lista de los portales Symbiota activos. Querrá seleccionar un portal Symbiota que se ajuste al alcance de sus datos. Puede agregar sus datos a un portal Symbiota como una colección "en vivo" o una "imagen" (_snapshot_) (ver [esta página](https://biokic.github.io/symbiota-docs/coll_manager/join/mng) para más información acerca del tipos de manejo en portales Symbiota).

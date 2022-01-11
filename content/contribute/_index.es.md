@@ -6,6 +6,7 @@ weight: 3
 draft: false
 authors: ["Laura Rocha Prado", "Katie Pearson"]
 keywords: ["contribuyendo", "traducciones"]
+translators: ["Samanta Orellana"]
 ---
 
 ## Contribuyendo con los Symbiota Docs

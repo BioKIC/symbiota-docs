@@ -4,6 +4,7 @@ date: 2021-11-22
 draft: false
 weight: 5
 authors: ["Katie Pearson"]
+translators: ["Samanta Orellana"]
 keywords: ["comentarios"]
 ---
 

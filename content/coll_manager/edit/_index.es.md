@@ -5,6 +5,7 @@ weight: 60
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["editando"]
+translators: ["Samanta Orellana"]
 ---
 
 Instrucciones generales para editar registros pueden ser encontradas en la [Guía para Editores](https://biokic.github.io/symbiota-docs/es/editor/edit/).

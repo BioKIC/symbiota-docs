@@ -6,6 +6,7 @@ weight: 3
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["crowdsourcing","voluntarios"]
+translators: ["Samanta Orellana"]
 ---
 
 {{< notice info >}}
