@@ -9,7 +9,7 @@ keywords: ["data cleaning","duplicates"]
 
 
 {{< notice info >}}
-  This page describes how to identify and merge (when necessary) specimens with duplicate catalog nubmers or other catalog numbers.
+  This page describes how to identify and merge (when necessary) specimens with duplicate catalog numbers or other catalog numbers.
 {{</ notice >}}
 
 This tool can be found in the Administration Control Panel (My Profile > Occurrence Management > name of collection).
