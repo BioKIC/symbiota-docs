@@ -116,6 +116,7 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 {{< dwc-term id="substrate" verbatim="Substrate" descr="The substrate on which the specimen was collected. Mostly used for lichen and bryophyte specimens." ex="On basalt, trunk of oak" obs="Darwin Core lumps this information into habitat." >}}
 
 {{< dwc-term id="associatedTaxa" verbatim="Associated Taxa" descr="A list of the names of other species occurring with the collected specimen." ex="Quercus, Arctostaphylos, Ceanothus, Rhus, Eriogonum, Salvia" dwc="associatedTaxa" >}}
+* In MycoPortal, this is also the field where "host" information is stored. See [this comment for instructions](https://github.com/BioKIC/symbiota-docs/issues/36#issuecomment-1015733243).
 
 {{< dwc-term id="verbatimAttributes" verbatim="Description" descr="A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process." ex="Shrub 3 m tall, corolla yellow" >}}
 
