@@ -5,7 +5,7 @@ lastmod: 2022-01-03
 icon: 'ti-marker-alt'
 weight: 2
 authors: ["Katie Pearson","Laura Rocha Prado"]
-description: "Aprender a editar, manejar, importar y exportar datos en portales Symbiota"
+description: "Aprenda a editar, manejar, importar y exportar datos en portales Symbiota"
 type: 'docs'
 ---
 
