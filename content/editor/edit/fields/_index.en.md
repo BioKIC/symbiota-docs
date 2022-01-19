@@ -101,9 +101,9 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="verbatimDepth" verbatim="Verbatim Depth" descr="The original verbatim description of the depth below the local surface at which the specimen was collected." ex="100ft, 100 feet, ca 100', ca 30m, 100' +-10'" dwc="verbatimDepth" >}}
 
-{{< dwc-term id="georeferencedBy" verbatim="Georeferenced By" descr="The name of the person who georeferenced the specimen record. This field autofills when using GeoLocate for georeferencing." ex="emakings, acbarber" dwc="georeferencedBy" >}}
+{{< dwc-term id="georeferencedBy" verbatim="Georeferenced By" descr="The name of the person who georeferenced the specimen record. This field autofills when using GeoLocate for georeferencing." ex="A. Gonzales, emakings, acbarber" dwc="georeferencedBy" >}}
 
-{{< dwc-term id="georeferenceProtocol" verbatim="Georeference Protocol" descr="The source of the standards used to georeference." ex="Guide to Best Practices for Georeferencing. Chapman &amp; Wieczorek, 2006." dwc="georeferenceProtocol" >}}
+{{< dwc-term id="georeferenceProtocol" verbatim="Georeference Protocol" descr="The source of the standards used to georeference." ex="Georeferencing Quick Guide. Zermoglio et al. 2020" dwc="georeferenceProtocol" >}}
 
 {{< dwc-term id="georeferenceSources" verbatim="Georeference Sources" descr="The tool or tools used to georeference." ex="GeoLocate, Google Earth, USGS map" dwc="georeferenceSources" >}}
 
@@ -124,15 +124,15 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="dynamicProperties" verbatim="Dynamic Properties" descr="A list of additional measurements, facts, characteristics, or assertions about the specimen in a format that allows programmatic parsing of the data. See the Darwin Core link below for further details." ex="awnLengthInMeters=0.014, heightInMeters=1.5, relativeHumidity=28, airTemperatureInC=22" dwc="dynamicProperties" >}}
 
-{{< dwc-term id="lifeStage" verbatim="Life Stage" descr="Typically used for zoological collections." dwc="lifeStage" >}}
+{{< dwc-term id="lifeStage" verbatim="Life Stage" descr="The age or stage of the organism at the time of collection/observation. Typically used for zoological collections." ex="larva, juvenile" dwc="lifeStage" >}}
 
-{{< dwc-term id="sex" verbatim="Sex" descr="Typically used for zoological collections." dwc="sex" >}}
+{{< dwc-term id="sex" verbatim="Sex" descr="The biological sex of the occurrence." ex="female, male" dwc="sex" >}}
 
-{{< dwc-term id="individualCount" verbatim="Individual Count" descr="Typically used for zoological collections." dwc="individualCount" >}}
+{{< dwc-term id="individualCount" verbatim="Individual Count" descr="The number of individuals represented by the occurrence" ex="2, 15" dwc="individualCount" >}}
 
-{{< dwc-term id="samplingProtocol" verbatim="Sampling Protocol" descr="Typically used for zoological collections." dwc="samplingProtocol" >}}
+{{< dwc-term id="samplingProtocol" verbatim="Sampling Protocol" descr="The names and references to methods used to collect or sample an occurrence" ex="UV light trap, mist net, Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf" dwc="samplingProtocol" >}}
 
-{{< dwc-term id="preparations" verbatim="Preparations" descr="Typically used for zoological collections." dwc="preparations" >}}
+{{< dwc-term id="preparations" verbatim="Preparations" descr="Preparation or preservation method for a specimen" ex="in ethanol, skeleton" dwc="preparations" >}}
 
 {{< dwc-term id="reproductiveCondition" verbatim="Phenology (Reproductive Condition)" descr="The reproductive stage the specimen is in. Typically used for plant and fungal collections." ex="flower, fruit, sterile" dwc="reproductiveCondition" >}}
 
@@ -140,13 +140,19 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="isCultivated" verbatim="Cultivated Checkbox" descr="Check when the organism was established with the aid of humans and would not be able to exist on their own. This true/false field enables the ability to filter non-native or naturalized species." obs="Not currently exported in DwC format.">}}
 
-{{< dwc-term id="typeStatus" verbatim="Type Status" descr="Whether or not the specimen is a type, and if so, the type designation." ex="HOLOTYPE, ISOTYPE, PARATYPE" dwc="typeStatus" >}}
+{{< dwc-term id="typeStatus" verbatim="Type Status" descr="The type designation of a specimen, if it is a type specimen" ex="HOLOTYPE, ISOTYPE, PARATYPE" dwc="typeStatus" >}}
 
-{{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan" dwc="disposition" >}}
+{{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan, cone collection" dwc="disposition" >}}
 
-{{< dwc-term id="occurrenceID" verbatim="Occurrence Id" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world." ex="DUKE-B-3456673, BRY-L-453584" dwc="occurrenceID" >}}
+{{< dwc-term id="occurrenceID" verbatim="Occurrence Id" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
 
 {{< dwc-term id="fieldNumber" verbatim="Field Number" dwc="fieldNumber" >}}
+
+{{< dwc-term id="ownerInstitutionCode" verbatim="Owner Code" descr="The acronym of the owning institution. Only enter a value if the owning institution is different than what was entered when the metadata for the collection institution was added to the portal." ex="NPS, Forest Service" dwc="ownerInstitutionCode" >}}
+
+{{< dwc-term id="basisOfRecord" verbatim="Basis of Record" descr="The type of record the specimen is classified as. For physical collections, this field defaults to “PreservedSpecimen” (aka herbarium specimen) and for observation projects, the default is “Observation”." ex="PreservedSpecimen, LivingSpecimen, Observation" dwc="basisOfRecord" >}}
+
+{{< dwc-term id="language" verbatim="Language" descr="The language of the label information" ex="English, Spanish, Portuguese" dwc="language" >}}
 
 {{< dwc-term id="processingStatus" verbatim="Processing Status" descr="The status of the digital record. This field is used for internal data management and review. The values used are dictated by the specific workflow of each institution." >}}
 
