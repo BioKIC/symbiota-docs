@@ -33,3 +33,7 @@ First, you’ll need to create an account in the portal for which you will be cr
 5. Transcribe the record as instructed.
 
 _This material is based upon work supported by the National Science Foundation under Grant Numbers 2001500, 2001509, 2001394, 2001422, 2001427, 2001431, 2001299, 2001354, 2001288, and 2001345. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation._
+
+Additional resources about crowdsourcing in a Symbiota portal can be found below:
+* [Transcription Guide for the Mid-Atlantic Megalopolis project](https://www.mamdigitization.org/_files/ugd/6f7156_68c677d23b9748f8a9729827cd0cb6e6.pdf)
+* [Intro to Crowdsourcing for the GLOBAL project](https://youtu.be/cKHnaYzvI8E)
