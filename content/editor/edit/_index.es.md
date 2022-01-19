@@ -9,7 +9,7 @@ keywords: ["editar","cambiar","formulario de búsqueda de registros"]
 ---
 
 {{< notice info >}}
-  Esta página provee instrucciones acerca de como buscar y editar registros..
+  Esta página provee instrucciones acerca de como buscar y editar registros.
 {{</ notice >}}
 
 * Para editar registros por lote (únicamente disponible para administradores de colecciones), visite [esta página](https://biokic.github.io/symbiota-docs/es/coll_manager/edit/batch/).

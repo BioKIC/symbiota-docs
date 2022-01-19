@@ -165,7 +165,7 @@ placeholder = "Busque contenido aquí"
 [Languages.es.params.cta]
 enable = true
 title = "¿Aún necesita ayuda?"
-content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+content = ""
 
 # call to action button
 [Languages.es.params.cta.button]
@@ -231,7 +231,7 @@ hasChildren = true
 
   [[Languages.es.menu.main]]
   parent = "Docs"
-  name = "Guía para Encargados de Colleciones"
+  name = "Guía para Encargados de Colecciones"
   url = "coll_manager"
   weight = 3
 

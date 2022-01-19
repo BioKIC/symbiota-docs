@@ -3,7 +3,7 @@ title: 'Guía para Encargados de Colecciones'
 date: 2021-10-22
 icon: 'ti-panel'
 weight: 3
-description: 'Aprender a limpiar datos, editar permisos, subir datos, y realizar otras funciones administrativas.'
+description: 'Aprenda a limpiar datos, editar permisos, subir datos, y realizar otras funciones administrativas.'
 type: 'docs'
 ---
 
