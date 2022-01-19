@@ -3,7 +3,7 @@ title: 'Guía para Usuarios'
 date: 2022-01-03
 icon: 'ti-search'
 weight: 1
-description: 'Aprender a acceder, ver y descargar datos y listados de especies.'
+description: 'Aprenda a acceder, ver y descargar datos y listados de especies.'
 type: 'docs'
 ---
 
