@@ -12,3 +12,6 @@ A research checklist is a list of taxa for a certain region or use (e.g., a teac
 Checklists may be documented by voucher specimens, which may be in several different collections. The checklist tool enables linking to voucher specimens, if they are available online, or simply listing their catalog number if not. The voucher tool also enables tracking new potential voucher specimens and re-identification of existing vouchers.
 
 {{< youtube YwBC-52j6Ps >}}
+
+Additional resources about creating checklists in association with a floristics project can be found below:
+* [Mid-Atlantic Megalopolis Creating a Flora](https://www.mamdigitization.org/_files/ugd/6f7156_e81b7b8abc6746b9af680bad1d60911a.pdf)
