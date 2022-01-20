@@ -10,7 +10,7 @@ keywords: ["join","contribute"]
 translators: ["Samanta Orellana"]
 ---
 
-Haga click en el botón de abajo para encontrar una lista de los portales Symbiota activos. Querrá seleccionar un portal Symbiota que se ajuste al alcance de sus datos. Puede agregar sus datos a un portal Symbiota como una colección "en vivo" o una "imagen" (_snapshot_) (ver [esta página](https://biokic.github.io/symbiota-docs/coll_manager/join/mng) para más información acerca del tipos de manejo en portales Symbiota).
+Haga click en el botón de abajo para encontrar una lista de los portales Symbiota activos. Querrá seleccionar un portal Symbiota que se ajuste al alcance de sus datos. Puede agregar sus datos a un portal Symbiota como una colección "en vivo" o una "imagen" (_snapshot_) (ver [esta página](https://biokic.github.io/symbiota-docs/es/coll_manager/join/mng/) para más información acerca del tipos de manejo en portales Symbiota).
 
 {{< button href="https://symbiota.org/symbiota-portals/" text="List of Symbiota Portals" >}}
 
@@ -18,7 +18,7 @@ Una vez haya identificado el portal Symbiota existente en el cual quiera publica
 
 Puede publicar datos en más de un portal; sin embargo, es recomendable que maneje solamente una colección en vivo en uno de los portales Symbiota, y las colecciones en el resto de portales sean imágenes (_snapshots_) de los datos originales. Diferentes colecciones (p.e., plantas vasculares vs. líquenes vs. briofitas) pueden ser manejadas en vivo en sus respectivos portales.
 
-Típicamente, el administrador del portal necesitará la información en el siguiente listado para iniciar su colección dentro del portal. Una vez la colección haya sido añadida, los datos pueden ser cargados. Vea la página de [Subir Datos de Especímenes](https://biokic.github.io/symbiota-docs/coll_manager/upload/) para detalles acerca de métodos y formatos de datos aceptables para subir especímenes.
+Típicamente, el administrador del portal necesitará la información en el siguiente listado para iniciar su colección dentro del portal. Una vez la colección haya sido añadida, los datos pueden ser cargados. Vea la página de [Subir Datos de Especímenes](https://biokic.github.io/symbiota-docs/es/coll_manager/upload/) para detalles acerca de métodos y formatos de datos aceptables para subir especímenes.
 
 Información necesaria para crear una nueva colección dentro de un portal:
 
