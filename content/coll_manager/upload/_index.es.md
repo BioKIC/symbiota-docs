@@ -3,7 +3,7 @@ title: "Importando y Subiendo Datos"
 date: 2021-10-07
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
-translators: ["Katie Pearson"]
+translators: ["Samanta Orellana"]
 weight: 150
 keywords: ["subir datos","importar datos","subir archivos","IPT"]
 ---
@@ -47,29 +47,29 @@ keywords: ["subir datos","importar datos","subir archivos","IPT"]
 
 ![Ejemplo del Módulo de Carga de Datos](/symbiota-docs/images/DataUploadModule.png)
 
-8. Select which fields in your CSV file (**Source Fields**) will correspond to which fields in the Symbiota portal (**Target Fields**). Check the [Symbiota Data Field Guide](http://symbiota.org/docs/symbiota-occurrence-data-fields-2/) for definitions of each data field. Also see the **Uploading Tips** section below.
-9. Once you are satisfied with your field-to-field mapping (see next Notes), click the “Save Mapping” button.
-10. Select whether you would like the script to match the data in your file to existing data in the portal based on Catalog Number or Other Catalog Numbers. You will only need to do this if you are adding data to records that already exist in the portal. Otherwise, leave these unchecked.
-11. Select the Processing Status that you would like to apply to all your uploaded records (if desired) by selecting an option from the dropdown menu.
-12. Click the Start Upload button. This will upload your data into a *temporary* table so you can review it before committing the final upload.
-13. Verify that the correct number of records are being updated and/or added by viewing the Pending Data Transport Report on the next page.
+8. Seleccione cuáles campos en su archivo CSV (**Campos Originarios** o _Source Fields_) corresponden con cuáles campos en el portal Symbiota portal (**Campos Destino** o _Target Fields_). Revise la [Guía de Campos de Datos de Symbiota](http://symbiota.org/docs/es/symbiota-occurrence-data-fields-2/) para definiciones de cada campo de datos. También vea la sección **Tips para la Carga de Datos** abajo.
+9. Una vez que esté satisfecho con su mapeo de campo a campo (ver las siguientes Notas), haga click en el botón "Guardar Mapeo".
+10. Seleccione si le gustaría que el script haga coincider los datos de su archivo con datos existentes en el portal basado en el Número de Catálogo o en Otros Números de Catálogo. Solamente necesita hacer esto si está añadiendo tados a registros que ya existan en el portal. De otra forma, déjelo sin marcar.
+11. Seleccione el Estado de Procesamiento que le gustaría aplicar a todos los registros cargados (si lo desea) seleccionando la opción del menú desplegable.
+12. Haga click en el botón de Iniciar Carga. Esto cargará sus datos en una tabla _temporal_ para que usted pueda revisarla antes de realizar la carga final.
+13. Verifique que el número correcto de registros están siendo actualizados y/o añadidos, viendo el Reporte de Datos Pendientes de Transferir en la página siguiente.
 
-![Screenshot of Pending Data Transfer Report](/symbiota-docs/images/PendingDataTransport.png)
+![Captura de pantalla del Reporte de Datos Pendientes de Transferir](/symbiota-docs/images/PendingDataTransport.png)
 
-14. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You can either:
-    * Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.
-    * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
-15. If anything is incorrect, fix your CSV file and re-upload it according to the steps you followed above, or return to your field mapping and fix the field mapping. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
+14. Vea los datos que han sido almacenados en la tabla temporal para asegurarse que mapeó y configuró los campos que desea subir, de manera adecuada. Puede ya sea:
+    * Hacer click en el ícono pequeño de caja a la derecha de "Registros para ser actualizados" o "Nuevos registros" para ver los registros en una tabla en su navegador.
+    * Haga click en el ícono de archivos múltiples, a la derecha del ícono de caja, para descargar el archivo CSV de los registros que van a ser cargados o de los nuevos registros.
+15. Si algo es incorrecto, corrija su archivo CSV y vuelva a subirlo siguiendo los pasos de arriba, o regrese a la ventana de mapeo y corrija los campos que fueron mapeados. Si todo se ve bien, haga click en el botón Transferir Registros a la Tabla Central de Especímenes. **¡Note que este paso es final y no es posible deshacerlo!**
 
 ### Procedimiento Almacenado
 
-1. Write a stored procedure used to transfer records (the collection cleanup scripts can be put in central stored procedure or kept separate)
-2. Set up the script to run as a regular cronjob.
+1. Escriba un procedimiento almacenado utilizado para transferir registros (los scripts de limpieza de la colección pueden ser agregados en un proceso almacenado central para mantenerlos separados).
+2. Configure el script para correrlo como un cronjob regular.
 
 ### Carga de Script
 
-1. Write a stored procedure used to transfer records. A sample Linux script is located here: [SampleSystemUpload.sh](https://symbiota.org/wp-content/uploads/SampleSystemUpload.sh). The cleanup scripts can be put in central stored procedure or kept separate.
-2. Set up the script to run as a regular cronjob.
+1. Escriba un procedimiento almacenado utilizado para transferir registros. Un script de ejemplo en Linux está ubicado aquí: [SampleSystemUpload.sh](https://symbiota.org/wp-content/uploads/SampleSystemUpload.sh). Los scripts de limpieza pueden ser colocados en un procedimiento almacenado central o mantenerse separados.
+2. Configure el script para correrlo como un cronjob regular.
 
 ## Consejos para Subir Datos
 
@@ -77,14 +77,13 @@ keywords: ["subir datos","importar datos","subir archivos","IPT"]
   Una lista de campos que pueden ser importados a un portal de datos Symbiota puede ser [encontrado aquí](https://biokic.github.io/symbiota-docs/es/coll_manager/upload/fields/).
 {{</ notice >}}
 
-* If the scientific names in your CSV file include taxonomic authorship (e.g., *Acer circinatum* Pursh), map this field to the Target Field “scientificname.” If the scientific names included in your CSV file do NOT include taxonomic authorship (e.g., *Acer circinatum*), map this field to “sciname.” 
-* Collection dates mapped to eventDate will be evaluated and validated. Illegal dates will be placed in the verbatimEventDate field. The majority of the standard date formats are accepted, including Gregorian dates and Excel numeric date format (US only).
-eventDate will be generated from separate year,month, and day field values. If month or day fields are left null, ’00’ values will be used (ex: 1954-03-00, 1965-00-00). Month field values can be numeric or text (English or Spanish).
-* Scripts attempt to extract valid date values from verbatimEventDate field when the eventDate field is null. Values of ’00’ are used for missing month or day (ex: 1954-03-00, 1965-00-00)
-* If your elevation field is not consistently in meters, map it to the verbatimElevation field. Elevations in feet will be converted to meters as long as the units are specified in the field.
-* Coordinate values:
-  * Upon upload, background scripts will attempt to extract lat/long coordinate values from the verbatimCoordinates field. The field is evaluated for DMS and UTM formats, which are converted to decimal latitude and longitude.
-  * If you have lat/long in a single field, you can map this field to verbatimCoordinates, and decimal latitude and longitude fields will be automatically parsed.
-  * If you have UTM coordinates in multiple fields, map the fields (northing, easting, zone) to their matching UTM fields (utmnorthing, utmeasting, utmzone). This will instigate conversion of UTM coordinates to decimal latitude and longitude. The values will additionally be stored in the verbatiumCoordinates field.
-  * If you have UTM coordinates in a single field, map this field to utmnorthing and leave other UTM fields null in order to direct scripts to parse using only the UTM parser.
-  * TRS coordinates (Public Lands Survey System) can be entered as a single field into verbatimCoordinates, or into separate fields (trstownship, trsrange, trssection, trssectiondetails); however, these coordinates will not be automatically converted into decimal degrees due to potential differences in interpretation. See the georeferencing section of this guide (coming soon) for information about converting TRS coordinates to decimal degrees.
+* Si los nombres científicos en su archivo CSV incluyen autoridades taxonómicas (e.g., *Acer circinatum* Pursh), mapee este campo al Campo Destino “scientificname.” Si el nombre científico en su CSV NO incluye autoridades taxonómicas, mapee este campo a “sciname.” 
+* Las fechas de colecta mapeadas a eventDate serán evaluadas y validadas. Fechas incompatibles serán transferidas al campo verbatimEventDate. La mayoría de los formatos estándar de fecha son aceptados, incluyendo fechar gregorianas y el formato de fecha de Excel (únicamente para Estados Unidos). eventDate será generado de valores separados en los campos year,month, y day. Si los campos de mes o día son dejados en blanco, los valores ’00’ serán usados (ex: 1954-03-00, 1965-00-00). Los valores del campo de mes pueden ser numéricos o de texto (inglés o español).
+* Los scripts intentan extraer valores válidos de fechas a partir del campo verbatimEventDate cuando el campo eventDate es nulo. Los valores de ’00’ son usados para días o meses faltantes (ex: 1954-03-00, 1965-00-00)
+* Si los valores del campo de elevación no están consistentemente en metros, serán mapeados al campo verbatimElevation. Las elevaciones en pies serán convertidas a metros mientras las unidades estén especificadas en el campo.
+* Valores de coordenadas:
+  * Al cargar datos, los scripts de fondo intentarán extraer los valores lat/long de las coordenadas a partir del campo verbatimCoordinates. El campo es evaluado por formatos DMS y UTM, los cuales son convertidos a latitude y longitude decimal.
+  * Si tiene lat/long en un sólo campo, puede mapear este campo a verbatimCoordinates, y los valores de latitud y longitud decimal serán analizados automáticamente.
+  * Si tiene coordenadas UTM en múltiples campos, mapee los campos (norte, este, zona) a sus campos correspondientes en UTM (utmnorthing, utmeasting, utmzone). Esto va a propiciar la conversión de coordenadas a latitud y longitud decimal. Los valores serán almacenados adicionalmente en el campo verbatimCoordinates.
+  * Si tiene coordenadas UTM en un solo campo, mapee este campo a utmnorthing y deje otros campos UTM como nulos para dirigir a los scripts para analizar usando únicamente el analizador de UTM. 
+  * Las coordenadas TRS (Public Lands Survey System) pueden ser ingresadas como un sólo campo en verbatimCoordinates, o en campos separados (trstownship, trsrange, trssection, trssectiondetails); sin embargo, estas coordenadas no serán convertidas automáticamente en grados decimales debido a las potenciales diferencias de interpretación. Ver la sección de georreferencias en esta guía (muy pronto) para más información acerca de convertir coordenadas TRS en grados decimales.
