@@ -1,5 +1,5 @@
 ---
-title: "Data Import Fields"
+title: "Campos de Importación de Datos"
 date: 2021-10-22
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
