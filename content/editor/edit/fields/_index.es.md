@@ -164,67 +164,67 @@ Ver Darwin Core <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" targ
 
 ### Paleontology Fields
 
-<a id="eon"><b>Eon:</b></a> The longest geologic time intervals.
+<a id="eon"><b>Eon:</b></a> El intervalo de tiempo geológico más grande.
 Ex: Archean, Proterozoic, Phanerozoic
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem" target="_blank" rel="noopener noreferrer">earliestEonOrLowestEonothem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem" target="_blank" rel="noopener noreferrer">latestEonOrHighestEonothem</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem" target="_blank" rel="noopener noreferrer">earliestEonOrLowestEonothem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem" target="_blank" rel="noopener noreferrer">latestEonOrHighestEonothem</a>
 
-<a id="era"><b>Era:</b></a> A subdivision of an eon that is a shorter interval of geologic time.<br>
+<a id="era"><b>Era:</b></a> Una subdivisión de eon que representa un intervalo de tiempo geológico más corto.<br>
 Ex: Paleozoic, Mesozoic, Cenozoic.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem" target="_blank" rel="noopener noreferrer">earliestEraOrLowestErathem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem" target="_blank" rel="noopener noreferrer">latestEraOrHighestErathem</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem" target="_blank" rel="noopener noreferrer">earliestEraOrLowestErathem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem" target="_blank" rel="noopener noreferrer">latestEraOrHighestErathem</a>
 
-<a id="period"><b>Period:</b></a> A subdivision of an era that is a shorter interval of geologic time.<br>
+<a id="period"><b>Período:</b></a> Una subdivisión de era, que representa un intervalo de tiempo geológico más corto.<br>
 Ex: Ordovician, Silurian, Devonian, Carboniferous, Mississippian, Pennsylvanian, Permian, Triassic, Jurassic, Cretaceous, Paleogene, Neogene, Quaternary.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem" target="_blank" rel="noopener noreferrer">earliestPeriodOrLowestSystem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem" target="_blank" rel="noopener noreferrer">latestPeriodOrHighestSystem</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem" target="_blank" rel="noopener noreferrer">earliestPeriodOrLowestSystem</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem" target="_blank" rel="noopener noreferrer">latestPeriodOrHighestSystem</a>
 
-<a id="epoch"><b>Epoch:</b></a> A subdivision of a period that is a shorter interval of geologic time.<br>
+<a id="epoch"><b>Época:</b></a> Una subdivisión de período que representa un intervalo de tiempo geológico más corto.<br>
 Ex: Lower, Middle, Upper Ordovician; Wenlock; Pridoli; Lower, Middle, Upper Devonian; Lower, Middle, Upper Mississippian; Lower, Middle, Upper Pennsylvanian; Cisuralian; Lower, Middle, Upper Jurassic; Lower, Upper Cretaceous; Paleocene; Eocene; Oligocene; Miocene; Pliocene; Pleistocene; Holocene.<br>
-The Epoch field is currently being recorded using Series, the chronostratigraphic units.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries" target="_blank" rel="noopener noreferrer">earliestEpochOrLowestSeries</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries" target="_blank" rel="noopener noreferrer">latestEpochOrHighestSeries</a>
+El campo de Época está registrado actualmente utilizado Serie, las unidades cronoestratigráficas.<br>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries" target="_blank" rel="noopener noreferrer">earliestEpochOrLowestSeries</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries" target="_blank" rel="noopener noreferrer">latestEpochOrHighestSeries</a>
 
-<a id="stage"><b>Stage:</b></a> The chronostratigraphic term given to the succession of rock strata laid down in a single geochronologic age.<br>
+<a id="stage"><b>Etapa:</b></a> Término cronoestratigráfico dado a la sucesión de estratos de roca depositados en una sola edad geocronológica.<br>
 Ex: Lochkovian, Emsian, Eifelian, Givetian, Frasnian, Tournaisian, Serpukhovian, Moscovian, Changhsingian, Norian, Oxfordian, Hauterivian, Albian, Maastrichtian, Thanetian, Messinian, etc.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage" target="_blank" rel="noopener noreferrer">earliestAgeOrLowestStage</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage" target="_blank" rel="noopener noreferrer">latestAgeOrHighestStage</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage" target="_blank" rel="noopener noreferrer">earliestAgeOrLowestStage</a>, <a href="https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage" target="_blank" rel="noopener noreferrer">latestAgeOrHighestStage</a>
 
 {{< dwc-term id="localStage" verbatim="Local Stage" descr="A local name for a stage that was applied to this specimen." ex="Ulatsian, Helvetian." >}}
 
-{{< dwc-term id="earlyInterval" verbatim="Early Interval" descr="Name of the earliest possible geochronologic eon, era, period, epoch or age, or the lowest chronostratigraphic eonothem, erathem, system, series, or stage attributable to the stratigraphic horizon from which the cataloged specimen was collected." ex="Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian, etc." >}}
+{{< dwc-term id="earlyInterval" verbatim="Intervalo Temprano" descr="Nombre del eon, era, período, época o edad geocronológica más temprano posible, o el eonotema, eratema, sistema, serie o etapa cronoestratigráfica más baja atribuible al horizonte estratigráfico del cual el espécimen catalogado fue colectado." ex="Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian, etc." >}}
 
-{{< dwc-term id="lateInterval" verbatim="Late Interval" descr="Name of the latest possible geochronologic eon, era, period, epoch or age, or the highest chronostratigraphic eonothem, erathem, system, series or stage attributable to the stratigraphic horizon from which the cataloged specimen was collected." ex="Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian, etc." >}}
+{{< dwc-term id="lateInterval" verbatim="Intervalo Tardío" descr="Nombre del eon, era, período, época o edad geocronológica más tardío posible, o el eonotema, eratema, sistema, serie o etapa cronoestratigráfica más alto atribuible al horizonte estratigráfico del cual el espécimen catalogado fue colectado." ex="Aalenian, Aeronian, Albian, Anisian, Aptian, Aquitanian, Archean, Artinskian, Asselian, Bajocian, Barremian, Bartonian, etc." >}}
 
-{{< dwc-term id="absoluteAge" verbatim="Absolute Age" descr="Field to record the age of specimen/rock in years determined using radioactive decay of isotopes (Carbon-14, argon-argon, potassium-argon, uranium-lead, etc.) and other quantitative dating methods." ex="20 Ma, 75 ka, 10.5 – 12.7 +/- 0.5 Ma, etc." >}}
+{{< dwc-term id="absoluteAge" verbatim="Edad Absoluta" descr="Campo para registrar la edad del espécimen/roca en años determinados usando la pérdida de isótopos radioactivos (Carbon-14, argon-argon, potassium-argon, uranium-lead, etc.) y otros métodos cuantitativos de datación." ex="20 Ma, 75 ka, 10.5 – 12.7 +/- 0.5 Ma, etc." >}}
 
-{{< dwc-term id="storageAge" verbatim="Storage Age" descr="Field for institutions that arrange collections by geologic time or biostratigraphy. The physical location of a specimen within the collection space." ex="Miocene, Wasatchian, Paleocene, Bridgerian, etc." >}}
+{{< dwc-term id="storageAge" verbatim="Edad de Almacenamiento" descr="Cammpo para instituciones que arreglan las colecciones por tiempo geológico o bioestratigrafía. La ubicación física del espécimen dentro del espacio de la colección." ex="Miocene, Wasatchian, Paleocene, Bridgerian, etc." >}}
 
-{{< dwc-term id="biota" verbatim="Biota (Flora/Fauna)" descr="Name given to collections of fossils of the same age from a single locality or multiple localities within a specific geographic area." ex="Chalk Bluffs, Stewart Valley, Bridge Creek, Mazon Creek, etc." >}}
+{{< dwc-term id="biota" verbatim="Biota (Flora/Fauna)" descr="Nombre dado a las colecciones de fósiles de la misma edad de una sola localidad o múltiples localidad dentro de un área geográfica específica." ex="Chalk Bluffs, Stewart Valley, Bridge Creek, Mazon Creek, etc." >}}
 
-<a id="biostratigraphy"><b>Biostratigraphy (Biozone):</b></a> The name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.<br>
+<a id="biostratigraphy"><b>Bioestratigrafía (Biozona):</b></a> El nombre de la zona bioestratigráfica más baja posible del horizonte estratigráfico del cual el espécimen catalogado fue colectado.<br>
 Ex: “Wa0”, “Uvigerinella sparsicostata Zone”, “Ogygiocaris”<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone" target="_blank" rel="noopener noreferrer">lowestBiostratigraphicZone</a>, <a href="https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone" target="_blank" rel="noopener noreferrer">highestBiostratigraphicZone</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone" target="_blank" rel="noopener noreferrer">lowestBiostratigraphicZone</a>, <a href="https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone" target="_blank" rel="noopener noreferrer">highestBiostratigraphicZone</a>
 
-<a id="group"><b>Group:</b></a> The name of the lithostratigraphic group from which the cataloged specimen was collected. The <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> is a great resource for the named lithostratigraphic units accepted by the USGS.<br>
+<a id="group"><b>Grupo:</b></a> El nombre del grupo litoestratigráfico en el cual el espécimen catalogado fue colectado. La página <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> es un gran recurso para los nombres de unidades litoestratigráficas aceptadas por USGS.<br>
 Ex: Bathurst, Lower Wealden, Monte Cristo, Contra Costa, Panoche, etc.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:group" target="_blank" rel="noopener noreferrer">group</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:group" target="_blank" rel="noopener noreferrer">group</a>
 
-<a id="formation"><b>Formation:</b></a> The name of the lithostratigraphic formation from which the cataloged specimen was collected. The <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> is a great resource for the named lithostratigraphic units accepted by the USGS.<br>
+<a id="formation"><b>Formación:</b></a> El nombre de la formación litoestratigráfica en la cual el espécimen catalogado fue colectado. La página <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> es un gran recurso para los nombres de unidades litoestratigráficas aceptadas por USGS.<br>
 Ex: Notch Peak, House Limestone, Fillmore, Chinle, etc.<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:formation" target="_blank" rel="noopener noreferrer">formation</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:formation" target="_blank" rel="noopener noreferrer">formation</a>
 
-<a id="member"><b>Member:</b></a> The name of the lithostratigraphic member from which the cataloged item was collected. The <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> is a great resource for the named lithostratigraphic units accepted by the USGS.<br>
+<a id="member"><b>Miembro:</b></a> El nombre del miembro litoestratigráfico en la cual el espécimen catalogado fue colectado. La página <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> es un gran recurso para los nombres de unidades litoestratigráficas aceptadas por USGS.<br>
 Ex: Lava Dam, Hellnmaria, Brown Mountain Sandstone<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:member" target="_blank" rel="noopener noreferrer">member</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:member" target="_blank" rel="noopener noreferrer">member</a>
 
-<a id="bed"><b>Bed:</b></a> The name of the lithostratigraphic bed from which the cataloged item was collected. The <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> is a great resource for the named lithostratigraphic units accepted by the USGS.<br>
+<a id="bed"><b>Cama:</b></a> Elnombre de la cama litoestratigráfica en la cual el espécimen catalogado fue colectado. La página <a href="https://ngmdb.usgs.gov/Geolex/search" target="_blank" rel="noopener noreferrer">National Geologic Map Database Geolex Search</a> es un gran recurso para los nombres de unidades litoestratigráficas aceptadas por USGS.<br>
 Ex: Harlem coal<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:bed" target="_blank" rel="noopener noreferrer">bed</a>
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:bed" target="_blank" rel="noopener noreferrer">bed</a>
 
-{{< dwc-term id="taxonEnvironment" verbatim="Taxon Environment" descr="The depositional environment of the rock unit from which cataloged specimen was collected." ex="marine, lacustrine, non-marine, marine-non-marine" >}}
+{{< dwc-term id="taxonEnvironment" verbatim="Ambiente del Taxón" descr="El ambiente deposicional de la unidad de roca en la cual el espécimen catalogado fue colectado." ex="marine, lacustrine, non-marine, marine-non-marine" >}}
 
-{{< dwc-term id="lithology" verbatim="Lithology" descr="Field for terms to describe the types of rock/sediment from which the cataloged specimen was collected." ex="sandstone, mudstone, siltstone, shale, etc." dwc="lithostratigraphicTerms" >}}
+{{< dwc-term id="lithology" verbatim="Litología" descr="Campo para los términos que describen los tipos de roca/sedimento en el cual el espécimen catalogado fue colectado." ex="sandstone, mudstone, siltstone, shale, etc." dwc="lithostratigraphicTerms" >}}
 
-{{< dwc-term id="stratRemarks" verbatim="Strat Remarks" descr="Field to record additional details about the geology, stratigraphy, more detailed lithology description, palynological sampling info, core data, etc." >}}
+{{< dwc-term id="stratRemarks" verbatim="Comentarios del Estrato" descr="Campo para registrar detalles adicionales acerca de la geología, estratigrafía, litología más detallada, información de muestreos palinológicos, etc." >}}
 
-{{< dwc-term id="element" verbatim="Element" descr="Field to record type of plant organ cataloged specimen represents." ex="stem, strobilus, sterile leaf, fertile leaf, pinnule(s), rooting organ, rootlet, megasporangium, sporangium, spore, sterile axis, fertile axis, root, etc." >}}
+{{< dwc-term id="element" verbatim="Elemento" descr="Campo para registrar el tipo de órgano que representa un espécimen paleobotánico." ex="stem, strobilus, sterile leaf, fertile leaf, pinnule(s), rooting organ, rootlet, megasporangium, sporangium, spore, sterile axis, fertile axis, root, etc." >}}
 
-{{< dwc-term id="slideProperties" verbatim="Slide Properties" descr="Field to record types of prepared slides of specimens, noting the type of preparation and mounting medium, and to provide England Finder coordinates for palynomorph slides." ex="strewn, petrographic thin-section, mounted peel" >}}
+{{< dwc-term id="slideProperties" verbatim="Propiedades de Lámina" descr="Campo para registrar los tipos de láminas preparadas de especímenes, para resaltar el tipo de preparación y medio de montaje, y para proveer coordenadas England Finder para láminas palinomorfas." ex="strewn, petrographic thin-section, mounted peel" >}}
 
-{{< dwc-term id="geologicalContextID" verbatim="Geological Context ID" descr="An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set." ex="https://opencontext.org/subjects/e54377f7-4452-4315-b676-40679b10c4d9" dwc="geologicalContextID" >}}
+{{< dwc-term id="geologicalContextID" verbatim="ID de Contexto Geológico" descr="Un identificador para el conjunto de información asociada con el GeologicalContext (la ubicación en un contexto geológico, como estratigrafía). Puede ser un identificador único global o un identificador específico del conjunto de datos." ex="https://opencontext.org/subjects/e54377f7-4452-4315-b676-40679b10c4d9" dwc="geologicalContextID" >}}
