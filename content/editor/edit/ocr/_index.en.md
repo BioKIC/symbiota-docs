@@ -12,7 +12,7 @@ Optical Character Recognition (OCR) is the use of computer algorithms to detect 
 ### Using OCR in the Occurrence Editor
 1. Navigate to the occurrence editor of the specimen you would like to transcribe/OCR. See [this page for help](https://biokic.github.io/symbiota-docs/editor/edit/) with this step.
 2. On the right side of the page, under the image, you will find a yellow Options box. Select whether you would like to OCR the whole image and/or whether you would like the portal to analyze the OCR results.
-  * If you do not check "OCR Whole Image" the OCR will **only** run on whatever is visible in the viewing pane. Thus, if you would like to OCR only the label of the image, you can zoom in so that only the label is visible, then click OCR Image.
+  * If you do not check "OCR Whole Image" the OCR will **only** run on whatever is visible in the viewing panel. Thus, if you would like to OCR only the label of the image, you can zoom in so that only the label is visible, then click OCR Image.
 
 ![OCR in Occurrence Editor](/symbiota-docs/images/occeditorwithocrbox.PNG)
 
