@@ -27,139 +27,139 @@ El esquema de datos Symbiota está fuertemente alineado con el del estándar de 
 
 {{< dwc-term id="otherCatalogNumbers" verbatim="Otros Números de Catálogo" descr="Cualquier otro identificador del registro del espécimen que no es el número de catálogo. Este campo est típicamente usado para almacenar los números de catálogo antiguos de colecciones que están en el proceso de transferirse de un sistema de digitalización a otro (e.g. sistema de código de barras)." ex="12345" dwc="otherCatalogNumbers" >}}
 
-{{< dwc-term id="recordedBy" verbatim="Colector" descr="The name of the person who collected the specimen or made the observation." ex="C.G. Pringle, Goodding, L.N." dwc="recordedBy" >}}
+{{< dwc-term id="recordedBy" verbatim="Colector" descr="El nombre de la persona que colectó el espécimen o hizo la observación." ex="C.G. Pringle, Goodding, L.N." dwc="recordedBy" >}}
 
-{{< dwc-term id="associatedCollectors" verbatim="Colectores Asociados" descr="Other collectors that were present at the time of collection." ex="John R. Reeder, A. Nelson" obs="This field is not defined by the Darwin Core standard, which places primary and secondary collectors concatenated the recordedBy field." >}}
+{{< dwc-term id="associatedCollectors" verbatim="Colectores Asociados" descr="Otros colectores que estuvieron presentes durante la colecta." ex="John R. Reeder, A. Nelson" obs="Este campo no está definido por el estándar Darwin Core, que coloca colectores primarios y secundarios en el campo recordedBy." >}}
 
-{{< dwc-term id="recordNumber" verbatim="Número" descr="The collection number assigned to the specimen by the collector." ex="1294, 12490b, 94-132" dwc="recordNumber" >}}
+{{< dwc-term id="recordNumber" verbatim="Número" descr="El número de colecta asignado al espécimen por el colector." ex="1294, 12490b, 94-132" dwc="recordNumber" >}}
 
-{{< dwc-term id="eventDate" verbatim="Fecha" descr="The date the specimen was collected. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as \"00\". For example, a collection with a date of \"March 1956\" can be entered as \"1956-03-00\"." ex="1983-09-15, 1983-07-00, 1934-00-00" dwc="eventDate" >}}
+{{< dwc-term id="eventDate" verbatim="Fecha" descr="La fecha en la que el espécimen fue colectado. Mientras que las fechas pueden ser introducidas usando su formato preferido, el valor será convertido y almacenado con un formato numérico ISO-8601 (YYYY-MM-DD). Note que los meses y días desconocidos pueden ser añadidos como \"00\". Por ejemplo, una colecta con fecha \"Marzo 1956\" puede ser introducida como \"1956-03-00\"." ex="1983-09-15, 1983-07-00, 1934-00-00" dwc="eventDate" >}}
 
-{{< dwc-term id="verbatimEventDate" verbatim="Fecha Literal" descr="Can be used to record date exactly as entered on label. Particularly useful for non-standard date formats or date ranges." ex="Spring 1901, March-April 1952, late Sept. 1909" dwc="verbatimEventDate" >}}
+{{< dwc-term id="verbatimEventDate" verbatim="Fecha Literal" descr="Puede ser utilizado para registrar la fecha tal y como se encuentra en la etiqueta. Particularmente útil para formatos de fecha no estandarizados o rangos de fechas." ex="Primavera 1901, Marzo-Abril 1952, finales Sept. 1909" dwc="verbatimEventDate" >}}
 
-{{< dwc-term id="year" verbatim="Año" descr="The numeric value of the year at the time of collection. This field (along with month and day) is automatically populated when the date is entered." ex="1959" dwc="year" >}}
+{{< dwc-term id="year" verbatim="Año" descr="El valor numérico del año en el momento de la colecta. Este campo (junto con el mes y el día) es añadido automáticamente cuando la fecha es introducida." ex="1959" dwc="year" >}}
 
-{{< dwc-term id="month" verbatim="Mes" descr="The numeric value of the month at the time of collection. This field (along with year and day) is automatically populated when the date is entered." ex="10" dwc="month" >}}
+{{< dwc-term id="month" verbatim="Mes" descr="El valor numérico del mes en el momento de la colecta. Este campo (junto con el año y el día) es añadido automáticamente cuando la fecha es introducida." ex="10" dwc="month" >}}
 
-{{< dwc-term id="day" verbatim="Día" descr="The numeric value of the day at the time of collection. This field (along with year and month) is automatically populated when the date is entered." ex="28" dwc="day" >}}
+{{< dwc-term id="day" verbatim="Día" descr="El valor numérico del día en el momento de la colecta. Este campo (junto con el año y el mes) es añadido automáticamente cuando la fecha es introducida." ex="28" dwc="day" >}}
 
-<a id="dayRange"><b>Day of year range:</b></a> A range of collection dates can be represented here as numeric day of year values. These values will be automatically calculated if you enter a date range in the verbatim date field (e.g. 12 Sept 1968 to 19 Sept 1968, 1968-09-12 to 1968-09-19) <br>
+<a id="dayRange"><b>Rango de día del año:</b></a> Un rango de fechas de colectas pueden ser representados aquí como valores numéricos de valores de días de año. Estos valores serán calculados automáticamente si introduce un rago en el campo de fecha literal (e.g. 12 Sept 1968 a 19 Sept 1968, 1968-09-12 a 1968-09-19) <br>
 See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" target="_blank" rel="noopener noreferrer">startDayOfYear</a>, <a href="http://rs.tdwg.org/dwc/terms/index.htm#endDayOfYear" target="_blank" rel="noopener noreferrer">endDayOfYear</a>.
 
-{{< dwc-term id="sciname" verbatim="Nombre Científico" descr="The Latin name of the specimen without the author. Could be anything from kingdom down to subspecies or variety, depending on the level of the identification." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
+{{< dwc-term id="sciname" verbatim="Nombre Científico" descr="El nombre en latín del espécimen sin el autor. Puede ser cualquier nivel desde reino hasta subespecie o variedad, dependiendo del nivel de identificación." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
 
-{{< dwc-term id="scientificNameAuthorship" verbatim="Autor" descr="The name of the person who first named the taxa. This field autofills after entering the scientific name." ex="L., Asa A. Gray" dwc="scientificNameAuthorship" >}}
+{{< dwc-term id="scientificNameAuthorship" verbatim="Autor" descr="El nombre de la persona que nombró por primera vez el taxón. Este campo se llena automáticamente luego de introducir el nombre científico." ex="L., Asa A. Gray" dwc="scientificNameAuthorship" >}}
 
-{{< dwc-term id="identificationQualifier" verbatim="Calificador de Identificación" descr="The determiner's expression of uncertainty in their identification. This will be listed on the label along with the scientific name." ex="cf., aff." dwc="identificationQualifier" >}}
+{{< dwc-term id="identificationQualifier" verbatim="Calificador de Identificación" descr="La expresión de incertidumbre del determinador en su identificación. Esto será encontrado en la etiqueta junto al nombre científico." ex="cf., aff." dwc="identificationQualifier" >}}
 
-{{< dwc-term id="family" verbatim="Familia" descr="The family to which the taxa belongs. This field autofills after entering the scientific name." ex="Pinaceae" dwc="family" >}}
+{{< dwc-term id="family" verbatim="Familia" descr="La familia a la cual pertenece el taxón. Este campo se rellena automáticamente al agregr el nombre científico." ex="Pinaceae" dwc="family" >}}
 
-{{< dwc-term id="identifiedBy" verbatim="Identificado Por" descr="The name of the person who identified the specimen. Also called a determiner." ex="L. R. Landrum" dwc="identifiedBy" >}}
+{{< dwc-term id="identifiedBy" verbatim="Identificado Por" descr="El nombre de la persona que identificó el espécimen. También llamado determinador." ex="L. R. Landrum" dwc="identifiedBy" >}}
 
-{{< dwc-term id="dateIdentified" verbatim="Fecha de Identificación" descr="The date the identification was made. Date can be entered as free form text and do not need to be in a standard date format." ex="1992, May 1992, 2 May 1992" dwc="dateIdentified" >}}
+{{< dwc-term id="dateIdentified" verbatim="Fecha de Identificación" descr="La fecha en la que fue realizada la identificación. La fecha puede ser ingresada en formato de texto libre y no necesita estar en formato estandarizado de fecha." ex="1992, May 1992, 2 May 1992" dwc="dateIdentified" >}}
 
-{{< dwc-term id="identificationReferences" verbatim="Referencias de ID" descr="The reference source used to make the identification." ex="Nesom, Guy L. 2006. Flora of North America - Asteraceae. vol. 20" dwc="identificationReferences" >}}
+{{< dwc-term id="identificationReferences" verbatim="Referencias de ID" descr="La referencia utilizada para realizar la identificación." ex="Nesom, Guy L. 2006. Flora of North America - Asteraceae. vol. 20" dwc="identificationReferences" >}}
 
-{{< dwc-term id="identificationRemarks" verbatim="Comentarios de ID" descr="Any additional notes regarding the identification of the specimen." dwc="identificationRemarks" >}}
+{{< dwc-term id="identificationRemarks" verbatim="Comentarios de ID" descr="Cualquier comentario adicional relacionado con la identificación del espécimen." dwc="identificationRemarks" >}}
 
-{{< dwc-term id="taxonRemarks" verbatim="Comentarios de Taxón" descr="Any additional notes regarding the taxonomic name to which the specimen was identify." dwc="taxonRemarks" >}}
+{{< dwc-term id="taxonRemarks" verbatim="Comentarios de Taxón" descr="Cualquier comentario adicional relacionado con el nombre científico bajo el cual el espécimen fue identificado." dwc="taxonRemarks" >}}
 
-{{< dwc-term id="country" verbatim="País" descr="The name of the country in which the specimen was collected. To aid data entry, a drop down menu will appear as one types, though names outside of the list can still be entered." ex="USA, Canada, Mexico" dwc="country" >}}
+{{< dwc-term id="country" verbatim="País" descr="El nombre del país en el cual el espécimen fue colectado. Para asistir en la entrada de datos, un menú desplegable aparecerá al empezar a teclear las primeras letras, aunque nombres fuera del listado pueden ser incluidos." ex="USA, Canada, Mexico" dwc="country" >}}
 
-{{< dwc-term id="stateProvince" verbatim="Estado/Provincia" descr="The name of the state or province in which the specimen was collected. As one types, a selection list will appear for the given country." ex="New York, Arizona, Sonora" dwc="stateProvince" >}}
+{{< dwc-term id="stateProvince" verbatim="Estado/Provincia" descr="El nombre del estado o provincia en el que un espécimen fue colectado. Al empezar a teclear, un menú desplegable con una lista aparecerá para ciertos países." ex="New York, Arizona, Sonora" dwc="stateProvince" >}}
 
-{{< dwc-term id="county" verbatim="Condado" descr="The name of the county in which the specimen was collected. Choose one from the drop down menu. For specimens collected outside of the United States, enter the next geographic region below state/province." ex="Maricopa" dwc="county" >}}
+{{< dwc-term id="county" verbatim="Condado" descr="El nombre del condado en el cual el espécimen fue colectado. Elegir uno del menú desplegable si está en Estados Unidos. Para especímenes fuera de Estados Unidos, ingresar la siguiente región geográfica bajo estado/provincia." ex="Maricopa" dwc="county" >}}
 
-{{< dwc-term id="municipality" verbatim="Municipalidad" descr="The name of the municipality in which the specimen was collected. For specimens collected outside of the United States, enter the 4th level geographic designation." ex="Paradise Valley" dwc="municipality" >}}
+{{< dwc-term id="municipality" verbatim="Municipalidad" descr="El nombre de la municipalidad en la cual el espécimen fue colectado. Para especímenes colectados fuera de Estados Unidos, introducir el cuarto nivel geográfico designado." ex="Paradise Valley" dwc="municipality" >}}
 
-{{< dwc-term id="locality" verbatim="Localidad" descr="The detailed location in which the specimen was collected." ex="9.5 miles NW of Sedona along Boynton Pass Rd." dwc="locality" >}}
+{{< dwc-term id="locality" verbatim="Localidad" descr="La localidad detallada en la cual el espécimen fue colectado." ex="9.5 miles NW of Sedona along Boynton Pass Rd." dwc="locality" >}}
 
-{{< dwc-term id="locationID" verbatim="ID de Localidad" descr="An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the dataset." ex="https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1" dwc="locationID" >}}
+{{< dwc-term id="locationID" verbatim="ID de Localidad" descr="Un identificador para la información de la localidad (datos asociados con dcterms:Location). Puede ser un identificador global único, o un identificador específico en el conjunto de datos." ex="https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1" dwc="locationID" >}}
 
-<a id="localitySecurity"><b>Locality Security:</b></a> Checking the Locality Security checkbox will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened. Images are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. This box will automatically be checked if the species name is on any of the rare species lists &nbsp;(see sitemap). If one wishes to lock protection (on or off), click the Lock Security checkbox and/or enter a reason for security override in the text field. Leaving the locality security unlocked will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. <br>
-For more information on sensitive species protection, see the page on <a href="https://biokic.github.io/symbiota-docs/user/redaction/">Sensitive Species Protection</a>. <br>
-This field is not defined by the Darwin Core standard.
+<a id="localitySecurity"><b>Seguridad de Localidad:</b></a> Al marcar la casilla de Seguridad de Localidad se ocultarán los detalles de localidad más abajo de condado para usuarios sin autorización. Esto es típicamente realizado para especies raras o amenazadas. Las imágenes también son ocultas para proteger detalles de localidad que pueden ser visibles en la etiqueta. Los usuarios que están conectados en el sistema y tienen los permisos necesarios para ver detalles de localidad (e.g. encargados de colecciones) continuarán teniendo acceso a los datos. Esta casilla será marcada automáticamente si el nombre de la especie está en un listado de especies raras &nbsp;(ver mapa del sitio). Si desea cambiar el estado de protección (activar o desactivar), haga click en la casilla Bloquear Seguridad (_Lock Security_) y/o introduzca una razón para sobreescribir la seguridad en el campo de texto. Dejar la seguridad de localidad desbloqueada permitirá aplicar la configuración programada por los administradores de especies sensibles, lo cual es la recomendación para la mayoría de registros. <br>
+Para más información acerca de protección de especies sensibles, ver la página de <a href="https://biokic.github.io/symbiota-docs/user/redaction/">Protección de Especies Sensibles</a>. <br>
+Este campo no está definido por el estándar Darwin Core.
 
-{{< dwc-term id="decimalLatitude" verbatim="Latitud y Longitud (formato decimal)" descr="The geographic latitude and longitude in decimal degrees. Latitudes from the southern hemisphere and longitudes in the western hemisphere (e.g. USA) should be entered as negative values. Click on the \"Tools\" button to enter the coordinates in the degree, minute, seconds (DMS) or the UTM formats. Decimal degrees are the preferred coordinate standard as defined by Darwin Core. See below for more information on using this tool." ex="34.874022, -111.75774" dwc="decimalLatitude" >}}
+{{< dwc-term id="decimalLatitude" verbatim="Latitud y Longitud (formato decimal)" descr="La latitud y longitud geográfica en grados decimales. La latitud del hemisferio sur y la longitud del hemisferio occidental (e.g. USA) deben ser ingresadas con valores negativos. Hacer click en el botón \"Herramientas\" para ingresar las coordenadas en grados, minutos, segundos (DMS) o en formatos UTM. Los grados decimales son el estandar preferido para las coordenadas según lo definido por  Darwin Core. Ver abajo para más información acerca del uso de esta herramienta." ex="34.874022, -111.75774" dwc="decimalLatitude" >}}
 
-{{< dwc-term id="coordinateUncertaintyInMeters" verbatim="Incertidumbre (metros)" descr="The accuracy of the georeference coordinates in meters (numeric value only). This is measured as the radius of a circle where the true point would be found if known. If coordinates are collected using a GPS, than the accuracy would be the error found within the GPS unit (usually around 10m). While previously collected specimens that have coordinates on the label recorded by the collector typically do not state the source of the coordinates (GPS, map, etc), it is typically a good assumption that the coordinates are accurate within one to two hundred meters. If the locality details are vague such as just \"Grand Canyon\", then the coordinates should be the centroid within the uncertainty encompassing the greater area where the specimen may have been collected. If the locality is \"Boynton Canyon, Sedona\", the uncertainty would be about 1500 m. This field autofills when using GeoLocate for georeferencing." ex="42000 for Phoenix, 20000 for Salt Lake City" dwc="coordinateUncertaintyInMeters" >}}
+{{< dwc-term id="coordinateUncertaintyInMeters" verbatim="Incertidumbre (metros)" descr="La precisión de las coordenadas en metros (únicamente el valor numérico). Esto es medido como el radio del círculo en el cual el punto verdadero se encontraría de ser conocido. Si las coordenadas son obtenidas utilizando un GPS, entonces la presición sería el error encontrado en la unidad del GPS (usualmente cerca de 10m). Mientras que en los especímenes colectados previamente, los colectores usualmente no especifican la fuente de las coordenadas en la etiqueta (GPS, map, etc), es típicamente una buena suposición que las coordenadas tengan de uno a doscientos metros de presición. Si los detalles de la localidad son vagos como \"Gran Cañón\", entonces las coordenadas deberían ser el centroide entre una incertidumbre abarcando una mayor área donde el espécimen pudo ser colectado. Si la localidad es \"Cañón Boynton, Sedona\", la incertidumre sería alrededor de 1500 m. Este campo se auto rellena al utilizar GeoLocate para georreferenciar." ex="42000 para Phoenix, 20000 para Salt Lake City" dwc="coordinateUncertaintyInMeters" >}}
 
-{{< dwc-term id="geodeticDatum" verbatim="Datum" descr="The geographic system that was used to get the coordinates. This field autofills when using [http://www.museum.tulane.edu/geolocate/|GeoLocate] or the Google Maps tool for georeferencing." ex="NAD27, NAD83, WGS84" dwc="geodeticDatum" >}}
+{{< dwc-term id="geodeticDatum" verbatim="Datum" descr="El sistema geográfico que fue utilizado para obtener las coordenadas. Este campo se auto rellena cuando se usa [http://www.museum.tulane.edu/geolocate/|GeoLocate] o la herramienta de Google Maps para georreferenciar." ex="NAD27, NAD83, WGS84" dwc="geodeticDatum" >}}
 
-<a id="verbatimCoordinates"><b>Verbatim Coordinates:</b></a> If the coordinates recorded on the specimen label are in a format other than decimal degrees, enter them here. When decimal lat/long fields are blank and one enters UTM or DMS using one of the formats displayed in the example below, decimal lat/long values will be automatically generated. Click the "&lt;&lt;" symbol to replace existing decimal values. This field autofills when using the DMS, UTM, and TRS georeferencing tools.<br>
+<a id="verbatimCoordinates"><b>Coordenadas Literales:</b></a> Si las coordenadas registradas en la etiqueta del espécimen se encuentran un formato distinto a grados decimales, introducirlas aquí. Cuando los campos de lat/long decimal están en blanco y se introducen UTM o DMS usando uno de los formatos desplegados en el ejemplo de abajo, los valores de lat/long decimales serán generados automáticamente. Hacer click en el símbolo "&lt;&lt;" par reemplazar los valores decimales existentes. Este campo se auto rellena cuando se utilizan las herramientas de georreferenciación de DMS, UTM y TRS.<br>
 Ex: 34° 13.940' N 112° 2.370' W, 34d 13m 12.940s N 112d 20m 46.370s W, 12 420944E 4064025N, TRS: T40N R32E S29 <br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates" target="_blank" rel="noopener noreferrer">verbatimCoordinates</a>.
+Ver Darwin Core en <a href="https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates" target="_blank" rel="noopener noreferrer">verbatimCoordinates</a>.
 
-{{< dwc-term id="minimumElevationInMeters" verbatim="Elevation in Meters" descr="The elevation in meters at which the specimen was collected. Also called altitude. Use only the left field with the right field blank when a single elevation exists." ex="1400, 2000-2200" dwc="minimumElevationInMeters" >}}
+{{< dwc-term id="minimumElevationInMeters" verbatim="Elevación en Metros" descr="La elevación en metros en la cual el espécimen fue colectado. También llamado altitud. Usar únicamente el campo de la izquierda, dejando el campo a la derecha en blanco cuando un sólo valor de elevación exista." ex="1400, 2000-2200" dwc="minimumElevationInMeters" >}}
 
-<a id="verbatimElevation"><b>Verbatim Elevation:</b></a> The verbatim elevation at which the specimen was collected. This is typically used to record an elevation measurement that was recorded in feet or an uncertainty designation. When the elevation in meters field is left blank, the value will automatically be converted to meters. Click the "&lt;&lt;" symbol to replace the previously entered meters values.<br>
+<a id="verbatimElevation"><b>Elevación Literal:</b></a> La elevación literal a la cual el espécimen fue colectado. Esto es utilizado típicamente para registrar una medida de elevación que fue medida en pies o una designación de incertidumbre. Cuando el campo de elevación en metros es dejado en blanco, el valor será convertido automáticamente en metros. Haga click en el símbolo "&lt;&lt;" para reemplazar los valores en metros ingresados previamente.<br>
 Ex: 4500ft, 4500 feet, ca 4500', ca 2000m, 4500' +-300'<br>
-See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:verbatimElevation" target="_blank" rel="noopener noreferrer">verbatimElevation</a>.
+Ver Darwin Core <a href="https://dwc.tdwg.org/terms/#dwc:verbatimElevation" target="_blank" rel="noopener noreferrer">verbatimElevation</a>.
 
-<a id="minimumDepthInMeters"><b>Depth in Meters:</b></a> The range of depth below the local surface, in meters.<br>
+<a id="minimumDepthInMeters"><b>Profundidad en Metros:</b></a> El rango de profundidad bajo la superficie local, en metros.<br>
 Ex: 100, 150-200<br>
-See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" target="_blank" rel="noopener noreferrer">minimumDepthInMeters</a>, <a href="https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters" target="_blank" rel="noopener noreferrer">maximumDepthInMeters</a>.
+Ver Darwin Core <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" target="_blank" rel="noopener noreferrer">minimumDepthInMeters</a>, <a href="https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters" target="_blank" rel="noopener noreferrer">maximumDepthInMeters</a>.
 
-{{< dwc-term id="verbatimDepth" verbatim="Verbatim Depth" descr="The original verbatim description of the depth below the local surface at which the specimen was collected." ex="100ft, 100 feet, ca 100', ca 30m, 100' +-10'" dwc="verbatimDepth" >}}
+{{< dwc-term id="verbatimDepth" verbatim="Profundidad Literal" descr="La descripción original de profundidad bajo la superficie local en la cual el espécimen fue colectado." ex="100ft, 100 feet, ca 100', ca 30m, 100' +-10'" dwc="verbatimDepth" >}}
 
-{{< dwc-term id="georeferencedBy" verbatim="Georeferenced By" descr="The name of the person who georeferenced the specimen record. This field autofills when using GeoLocate for georeferencing." ex="A. Gonzales, emakings, acbarber" dwc="georeferencedBy" >}}
+{{< dwc-term id="georeferencedBy" verbatim="Georreferenciado Por" descr="El nombre de la persona que georreferenció el registro del espécimen. Este campo se rellena automáticamente cuando se utiliza GeoLocate para georreferenciar y la información ya ha sido ingresada." ex="A. Gonzales, emakings, acbarber" dwc="georeferencedBy" >}}
 
-{{< dwc-term id="georeferenceProtocol" verbatim="Georeference Protocol" descr="The source of the standards used to georeference." ex="Georeferencing Quick Guide. Zermoglio et al. 2020" dwc="georeferenceProtocol" >}}
+{{< dwc-term id="georeferenceProtocol" verbatim="Protocolo de Georreferenciación" descr="La fuente de los estándares utilizados para georreferenciar." ex="Georeferencing Quick Guide. Zermoglio et al. 2020" dwc="georeferenceProtocol" >}}
 
-{{< dwc-term id="georeferenceSources" verbatim="Georeference Sources" descr="The tool or tools used to georeference." ex="GeoLocate, Google Earth, USGS map" dwc="georeferenceSources" >}}
+{{< dwc-term id="georeferenceSources" verbatim="Fuentes de Georreferenciación" descr="La herramienta o herramientas utilizadas para georreferenciar." ex="GeoLocate, Google Earth, USGS map" dwc="georeferenceSources" >}}
 
-{{< dwc-term id="georeferenceVerificationStatus" verbatim="Georef Verificiation Status" descr="Says whether or not the georeference has been reviewed or verified." ex="reviewed, not reviewed" dwc="georeferenceVerificationStatus" >}}
+{{< dwc-term id="georeferenceVerificationStatus" verbatim="Estado de Verificación de Georreferenciación" descr="Indica si la georreferencia ha sido revisada o verificada." ex="revisada, no revisada" dwc="georeferenceVerificationStatus" >}}
 
-{{< dwc-term id="georeferenceRemarks" verbatim="Georeference Remarks" descr="Any additional notes regarding the georeferencing of the specimen." dwc="georeferenceRemarks" >}}
+{{< dwc-term id="georeferenceRemarks" verbatim="Comentarios de Georreferencia" descr="Cualquier comentario adicional relacionado a la georreferenciación del espécimen." dwc="georeferenceRemarks" >}}
 
-{{< dwc-term id="habitat" verbatim="Habitat" descr="The description of the habitat in which the specimen was collected." ex="Wet areas along a small stream in chaparral." dwc="habitat" >}}
+{{< dwc-term id="habitat" verbatim="Hábitat" descr="La descripción del hábitat en el cual el espécimen fue colectado." ex="Humedales a lo largo de un pequeño arroyo en un chaparral." dwc="habitat" >}}
 
-{{< dwc-term id="substrate" verbatim="Substrate" descr="The substrate on which the specimen was collected. Mostly used for lichen and bryophyte specimens." ex="On basalt, trunk of oak" obs="Darwin Core lumps this information into habitat." >}}
+{{< dwc-term id="substrate" verbatim="Sustrato" descr="El sustrado en el cual el espécimen fue colectado. Mayormente utilizado en colecciones de líquenes y briofitas." ex="En basalto, tronco de encino" obs="Darwin Core lumps this information into habitat." >}}
 
-{{< dwc-term id="associatedTaxa" verbatim="Associated Taxa" descr="A list of the names of other species occurring with the collected specimen." ex="Quercus, Arctostaphylos, Ceanothus, Rhus, Eriogonum, Salvia" dwc="associatedTaxa" >}}
-* In MycoPortal, this is also the field where "host" information is stored. See [this comment for instructions](https://github.com/BioKIC/symbiota-docs/issues/36#issuecomment-1015733243).
+{{< dwc-term id="associatedTaxa" verbatim="Taxa Asociados" descr="Una lista de los nombres de otras especies que ocurren con el espécimen colectado." ex="Quercus, Arctostaphylos, Ceanothus, Rhus, Eriogonum, Salvia" dwc="associatedTaxa" >}}
+* En MycoPortal, también es el campo donde se almacena la información de "hospedero". See [this comment for instructions](https://github.com/BioKIC/symbiota-docs/issues/36#issuecomment-1015733243).
 
-{{< dwc-term id="verbatimAttributes" verbatim="Description" descr="A physical description of the specimen at the time of collection. This often includes information that can be lost or difficult to observe after the collection and preservation process." ex="Shrub 3 m tall, corolla yellow" >}}
+{{< dwc-term id="verbatimAttributes" verbatim="Descripción" descr="Una descripción física del espécimen en el tiempo de la colección. Este a menudo incluye información que puede ser perdida o es difícil de observar luego del proceso de colecta y preservación." ex="Arbusto de 3 m alto, corola amarilla" >}}
 
-{{< dwc-term id="occurrenceRemarks" verbatim="Notes" descr="Any additional notes regarding the specimen." dwc="occurrenceRemarks" >}}
+{{< dwc-term id="occurrenceRemarks" verbatim="Notas" descr="Cualquier comentario adicional relacionado con el espécimen." dwc="occurrenceRemarks" >}}
 
-{{< dwc-term id="dynamicProperties" verbatim="Dynamic Properties" descr="A list of additional measurements, facts, characteristics, or assertions about the specimen in a format that allows programmatic parsing of the data. See the Darwin Core link below for further details." ex="awnLengthInMeters=0.014, heightInMeters=1.5, relativeHumidity=28, airTemperatureInC=22" dwc="dynamicProperties" >}}
+{{< dwc-term id="dynamicProperties" verbatim="Propiedades Dinámicas" descr="Una lista de medidas adicionales, hechos, características o aserciones acerca del espécimen en un formato que permite un análisis programático de los datos. Ver el enlace a Darwin Core de abajo para más detalles." ex="awnLengthInMeters=0.014, heightInMeters=1.5, relativeHumidity=28, airTemperatureInC=22" dwc="dynamicProperties" >}}
 
-{{< dwc-term id="lifeStage" verbatim="Life Stage" descr="The age or stage of the organism at the time of collection/observation. Typically used for zoological collections." ex="larva, juvenile" dwc="lifeStage" >}}
+{{< dwc-term id="lifeStage" verbatim="Etapa de Vida" descr="La edad o etapa del organismo en el momento de la colecta/observación. Típicamente utilizado en colecciones zoológicas." ex="larva, juvenil" dwc="lifeStage" >}}
 
-{{< dwc-term id="sex" verbatim="Sex" descr="The biological sex of the occurrence." ex="female, male" dwc="sex" >}}
+{{< dwc-term id="sex" verbatim="Sexo" descr="El sexo biológico de la ocurrencia." ex="hembra, macho" dwc="sex" >}}
 
-{{< dwc-term id="individualCount" verbatim="Individual Count" descr="The number of individuals represented by the occurrence" ex="2, 15" dwc="individualCount" >}}
+{{< dwc-term id="individualCount" verbatim="Conteo Individual" descr="El número de individuos representados en la ocurrencia" ex="2, 15" dwc="individualCount" >}}
 
-{{< dwc-term id="samplingProtocol" verbatim="Sampling Protocol" descr="The names and references to methods used to collect or sample an occurrence" ex="UV light trap, mist net, Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf" dwc="samplingProtocol" >}}
+{{< dwc-term id="samplingProtocol" verbatim="Protocolo de Muestreo" descr="Los nombres y referencias de los métodos utilizados para colectar o muestrar una ocurrencia." ex="trampa de luz UV, red de niebla, Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf" dwc="samplingProtocol" >}}
 
-{{< dwc-term id="preparations" verbatim="Preparations" descr="Preparation or preservation method for a specimen" ex="in ethanol, skeleton" dwc="preparations" >}}
+{{< dwc-term id="preparations" verbatim="Preparaciones" descr="Método de preparación o preservación para un espécimen." ex="en etanol, esqueleto" dwc="preparations" >}}
 
-{{< dwc-term id="reproductiveCondition" verbatim="Phenology (Reproductive Condition)" descr="The reproductive stage the specimen is in. Typically used for plant and fungal collections." ex="flower, fruit, sterile" dwc="reproductiveCondition" >}}
+{{< dwc-term id="reproductiveCondition" verbatim="Fenología (Condición Reproductiva)" descr="La etapa reproductiva en la cual se encuentra el espécimen. Típicamente utilizado para colecciones botánicas y micológicas." ex="flor, fruto, estéril" dwc="reproductiveCondition" >}}
 
-{{< dwc-term id="establishmentMeans" verbatim="Establishment Means" descr="The state of establishment at the time of collection." ex="cultivated, invasive, native" dwc="establishmentMeans" >}}
+{{< dwc-term id="establishmentMeans" verbatim="Medio de Establecimiento" descr="El estado del establecimiento al tiempo de la colecta." ex="cultivado, invasivo, native" dwc="establishmentMeans" >}}
 
-{{< dwc-term id="isCultivated" verbatim="Cultivated Checkbox" descr="Check when the organism was established with the aid of humans and would not be able to exist on their own. This true/false field enables the ability to filter non-native or naturalized species." obs="Not currently exported in DwC format.">}}
+{{< dwc-term id="isCultivated" verbatim="Cultivado" descr="Marcar cuando el organismo haya sido establecido con ayuda de humanos y que no sea capaz de existir por su cuenta. Este es un campo de verdadero/falso que permite filtrar las especies no nativas o naturalizadas." obs="Not currently exported in DwC format.">}}
 
-{{< dwc-term id="typeStatus" verbatim="Type Status" descr="The type designation of a specimen, if it is a type specimen" ex="HOLOTYPE, ISOTYPE, PARATYPE" dwc="typeStatus" >}}
+{{< dwc-term id="typeStatus" verbatim="Estado de Tipo" descr="La designación del tipo de un espécimen, si es un espécimen tipo" ex="HOLOTYPE, ISOTYPE, PARATYPE" dwc="typeStatus" >}}
 
-{{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan, cone collection" dwc="disposition" >}}
+{{< dwc-term id="disposition" verbatim="Disposición" descr="La ubicación o estado físico del espécimen." ex="missing, on loan, cone collection" dwc="disposition" >}}
 
-{{< dwc-term id="occurrenceID" verbatim="Occurrence Id" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
+{{< dwc-term id="occurrenceID" verbatim="ID de Ocurrencia" descr="Este es el Identificador Global Único (GUID) para el espécimen. Este identificaor debe ser estable e identificar de forma única al espécimen con respecto de todos los otros especímenes en el mundo." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
 
 {{< dwc-term id="fieldNumber" verbatim="Field Number" dwc="fieldNumber" >}}
 
-{{< dwc-term id="ownerInstitutionCode" verbatim="Owner Code" descr="The acronym of the owning institution. Only enter a value if the owning institution is different than what was entered when the metadata for the collection institution was added to the portal." ex="NPS, Forest Service" dwc="ownerInstitutionCode" >}}
+{{< dwc-term id="ownerInstitutionCode" verbatim="Código de Propietario" descr="El acrónimo de la institución propietaria. Únicamente introducir un valor si la institución propietaria es dirferente a la que está ingresada en los metadatos de la colección añadida en el portal." ex="NPS, Forest Service" dwc="ownerInstitutionCode" >}}
 
-{{< dwc-term id="basisOfRecord" verbatim="Basis of Record" descr="The type of record the specimen is classified as. For physical collections, this field defaults to “PreservedSpecimen” (aka herbarium specimen) and for observation projects, the default is “Observation”." ex="PreservedSpecimen, LivingSpecimen, Observation" dwc="basisOfRecord" >}}
+{{< dwc-term id="basisOfRecord" verbatim="Base del Registro" descr="El tipo de registro en el cual está clasificado el espécimen. Para colecciones físicas, este campo es rellenado automáticamente como “PreservedSpecimen” y para proyectos de observación, el valor automático es “Observation”." ex="PreservedSpecimen, LivingSpecimen, Observation" dwc="basisOfRecord" >}}
 
-{{< dwc-term id="language" verbatim="Language" descr="The language of the label information" ex="English, Spanish, Portuguese" dwc="language" >}}
+{{< dwc-term id="language" verbatim="Idioma" descr="El idioma de la información en la etiqueta" ex="English, Spanish, Portuguese" dwc="language" >}}
 
-{{< dwc-term id="processingStatus" verbatim="Processing Status" descr="The status of the digital record. This field is used for internal data management and review. The values used are dictated by the specific workflow of each institution." >}}
+{{< dwc-term id="processingStatus" verbatim="Estado de Procesamiento" descr="El estado del registro digital. Este campo es utilizado para manejo interno de datos y revisiones. Los valores utilizados son dictados por el flujo de trabajo específico de cada institución." >}}
 
-{{< dwc-term id="labelProject" verbatim="Label Project" descr="Used for printing labels. You can create a label project and print that set of labels after you've entered the data." ex="Plants of Sedona 2012" >}}
+{{< dwc-term id="labelProject" verbatim="Etiqueta de Proyecto" descr="Utilizado para imprimir etiquetas. Puede crear la etiqueta de un proyecto e imprimir un conjunto de etiquetas luego de haber ingresado los datos." ex="Plants of Sedona 2012" >}}
 
-{{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for speicmen." ex="10" >}}
+{{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="El número de especímenes duplicados creados. Esto indicará el número de etiquetas a ser impresas por espécimen." ex="10" >}}
 
 
 ### Paleontology Fields
