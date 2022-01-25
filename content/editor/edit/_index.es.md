@@ -13,7 +13,7 @@ keywords: ["editar","cambiar","formulario de búsqueda de registros"]
 {{</ notice >}}
 
 * Para editar registros por lote (únicamente disponible para administradores de colecciones), visite [esta página](https://biokic.github.io/symbiota-docs/es/coll_manager/edit/batch/).
-* Para obtener informción acerca de los campos en el formulario del editor de ocurrencias, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/edit/fields).
+* Para obtener información acerca de los campos en el formulario del editor de ocurrencias, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/edit/fields).
 * Para una explicación de las pestañas del editor de ocurrencias, visite [esta página](https://biokic.github.io/symbiota-docs/es/editor/edit/tabs/).
 
 Para editar registros individuales, seleccione "Editar Registros de Ocurrencia Existentes" en el Panel de Control de Edición (accesado vía Mi Perfil > Manejo de Ocurrencias > nombre de la colección). En esta página, puede buscar registros específicos introduciendo términos de búsqueda en el Formulario de Búsqueda de Registros. Puede buscar múltiples términos usando este formulario.

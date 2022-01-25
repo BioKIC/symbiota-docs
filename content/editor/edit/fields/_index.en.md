@@ -158,7 +158,7 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="labelProject" verbatim="Label Project" descr="Used for printing labels. You can create a label project and print that set of labels after you've entered the data." ex="Plants of Sedona 2012" >}}
 
-{{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for speicmen." ex="10" >}}
+{{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for specimen." ex="10" >}}
 
 
 ### Paleontology Fields
