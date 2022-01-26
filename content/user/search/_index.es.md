@@ -20,13 +20,13 @@ Los portales Symbiota contienen datos de especímenes y observaciones con enfoqu
   Puede haber hasta tres pestañas en la parte superior de la página, dependiendo del portal, "Especímenes y Observaciones", "Especímenes", y "Observaciones". Los especímenes son colecciones físicas de un organismo, mientras que las observaciones son observaciones humanas o fotografías de organismos que no son respaldadas con especímenes físicos. Use estas pestañas para elegir entre estos tipos de ocurrencias, si es deseado.
 {{</ notice >}}
 
-![Specimen and Observation Collections](/symbiota-docs/images/search2.PNG)
+![Colecciones de Especímenes y Observaciones](/symbiota-docs/images/search2.PNG)
 
 {{< notice tip >}}
   Note que las colecciones pueden estar agrupadas en categorías. Estas categorías pueden ser minimizadas o maximizadas haciendo click en la casilla con los signos más y menos, respectivamente, en la parte inferior izquerda del nombre del grupo.
 {{</ notice >}}
 
-![Search Collections Options](/symbiota-docs/images/search1.PNG)
+![Opciones de Búsqueda en Colecciones](/symbiota-docs/images/search1.PNG)
 
 3. Haga click en el botón de Búsqueda ubicado a la derecha.
 4. En la página siguiente, puede ingresar los griterios para buscar registros de interés.
@@ -36,11 +36,11 @@ Los portales Symbiota contienen datos de especímenes y observaciones con enfoqu
       * Puede ingresar valores múltiples en un mismo campo separando los valores con punto y comas. Por ejemplo, si quiere buscar en dos condados distintos, como Kern e Inyo, debe ingresar "Kern;Inyo" en el campo de condado.
 5. Haga click en Desplegar Lista para realizar la búsqueda y ver los resultados como una lista, o haga click en Desplegar Tablas para realizar la búsqueda y ver los resultados como una tabla.
 
-![List Display](/symbiota-docs/images/search3.PNG)
+![Desplegar Lista](/symbiota-docs/images/search3.PNG)
 **Desplegar Lista**
 
 
-![Table Display](/symbiota-docs/images/search4.PNG)
+![Desplegar Tabla](/symbiota-docs/images/search4.PNG)
 **Desplegar Tabla**
 
 {{< notice tip >}}
@@ -63,4 +63,4 @@ Más personalizaciones pueden ser realizadas en la ventana de Opciones de Mapa d
 
 Una vez que haya conducido la búsqueda, podrá ver una lista de especímenes haciendo click en el botón Abrir Panel de Búsqueda y viendo el menú de Registros y Taxa. También puede descargar los registros de especímenes, descargar un archivo KLM de los registros de especímenes o generar un enlace permanente para compartir los resultados de la búsqueda, haciendo click en los botones respectivos en esta página.
 
-![Map Search Display](/symbiota-docs/images/search5.PNG)
+![Desplegar Búsqueda en Mapa](/symbiota-docs/images/search5.PNG)
