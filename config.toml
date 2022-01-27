@@ -12,6 +12,9 @@ googleAnalytics = "G-MPX39Z5FZQ"
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
+# enables creation of index for full-text search
+[outputs]
+   home = [ "HTML", "JSON" ]
 
 ############################# Default Parameters ##########################
 [params]
@@ -39,6 +42,10 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 [[params.plugins.css]]
 link = "/assets/css/custom.css"
+
+[[params.plugins.js]]
+link = "/plugins/search/search.js"
+#attributes = "your-attributes" # optional field
 
 ############################## social links ##############################
 [[params.social]]

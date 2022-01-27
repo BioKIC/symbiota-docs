@@ -13,10 +13,11 @@
 				{{ $pages := ($currentNode.Scratch.Get "pages") }}
 				<script>
 					$(function() {
+          var content = $.getJSON("../../index.json");
 					var projects = [
 						{{ range $pages }}
 						{
-							value: "{{ .Title }}",
+							value: "[{{ .Section }}] {{ .Title }}",
 							label: "<p>{{.Plain}}</p>{{range.Params.Keywords}}<p>{{.}}</p>{{end}}",
 							url:"{{ .Permalink }}"
 						},
@@ -30,6 +31,14 @@
 						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
 						.appendTo( ul );
 					};
+          // when clicking search button, navigate to /search/search/?query=term
+          var searchUrl = "search/search/?query=";
+          
+          $('#search').keypress(function(e) {
+            if(e.which == 13) {
+              window.location.href = searchUrl + $('#search').val();
+            }
+          });
 					});
 				</script>
 			</div>
