@@ -1,0 +1,6 @@
+---
+title: Site Search
+
+---
+
+{{< search >}}
