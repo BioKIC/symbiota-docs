@@ -20,6 +20,10 @@ img {
   height: auto;
 }
 
-.content p > a, .content li > a {
+.section p > a, section .card-link > a, section .card-body > a, .content p > a, .content li > a {
   color: #007bff;
+}
+
+#search-results li {
+ margin-bottom: 2em;
 }
