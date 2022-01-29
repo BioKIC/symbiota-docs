@@ -123,9 +123,15 @@ name = "Contributing"
 url = "contribute"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "Search"
+pre = "<i class='ti-search search-icon'></i>"
+url = "search"
+weight = 7
+
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 7
+weight = 8
 name = "Docs"
 hasChildren = true
 
@@ -152,7 +158,6 @@ hasChildren = true
   name = "Collection Manager Guide"
   url = "coll_manager"
   weight = 3
-
 
 ################################ Spanish Language ######################
 [Languages.es]

@@ -31,3 +31,9 @@ img {
 #custom-search-field {
   width: 100%;
 }
+/* for screens 1024px and smaller */  
+@media screen and (min-width: 767px and max-width: 1024px) {
+  .navbar .nav-item .nav-link {
+    font-size: 12px;
+}
+}
