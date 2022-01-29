@@ -78,7 +78,7 @@ copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 title = "Symbiota Documentation"
 subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
 bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
-placeholder = "Try searching for terms here"
+placeholder = "Quick search for terms here. Press enter to go to results page."
 
 # call to action
 [Languages.en.params.cta]

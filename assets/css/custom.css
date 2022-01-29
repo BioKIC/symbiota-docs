@@ -27,3 +27,7 @@ img {
 #search-results li {
  margin-bottom: 2em;
 }
+
+#custom-search-field {
+  width: 100%;
+}
