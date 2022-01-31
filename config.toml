@@ -8,7 +8,7 @@ title = "Symbiota Docs"
 # disable language
 # disableLanguages = []
 # google analytics
-googleAnalytics = "G-MPX39Z5FZQ"
+googleAnalytics = "G-MPX39Z5FZQ" # global tag; should use universal instead
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
