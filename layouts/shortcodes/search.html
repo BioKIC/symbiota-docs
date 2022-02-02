@@ -1,14 +1,15 @@
 <form id="custom-search" name="custom-search" method="post" action="" onsubmit="customSearchResults(); return false;">
-    <p>
-    <input id="custom-search-field" type="text" name="search" value="" title="Search String" placeholder="Type one or more terms to search...">
-    <!-- <input type="submit" value="Suchen"> -->
-    </p>
-    <!-- <p><em>Search Section:</em><br>
+  <p>
+    <input id="custom-search-field" type="text" name="search" value="" title="Search String"
+      placeholder="{{ i18n "enter_search_term" }}">
+    <!-- <input type="submit" value="{{ i18n "search" }}"> -->
+  </p>
+  <!-- <p><em>Search Section:</em><br>
         <input type="checkbox"name="section[]" value="site" checked="checked"> all<br>
         <input type="checkbox" name="section[]" value="post"> Blog<br>
         <input type="checkbox" name="section[]" value="other-section"> Other Section
     </p> -->
-    <!-- <p>
+  <!-- <p>
         <input type="radio" name="option" value="AND" checked="checked"> UND-Suche<br>
         <input type="radio" name="option" value="OR"> ODER-Suche
     </p> -->
@@ -17,42 +18,42 @@
 <div id="custom-search-results"></div>
 
 <script>
-// CUSTOM AREA
-let params = {
-    json_src       : '../index.json', // for multiple sources: comma separated list of JSONarrays
-    minlength      : 3,
-    defaultsearch  : 'AND',
-    sort_date      : 'DESC',
-    autocomplete   : 1, // 0: form needs a submit button
-    section_search : 0, // 1: needs checkboxes with name="section[]"
-    badwords       : 'and,there,the,this,that,you', //ignore these words
-    json_wait      : '<p><em>loading...</em></p>',
-    json_ready     : '<p><em>Please enter a search term</em></p>',
-    extern_icon    : ' (external link)', // marker for external links (optional)
-    err_badstring  : '<p>Too short!</p>',
-    err_noresult   : '<p>Unfortunately no search results were found. Please try again.</p>',
-    err_norequest  : '<p style="text-align: center; color:red;">The full text search is currently not available.</p>',
-    err_filefailed : '<p style="text-align: center;color: red;">Search file could not be retrieved.</p>',
-    res_one_item   : '<p><em>[CNT] RESULT</em></p>',
-    res_more_items : '<p><em>[CNT] RESULTS</em></p>',
-    res_out_top    : '<ul id="search-results">',
-    res_out_bottom : '</ul>',
-    res_item_tpl   : '<li><a href="[URL]">[TITLE]</a><br>[SUMMARY]<br><em>[SECTION][TAGS] ([DATE])</em></li>',
-    add_searchlink : '<p><a href="https://duckduckgo.com/?q=site:yourdomain.com [QUERY]" target="_blank"><i>Not satisfied with the search results? Try the external search via DuckDuckGo ...</i></a></p>'
-};
+  // CUSTOM AREA
+  let params = {
+    json_src: '../index.json', // for multiple sources: comma separated list of JSONarrays
+    minlength: 3,
+    defaultsearch: 'AND',
+    sort_date: 'DESC',
+    autocomplete: 1, // 0: form needs a submit button
+    section_search: 0, // 1: needs checkboxes with name="section[]"
+    badwords: 'and,there,the,this,that,you', //ignore these words
+    json_wait: '<p><em>{{ i18n "loading" }}</em></p>',
+    json_ready: '<p><em>{{ i18n "enter search term" }}</em></p>',
+    extern_icon: ' ({{ i18n "external_link" }})', // marker for external links (optional)
+    err_badstring: '<p>{{ i18n "too_short" }}!</p>',
+    err_noresult: '<p>{{ i18n "no_results" }}</p>',
+    err_norequest: '<p style="text-align: center; color:red;">{{ i18n "search_na" }}</p>',
+    err_filefailed: '<p style="text-align: center;color: red;">{{ i18n "search_file_na" }}</p>',
+    res_one_item: '<p><em>[CNT] {{ i18n "result" }}</em></p>',
+    res_more_items: '<p><em>[CNT] {{ i18n "results" }}</em></p>',
+    res_out_top: '<ul id="search-results">',
+    res_out_bottom: '</ul>',
+    res_item_tpl: '<li><a href="[URL]">[TITLE]</a><br>[SUMMARY]<br><em>[SECTION][TAGS] ([DATE])</em></li>',
+    add_searchlink: '<p><a href="https://duckduckgo.com/?q=site:yourdomain.com [QUERY]" target="_blank"><i>{{ i18n "search_results_external" }}</i></a></p>'
+  };
 
-// Translation of section name (optional)
-let section_trans = {
-    "post" : "Blog",
+  // Translation of section name (optional)
+  let section_trans = {
+    "post": "Blog",
     // "other-section" : "Other Section"
-};
+  };
 
-let searchfield_weight = {
-    "title"   : 5,
-    "tags"    : 5,
-    "summary" : 2,
-    "content" : 1
-};
+  let searchfield_weight = {
+    "title": 5,
+    "tags": 5,
+    "summary": 2,
+    "content": 1
+  };
 // CUSTOM AREA END
 </script>
-<script type="text/javascript" src="../plugins/search/search.js"></script>
+<script src="{{ `plugins/search/search.js` | relURL }}"></script>

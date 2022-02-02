@@ -43,10 +43,6 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 [[params.plugins.css]]
 link = "/assets/css/custom.css"
 
-[[params.plugins.js]]
-link = "/plugins/search/search.js"
-#attributes = "your-attributes" # optional field
-
 ############################## social links ##############################
 [[params.social]]
 # icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons

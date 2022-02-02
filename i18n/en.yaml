@@ -24,3 +24,37 @@
 
 - id: cite_page
   translation: Cite this page
+
+- id: search
+  translation: Search
+
+- id: loading
+  translation: Loading
+
+- id: enter_search_term
+  translation: Type one or more terms to search
+
+- id: external_link
+  translation: external link
+
+- id: too_short
+  translation: Too short
+
+- id: no_results
+  translation: Unfortunately no search results were found. Please try again with different terms.
+
+- id: search_na 
+  translation: The full-text search is currently not available. Please try again later.
+
+- id: search_file_na
+  translation: Search file could not be retrieved.
+
+- id: result
+  translation: result 
+
+- id: results
+  translation: results
+
+- id: search_results_external
+  translation: Not satisfied with these results? Try the external search via DuckDuckGo...
+  
