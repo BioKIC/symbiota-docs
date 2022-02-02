@@ -58,3 +58,5 @@
 - id: search_results_external
   translation: Not satisfied with these results? Try the external search via DuckDuckGo...
   
+- id: edit_github
+  translation: Edit this content on GitHub

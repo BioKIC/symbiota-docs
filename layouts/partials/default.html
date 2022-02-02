@@ -29,7 +29,7 @@
           {{ end }}
           <div class="post-meta-wrapper border-top border-bottom">      
           {{ $editOnGH := urlize .File.Path }}
-          <p class="pb-3 pt-3 float-right"><a class="btn btn-sm btn-info" href='{{ .Site.Params.EditURL }}{{ replace $editOnGH "%5C" "/" }}' target="_blank" rel="noopener noreferrer">Edit this content on GitHub</a></p>
+          <p class="pb-3 pt-3 float-right"><a class="btn btn-sm btn-info" href='{{ .Site.Params.EditURL }}{{ replace $editOnGH "%5C" "/" }}' target="_blank" rel="noopener noreferrer">{{ i18n "edit_github" }}</a></p>
           <p class="post-meta pb-3 mt-3 mb-0">{{ if .Params.authors }}{{ i18n "content_by" }} {{ delimit .Params.authors ", " " & " }}{{ else }}{{ i18n "content_by" }} Symbiota Support Hub{{ end }}.{{ if .Params.editors }} {{ i18n "reviewed_by" }} {{ delimit .Params.editors ", " " & " }}.{{ end }}{{ if .Params.translators }} {{ i18n "translated_by" }} {{ delimit .Params.translators ", " " & " }}.{{ end }}</p>
           <p class="post-meta pb-3 mb-0">{{ i18n "created_on" }} {{ .Date.Format "02 Jan 2006" }}{{ if ne .Lastmod .Date }}, {{ i18n "edited_on"}} {{ .Lastmod.Format "02 Jan 2006" }}{{ end }}.</p>
           </div>
