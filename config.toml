@@ -8,10 +8,13 @@ title = "Symbiota Docs"
 # disable language
 # disableLanguages = []
 # google analytics
-googleAnalytics = "G-MPX39Z5FZQ"
+googleAnalytics = "G-MPX39Z5FZQ" # global tag; should use universal instead
 # unsafe html
 [markup.goldmark.renderer]
 unsafe = true
+# enables creation of index for full-text search
+[outputs]
+   home = [ "HTML", "JSON" ]
 
 ############################# Default Parameters ##########################
 [params]
@@ -39,6 +42,10 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 [[params.plugins.css]]
 link = "/assets/css/custom.css"
+
+[[params.plugins.js]]
+link = "/plugins/search/search.js"
+#attributes = "your-attributes" # optional field
 
 ############################## social links ##############################
 [[params.social]]
@@ -71,7 +78,7 @@ copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
 title = "Symbiota Documentation"
 subtitle = "Growing archive of help files for one of the most popular Natural History content management systems"
 bg_image = "images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
-placeholder = "Try searching for terms here"
+placeholder = "Quick search for terms here. Press enter to go to results page."
 
 # call to action
 [Languages.en.params.cta]
@@ -116,9 +123,15 @@ name = "Contributing"
 url = "contribute"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "Search"
+pre = "<i class='ti-search search-icon'></i>"
+url = "search"
+weight = 7
+
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 7
+weight = 8
 name = "Docs"
 hasChildren = true
 
@@ -145,7 +158,6 @@ hasChildren = true
   name = "Collection Manager Guide"
   url = "coll_manager"
   weight = 3
-
 
 ################################ Spanish Language ######################
 [Languages.es]

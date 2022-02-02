@@ -20,6 +20,20 @@ img {
   height: auto;
 }
 
-.content p > a, .content li > a {
+.section p > a, section .card-link > a, section .card-body > a, .content p > a, .content li > a {
   color: #007bff;
+}
+
+#search-results li {
+ margin-bottom: 2em;
+}
+
+#custom-search-field {
+  width: 100%;
+}
+/* for screens 1024px and smaller */  
+@media screen and (min-width: 767px and max-width: 1024px) {
+  .navbar .nav-item .nav-link {
+    font-size: 12px;
+}
 }
