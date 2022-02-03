@@ -17,46 +17,46 @@
   translation: Traducido por
 
 - id: created_on
-  translation: Creado en 
+  translation: Creado el 
 
 - id: edited_on
   translation: editado por última vez el
 
 - id: cite_page
-  translation: Cita esta página
+  translation: Cite esta página
 
 - id: search
-  translation: Search
+  translation: Buscando
 
 - id: loading
-  translation: Loading
+  translation: Cargando
 
 - id: enter_search_term
-  translation: Type one or more terms to search
+  translation: Escriba uno o más términos de búsqueda
 
 - id: external_link
-  translation: external link
+  translation: enlace externo
 
 - id: too_short
-  translation: Too short
+  translation: Muy corto
 
 - id: no_results
-  translation: Unfortunately no search results were found. Please try again with different terms.
+  translation: Desafortunadamente, no se encontraron resultados en la búsqueda. Por favor intente de nuevo con términos diferentes.
 
 - id: search_na 
-  translation: The full-text search is currently not available. Please try again later.
+  translation: La búsqueda de texto completo no está disponible actualmente. Por favor intente más tarde.
 
 - id: search_file_na
-  translation: Search file could not be retrieved.
+  translation: El archivo de la búsqueda no pudo ser localidado.
 
 - id: result
-  translation: result 
+  translation: resultado 
 
 - id: results
-  translation: results
+  translation: resultados
 
 - id: search_results_external
-  translation: Not satisfied with these results? Try the external search via DuckDuckGo...
+  translation: ¿No está satisfecho con los resultados? Intente realizar una búsqueda externa vía DuckDuckGo...
 
 - id: edit_github
-  translation: Edit this content on GitHub
+  translation: Editar este contenido en GitHub
