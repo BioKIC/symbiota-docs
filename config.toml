@@ -213,9 +213,15 @@ name = "Contribuyendo"
 url = "contribute"
 weight = 6
 
+[[Languages.en.menu.main]]
+name = "Buscar"
+pre = "<i class='ti-search search-icon'></i>"
+url = "search"
+weight = 7
+
 # Dropdown menu
 [[Languages.es.menu.main]]
-weight = 7
+weight = 8
 name = "Docs"
 hasChildren = true
 
