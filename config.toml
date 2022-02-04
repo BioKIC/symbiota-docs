@@ -213,9 +213,8 @@ name = "Contribuyendo"
 url = "contribute"
 weight = 6
 
-[[Languages.en.menu.main]]
+[[Languages.es.menu.main]]
 name = "Buscar"
-pre = "<i class='ti-search search-icon'></i>"
 url = "search"
 weight = 7
 
