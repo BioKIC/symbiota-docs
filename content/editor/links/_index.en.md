@@ -11,6 +11,10 @@ keywords: ["genetic resources","DNA sequences","sequences","checklist","voucher"
   This page describes how to link associated occurrences, checklists, duplicates, or genetic resources with occurrence records.
 {{</ notice >}}
 
+A video introduction to using the Linked Resource Tab can be found here:
+
+{{< youtube T76oTDQKQLY >}}
+
 To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](https://biokic.github.io/symbiota-docs/editor/edit/) for instructions) and click the Linked Resources tab.
 
 ![Linked Resources Tab](/symbiota-docs/images/linkedresourcestab.PNG)
