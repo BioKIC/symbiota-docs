@@ -7,4 +7,4 @@ authors: ["Katie Pearson"]
 keywords: ["specify","import","upload"]
 ---
 
-Collections in a Symbiota portal can import their data from a Specify instance using built-in Specify tools. Instructions for this process can be found here.
+Collections that manage their data in Specify 6 can push a copy of their data to a Symbiota portal using built-in Specify tools. Instructions for this process can be found here.
