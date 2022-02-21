@@ -3,7 +3,7 @@ title: "Managing Multiple Portals"
 date: 2022-02-18
 lastmod: 2022-02-21
 weight: 4
-draft: true
+draft: false
 authors: ["Katie Pearson"]
 editors: [""]
 keywords: ["multiple collections"]
