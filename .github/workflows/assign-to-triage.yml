@@ -2,7 +2,7 @@ name: Auto Assign Newly Opened Issues To Symbiota Triage Project
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened, reopened, labeled]
   pull_request:
     types: [opened, labeled]
   issue_comment:
