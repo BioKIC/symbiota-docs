@@ -23,7 +23,7 @@ jobs:
         uses: leonsteinhaeuser/project-beta-automations@v1.2.0
         with:
           gh_token: ${{ secrets.MY_GITHUB_TOKEN }}
-          user: arbolitoloco
+          organization: BioKIC
           project_id: 2
           resource_node_id: ${{ github.event.issue.node_id }}
           status_value: ${{ env.todo }} # Target status
