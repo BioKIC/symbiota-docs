@@ -24,7 +24,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 {{< dwc-term id="catalogNumber" verbatim="Catalog Number" descr="The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection" ex="WIS-L-0123456, ASU0012345, 12345" dwc="catalogNumber" >}}
 
-{{< dwc-term id="otherCatalogNumbers" verbatim="Other Numbers" descr="Any other identifier for a specimen record that is not the catalog number. This field is typically used to store the old catalog number for collections that are in the process of switching from one cataloging system to another (e.g. barcode system). Some portals include the ability to define tags and their respective values. More information about this system can be found on the [Catalog Numbers](https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/) documentation page." ex="12345" dwc="otherCatalogNumbers" >}}
+{{< dwc-term id="otherCatalogNumbers" verbatim="Other Numbers" descr="Any other identifier for a specimen record that is not the catalog number. This field is typically used to store the old catalog number for collections that are in the process of switching from one cataloging system to another (e.g. barcode system). Some portals include the ability to define tags and their respective values. More information about this system can be found on the Catalog Numbers documentation page." ex="12345" dwc="otherCatalogNumbers" >}}
 
 {{< dwc-term id="recordedBy" verbatim="Collector" descr="The name of the person who collected the specimen or made the observation." ex="C.G. Pringle, Goodding, L.N." dwc="recordedBy" >}}
 
