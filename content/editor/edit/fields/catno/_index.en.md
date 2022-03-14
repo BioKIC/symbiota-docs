@@ -17,7 +17,7 @@ The Other Catalog Number field can be used to store any other identifying number
 
 In some portals, a user can define the type of Other Catalog Number that is being provided by including a value in the Tag Name field. These Tag Names may be collection-specific based on the type of identifier that is indicated. Common tags might be: previous catalog number, old catalog #, accession number, NPS #, NPS accession #, secondary occurrenceID, etc. Then, the value for this type of Other Catalog Number should be provided in the "Additional Identifier Value" field.
 
-The Tag Name field is optional, and thus can be left blank with just an other catalog number entered in the value field (required).
+The Tag Name field is optional, and thus can be left blank with just an "Other Catalog Number" entered in the Additional Identifier Value field. The Additional Identifier Value field operates in the same way that the Other Catalog Number field previously did and can be used in the same way.
 
 ![Other Catalog Numbers](/symbiota-docs/images/othercatalognumbertag.PNG)
 
