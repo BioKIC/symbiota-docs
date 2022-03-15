@@ -10,6 +10,10 @@ keywords: ["add","create"]
   This page describes how to use the Skeletal Data Entry tool to quickly add skeletal data to the portal, especially during the process of imaging. It can also be used to create a quick inventory of a collection.
 {{</ notice >}}
 
+A video overview of using this tool is shown below:
+
+{{< youtube NKSWbL8twzk >}}
+
 This tool can be used to collect basic collection information, for example, during the imaging process. The imaging team can enter the basic collection information shared by the batch of specimens being processed, and each time they scan a barcode into the catalog number field, a record is added to the system with these skeletal data. Complete data can be entered by clicking on the catalog number, but a recommended workflow would be to process the full label data directly from the image of the specimen label at a later stage.
 
 1. To add a skeletal record, navigate to the Add Skeletal Records tool via the Data Editor Control Panel (My Profile > Occurrence Management > name of collection). You will see a page like that below.
