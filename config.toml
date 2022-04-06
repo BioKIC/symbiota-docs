@@ -67,7 +67,7 @@ languageName = "En"
 languageCode = "en-us"
 weight = 1
 #copyright = "Put together with \u2665 by [Laura](https://laura.rochaprado.com/)"
-copyright = "© 2021 [Symbiota Support Hub](https://symbiota.org)"
+copyright = "© 2022 [Symbiota Support Hub](https://symbiota.org)"
 
 # banner
 [Languages.en.params.banner]
