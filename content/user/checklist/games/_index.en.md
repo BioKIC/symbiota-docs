@@ -12,8 +12,8 @@ keywords: ["checklist","inventory","flora","games"]
    This page describes how to use the games features of checklists for educational purposes. One suggested use case is to create teaching checklists that can then be used in conjunctions with the Games tool to provide a study aid to students. No user permissions or login is required to play checklist games.
 {{</ notice >}}
 
-<img src="{{ site.baseurl }}/symbiota-docs/images/games_projectstab.png" alt="" width="500"/>{: .align-center}
-<img src="{{ site.baseurl }}/symbiota-docs/images/games_navigation.png" alt="" width="500"/>{: .align-center}
+![Projects Tab from Checklist](/symbiota-docs/images/games_projectstab.png)
+![Games Navigation from Checklist](/symbiota-docs/images/games_navigation.png)
 
 1. Log into your Symbiota profile and navigate to your portal's list of existing checklists. Look for a "Projects" or "Checklists" tab at the top of your portal interface.
 2. Select the checklist containing content that you wish to create a game from. When the checklist's page opens, hover over the "Games" icon to select the game you wish to use.
@@ -48,7 +48,7 @@ The "Flash Card Quiz" prompts users to identify species listed in a given checkl
 
 ## Other tips
 - If the images are not displaying, try using a different browser.
-- The quiz will bring up the first image associated with the taxon record, up to a maximum of five images. The sort order of these images can be edited on the taxon record to display in a different order. (See [game administration]({{ site.baseurl }}/symbiota-docs/content/user/checklist/games/#game-administration").)
+- The quiz will bring up the first image associated with the taxon record, up to a maximum of five images. The sort order of these images can be edited on the taxon record to display in a different order. (See [game administration](symbiota-docs/content/user/checklist/games/#game-administration).)
 
 # Game administration
-The species and images displayed in each game are dependent on the contents of the selected checklist. If you have permission to edit the checklist, you can to add/remove taxa from the list. Likewise, if your account has Taxon Profile permissions, you can edit the sort order of images [in the Taxon Profile Editor]({{ site.baseurl }}/symbiota-docs/images/games_imagesort.png") such that the images you want to display will be visible in the flash card game (whereby a value of "1" will make an image the first to appear). However, be aware that such changes will affect how the images display across the portal--not just within your game.
+The species and images displayed in each game are dependent on the contents of the selected checklist. If you have permission to edit the checklist, you can to add/remove taxa from the list. Likewise, if your account has Taxon Profile permissions, you can edit the sort order of images [in the Taxon Profile Editor](/symbiota-docs/images/games_imagesort.png) such that the images you want to display will be visible in the flash card game (whereby a value of "1" will make an image the first to appear). However, be aware that such changes will affect how the images display across the portal--not just within your game.
