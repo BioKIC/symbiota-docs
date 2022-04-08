@@ -1,6 +1,6 @@
 ---
 title: "Using Games"
-date: 2022-04-06
+date: 2022-04-07
 authors: ["Lindsay Walker"]
 draft: false
 weight: 20
@@ -9,7 +9,7 @@ keywords: ["checklist","inventory","flora","games"]
 ---
 
 {{< notice info >}}
-   This page describes how to use the games features of checklists for educational purposes. One suggested use case is to create teaching checklists that can then be used in conjunctions with the Games tool to provide a study aid to students. No user permissions or login is required to play checklist games.
+   This page describes how to use the games features of checklists for educational purposes. One suggested use case is to create teaching checklists that can then be used in conjunction with the Games tool to provide a study aid to students. No user permissions or login is required to play games created from checklists.
 {{</ notice >}}
 
 ![Projects Tab from Checklist](/symbiota-docs/images/games_projectstab.png)
