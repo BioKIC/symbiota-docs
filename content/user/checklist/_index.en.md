@@ -1,8 +1,8 @@
 ---
 title: "Checklists"
 date: 2021-10-14
-lastmod: 2022-03-31
-authors: ["Katie Pearson"]
+lastmod: 2022-04-08
+authors: ["Katie Pearson", "Lindsay Walker"]
 draft: false
 weight: 30
 keywords: ["checklist","inventory","flora"]
@@ -12,7 +12,7 @@ A checklist is a list of taxa for a certain region or use (e.g., a teaching list
   * Viewing a checklist by scientific names, common names, images in the image library, or a combination of these options
   * Linking voucher specimens from the Symbiota portal
   * Management of notes (either public or private) associated with taxa in the checklist
-  * Identification and name recognition/spelling games
+  * Identification and name recognition/spelling games (study aids)
   * Identification keys consisting of only taxa from the checklist
 
 
@@ -24,3 +24,16 @@ To create a checklist, you can:
 
 Additional resources about creating checklists in association with a floristics project can be found below:
 * [Mid-Atlantic Megalopolis Creating a Flora](https://www.mamdigitization.org/_files/ugd/6f7156_e81b7b8abc6746b9af680bad1d60911a.pdf)
+
+## Checklist use cases
+- Generate lists for field use (species inventories)
+- Link taxa and inventories in publications to voucher specimens
+- Visualize species distributions within a given area 
+- Export lists as Word documents and spreadsheets for printing and field use
+- Create study aids for students via games
+
+
+## Sample checklist
+- [West Fork of Oak Creek Flora](https://swbiodiversity.org/seinet/checklists/checklist.php?clid=2&pid=1)
+
+![Checklist Sample](/symbiota-docs/images/checklists_oakcreekexample.png)
