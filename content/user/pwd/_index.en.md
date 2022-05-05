@@ -22,4 +22,4 @@ To change your password, username, or any other personal information in a Symbio
 
 ### Resetting your Password
 
-If you no longer have access to your user account, reset your password by clicking Log In, then the Reset Password link. You will be sent an email with a new password that you can use to log in. This email is often filtered by institutional email addresses. Please check your spam folder, then email [symbiota@asu.edu](mailto:symbiota@asu.edu) if you still don't see it.
+If you no longer have access to your user account, reset your password by clicking Log In, then the Reset Password link. You will be sent an email with a new password that you can use to log in. This email is often filtered by institutional email addresses. Please check your spam folder, then email [help@symbiota.org](mailto:help@symbiota.org) if you still don't see it.
