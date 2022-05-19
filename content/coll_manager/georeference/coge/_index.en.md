@@ -58,7 +58,7 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 10. Return to the [CoGe site](https://coge.geo-locate.org/), navigate to your Dashboard, click the name of the community to which you just pushed records, and click the GO TO COMMUNITY button.
 11. Click the name of the dataset that you just pushed to CoGe.
 
-![CoGe Dashboard](/symbiota-docs/images/cogedashboard.PNG)
+![CoGe Dashboard](/symbiota-docs/images/cogedashboard.png)
 
 13. Click the Update Cache button.
 14. Once the cache has been fully updated, they will be available via the [CoGe web client](https://www.geo-locate.org/web/WebComGeoref.aspx).
@@ -70,4 +70,4 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 3. In the Filter box at the top right, select External from the dropdown menu of the Editing Source field. Then click Submit Filter.
 4. The edits that were applied in CoGe will now be visible in the reviewer table.
 
-![Edits from Coge](/symbiota-docs/images/viewcogeedits.PNG)
+![Edits from Coge](/symbiota-docs/images/viewcogeedits.png)
