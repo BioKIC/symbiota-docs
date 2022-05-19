@@ -33,7 +33,7 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 #### (step 4 from above workflow)
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Editor > name of collection).
-2. Clck Processing Toolbox.
+2. Click Processing Toolbox.
 3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
 
 ![GeoLocate CoGe tab](/symbiota-docs/images/geolocatecoge.png)
