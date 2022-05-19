@@ -36,7 +36,7 @@ Example instructions for step 5 can be found here ([GEOLocate CoGe Training Cour
 2. Clck Processing Toolbox.
 3. If CoGe has been enabled for your portal, a tab labeled GeoLocate CoGe will be visible. Click this tab. If CoGe is not enabled, contact your portal manager to request this feature.
 
-![GeoLocate CoGe tab](/symbiota-docs/images/geolocatecoge.PNG)
+![GeoLocate CoGe tab](/symbiota-docs/images/geolocatecoge.png)
 
 5. Click Login to CoGe in the **CoGe Status** box on the resulting page and log in to CoGe using your CoGe user account information in the pop-up window/tab.
 6. Return to your Symbiota portal page.
