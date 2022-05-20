@@ -8,19 +8,21 @@ weight: 10
 keywords: ["dataset","inventory"]
 ---
 
-## To edit an existing dataset
+### To edit an existing dataset
 1. Click My Profile.
 2. Click Occurrence Management.
 3. In the "Miscellaneous Tools" box, click "Dataset Management".
-4. Click the name of the dataset that you wish to edit.
+4. Click the name of the dataset that you wish to edit.<br>
 In the General Management tab, you can:
     * edit the name, notes, and description of the dataset
     * make the dataset private or publicly available
     * delete the dataset (bottom of the page)
+In the User Access tab, you can:
+    * provide other users access to view (read), add/delete occurrences (read/write), or fully manage (full access) the dataset
+In the Occurrence List tab, you can:
+    * add occurrences to a dataset. Click the name of the dataset you created, navigate to the Occurrences tab and click the "occurrence search page" link. Or you can start from the general search page for the Symbiota portal.
 
-6. To add occurrences to a dataset, click the name of the dataset you created, navigate to the Occurrences tab and click the "occurrence search page" link, or you can start from the general search page for the Symbiota portal.
-
-## To add occurrences to an existing dataset
+### To add occurrences to an existing dataset
 1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](https://biokic.github.io/symbiota-docs/user/search/). **When you conduct the search, click the "List Display" button".**
 2. From the List Display, click the button with the dataset icon.
 ![dataset button](/symbiota-docs/images/datasetbutton.PNG "dataset button")
