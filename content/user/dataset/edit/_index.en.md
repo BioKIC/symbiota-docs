@@ -12,13 +12,13 @@ keywords: ["dataset","inventory"]
 1. Click My Profile.
 2. Click Occurrence Management.
 3. In the "Miscellaneous Tools" box, click "Dataset Management".
-4. Click the name of the dataset that you wish to edit.<br>
+4. Click the name of the dataset that you wish to edit.<br><br>
 In the General Management tab, you can:
     * edit the name, notes, and description of the dataset
     * make the dataset private or publicly available
-    * delete the dataset (bottom of the page)<br>
+    * delete the dataset (bottom of the page)<br><br>
 In the User Access tab, you can:
-    * provide other users access to view (read), add/delete occurrences (read/write), or fully manage (full access) the dataset<br>
+    * provide other users access to view (read), add/delete occurrences (read/write), or fully manage (full access) the dataset<br><br>
 In the Occurrence List tab, you can:
     * add occurrences to a dataset. Click the name of the dataset you created, navigate to the Occurrences tab and click the "occurrence search page" link. Or you can start from the general search page for the Symbiota portal.
 
