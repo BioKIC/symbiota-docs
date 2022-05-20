@@ -4,13 +4,13 @@ date: 2022-05-20
 lastmod: 2022-05-20
 authors: ["Katie Pearson"]
 draft: false
-weight: 35
+weight: 5
 keywords: ["dataset","inventory"]
 ---
 
 You can access the tools to create a new dataset either (A) through the general search page or (B) through your Occurrence Management Page.
 
-## Through the general search page
+### Through the general search page
 1. Conduct a search from the main search page of the Symbiota portal. This is usually accessed by clicking "Search" or "Search Collections" on the home page of the portal. For more information about searching in a Symbiota portal, visit [this page](https://biokic.github.io/symbiota-docs/user/search/). **When you conduct the search, click the "List Display" button".**
 2. From the List Display, click the button with the dataset icon.
 ![dataset button](/symbiota-docs/images/datasetbutton.PNG "dataset button")
@@ -22,7 +22,7 @@ You can access the tools to create a new dataset either (A) through the general 
 ![dataset management box](/symbiota-docs/images/datasetmanagement.PNG "dataset management box")
 5. Once you have added occurrences to the dataset, you will be taken to the Dataset Manager page. Click the General Management Tab to can edit or add a name, internal notes, or a description to the dataset, or to make the dataset public (check the "Publicly Visible" box).
 
-## Through the dataset management page
+### Through the dataset management page
 1. Click My Profile.
 2. Click Occurrence Management.
 3. In the "Miscellaneous Tools" box, click "Dataset Management".
