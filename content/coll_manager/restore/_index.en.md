@@ -7,7 +7,7 @@ authors: ["Katie Pearson"]
 keywords: ["restore","replace","upload"]
 ---
 
-In the case of catastrophic database error (e.g., erroneous batch edit that cannot be easily reversed), you can replace your entire database by uploading a Darwin Core Archive (DwC-A) to CCH2. Note that you need to have recently [downloaded a copy of your database](https://biokic.github.io/symbiota-docs/coll_manager/download/) with which you can replace your current database.
+In the case of catastrophic database error (e.g., erroneous batch edit that cannot be easily reversed), you can replace your entire database by uploading a Darwin Core Archive (DwC-A). Note that you need to have recently [downloaded a copy of your database](https://biokic.github.io/symbiota-docs/coll_manager/download/) with which you can replace your current database.
 To replace your database, navigate to the Administration Control Panel (My Profile > Occurrence Management > name of collection) and click “Restore Backup File” under the General Maintenance Tasks. You can then click Choose File and select a DwC-A with which to replace your dataset.
  * If your DwC-A contains an “identifications” file, make sure that the Restore Determination History box is checked.
   * If your DwC-A contains an “images” file, make sure that the Restore Images box is checked. Click Analyze File.
