@@ -1,5 +1,5 @@
 ---
-title: "Using Games"
+title: "Games in Checklists"
 date: 2022-04-08
 authors: ["Lindsay Walker"]
 draft: false
