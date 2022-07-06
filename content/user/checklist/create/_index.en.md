@@ -11,6 +11,10 @@ keywords: ["checklist","inventory","flora"]
    This page describes how to create a checklist or biotic inventory in a Symbiota portal.
 {{</ notice >}}
 
+{{< notice note >}} 
+ The "Create a Checklist" permission has been granted for the majority of existing users (accounts created before June 2022). If you do not have "Create a Checklist enabled", and need it, ask your portal admin (super admin) or the Support Hub to add these user permissions to your account. All new users will need to request permission to create checklists/datasets moving forward.
+ {{</ notice >}}
+
 1.	Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
 2.	Click “My Profile”
 3.	Under the “Species Checklists” tab, click the green plus sign. ![Plus Sign](/symbiota-docs/images/add.png)

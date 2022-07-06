@@ -2,7 +2,7 @@
 title: "Checklists"
 authors: ["Laura Rocha Prado"]
 draft: "false"
-weight: 30
+weight: 24
 keywords: ["checklists","inventories"]
 ---
 
