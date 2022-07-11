@@ -8,6 +8,10 @@ weight: 30
 keywords: ["checklist","inventory","flora"]
 ---
 
+{{< notice note >}}
+  To create a checklist, you now need to obtain "Create a Checklist" permissions from a portal administrator or the Symbiota Support Hub. For assistance, [email the Hub](mailto:help@symbiota.org).
+{{</ notice >}}
+
 A checklist is a list of taxa for a certain region or use (e.g., a teaching list so that students can learn a certain set of taxa, or a list of rare or threatened taxa). The checklist tools in Symbiota offer:
   * Viewing a checklist by scientific names, common names, images in the image library, or a combination of these options
   * Linking voucher specimens from the Symbiota portal
