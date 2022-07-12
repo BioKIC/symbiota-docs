@@ -1,12 +1,16 @@
 ---
 title: "Creating Datasets"
 date: 2022-05-20
-lastmod: 2022-05-20
+lastmod: 2022-07-12
 authors: ["Katie Pearson"]
 draft: false
 weight: 5
 keywords: ["dataset","inventory"]
 ---
+
+{{< notice note >}}
+  To create a checklist, you now need to obtain permissions from a portal administrator or the Symbiota Support Hub. For assistance, [email the Hub](mailto:help@symbiota.org).
+{{</ notice >}}
 
 You can access the tools to create a new dataset either (A) through the general search page or (B) through your Occurrence Management Page.
 
