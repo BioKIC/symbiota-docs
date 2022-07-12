@@ -1,7 +1,7 @@
 ---
 title: "User Permissions"
-date: 2021-11-02
-authors: ["Katie Pearson"]
+date: 2022-07-12
+authors: ["Katie Pearson", "Lindsay Walker"]
 weight: 120
 keywords: ["users","permissions","access"]
 ---
@@ -23,6 +23,8 @@ _Permissions that can be assigned by a collection manager or other administrator
 * **Rare Species Reader**: can view locality data for all specimens in a collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/)).
 
 _Permission types that can only be assigned by a superadministrator_
+
+* **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](https://biokic.github.io/symbiota-docs/user/checklist/create/).
 
 * **Global Rare Species Reader**: can view locality data for all specimens in a portal (if provided). See [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/).
 
