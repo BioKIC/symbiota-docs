@@ -2,6 +2,7 @@
 title: "Data Import Fields"
 date: 2021-10-22
 authors: ["Ed Gilbert"]
+weight: 10
 editors: ["Katie Pearson"]
 keywords: ["data upload","data import","file upload","IPT"]
 ---
