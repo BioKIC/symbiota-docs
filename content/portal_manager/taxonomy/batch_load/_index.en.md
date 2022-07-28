@@ -4,7 +4,7 @@ date: 2022-07-06
 lastmod: 2022-07-27
 authors: ["Cat Chapman"]
 editors: ["Katie Pearson"]
-draft: true
+draft: false
 weight: 10
 keywords: ["taxonomy","taxonomic thesaurus"]
 ---
