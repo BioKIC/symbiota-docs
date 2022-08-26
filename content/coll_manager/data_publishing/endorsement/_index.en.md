@@ -8,8 +8,10 @@ keywords: ["aggregator","gbif","data publishing"]
 ---
 
 {{< notice info >}}
-  This document describes how to request endorsement from [GBIF](https://www.gbif.org) in order to publish your data to the GBIF data portal from a Symbiota portal.
+ **Requesting endorsement as a [GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement effectively establishes your collection as part of an institution, thereby enabling GBIF to index your dataset in the context of your home university, museum, etc. The Support Hub cannot complete this for you; fortunately, this process is relatively straightforward, as described in this document below.
 {{</ notice >}}
+
+If your collection would like to 
 
 Collections managed as "live datasets" within a Symbiota portal can immediately publish to GBIF without issues. Collections that make use of an in-house management system (e.g. Specify, Ke-Emu, etc.) and only publish a snapshot of their data to a Symbiota instance can also use the portal to publish their data to GBIF, but only if: 1) they are not publishing their data through another means (e.g. IPT installation, VertNet, etc.), and 2) an occurrenceID GUID is included in the data being pushed from their in-house database to the Symbiota dataset. If the collection is using the Symbiota publishing tool built into Specify, the occurrenceID GUID will be automatically included in the data upload from Specify. 
 
