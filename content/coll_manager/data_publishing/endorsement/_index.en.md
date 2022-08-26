@@ -1,5 +1,5 @@
 ---
-title: "Requesting Endorsement from GBIF"
+title: "Requesting Endorsement as GBIF Publisher"
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
 date: 2022-08-26
@@ -8,24 +8,42 @@ keywords: ["aggregator","gbif","data publishing"]
 ---
 
 {{< notice info >}}
- **Requesting endorsement as a [GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement effectively establishes your collection as part of an institution, thereby enabling GBIF to index your dataset in the context of your home university, museum, etc. The Support Hub cannot complete this for you; fortunately, this process is relatively straightforward, as described in this document below.
+ **For first-time data publishers, [requesting endorsement as a GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement essentially establishes your organization as an entity (a "publisher") within GBIF's data portal, thereby enabling GBIF to index your collections dataset as a contribution from your home university, museum, etc. The Support Hub cannot complete this step for you; fortunately, this process is typically straightforward, as described below.
 {{</ notice >}}
 
-If your collection would like to 
+| ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample.png) |
+|:--:|
+| Sample GBIF publisher page for the [ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) |
 
-Collections managed as "live datasets" within a Symbiota portal can immediately publish to GBIF without issues. Collections that make use of an in-house management system (e.g. Specify, Ke-Emu, etc.) and only publish a snapshot of their data to a Symbiota instance can also use the portal to publish their data to GBIF, but only if: 1) they are not publishing their data through another means (e.g. IPT installation, VertNet, etc.), and 2) an occurrenceID GUID is included in the data being pushed from their in-house database to the Symbiota dataset. If the collection is using the Symbiota publishing tool built into Specify, the occurrenceID GUID will be automatically included in the data upload from Specify. 
+1. Determine whether your organization is already endorsed:
+* Go to [https://www.gbif.org/become-a-publisher](https://www.gbif.org/become-a-publisher) and scroll to the bottom of the page. Thoroughly search for your institution (for example, searching on "ASU" will not bring up "Arizona State University", so try all possible combinations). Alternatively, you can search the GBIF portal for all endorsed publishers [here](https://www.gbif.org/publisher/search). 
+* ⚠️ **If your organization is recalled in the search, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
+* **If your organization is not recalled in the search, proceed with the next steps.**
 
-{{< notice note >}}
-  Your portal must be set up as a GBIF Publishing Installation to publishing your data to GBIF. This can be done by your portal manager.
-{{</ notice >}}
+2. If you have  not already done so, familiarize yourself with the content on [GBIF's Become A Publisher page](https://www.gbif.org/become-a-publisher), which explains why the endorsement process is necessary. 
 
-1. Set up an institutional account with GBIF so that there is a direct publishing agreement established between GBIF and the institution. Since the institutional account will be used to list multiple collection datasets associated with that institution (e.g. https://www.gbif.org/publisher/4c0e9f60-c489-11d8-bf60-b8a03c50a862 ), you should coordinate with other collections within your institution, if applicable. Note that the institutional datasets can be published to GBIF using different publishing resources. For instance, the zoological collections could import their data from VertNet IPT (http://ipt.vertnet.org) or their institutional IPT, vascular plant data from the SEINet https://swbiodiversity.org, and lichens from CNALH (https://lichenportal.org). Use the GBIF Endorsement Request page (https://www.gbif.org/become-a-publisher) to register your institution. Use the organization lookup on that page to make sure your institution is not already registered.
-   * If you are sure your institution is not yet registered, complete the registration form and follow the instructions provided by GBIF. 
-   * If your institution is already registered, review the GBIF metadata for your organization and existing datasets and contact GBIF to make any necessary changes. Be sure that none of the existing datasets contain the same data you are trying to publish. If they do, make the appropriate arrangements with GBIF so that the old dataset can be archived BEFORE re-publishing the new dataset.
-2. Login to your Symbiota portal, go to your Administrator Control Panel (via My Profile => Specimen Management tab => click your collection name), and click on "Edit Metadata and Contact Information" link in the Administration Control Panel. Verify your collection name and description (these will be used within the GBIF page), check the GBIF box to the right of "Publish to Aggregators", and click the "Save Edits" button. If you do not see a GBIF publishing checkbox, contact your portal manager and ask them to configure the portal for GBIF publishing.  
-3. Return to the Administrator Contol Panel and click on the "Darwin Core Archive Publishing" link in the Administration Control Panel. Click "Create/Refresh Darwin Core Archive" button to package up your data within a Darwin Core Archive data package. 
-4. Enter your institution's GBIF publication key and click the Validate Key button. If you key validates, more instructions will be displayed along with a Submit Data button. The GBIF Publisher Key should have the following format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx (e.g. 4c0e9f60-c489-11d8-bf60-b8a03c50a872). You can also enter the full URL to your GBIF publishing page, and the key will be automatically extracted. 
-5. Before you can submit data, you will need to contact GBIF help desk (helpdesk@gbif.org) and request for the portal's GBIF user account to be given permission to create and update datasets within your institution's publishing instance. The GBIF username associated with the Symbiota portal installation is displayed in paragraph above the Submit Data button. Click on the GBIF email address to automatically generate a message within your email client.
-6. Once you hear back from GBIF affirming that the portal has permission to submit data to your publisher, click the Submit Data button. A link to your GBIF dataset will be immediately displayed, though it may take an hour or so for your data to be loaded, indexed, and available.
+3.  Select "My organization is not already registered". Once you review and agree with GBIF's terms and conditions, a lengthier form will appear. 
 
-{{< youtube aDbw9RF4w08 >}}
+To complete the form:
+
+4. **_Organizational Details:_**_ Add your organizational details. This information may be somewhat similar to your collections profile in your Symbiota portal. However, if you are requesting endorsement for an organization that retains multiple collections that could potentially publish data to GBIF, this description should be more generalized. Refer to the description for [ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) as an example. Use the map interface to create a placemark for your organization's physical location. 
+
+5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "Symbiota Support Hub" as your endorsing node.
+
+6. **_GBIF Projects:_** For most collections in Symbiota portals, the answer is "**no**".
+
+7. **_Contacts:_** **We strongly recommend adding multiple contacts for your organization**, and providing at least one "generic" institutional email address, if possible. This will minimize the chance that your organization's publisher page will become orphaned following future staff turnover. 
+
+8. **_What and How:_**
+* For most collections in Symbiota portals, the answer is "Occurrence-only data".
+* In _Data Description_, we suggest entering something like: 
+> I intend to publish specimen occurrences through the Consortium of Southern Rocky Mountain Herbaria, which is a Symbiota portal, available from soroherbaria.org.
+* For the remaining three questions, for most collections in Symbiota portals, the answers are "no".
+
+9. Select "Register Organization". At this point, GBIF will notify the Support Hub that your organization has requested endorsement as a publisher. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Associate Participant page on GBIF](https://www.gbif.org/participant/429). 
+
+| {{< youtube ed2VEZCJwEI >}} |
+|:--:|
+| Recording describing how to request endorsement as a data publisher (~4 mins). |
+
+  
