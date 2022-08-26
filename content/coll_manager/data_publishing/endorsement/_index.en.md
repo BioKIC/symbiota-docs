@@ -8,7 +8,7 @@ keywords: ["aggregator","gbif","data publishing"]
 ---
 
 {{< notice info >}}
- **For first-time data publishers, [requesting endorsement as a GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement essentially establishes your organization as an entity (a "publisher") within GBIF's data portal, thereby enabling GBIF to index your collections dataset as a contribution from your home university, museum, etc. The Support Hub cannot complete this step for you; fortunately, this process is typically straightforward, as described below.
+ **For first-time data publishers, [requesting endorsement as a GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement essentially establishes your organization as an entity (a "publisher") within GBIF's data portal, thereby enabling GBIF to index your collections dataset as a contribution from your home university, museum, etc. This process is typically straightforward, as described below.
 {{</ notice >}}
 
 | ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample.png) |
@@ -16,34 +16,42 @@ keywords: ["aggregator","gbif","data publishing"]
 | Sample GBIF publisher page for the [ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) |
 
 1. Determine whether your organization is already endorsed:
-* Go to [https://www.gbif.org/become-a-publisher](https://www.gbif.org/become-a-publisher) and scroll to the bottom of the page. Thoroughly search for your institution (for example, searching on "ASU" will not bring up "Arizona State University", so try all possible combinations). Alternatively, you can search the GBIF portal for all endorsed publishers [here](https://www.gbif.org/publisher/search). 
-* ⚠️ **If your organization is recalled in the search, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
-* **If your organization is not recalled in the search, proceed with the next steps.**
+* Go to [GBIF's Become A Publisher page](https://www.gbif.org/become-a-publisher) and scroll to the bottom of the page. Thoroughly search for your institution. For example, simply searching on "ASU" will not bring up "Arizona State University", so try all possible combinations before concluding your organization is not registered. You can also search the GBIF portal for all endorsed publishers [here](https://www.gbif.org/publisher/search). 
+* ⚠️ **If your organization is recalled in the search form, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
+* **If your organization is not recalled in the search form, proceed with the remaining steps on this page.**
+
+| ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample2.png) |
+|:--:|
+| **It's possible your organization is already registered as a publisher, as is often the case for museums and universities that maintain multiple natural history collections.** If you determine that your organization is already registered as a publisher, reach out to the contact(s) listed on your institution's publisher page to have them add your collection added as a separate dataset. For example, the ASU Biocollections are published to GBIF as [a series of datasets](https://www.gbif.org/dataset/search?publishing_org=814cdfb5-d4f8-4453-815f-ea5df98e76bf). |
 
 2. If you have  not already done so, familiarize yourself with the content on [GBIF's Become A Publisher page](https://www.gbif.org/become-a-publisher), which explains why the endorsement process is necessary. 
 
-3.  Select "My organization is not already registered". Once you review and agree with GBIF's terms and conditions, a lengthier form will appear. 
+3.  Select "My organization is not already registered", then review and agree to GBIF's terms and conditions. Once you do so, a lengthier form will appear. 
 
 To complete the form:
 
-4. **_Organizational Details:_**_ Add your organizational details. This information may be somewhat similar to your collections profile in your Symbiota portal. However, if you are requesting endorsement for an organization that retains multiple collections that could potentially publish data to GBIF, this description should be more generalized. Refer to the description for [ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) as an example. Use the map interface to create a placemark for your organization's physical location. 
+4. **_Organizational Details:_**
+* Add your organizational details. This information may be somewhat similar to your collections profile in your Symbiota portal. However, if you are requesting endorsement for an organization that houses multiple collections that could potentially publish data to GBIF (now or in the future), this description should be more generalized. Refer to the description on [the publisher page for the ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) as an example.
+* Use the map interface to create a placemark for your organization's physical location. 
 
-5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "Symbiota Support Hub" as your endorsing node.
+5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "**Symbiota Support Hub**" as your endorsing node.
 
 6. **_GBIF Projects:_** For most collections in Symbiota portals, the answer is "**no**".
 
-7. **_Contacts:_** **We strongly recommend adding multiple contacts for your organization**, and providing at least one "generic" institutional email address, if possible. This will minimize the chance that your organization's publisher page will become orphaned following future staff turnover. 
+7. **_Contacts:_** **We strongly recommend adding multiple contacts for your organization**, and providing at least one generic institutional email address, if possible. This will minimize the chance that your organization's publisher page will become orphaned following future staff turnover. 
 
 8. **_What and How:_**
 * For most collections in Symbiota portals, the answer is "Occurrence-only data".
 * In _Data Description_, we suggest entering something like: 
 > I intend to publish specimen occurrences through the Consortium of Southern Rocky Mountain Herbaria, which is a Symbiota portal, available from soroherbaria.org.
-* For the remaining three questions, for most collections in Symbiota portals, the answers are "no".
+* For the remaining three questions, most collections in Symbiota portals should select "**no**".
 
-9. Select "Register Organization". At this point, GBIF will notify the Support Hub that your organization has requested endorsement as a publisher. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Associate Participant page on GBIF](https://www.gbif.org/participant/429). 
+9. Select "Register Organization". At this point, if you selected the Symbiota Support Hub as your endorsing node, GBIF will notify the Hub that your organization has requested endorsement as a publisher.
 
-| {{< youtube ed2VEZCJwEI >}} |
-|:--:|
-| Recording describing how to request endorsement as a data publisher (~4 mins). |
+10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 8)](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/gbif/).
+
+![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherkey.png)
+
+{{< youtube ed2VEZCJwEI >}}
 
   
