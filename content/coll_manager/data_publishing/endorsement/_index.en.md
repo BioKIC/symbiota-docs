@@ -1,5 +1,5 @@
 ---
-title: "Requesting Endorsement as GBIF Publisher"
+title: "Requesting Endorsement as a Publisher"
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
 date: 2022-08-26
@@ -8,7 +8,7 @@ keywords: ["aggregator","gbif","data publishing"]
 ---
 
 {{< notice info >}}
- **For first-time data publishers, [requesting endorsement as a GBIF publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement essentially establishes your organization as an entity (a "publisher") within GBIF's data portal, thereby enabling GBIF to index your collections dataset as a contribution from your home university, museum, etc. This process is typically straightforward, as described below.
+ **For first-time data publishers, [requesting endorsement as a publisher](https://www.gbif.org/become-a-publisher) is a required first step in the data publishing process.** Endorsement essentially establishes your organization as an entity (a "publisher") within GBIF's data portal, thereby enabling GBIF to index your collections dataset as a contribution from your home university, museum, etc. This process is typically straightforward, as described below.
 {{</ notice >}}
 
 | ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample.png) |
@@ -48,7 +48,7 @@ To complete the form:
 
 9. Select "Register Organization". At this point, if you selected the Symbiota Support Hub as your endorsing node, GBIF will notify the Hub that your organization has requested endorsement as a publisher.
 
-10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 8)](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/gbif/).
+10. Once approved, your organization will be listed as an "Endorsed Publisher" on [the Support Hub's Participant page on GBIF](https://www.gbif.org/participant/429). When you open your new publisher page, note the **publisher key** that appears in the URL for the webpage; [use this key when you go to publish your data to GBIF (Step 4)](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/gbif/).
 
 ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherkey.png)
 
