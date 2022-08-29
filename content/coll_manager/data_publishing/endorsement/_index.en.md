@@ -17,8 +17,8 @@ keywords: ["aggregator","gbif","data publishing"]
 
 1. Determine whether your organization is already endorsed:
 * Go to [GBIF's Become A Publisher page](https://www.gbif.org/become-a-publisher) and scroll to the bottom of the page. Thoroughly search for your institution. For example, simply searching on "ASU" will not bring up "Arizona State University", so try all possible combinations before concluding your organization is not registered. You can also search the GBIF portal for all endorsed publishers [here](https://www.gbif.org/publisher/search). 
-* ⚠️ **If your organization is recalled in the search form, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
-* **If your organization is not recalled in the search form, proceed with the remaining steps on this page.**
+* ⚠️ **If your organization is found in the search form, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
+* **If your organization is not found in the search form, proceed with the remaining steps on this page.**
 
 | ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample2.png) |
 |:--:|
@@ -36,12 +36,12 @@ To complete the form:
 
 5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "**Symbiota Support Hub**" as your endorsing node.
 
-6. **_GBIF Projects:_** For most collections in Symbiota portals, the answer is "**no**".
+6. **_GBIF Projects:_** For most collections in Symbiota portals, the answer is "**no**". Answer "yes" only if you are funded through a BID project.
 
-7. **_Contacts:_** **We strongly recommend adding multiple contacts for your organization**, and providing at least one generic institutional email address, if possible. This will minimize the chance that your organization's publisher page will become orphaned following future staff turnover. 
+7. **_Contacts:_** **We strongly recommend adding multiple contacts for your organization** and providing at least one generic institutional email address, if possible. This will minimize the chance that your organization's publisher page will become orphaned due to staff turnover. 
 
 8. **_What and How:_**
-* For most collections in Symbiota portals, the answer is "Occurrence-only data".
+* For most collections in Symbiota portals, the answer is "Occurrence-only data". This means specimen data.
 * In _Data Description_, we suggest entering something like: 
 > I intend to publish specimen occurrences through the Consortium of Southern Rocky Mountain Herbaria, which is a Symbiota portal, available from soroherbaria.org.
 * For the remaining three questions, most collections in Symbiota portals should select "**no**".
