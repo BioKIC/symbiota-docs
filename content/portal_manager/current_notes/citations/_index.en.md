@@ -36,7 +36,9 @@ All of the formats might be included, one at a time, in the [`CITEME.txt`](https
 To make sure your portal uses the citation formats, all you have to do is make a copy of each citation format template, and remove the `_template` string from their file name.
 
 ### Customizing formats
-Please note that the citation formats should only include plain text and/or PHP. No HTML should be included in the formats, because they are used in different contexts.
+{{< notice note >}}
+  Please note that the citation formats should only include plain text and/or PHP. No HTML should be included in the formats, because they are used in different contexts.
+{{</ notice >}}
 
 To customize each format, open the copies of the templates and make the desired changes. Save them. As the copies of the templates (without the `_template` string in the file name) won't be tracked by Git, they won't be overwritten by future releases.
 
