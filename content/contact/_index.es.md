@@ -13,4 +13,4 @@ Por favor envíe sus preguntas como una nueva discusión en nuestra [Página de 
 ![Discussion Categories](/symbiota-docs/images/categories_highlighted.PNG)
 *Note que puede seleccionar una categoría para dirigirse a la discusión. Las categorías están resaltadas en amarillo en la imagen de arriba. Por ejemplo, si está experimentando un problema específico, puede utilizar la categoría "Problems/Bugs". Si tiene una pregunta, puede utilizar la categoría "Q&A".*
 
-De forma alterna, siempre puede [enviar un correo al Symbiota Support Hub](mailto:symbiota@asu.edu).
+De forma alterna, siempre puede [enviar un correo al Symbiota Support Hub](mailto:help@symbiota.org).
