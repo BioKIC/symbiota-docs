@@ -28,9 +28,19 @@ The general portal format will be seen by default in the [Usage Policy page](htt
 
 The collection formats will be inserted in each [Collection Profile page](https://github.com/BioKIC/Symbiota/blob/master/collections/misc/collprofiles.php), depending on whether each collection is published to GBIF or not.
 
+![neon-biorepo-coll-citation.jpg](/symbiota-docs/images/neon-biorepo-coll-citation.jpg)
+*Example of collection profile page that has not been published to GBIF in the [NEON Biorepository Data Portal](https://biorepo.neonscience.org/portal/collections/misc/collprofiles.php?collid=50).*
+
+![neon-biorepo-coll-gbif-citation.jpg](/symbiota-docs/images/neon-biorepo-coll-gbif-citation.jpg)
+*Example of collection profile page that has been published to GBIF in the [NEON Biorepository Data Portal](https://biorepo.neonscience.org/portal/collections/misc/collprofiles.php?collid=39).*
+
 The dataset format will be inserted in each [Dataset page](https://github.com/BioKIC/Symbiota/blob/master/collections/datasets/public.php).
 
 All of the formats might be included, one at a time, in the [`CITEME.txt`](https://github.com/BioKIC/Symbiota/blob/master/classes/DwcArchiverCore.php) file included with the downloaded package from a Symbiota portal, depending on the context in which a package was requested. For instance, downloading the results of a search will include a `CITEME.txt` file that will contain a `citationportal.php` format. On the other hand, downloading a DwCA from a collection page (which is published to GBIF), will include the  `citationgbif.php` format. This behavior was designed to better inform users where their occurrence data is coming from and when.
+
+![neon-biorepo-citeme.jpg](/symbiota-docs/images/neon-biorepo-citeme.jpg)
+*Example of a `CITEME.txt` file packaged within a DwCA download from the [NEON Biorepository Data Portal](https://biorepo.neonscience.org/).*
+
 
 ### Activating format usage
 To make sure your portal uses the citation formats, all you have to do is make a copy of each citation format template, and remove the `_template` string from their file name.
@@ -46,6 +56,10 @@ To customize each format, open the copies of the templates and make the desired 
 The Collection Profile page (`[root]/collections/misc/collprofiles.php`) has been updated to include each appropriate citation format (if not published to GBIF, it will include by default the `citationcollection.php` format; if published to GBIF, it will include the `citationgbif.php` format). 
 
 If a collection has been published to GBIF, the page will fetch the [GBIF citations widget](https://www.gbif.org/article/1E6v02SFQyhupvB7JqDXPN/citation-widget#:~:text=GBIF%20maintains%20an%20ongoing%20literature,citation%20feed%20into%20external%20websites.) using the collection-specific GBIF Dataset Key.
+
+![neon-biorepo-coll-gbif-widget.jpg](/symbiota-docs/images/neon-biorepo-coll-gbif-widget.jpg)
+*Example of a GBIF widget added to a [NEON Biorepository Data Portal collection profile](https://biorepo.neonscience.org/portal/collections/misc/collprofiles.php?collid=39).*
+
 
 ### Dependencies
 For collections that publish to GBIF, data referring to the GBIF-specific citation format will be fetched from the [uses GBIF's API v1](https://www.gbif.org/developer/summary) to fetch collections information (like `gbiftitle` and `DOI`).]
