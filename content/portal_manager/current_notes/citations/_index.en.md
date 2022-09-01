@@ -13,27 +13,27 @@ keywords: ["citing","citations","downloads"]
 Citation formats and the creation of a `CITEME.txt` file have been introduced recently in Symbiota ([Pull Request #261](https://github.com/BioKIC/Symbiota/pull/261)).
 
 ### Default formats
-Symbiota portals have now a standardized way for users to cite them and their data. These default, dynamic, citation formats have been introduced (and can be customized as necessary) and can be found in the `[root]/includes` directory:
-- General portal: found in the `citationportal_template.php`;
-- Collection (for collections not published in GBIF): `citationcollection_template.php`;
-- Collection published in GBIF: `citationgbif_template.php`;
-- Dataset: `citationdataset_template.php`;
+Symbiota portals have now a standardized way for users to cite them and their data. These default, dynamic, citation formats have been introduced (and can be customized as necessary) and can be found in the [`[root]/includes` directory](https://github.com/BioKIC/Symbiota/tree/master/includes):
+- General portal: found in the [`citationportal_template.php`](https://github.com/BioKIC/Symbiota/blob/master/includes/citationportal_template.php);
+- Collection (for collections not published in GBIF): [`citationcollection_template.php`](https://github.com/BioKIC/Symbiota/blob/master/includes/citationcollection_template.php);
+- Collection published in GBIF: [`citationgbif_template.php`](https://github.com/BioKIC/Symbiota/blob/master/includes/citationgbif_template.php);
+- Dataset: [`citationdataset_template.php`](https://github.com/BioKIC/Symbiota/blob/master/includes/citationdataset_template.php);
 
-Additionally, the template for the Usage Policy page (`[root]/includes/usagepolicy_template.php`) has been updated to include the dynamic formats as well. This means that portal managers that would like to customize citation formats should only do it by modifying the formats themselves.
+Additionally, the template for the Usage Policy page ([`[root]/includes/usagepolicy_template.php`](https://github.com/BioKIC/Symbiota/blob/master/includes/usagepolicy_template.php)) has been updated to include the dynamic formats as well. This means that portal managers that would like to customize citation formats should only do it by modifying the formats themselves.
 
 ### Where in Symbiota are formats used?
 The citation formats are inserted in certain context-specific pages and in downloads.
 
-The general portal format will be seen by default in the Usage Policy page.
+The general portal format will be seen by default in the [Usage Policy page](https://github.com/BioKIC/Symbiota/blob/master/includes/usagepolicy_template.php).
 
-The collection formats will be inserted in each Collection Profile page, depending on whether each collection is published to GBIF or not.
+The collection formats will be inserted in each [Collection Profile page](https://github.com/BioKIC/Symbiota/blob/master/collections/misc/collprofiles.php), depending on whether each collection is published to GBIF or not.
 
-The dataset format will be inserted in each Dataset page.
+The dataset format will be inserted in each [Dataset page](https://github.com/BioKIC/Symbiota/blob/master/collections/datasets/public.php).
 
-All of the formats might be included, one at a time, in the `CITEME.txt` file included with the downloaded package from a Symbiota portal, depending on the context in which a package was requested. For instance, downloading the results of a search will include a `CITEME.txt` file that will contain a `citationportal.php` format. On the other hand, downloading a DwCA from a collection page (which is published to GBIF), will include the  `citationgbif.php` format. This behavior was designed to better inform users where their occurrence data is coming from and when.
+All of the formats might be included, one at a time, in the [`CITEME.txt`](https://github.com/BioKIC/Symbiota/blob/master/classes/DwcArchiverCore.php) file included with the downloaded package from a Symbiota portal, depending on the context in which a package was requested. For instance, downloading the results of a search will include a `CITEME.txt` file that will contain a `citationportal.php` format. On the other hand, downloading a DwCA from a collection page (which is published to GBIF), will include the  `citationgbif.php` format. This behavior was designed to better inform users where their occurrence data is coming from and when.
 
 ### Activating format usage
-To make sure your portal uses the citation formats, all you have to do is make a copy of the citation format templates, and remove the `_template` string from their file name.
+To make sure your portal uses the citation formats, all you have to do is make a copy of each citation format template, and remove the `_template` string from their file name.
 
 ### Customizing formats
 Please note that the citation formats should only include plain text and/or PHP. No HTML should be included in the formats, because they are used in different contexts.
