@@ -63,6 +63,8 @@ Nulla non sollicitudin. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi vari
 
 Nunc porta malesuada porta. Etiam tristique vestibulum dolor at ultricies. Proin hendrerit sapien sed erat fermentum, at commodo velit consectetur.
 
+The image should be placed in the `static/images` folder.
+
 ![image example](/symbiota-docs/images/banner.jpg "image")
 
 Etiam vestibulum risus vel arcu elementum eleifend. Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis. Phasellus at massa sit amet ante semper fermentum sed eget lectus. Quisque id dictum magna, et dapibus turpis.
