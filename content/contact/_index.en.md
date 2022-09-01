@@ -13,4 +13,4 @@ Please submit your question as a new Discussion on our [Discussion Page](https:/
 ![Discussion Categories](/symbiota-docs/images/categories_highlighted.PNG)
 *Note that you can select a category to which the discussion belongs. Categories are highlighted in yellow in this image above. For example, if you are experiencing a specific problem, you can use the category "Problems/Bugs". If you are asking a question, you can use the "Q&A" category.*
 
-Alternatively, you can always [email the Symbiota Support Hub](mailto:symbiota@asu.edu)!
+Alternatively, you can always [email the Symbiota Support Hub](mailto:help@symbiota.org)!
