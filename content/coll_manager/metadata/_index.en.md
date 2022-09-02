@@ -1,7 +1,7 @@
 ---
 title: "Editing Collection Metadata and Contact Info"
 date: 2021-11-16
-lastmod: 2022-08-17
+lastmod: 2022-09-02
 weight: 60
 draft: false
 authors: ["Katie Pearson"]
@@ -9,7 +9,7 @@ keywords: ["collection name","metadata","contact info"]
 ---
 
 {{< notice info >}}
-  This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description).
+  This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description). New collections will be asked to complete [this form](https://forms.gle/JcSB35c9wyPxiFPi7) to facilitate the intial setup of your of collection profile; this information can be modified once the profile is established using the instructions below.
 {{</ notice >}}
 
 1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of collection).
