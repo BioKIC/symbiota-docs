@@ -8,7 +8,7 @@ keywords: ["citations","gbif","data publishing"]
 ---
 
 {{< notice info >}}
-Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation; [refer to the relevant portal manager documentation for more information](/symbiota-docs/portal_manager/current_notes/citations/).
+Some citation features will require initial configuration by your portal manager or the Symbiota Support Hub prior to full implementation. [Refer to the relevant portal manager documentation for more information](/symbiota-docs/portal_manager/current_notes/citations/).
  {{</ notice >}}
  
  As collections become available online, properly citing them has become increasingly necessary to enable full digital connectivity between your specimens, their [extended data](https://academic.oup.com/bioscience/article/72/10/978/6648186), and the published literature. Symbiota offers a suite of options to enable proper attribution of data shared through our portals. **Collections Managers are strongly encouraged to instruct users of their data to include all elements of these citations to fully benefit from their functionality.**
