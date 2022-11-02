@@ -37,7 +37,7 @@ Characters may be grouped together, for example, by anatomy or other similaritie
 
 ![Identification Keys Example](/symbiota-docs/images/characters.jpg)
 
-Clicking on the name of a grouping will collapose or expand the characters underneath that grouping.
+Clicking on the name of a grouping will collapse or expand the characters underneath that grouping.
 
 To add a new character, click the green plus sign at the top right corner of the page. You will be prompted to add some information that will later be found in the **Details** tab of the character editor (see below).
 
