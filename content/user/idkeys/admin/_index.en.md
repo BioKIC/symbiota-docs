@@ -1,7 +1,7 @@
 ---
 title: "(Admin) Adding/Editing ID Key Characters & States"
 date: 2022-10-31
-lastmod: 2022-10-31
+lastmod: 2022-11-02
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -9,10 +9,10 @@ keywords: ["checklist","keys","identification","character","state","ID"]
 ---
 
 {{< notice info >}}
-This page describes how to edit the characters and states that are available in Identification Keys. {{</ notice >}}
+This page describes how to add or edit the characters and states that are available in Identification Keys. To edit which character states are applied to a given taxon, visit the [Editing ID Key States for Taxa](https://biokic.github.io/symbiota-docs/user/idkeys/edit/) page.{{</ notice >}}
 
 {{< notice note >}}
-A user must have Identification Keys Administrator access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist. {{</ notice >}}
+A user must have **Identification Keys Administrator** access to edit character and state values in a portal, since these edits affect the entire portal, not just a single checklist. {{</ notice >}}
 
 ### Structure of Identification Keys
 
