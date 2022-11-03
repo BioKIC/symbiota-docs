@@ -21,7 +21,7 @@ A **state** is the specific trait that is shared within the taxon (e.g., "3-15 m
 
 ![Character and Character States Example](/symbiota-docs/images/charactervsstate.jpg)
 
-Setting up identification keys in a portal requires the administrator to import or add character and state values (see ID Keys Administrator instructions [here](https://biokic.github.io/symbiota-docs/user/idkeys/admin/). Then, an identification keys editor can assign certain state values to certain taxa (see ID Keys Editor Instructions [here](https://biokic.github.io/symbiota-docs/user/idkeys/edit/).
+Setting up identification keys in a portal requires the administrator to import or add character and state values (see ID Keys Administrator instructions [here](https://biokic.github.io/symbiota-docs/user/idkeys/admin/). Then, an identification keys editor can assign certain state values to certain taxa (see ID Keys Editor Instructions [here](https://biokic.github.io/symbiota-docs/user/idkeys/edit/)).
 
 ### Using Identification Keys
 
