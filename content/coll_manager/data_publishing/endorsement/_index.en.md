@@ -17,7 +17,7 @@ keywords: ["aggregator","gbif","data publishing"]
 
 1. Determine whether your organization is already endorsed:
 * Go to [GBIF's Become A Publisher page](https://www.gbif.org/become-a-publisher) and scroll to the bottom of the page. Thoroughly search for your institution. For example, simply searching on "ASU" will not bring up "Arizona State University", so try all possible combinations before concluding your organization is not registered. You can also search the GBIF portal for all endorsed publishers [here](https://www.gbif.org/publisher/search). 
-* ⚠️ **If your organization is found in the search form, do not request endorsement.** Instead, look for the contacts listed under your institution's publisher page and reach out to them for assistance before proceeding with publishing your dataset.
+* ⚠️ **If your organization is found in the search form, do not request endorsement.** Look for the contacts listed on your organization's publisher page. If you are unsure whether your collection should be published as a dataset in connection with this existing publisher page, reach out to the listed contacts for assistance before proceeding with data publishing. You can also ask the Support Hub for advice in this situation if you're not sure what to do.
 * **If your organization is not found in the search form, proceed with the remaining steps on this page.**
 
 | ![Example GBIF publisher page](/symbiota-docs/images/endorsementpublisherexample2.png) |
