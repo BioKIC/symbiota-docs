@@ -33,3 +33,7 @@ Identification keys can be used within checklists to identify a taxon within the
 ![Identification Keys Example](/symbiota-docs/images/idkeys1.jpg)
 
 Note that the taxa you will see on the left will **only** include those that were in the original checklist.
+
+### Related Resources
+
+{{< youtube GMk2WkE3Hno >}}
