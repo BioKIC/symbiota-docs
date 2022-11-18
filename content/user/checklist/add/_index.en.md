@@ -9,7 +9,33 @@ keywords: ["checklist","inventory","flora"]
 
 {{< notice info >}} This page describes how to add taxa (species) to a checklist in a Symbiota portal. {{</ notice >}}
 
-There are two ways to add taxa to a checklist, either individually or via batch upload. You may want to start by adding them individually so you can become familiar with the information that can be uploaded and the care one needs to take in doing so.
+There are three ways to add taxa to a checklist, by querying the portal for taxa that meet your search criteria, by adding taxa individually, or by batch uploading a list of taxa and notes.
+
+### Batch Adding Taxa by Searching the Portal
+This method should be used if you do not already have a list of taxa prepared, and you want to build a checklist based on occurrences in the portal. You can define certain search criteria (e.g., a location or polygon in the map interface), view the results of this search, and add the taxa (and/or vouchers) that meet your search criteria.
+
+1. On the checklist page, click the center pencil icon with a v ("Manage Linked Vouchers") at the top right of the page. This will take you to the voucher administration tools.
+2. If this is your first time defining search criteria, you will be prompted with a "Edit Search Statement" box. Use the fields available here to define the search criteria for the occurrences you would like to see. For example, you can list a state or county, taxon, a bounding box, or any combination of these (or additional) fields.
+	* If you have previously created a search statement, you can edit your search statement by clicking the magnifying glass icon at the top of the page.
+
+{{< notice note >}} Take care to make your search statement general enough that you will get the maximum number of specimens; fewer criteria is better. For example, rather than including both "United States" in **country** and "Arizona" in **state**, try just using "Arizona" in **state** so that even records with "USA" or "United States of America" are included in your search results. You will likely need to conduct several different searches to ensure a complete result (e.g., do a search for "AZ" as well as one for "Arizona"). {{</ notice >}}
+	
+![Checklist Search Statement](/symbiota-docs/images/checklistsearchstatement.png)
+
+{{< notice note >}} If you restrict your search based on coordinates, ***your results will be limited to specimens that have coordinate data***. Depending on the portal, this may represent only 30-50% of available records. {{</ notice >}}
+
+3. After you have defined your search criteria, click the Missing Taxa tab.
+4. In the Display Mode dropdown list, select Batch Linking.
+
+![Display Mode of Missing Taxa Tab](/symbiota-docs/images/checklistdisplaymode.JPG)
+
+From here you will see a table consiting of the first 1000 records that match your search criteria and that represent taxa that are not already in your checklist. To add taxa to the checklist from this page, check the boxes next to the vouchers with taxonomic names that you wish to add to your checklist (check the box in the top left corner of the table to check all the records in the table).
+
+5. To add ***only*** the taxonomic names represented by these specimens to your checklist, check the "Add names without linking vouchers" box, then click the Submit Vouchers button. To add the taxonomic names ***and*** link vouchers to your checklist, leave this box unchecked and click the Submit Vouchers button.
+
+![Options to Add Taxa and/or Vouchers to a Checklist](/symbiota-docs/images/checklistsubmitvouchers.JPG)
+
+6. After linking the desired taxa, refresh the list and link the next batch as necessary until all desired taxonomic names have been added.
 
 ### Adding Individual Taxa
 
@@ -29,7 +55,9 @@ There are two ways to add taxa to a checklist, either individually or via batch 
     * **Source**: This field is more likely to be used for research and teaching checklists. For such checklists, it is useful to know whether the information came from a flora, some other publication, or a report by some
 4. Click the “Add species to List” button.
 
-### Batch Adding Taxa
+### Batch Uploading Taxa from a File
+
+{{< notice note >}} It is recommended to add a few taxa individually before attempting a batch upload so that you can get familiar with the data types and formats. {{</ notice >}}
 
 {{< youtube Hnk09MYlMVg >}}
 
