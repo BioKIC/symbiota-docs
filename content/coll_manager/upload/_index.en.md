@@ -32,9 +32,40 @@ keywords: ["data upload","data import","file upload","IPT"]
 [Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
 
 ### IPT Resource / Darwin Core Archive Provider
-[Contribute to this section!](https://biokic.github.io/symbiota-docs/contribute/)
+Use this import profile when you are importing from an [IPT](https://www.gbif.org/ipt) or other [Darwin Core Archive](https://dwc.tdwg.org/text/) provider. Rather than matching on catalog number or other catalog number, this import profile will match on the internal "id" field of the incoming Darwin Core Archive. This "id" field is then stored in the "dbpk" field in the occurrence table and will be used for future updating of the data. ***For this reason, it is very important that the "id" values do not change between subsequent uploads of your Darwin Core Archive.*** It is best practice to use a globally unique identifier for this field.
+
+If you have already created an import profile, or if you have been instructed to use an existing import profile, click "Saved Import Profiles" under the "Import/Update Specimen Records" option, then skip to step 5.
+
+1. Enter a name for your upload in the Title field.
+2. In the path field, enter the URL to the IPT or Darwin Core Archive provider. If you are bringing data in from an IPT, the URL will look something like this (with a different base URL): https://fmipt.fieldmuseum.org/ipt/archive.do?r=fmnh_seedplants. This URL is also sometimes referred to as the Darwin Core Archive "endpoint" for a dataset.
+3. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
+4. Click Create Profile.
+5. Select the radio button for the name of the profile you would like to use for your import (if you just created an import profile, use that one).
+6. Click the Initialize Upload button.
+7. On the resulting page, you will have the option to view and/or verify the mappings of the incoming (1) occurrences file, (2) identification history file (if it exists), and (3) images file (if it exists). If one or more of these files does not exist in the incoming DwC-A, the checkbox to the left of it will be grayed out. To view or verify the mappings, click "view details" to the right of the file you wish to view.
+
+![Darwin Core Import Profile Mapping Page](/symbiota-docs/images/dwc_import_profile.JPG)
+
+8. Because the incoming file is aligned with Darwin Core, you will not likely need to change the mappings of this file. However, it is a good idea to check the fields. Check the [Symbiota Data Field Guide](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) for definitions of each data field. Also see the **Uploading Tips** section below.
+
+9. Once you are satisfied with your field-to-field mapping, click the “Save Mapping” button.
+10. If you want all the incoming data to be assigned a specific processing status, select that processing status value from the dropdown menu. If not, leave the processing status as "Leave as is / No Explicit Setting".
+11. Click the Start Upload button.
+12. View the data that have been stored in the temporary table to ensure correct mapping and formatting of the fields you are uploading. You particularly want to make sure that the number of new records versus updated records matches your expectations. A large number of new records, if you did not expect them, may indicate that your "id" field changed since the last upload. To view the mapping of your fields, you can:
+    * Click the small box icon to the right of "Records to be updated" or "New records" to view the records in a table in your browser.
+    * Click the multiple file icon to the right of the box icon to download a CSV file of the records to be updated or new records.
+
+You may also see that there are records that exist in your Symbiota portal that are not found in the incoming data. Note that ***these records will not automatically be deleted from the Symbiota portal***. If you deleted these records in your home database or IPT provider, you will need to manually delete them in your Symbiota portal as well. For bulk deletions, contact your portal administrator.
+
+13. If anything is incorrect, return to the Saved Import Profiles, re-initiate the upload, and fix your mappings. If everything looks good, click the Transfer Records to Central Specimen Table button. **Note that this step is final and is not possible to undo!**
 
 ### File Upload or Skeletal File Upload
+
+{{< notice note >}}
+  A **Full Text File Upload** will use the incoming data to overwrite all existing occurrence data in the database, even for fields that are not included in the upload file. For example, if your database contains a "country" field, but your input file does not have the "country" field, after upload, the "country" field will be blank. After a Full Text File Upload, the only data associated with your specimens in the occurrence editor will be the data that were in the upload file.
+  Conversely, a **Skeletal File Upload** will only import data into fields that are empty. It will not replace existing values within fields.
+{{</ notice >}}
+
 1. If you or your portal manager have created a Stored Procedure with data cleaning or other checks, enter the name of the stored procedure in the provided field. Otherwise, ignore this step.
 2. Click the Create Profile button.
 3. On the next page, you will see a list of existing upload profiles. Select the profile that you wish to use (the one you just greated) and click Initialize Upload.
