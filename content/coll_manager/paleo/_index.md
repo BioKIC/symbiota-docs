@@ -13,9 +13,7 @@ The use of Symbiota portals for managing and sharing paleontological collections
  
  # Paleo Module
  
- {{< notice info >}}
-The "Paleo Module" is a non-standard module available for collections in Symbiota portals that contain records of fossil specimen occurrences. This module is activated on a **per-collection** basis (i.e. not per portal). Contact your portal administrator to have this module activated for your Symbiota portal.
- {{</ notice >}}
+The "Paleo Module" is a non-standard module available for collections in Symbiota portals that contain records of fossil specimen occurrences. This module is activated on a **per-collection** basis (i.e. not per portal) and appears as an additional form within the Occurrence Editor. Contact your portal administrator to have this module activated for your Symbiota portal.
  
  ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_module.png)
  
