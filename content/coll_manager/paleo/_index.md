@@ -40,27 +40,30 @@ When bulk ingesting data that includes values destined for the _Eon, Era, Period
 
 | ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_ageerror2.png) |
  |:--:|
-| **Illogical values may be inadvertently hand-keyed into the Occurrence Editor**. In the example above, because “Lower Cretaceous” exists as value for _Epoch_, the form accepted this value, even though it's an [illogical choice](https://stratigraphy.org/timescale/) for _Stage_ = “Maastrichtian”). |
+| ⚠️ **While a controlled vocabulary exists, it is only _suggested_; therefore, illogical age values can be keystroked and saved the Occurrence Editor**. In the example above, because “Lower Cretaceous” exists as value for _Epoch_, the form accepted this value, even though it's an [illogical choice](https://stratigraphy.org/timescale/) for _Stage_ = “Maastrichtian”). |
 
 | ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_ageerror3.png) |
  |:--:|
-| **A "mismatched term" error will appear if an entered value does not perfectly align with your portal's suggested controlled vocabulary in the _Eon, Era, Period, Epoch_ and _Stage_ fields**. In this example, the suggested vocabulary prefers "Upper Cretaceous" to "Late Cretaceous"; therefore, when "Late Cretaceous" is entered, an error appears. This error will not affect how your data are stored or exported. |
+| ❗**A "mismatched term" error will appear if an entered value does not perfectly align with your portal's suggested controlled vocabulary in the _Eon, Era, Period, Epoch_ and _Stage_ fields**. In this example, the suggested vocabulary prefers "Upper Cretaceous" to "Late Cretaceous"; therefore, when "Late Cretaceous" is entered, an error appears. This error will not affect how your data are stored or exported. |
 
 ## Entering _BasisOfRecord_
 At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) in Symbiota portals is "PreservedSpecimen"; however, the correct value for paleontological occurrences is "FossilSpecimen". This value can be manually selected in the Occurrence Editor form during cataloging, or by [batch editing](/symbiota-docs/coll_manager/edit/batch/) to replace "PreservedSpecimen" with "FossilSpecimen" after cataloging is complete.
 
  ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_basisofrecord.png)
 
- ## Data Publishing Considerations
-At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/symbiota-docs/coll_manager/data_publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/symbiota-docs/coll_manager/download/).
- 
  ## Fossil Localities/Sites
  At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Contact the Symbiota Support Hub if this may be problematic for the managing your locality data.
+ 
+ ## Data Publishing Considerations
+At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/symbiota-docs/coll_manager/data_publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/symbiota-docs/coll_manager/download/).
+
+## Printing Labels
+Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/symbiota-docs/editor/label/) to include paleontological-related fields.
   
  # Best Practices
 Symbiota is compliant with the [Darwin Core](https://dwc.tdwg.org/terms/) data standard, and this includes its application to paleontological data. However, because some of these terms are still in the process of becoming well-defined for use with fossil data, the Symbiota Support Hub recommendations following best practices recommended by the [Paleo Data Working Group](https://paleo-data.github.io/).
 
-A complete list of fields used in Symbiota portals and their Darwin Core equivalents can be found [here](/symbiota-docs/documents/SymbiotaDataFields_202111.csv).
+📃 A complete list of fields used in Symbiota portals and their Darwin Core equivalents can be found [here](/symbiota-docs/documents/SymbiotaDataFields_202111.csv).
 
  # Need help?
  The Symbiota Support Hub encourages you to [contact them](https://symbiota.org/contact-the-support-hub/) for guidance if using Symbiota to manage paleontological data.
