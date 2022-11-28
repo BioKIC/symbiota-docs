@@ -52,6 +52,9 @@ At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#
  ## Fossil Localities/Sites
  At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Contact the Symbiota Support Hub if this may be problematic for the managing your locality data.
  
+ ## Extinct Taxa
+ Extinct taxa are supported in Symbiota. Refer to the [Taxonomy Tree Viewer](https://www.pteridoportal.org/portal/taxa/taxonomy/taxonomydisplay.php) in Pteridoportal for [examples](https://www.pteridoportal.org/portal/taxa/index.php?taxon=66863).
+ 
  ## Data Publishing Considerations
 At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/symbiota-docs/coll_manager/data_publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/symbiota-docs/coll_manager/download/).
 
