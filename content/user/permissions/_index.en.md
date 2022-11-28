@@ -22,6 +22,8 @@ _Permissions that can be assigned by a collection manager or other administrator
 
 * **Rare Species Reader**: can view locality data for all specimens in a collection, even if the locality information is redacted from the general public (see [Redacting / Obscuring Data](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/)).
 
+* **Personal Observation/Specimen Profile Manager**: can add, edit, and manage data belonging to them in the "personal observations profile" (variously labeled the "specimens being processed" or "general research observations" profile, depending on the portal). The personal observations profile is a single collection in the portal that contains pooled data from all personal observation profile managers; however, a single user can only edit data that they have personally added to this collection through their user profile.
+
 _Permission types that can only be assigned by a superadministrator_
 
 * **Create a Checklist**: can create new checklists and datasets. See [Creating a Checklist](https://biokic.github.io/symbiota-docs/user/checklist/create/).
