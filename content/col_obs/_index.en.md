@@ -8,15 +8,15 @@ description: 'For collectors of data and/or specimens: learn to add, edit, and t
 type: 'docs'
 ---
 
-This guide will describe how collectors of data and/or specimens can add records to a Symbiota portal's Personal Observations Profile collection.
+This guide will describe how collectors of data and/or specimens can add records to a Symbiota portal's Personal Observations Profile collection. Editors of Personal Observation Profiles need not be affiliated with any particular institution or collection represented in the portal.
 
 {{< notice note >}}
 By managing collection data in a Symbiota portal, collectors can take advantage of the Symbiota portal's data entry form (including dropdown lists and conversion tools), georeferencing tools, and label printing features.
 {{</ notice >}}
 
-Most Symbiota portals have a central collection profile generally referred to as the "personal observation profile". It is sometimes called the "general research observations" profile or "specimens being processed" profile. This collection profile is shared among all users who have been sponsored as editors of this collection profile; however, ***users may only edit records that they have entered into this profile.*** Records in this profile are publicly viewable once they are entered, but they may only be edited by the user who added them.
+Most Symbiota portals have a central collection profile generally referred to as the "personal observation profile". It is sometimes called the "general research observations" profile or "specimens being processed" profile. For example, see SEINet's "General Research Observations" [collection here](https://swbiodiversity.org/seinet/collections/misc/collprofiles.php?collid=102). This collection profile is shared among all users who have been sponsored as editors of this collection profile; however, ***users may only edit records that they have entered into this profile.*** Records in this profile are publicly viewable once they are entered, but they may only be edited by the user who added them.
 
-The personal observation profile is intded to be a place where collectors can manage their records (e.g., add and edit data, print specimen labels) and distribute the data to the collections where they will send their specimens, if applicable. A diagram of a generalized workflow is shown below.
+The personal observation profile is intended to be a place where collectors can manage their records (e.g., add and edit data, print specimen labels) and distribute the data to the collections where they will send their specimens, if applicable. A diagram of a generalized workflow is shown below.
 
 ![Personal Observation Profile General Workflow](/symbiota-docs/images/persobsprofile.png)
 
