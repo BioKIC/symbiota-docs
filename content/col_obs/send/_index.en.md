@@ -27,7 +27,7 @@ If you are sending data for a great number of specimens, or if the collection to
 3. Remove all the specimens that you do not wish to send from this CSV (e.g., by sorting by date or location in Excel).
 4. Send this CSV along with your specimens or via email to the collections manager of the collection where you are depositing your specimens.
 
-### Transferring specimens from a personal profile to a collection
+### Transferring individual specimens from a personal profile to a collection
 
 Use this option if you would transfer ownership of the data in your personal observation profile to the collection where you are depositing your specimen(s). This will remove the specimens from your personal observation profile.
 
