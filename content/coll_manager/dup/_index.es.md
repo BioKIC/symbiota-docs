@@ -12,7 +12,7 @@ keywords: ["duplicados","especímenes duplicados"]
   Esta página describe cómo ver y enlazar por lote especímenes duplicados (especímenes del mismo taxón colectados el mismo día, por la misma persona, en el mismo lugar) usando la herramienta de Agrupamiento de Duplicados.
 {{</ notice >}}
 
-Las ocurrencias pueden ser enlazadas como duplicados individualmente durante o después del ingreso de datos utilizando herramientas en el editor de ocurrencias. Vea [esta página](https://biokic.github.io/symbiota-docs/es/editor/links/) para más información de cómo enlazar duplicados de forma individual.
+Las ocurrencias pueden ser enlazadas como duplicados individualmente durante o después del ingreso de datos utilizando herramientas en el editor de ocurrencias. Vea [esta página](https://biokic.github.io/symbiota-docs/es/editor/links/) para más información de cómo enlazar duplicados de forma individual y [esta página](https://biokic.github.io/symbiota-docs/editor/edit/duplicates/) para más información sobre el uso de la herramienta de coincidencia de duplicados durante la entrada de datos.
 
 Las ocurrencias también pueden ser enlazadas automáticamente por lote por la herramienta de Agrupamiento de Duplicados. Esta herramienta crea un índice temporal de las fechas de colecta, números de colector y apellidos de colectores de sus ocurrencias, y después enlaza cualquier ocurrencia que comparte estas tres características.
 
