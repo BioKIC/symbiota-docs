@@ -18,7 +18,7 @@ Some citation features will require initial configuration by your portal manager
 ## Collection Citations
 
 ### Collections published to GBIF
-Collections that publish their data to GBIF automatically have access to robust data usage tracking through the generation of a DOI that uniquely identifies your collection online. When this DOI is included in citations of your data, automated citation tracking becomes possible. 
+Collections that publish their data to GBIF automatically have access to robust data usage tracking through the generation of a DOI that uniquely identifies your collection online. When this DOI is included in citations of your data, automated citation tracking becomes possible. GBIF's documentation on this topic can be found [here](https://www.gbif.org/citation-guidelines).
 
 ![How to cite your data in GBIF](/symbiota-docs/images/citation_gbif1.png)
 
