@@ -1,0 +1,54 @@
+---
+title: "Duplicate Matching"
+date: 2022-11-30
+draft: false
+authors: ["Katie Pearson"]
+weight: 20
+keywords: ["duplicate","copy","transfer"]
+---
+
+{{< notice info >}}
+  This page describes how to use the Duplicate Matching tool in the occurrence editor to accelerate data entry.
+{{</ notice >}}
+
+The Duplicate Matching tool allows the user to search the entire database (i.e., all collections in the Symbiota portal) for records that share the same collector name, collector number, and date and link them to the record they are entering/editing.
+
+### Searching for duplicates
+
+1. [Search for and open a record](https://biokic.github.io/symbiota-docs/editor/edit/) that you wish to edit or [add a new record](https://biokic.github.io/symbiota-docs/editor/add/full/).
+2. Enter the name of the collector/observer into the Collector/Observer field, the collector's unique collector number (if applicable) into the Number field, and the date of collection into the Date field (in YYYY-MM-DD format).
+3. Click the "Duplicates" button.
+
+{{< notice note >}}
+You can turn an automatic duplicate search on or off using the "Auto search" checkbox. This will conduct a search for duplicates automatically after you enter the collector name, number, and date.
+{{</ notice >}}
+
+There are three possible results of a duplicate search using this tool.
+
+##### Possible EXACT Duplicates
+![Possible EXACT Duplicate results](/symbiota-docs/images/exactdupe.PNG)
+This result occurs when a record with a matching collector last name, collector number, and date is found in a collection other than the one you are currently working in. This may represent a true duplicate specimen.
+
+##### Possible EXACT Duplicates with NOTICE
+![Possible EXACT Duplicate results within collection](/symbiota-docs/images/exactdupeincol.png)
+This result occurs when a record with a matching collector last name, collector number, and date is found within the collection you are currently working in. This may represent a true duplicate specimen, if you have them in your collection, or it could represent unintentional duplicate data entry (i.e., an error).
+
+##### Possible Matching Duplicate EVENTS
+![Possible Duplicate EVENT results](/symbiota-docs/images/dupematchevent.PNG)
+This result occurs when a record with a matching collector last name and date was found, but the exact collector number was not found. In this case, the results presented will include collector numbers slightly above and slightly below the number that you entered. These records may still be useful because they may share, e.g., locality data with the record that you are currently entering/editing.
+
+### Handling duplicate match results
+
+You will have several options for using the results of the duplicate matching search. These will be listed at the bottom of the duplicate result that has been identified (see example below). You may:
+
+* **Transfer All Fields:** transfer the data from all the fields in the identified duplicate specimen or event into the data entry page that you are currently working on. This will replace any data that you have already entered (e.g., if you entered "Luis Gonzalez" in the collector/observer name, and the duplicate had was "Gonzalez, Luis" in this field, "Gonzalez, Luis" would overwrite your previous entry). Clicking this option will transfer the data and close the duplicate matching window.
+
+* **Transfer to Empty Fields Only:** transfer the data from all fields in the identified duplicate specimen or event into the data entry page that you are currently working on, ***unless that field already has data in it***. Only empty fields will be populated. Your previous entries will remain the same. Clicking this option will transfer the data and close the duplicate matching window.
+
+* **Link as Duplicate:** checking this box and then clicking one of the additional options will create a duplicate linkage between the record you are editing and the duplicate record. For more information about duplicate linkages, visit the [Duplicate Clustering](https://biokic.github.io/symbiota-docs/coll_manager/dup/) documentation.
+
+* **Go to Record:** this option is only available if the identified duplicate belongs to the same collection that you are currently editing. Clicking this option will take you to the occurrence editor page for the duplicate record so you can view it (e.g., if you want to verify the data or view the image). Once you have looked at the image, if you want to transfer any of the data into the record you are working on, you will need to click the "Duplicates" button on the record that you were editing again.
+
+* **Merge Records:** this option is only available if the identified duplicate belongs to the same collection that you are currently editing. Clicking this option will bring all the data from the duplicate record into the record you are currently editing, and it will delete that duplicate record. CAUTION: if fields are blank in the duplicate record, they will import as blank in your current record.
+
+![Possible EXACT Duplicate results within collection](/symbiota-docs/images/exactdupeincolfull.PNG)
