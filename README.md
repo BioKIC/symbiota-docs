@@ -1,6 +1,6 @@
-# Symbiota Documentation
+# Symbiota Documentation ![deployment workflow](https://github.com/biokic/symbiota-docs/actions/workflows/gh-pages.yml/badge.svg)
 
-[symbiota-docs]() is an open source primer towards a more comprehensive curriculum for Symbiota documentation, including developer guides and tutorials. It is maintained by the Symbiota Support Hub.
+[symbiota-docs](https://biokic.github.io/symbiota-docs/) is an open source primer towards a more comprehensive curriculum for Symbiota documentation, including developer guides and tutorials. It is maintained by the Symbiota Support Hub.
 
 For a user-friendly version of the content, visit [our website](https://biokic.github.io/symbiota-docs/).
 
