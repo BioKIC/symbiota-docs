@@ -13,6 +13,8 @@ Click the button below to find a list of active Symbiota portals. You will want 
 
 {{< button href="https://symbiota.org/symbiota-portals/" text="List of Symbiota Portals" >}}
 
+{{< button href="[https://symbiota.org/symbiota-portals/](https://docs.google.com/forms/d/e/1FAIpQLSf-QywdugIAAxzBLkoKX8er-JkW06Rv4C_Rkm2efPiryTHLGw/viewform)" text="Request to Join a Symbiota Portal" >}}
+
 Once you have identified an existing Symbiota portal to which you want to publish specimen data, contact the project or portal managers to become a data provider. Portal contacts are typically listed on the homepage or within the left menu of the data portal. Contact help@symbiota.org for help if you are unable to find the portal contact.
 
 You may publish data to more than one portal; however, it is recommended to only manage a particular dataset or collection in one Symbiota portal, and all other portals would host only a snapshot of those data. Different collections (e.g., vascular plants vs. lichens vs. bryophytes) can be live-managed on their respective portals.
