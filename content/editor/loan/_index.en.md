@@ -27,3 +27,5 @@ To edit an outgoing loan or link specimens to the loan in the future, navigate t
 
 To add a new incoming loan, repeat the procedure outlined above using the “Incoming Loans” tab. Note that specimens cannot be linked to incoming loans.
 To add a gift or exchange, repeat the procedure outlined above using the Gifts/Exchanges tab. You will be able to enter the number of specimens in either the “gift” boxes or “exchange” box.
+
+{{< youtube Fdmm5CsbFKY >}}
