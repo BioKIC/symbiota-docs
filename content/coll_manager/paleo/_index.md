@@ -59,7 +59,7 @@ At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#
 At present, while Symbiota supports paleontological data, including the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext), values in these fields do not export within Darwin Core archives when [published to GBIF](/symbiota-docs/coll_manager/data_publishing/) via Symbiota portals. However, this information can be exported as part of a [backup file](/symbiota-docs/coll_manager/download/).
 
 ## Printing Labels
-Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/symbiota-docs/editor/label/) to include paleontological-related fields.
+Similar to data publishing, values in the Darwin Core Class [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) are not currently available within the label editor's visual interface. [Contact](https://symbiota.org/contact-the-support-hub/) the Symbiota Support Hub if you need assistance with [creating customized labels](/symbiota-docs/editor/label/) that include paleo-related data fields.
   
  # Best Practices
 Symbiota is compliant with the [Darwin Core](https://dwc.tdwg.org/terms/) data standard, and this includes its application to paleontological data. However, because some of these terms are still in the process of becoming well-defined for use with fossil data, the Symbiota Support Hub recommendations following best practices recommended by the [Paleo Data Working Group](https://paleo-data.github.io/).
