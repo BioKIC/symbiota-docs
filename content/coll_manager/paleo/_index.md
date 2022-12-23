@@ -42,7 +42,7 @@ When bulk ingesting data that includes values destined for the _Eon, Era, Period
 
 | ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_ageerror3.png) |
  |:--:|
-| ❗**A "mismatched term" error will appear if an entered value does not perfectly align with your portal's suggested controlled vocabulary in the _Eon, Era, Period, Epoch_ and _Stage_ fields**. In this example, the suggested vocabulary prefers "Upper Cretaceous" to "Late Cretaceous"; therefore, when "Late Cretaceous" is entered, an error appears. This error will not affect how your data are stored or exported. |
+| ❗**A "mismatched term" error will appear if an entered value does not perfectly align with your portal's suggested controlled vocabulary in the _Eon, Era, Period, Epoch_ and _Stage_ fields**. In this example, the suggested vocabulary prefers "Upper Cretaceous" to "Late Cretaceous"; therefore, when "Late Cretaceous" is entered, an error appears. This error is only visible on the Occurence Editor interface and will _not_ affect how your data are stored, exported, or displayed publicly. |
 
 ## Entering _BasisOfRecord_
 At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#dwc:basisOfRecord) in Symbiota portals is "PreservedSpecimen"; however, the correct value for paleontological occurrences is "FossilSpecimen". This value can be manually selected in the Occurrence Editor form during cataloging, or by [batch editing](/symbiota-docs/coll_manager/edit/batch/) to replace "PreservedSpecimen" with "FossilSpecimen" after cataloging is complete.
