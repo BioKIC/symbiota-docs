@@ -14,7 +14,7 @@ body:
       description: In which Symbiota portal would you like to see this change/tool/feature?
       placeholder: e.g., SEINet, CCH2
     validations:
-      required: true
+      required: false
   - type: textarea
     id: problem
     attributes:
