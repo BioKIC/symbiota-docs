@@ -13,7 +13,7 @@ Sponsored users have the following options for managing their data in the Person
 
 ![Personal Observation Profile Options](/symbiota-docs/images/persobsoptions.JPG)
 
-* **Search Records:** search through the records that you have entered into this profile. You can conduct custom, detailed searches from this interace. Tutorial information can be found [on this page](https://biokic.github.io/symbiota-docs/editor/edit/).
+* **Search Records:** search through the records that you have entered into this profile. You can conduct custom, detailed searches from this interface. Tutorial information can be found [on this page](https://biokic.github.io/symbiota-docs/editor/edit/).
 * **Add a New Record:** tutorials for [adding records here](https://biokic.github.io/symbiota-docs/editor/add/full/) and for [editing records here](https://biokic.github.io/symbiota-docs/editor/edit/)
 * **Print Labels:** print labels for specimens of all types, including specimen packets. [Tutorials here](https://biokic.github.io/symbiota-docs/editor/label/).
 * **Print Annotation Labels:** print annotation/determination/identification labels for specimens that already have full labels. [Tutorials here](https://biokic.github.io/symbiota-docs/editor/label/annotation/).
