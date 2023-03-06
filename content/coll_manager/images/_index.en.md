@@ -11,7 +11,7 @@ keywords: ["images"]
   This page describes the types of images that are available through Symbiota portals.
 {{</ notice >}}
 
-There are three catefories of images that can be linked to a Symbiota portal:
+There are three categories of images that can be linked to a Symbiota portal:
 
 {{< tabs >}}
   {{< tab "Field Images without Location" >}}
