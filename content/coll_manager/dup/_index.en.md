@@ -1,7 +1,7 @@
 ---
 title: "Duplicate Clustering"
 date: 2021-12-13
-lastmod: 2023-02-17
+lastmod: 2023-03-24
 draft: false
 weight: 58
 authors: ["Katie Pearson"]
@@ -30,3 +30,7 @@ To view or link duplicates, navigate to your Administration Control Panel (My Pr
 {{</ notice >}}
 
 ![Example Duplicate Conflicts](/symbiota-docs/images/exampleduplicateconflicts.PNG)
+
+A video walkthrough of how duplicate clustering tools can be used to resolve conflicting identifications can be found here:
+
+{{< youtube kMUzwoHmXw4 >}}
