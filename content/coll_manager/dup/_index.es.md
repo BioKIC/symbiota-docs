@@ -25,4 +25,8 @@ Para ver o enlazar duplicados, navegue al Panel de Control de Administración (M
   Cuando está revisando los grupos de duplicados, puede ver el registro para cualquier ocurrencia haciendo click en el número de catálogo en letras azules.
 {{</ notice >}}
 
-![Example Duplicate Conflicts](/symbiota-docs/images/exampleduplicateconflicts.PNG)
+![Ejemplo de Conflictos Duplicados](/symbiota-docs/images/exampleduplicateconflicts.PNG)
+
+Aquí puede encontrar un tutorial en video sobre cómo se pueden usar las herramientas de agrupación en clústeres duplicadas para resolver identificaciones conflictivas:
+
+{{< youtube kMUzwoHmXw4 >}}
