@@ -22,7 +22,6 @@ Redacting locality data in Symbiota portals is currently binary: an occurrence c
 
 Specimen occurrences with locality security applied affects portal users as follows:
 
- * **General users**: no locality details are visible below county, if provided
  * **Administrators, Editors**: all locality details are visible and can be edited on a per-collection basis
  * **Rare Species Readers**: locality details are visible and can be downloaded, _but not edited_, on a per-collection basis
  * **All other users**: no locality details are visible below county, if provided. On a record's public view, any locality-related fields that contain obscured data will be listed in _Information Withheld_.
@@ -83,5 +82,3 @@ Finally, locality data and images can be redacted for occurrences of a given tax
 ## How users request access to redacted data
 
 Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/symbiota-docs/user/contact/) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/symbiota-docs/coll_manager/metadata/#collectioncontacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
-
-
