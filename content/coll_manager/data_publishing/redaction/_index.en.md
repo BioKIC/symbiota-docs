@@ -59,20 +59,22 @@ Locality data and images can be redacted for all occurrences by a specific taxon
 
 ![Taxonomy Editor Example](/symbiota-docs/images/taxoneditorexample.PNG)
 
-**This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually unchecking the _Locality Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+**This will hide locality data for all occurrences of that taxon throughout the portal, not just for your collection**. Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
 ### Redacting data by state
 
 Finally, locality data and images can be redacted for occurrences of a given taxon that were collected in a certain state by managing a "Rare, threatened, protected species list". User accounts with Rare Species Administrator permissions can create a species list specifically for managing sensitive species and then assign editing rights to one of several appropriate users for populating and managing the state list. The addition of a species to the list will automatically protect locality details of all specimens collected within the designated state.
 
+**This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
+
 #### Instructions for creating state-based redacted species lists
 
-1. Create a new empty rare species checklist.
+1. **Create a new empty rare species checklist.**
     * Click “My Profile”, select the Species Checklists tab, and click the green plus sign.
     * Change the Checklist Type to “Rare, threatened, protected species list”. If you don’t see the Checklist Type field located below the author field, then you do not have the necessary Rare Species Administrator permissions to create this type of checklist. In this case, you can continue creating the checklist (as normal) and ask a portal manager to change the checklist type at a later date.
     * Enter the state name in the locality field. Do not abbreviate or add any other text other than the state name.
-    * The checklist can be private or public and made available to the general public
-2. Add one to several editors
+    * The checklist can be private or public and made available to the general public.
+2. **Add one to several checklist editors to the checklist.**
     * From the new checklists, click on the checklist administration editing pencil located towards the user right of the page
     * Checklist editors do not need Rare Species Administrator or any other special editing rights to manage the list
 3. Checklist editors add species needing protection using the normal checklist editing tools.
@@ -80,6 +82,6 @@ Finally, locality data and images can be redacted for occurrences of a given tax
     
 ## How users request access to redacted data
 
-Individuals who require access to redacted data for legitimate reasons are encouraged to personally reach out to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. 
+Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/symbiota-docs/user/contact/) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/symbiota-docs/coll_manager/metadata/#collectioncontacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
 
 
