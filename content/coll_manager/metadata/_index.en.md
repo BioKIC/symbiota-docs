@@ -39,3 +39,8 @@ keywords: ["collection name","metadata","contact info"]
 1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of collection_).
 2. In the Administration Control Panel, click **Contacts & Resources**. In this tab you can change:
 3. In the Contacts & Resource tab, you can add links to other resources (e.g., homepages or lab pages), add or edit contact information, or add or edit the mailing address for your institution. Click a pencil icon to edit or an X icon to delete existing links/resources. **Listing at least two contacts is strongly recommended**, and that, when available, one of these contacts includes a generic departmental email (e.g. yourherbarium@youruniversity.edu).
+
+| ![Collection Contacts](/symbiota-docs/images/contactsexample.png) |
+|:--:|
+|Contact information publicly displays at the top of your collection's profile page. |
+
