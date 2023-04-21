@@ -66,6 +66,9 @@ Finally, locality data and images can be redacted for occurrences of a given tax
 
 **This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
+### Will my redacted data be visible if published to GBIF? 
+By default, no. Keep the box, "Redact Sensitive Localities", in the Darwin Core Archive Publisher **checked** so that redacted data will remind obscured when a Darwin Core Archive file is sent to GBIF. To locate the Darwin Core Archive Publisher, navigate to _Administration Control Panel > Darwin Core Archive Publishing_. Scroll down to the "Create/Refresh Darwin Core Archive" box. 
+
 #### Instructions for creating state-based redacted species lists
 
 1. **Create a new empty rare species checklist.**
