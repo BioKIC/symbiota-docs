@@ -69,6 +69,10 @@ Finally, locality data and images can be redacted for occurrences of a given tax
 ### Will my redacted data be visible if published to GBIF? 
 By default, no. Keep the box, "Redact Sensitive Localities", in the Darwin Core Archive Publisher **checked** so that redacted data will remind obscured when a Darwin Core Archive file is sent to GBIF. To locate the Darwin Core Archive Publisher, navigate to _Administration Control Panel > Darwin Core Archive Publishing_. Scroll down to the "Create/Refresh Darwin Core Archive" box. 
 
+{{< notice important >}}
+Keep in mind that the _Security_ field must contain a value of "1" for your data to be successfully redacted within the portal, as well as during data publishing; this applies to both live-managed and snapshot collections. If _Security_ is blank, your data will remain visible and can be published. 
+{{</ notice >}}
+
 #### Instructions for creating state-based redacted species lists
 
 1. **Create a new empty rare species checklist.**
