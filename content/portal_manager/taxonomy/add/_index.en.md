@@ -33,7 +33,6 @@ Additional information about options 1 and 2 are provided below (see the link ab
 
 * Enter the taxonomic name *without the authorship* in the **Taxon Name** field
 * Enter the authorship into the **Author** field
-* For extinct taxa, select the dagger icon from the dropdown list in front of the UnitName1 field.
 * For hybrid taxa, select the multiplication symbol from the dropdown list in front of the UnitName2 field
 * For infraspecific taxa, use the small UnitName3 field for the infraspecific epithet type (e.g., var., subsp., f.), if applicable, and the long UnitName3 field for the infraspecific epithet.
 * Select the appropriate taxon rank from the dropdown **Taxon Rank** field
