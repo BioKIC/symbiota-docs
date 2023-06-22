@@ -1,7 +1,7 @@
 ---
 title: "Batch Loading Taxonomic Data"
 date: 2022-07-06
-lastmod: 2023-06-21
+lastmod: 2023-06-22
 authors: ["Cat Chapman"]
 editors: ["Lindsay Walker, Katie Pearson"]
 draft: false
@@ -17,15 +17,15 @@ keywords: ["taxonomy","taxonomic thesaurus"]
   A user must have Super Administrator or Taxonomic Administrator permissions to add to or edit the thesaurus.
 {{</ notice >}}
 
-## Input File Format
+## Format the Input File
 Taxonomic names can be batch loaded into the thesaurus from a flat, structured comma- or tab-delimited text file. To upload an Excel file, first save as a CSV (comma delimited) text file. Formatting this file correctly is important to ensuring your taxonomy is successfully imported. **At minimum, the file must include a column for _ScientificName_ and the parent taxon** (i.e. the taxon that nests immediately above the scientificName in your taxonomic hierarchy).
 
-For example, to import the name _Buccinum polaris_ Gray, 1839 your input file could include the following fields: 
+For example, to import the name _Buccinum polaris_ Gray, 1839, your input file could include the following fields: 
 | Taxon Rank| Parent | ScientificName | Family | Author | RankID |
 | - | - | - | - | - | - |
 | species | Buccinum | Buccinum polaris | Buccinidae | Gray, 1839 | 220 |
 
-However, if the higher taxonomy does not already exist in your portal, the following rows should also be included in your file:
+However, if the higher taxonomy for this name does not already exist in your portal, the following rows should also be included in your file:
 | Taxon Rank| Parent | ScientificName | Family | Author | RankID |
 | - | - | - | - | - | - |
 | division | Animalia | Mollusca | | | 30 |
@@ -41,22 +41,24 @@ However, if the higher taxonomy does not already exist in your portal, the follo
 {{< button href="https://github.com/BioKIC/symbiota-docs/blob/master/static/documents/Fresh_Symbiota_Install_Animalia_Sample_Taxonomy_2023-06-21.csv" text="View example as a CSV" >}}
 
 ### Tips for preparing your input file
-- **Parent taxa must already exist in the thesaurus or be included in the input file.** As an alternative to a parent taxon column, as shown above, the input file can contain columns for the core hierarchy that is defined within the taxonunits table (e.g. kingdom, division, class, subclass, order, family, etc).
-- Values for *_rankid_* are assigned on the backend of your database in the table _taxonunits_. This value may vary between Symbiota portals.
+- **Parent taxa must already exist in the portal's thesaurus or be included in the input file.** As an alternative to a parent taxon column, as shown above, the input file can contain columns for the core hierarchy that is defined within the _taxonunits_ table (e.g. kingdom, division, class, subclass, order, family, etc).
+- Values for *_rankid_* are assigned on the backend of your database in the table _taxonunits_. These value may vary between Symbiota portals.
 - If a taxon's acceptance status is not defined (0 = not accepted, 1 = accepted ), all taxa will be assumed to be accepted. Include a separate column in your input file to denote acceptance status, if desired.
-- In the absence of a hierarchical definition (e.g. the parent taxa), infraspecific, specific, and genus linkage will be determined from scientificName and linked to family. If the Family value does not yet exist in the thesaurus _and_ hierarchy above the specific family is not defined in upload field, the Family value will be linked directly to Kingdom.
+- In the absence of a hierarchical definition (e.g. the parent taxa), infraspecific, specific, and genus linkages will be determined from _ScientificName_ and linked to Family. If the Family value does not yet exist in the thesaurus _and_ the hierarchy above Family is not defined in upload field, the taxon will be linked directly to Kingdom.
 - You can only batch input taxonomy for one Kingdom at a time (Animalia, Fungi, etc.)
 - Make sure not to map more than one source column to the same target, and that source column names are unique from one another.
 - The batch loader will import new taxonomy in the order it appears in the file, starting with the first row. It is therefore best to organize the input file such that highest ranks appear first, followed by lower ranking taxa.
+- Non-ranked nodes / unranked clades are supported by the bulk loader and do not require _rankid_ values. However, it can be easier to ingest these names [using the frontend interface](/symbiota-docs/portal_manager/taxonomy/add/), especially if only a few unranked names are to be added.
+- Many fields that appear on Taxon Profile pages can be batch imported using this tool (e.g. vernacular names, language values, etc.). To preview what fields are available for bulk importing, create a small test CSV and open it using the steps 1-4 outlined in the following section. 
 - Contact the Hub or someone with backend access to add new ranks. Ranks are added on a per-kingdom basis and may require community discussion in order to be inserted into the hierarchy.
 
-## Using the Batch Loader
+## Ingest the File Using the Batch Loader
 Once your file is prepared, if your user account has the appropriate permissions, you can batch upload taxonomy from a spreadsheet (CSV) or text file by navigating to _Sitemap > Taxonomy > Batch Upload a Taxonomic Data File > Taxa Upload_.
 ![Taxonomy Batch Upload Tool](/symbiota-docs/images/taxonomybatchloader.png)
 
 1) Select your formatted input file.
 2) Select the Target Thesaurus. (Your portal may only have one option.)
-3) Select the Kingdom.
+3) Select the Target Kingdom (all names in the input file will be associated with this Kingdom).
 
 4) Once you select _Map Input File_, you will be prompted to map the fields in your input file to target fields in the database. Note that the parent taxon = _parentstr_ and scientificName = _scinameinput_.
 ![Taxonomy Batch Upload Tool](/symbiota-docs/images/taxonomybatchloader2.png)
