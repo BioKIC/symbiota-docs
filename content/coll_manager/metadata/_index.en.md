@@ -1,7 +1,7 @@
 ---
 title: "Editing Collection Metadata and Contact Info"
 date: 2021-11-16
-lastmod: 2023-02-15
+lastmod: 2023-08-30
 weight: 60
 draft: false
 authors: ["Katie Pearson", "Lindsay Walker"]
@@ -9,7 +9,7 @@ keywords: ["collection name","metadata","contact info"]
 ---
 
 {{< notice info >}}
-  This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description). New collections will be asked to complete [this form](https://forms.gle/JcSB35c9wyPxiFPi7) to facilitate the intial setup of your of collection profile; this information can be modified once the profile is established using the instructions below.
+  This page describes how to change or add contact information or information about your collection (e.g., homepage, collection title, acronym, description). New collections will be asked to complete [this form](https://forms.gle/JcSB35c9wyPxiFPi7) to facilitate the intial setup of your of collection profile; this information can be modified once the profile is established using the instructions below. If you opt to [publish data to GBIF](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/gbif/), the same metadata provided about your collection will also be shared to GBIF. 
 {{</ notice >}}
 
 ![Edit Metadata Example](/symbiota-docs/images/metadata_editor.PNG)
@@ -20,7 +20,7 @@ keywords: ["collection name","metadata","contact info"]
       * **Institution Code** - The name (or acronym) in use by the institution having custody of the occurrence records. This field is required. For more details, see Darwin Core definition. Herbaria should also register this code with [IndexHerbariorum](https://sweetgum.nybg.org/science/ih/).
       * **Collection Code** - The name, acronym, or code identifying the collection or data set from which the record was derived. This field is optional. For more details, see Darwin Core definition.
       * **Collection Name** - Title of your collection, e.g. "Arizona State University Vascular Plant Herbarium". 
-      * **Description** - A brief description of your collection and what it contains (2000 character maximum).
+      * **Description** - A brief description of your collection and what it contains (2000 character maximum). Details can include information such as the collection's taxonomic and geographic scope and strengths, as well as other major highlights (i.e. notable collectors, time intervals, and/or field expeditions).
       * **Latitude/Longitude** - Submit coordinates using the globe icon.
       * **Category** (if applicable) - e.g., bryophytes, lichens, fishes if more than one taxonomic group in a single portal
       * **Allow Public Edits** - Checking public edits will allow any user logged into the system to modify specimen records and resolve errors found within the collection. However, if the user does not have explicit authorization for the given collection, edits will not be applied until they are reviewed and approved by collection administrator.
