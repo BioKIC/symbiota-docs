@@ -1,9 +1,9 @@
 ---
 title: "Rotating Images"
-date: 2021-12-02
+date: 2023-09-21
 weight: 5
 authors: ["Ed Gilbert"]
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson, Lindsay Walker"]
 keywords: ["images","image orientation","image rotating"]
 ---
 
@@ -21,8 +21,11 @@ Adjusting the camera settings to define the correct orientation, or batch rotati
 
 [Full Size](https://s.idigbio.org/idigbio-images-prod-fullsize/d7ce7fda69335db5966a2265e8771e1e.jpg)
 
-The safest solution is to rotate the actually image data (pixel definition) rather than just the setting the orientation tag. This can be done as a batch processing using image editing programs such as Adobe Lightroom or Photoshop. The link below provides a list of a number of free options for lossless rotation of images. For example, you can download “JPEG Lossless Rotator”, which is easy to use, shows the true rotation of the images within a folder, and provides lossless rotation tools. 
+**The safest solution is to rotate the actual image data (pixel definition) rather than just the setting the orientation tag.** This can be done as a batch processing using image editing programs such as Adobe Lightroom or Photoshop. The link below provides a list of a number of free options for lossless rotation of images. For example, you can download “JPEG Lossless Rotator”, which is easy to use, shows the true rotation of the images within a folder, and provides lossless rotation tools. 
 
 [List of Lossless Rotation Apps](http://jpegclub.org/losslessapps.html)
 
 [Lossless Rotator App by Anny Studio](http://annystudio.com/software/jpeglosslessrotator/)
+
+### Troubleshooting
+Certain metadata can affect how images display in your web browser. If an image appears incorrectly rotated in your portal, try switching browsers to see if this corrects its orientation. 
