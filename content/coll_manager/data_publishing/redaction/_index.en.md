@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2024-04-20
+lastmod: 2023-09-25
 authors: ["Katie Pearson","Ed Gilbert","Lindsay Walker"]
 weight: 80
 keywords: ["rare species", "data protection", "redaction"]
@@ -50,7 +50,7 @@ The locality data can be redacted for individual occurrences by checking the _Se
 
 ### Batch redacting locality data for certain occurrences
 
-If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the [Exporter tool](/symbiota-docs/coll_manager/download/exporter/), then add a column called "LocalitySecurity"". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible). Use the [Skeletal File Uploader](/symbiota-docs/coll_manager/upload/) to upload this spreadsheet into the portal, mapping the new column to _localitysecurity_.
+If you wish to batch redact data, you can download a CSV file of all the specimen records you wish to redact using the [Exporter tool](/symbiota-docs/coll_manager/download/exporter/), then add a column called "LocalitySecurity". Enter "1" in this column for all specimens for which you wish to redact data (conversely, you would enter "0" to keep the data publicly visible, or leave this field blank). Use the [Skeletal File Uploader](/symbiota-docs/coll_manager/upload/) to upload this spreadsheet into the portal, mapping the new column to _localitySecurity_. You may need to ask your portal manager to clear out any existing values in this field before doing importing via the Skeletal File Uploader. 
 
 ### Globally redacting locality data for certain taxa
 
@@ -62,12 +62,12 @@ Locality data and images can be redacted for all occurrences by a specific taxon
 
 ### Redacting data by state
 
-Finally, locality data and images can be redacted for occurrences of a given taxon that were collected in a certain state by managing a "Rare, threatened, protected species list". User accounts with Rare Species Administrator permissions can create a species list specifically for managing sensitive species and then assign editing rights to one of several appropriate users for populating and managing the state list. The addition of a species to the list will automatically protect locality details of all specimens collected within the designated state.
+Finally, locality data and images can be redacted for occurrences of a given taxon that were collected in a certain state by managing a "Rare, threatened, protected species list". User accounts with Rare Species Administrator permissions can create a species list specifically for managing sensitive species and then assigning editing rights to one of several appropriate users for populating and managing the state list. The addition of a species to the list will automatically protect locality details of all specimens collected within the designated state.
 
 **This will hide locality data for all occurrences of that taxon in the given state throughout the portal, not just for your collection.** Collections can opt out of this option by individually unchecking the _Security_ box within the Occurrence Editor for individual specimen records or by contacting their portal manager for batch changes.
 
 ### Will my redacted data be visible if published to GBIF? 
-By default, no. Keep the box, "Redact Sensitive Localities", in the Darwin Core Archive Publisher **checked** so that redacted data will remind obscured when a Darwin Core Archive file is sent to GBIF. To locate the Darwin Core Archive Publisher, navigate to _Administration Control Panel > Darwin Core Archive Publishing_. Scroll down to the "Create/Refresh Darwin Core Archive" box. 
+By default, no. Keep the box, "Redact Sensitive Localities", in the Darwin Core Archive Publisher **checked** so that redacted data will remain obscured when a Darwin Core Archive file is sent to GBIF. To locate the Darwin Core Archive Publisher, navigate to _Administration Control Panel > Darwin Core Archive Publishing_. Scroll down to the "Create/Refresh Darwin Core Archive" box. 
 
 Keep in mind that the _Security_ field must contain a value of "1" for your data to be successfully redacted within the portal, as well as during data publishing; this applies to both live-managed and snapshot collections. If _Security_ is blank, your data will remain visible and can be published. 
 
@@ -84,6 +84,6 @@ Keep in mind that the _Security_ field must contain a value of "1" for your data
 3. Checklist editors add species needing protection using the normal checklist editing tools.
     * See [checklist tutorials](/symbiota-docs/user/checklist/) for help creating and managing checklists.
     
-## How users request access to redacted data
+## How users can request access to redacted data
 
 Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/symbiota-docs/user/contact/) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/symbiota-docs/coll_manager/metadata/#collectioncontacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
