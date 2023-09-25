@@ -83,6 +83,8 @@ Keep in mind that the _Security_ field must contain a value of "1" for your data
     * Checklist editors do not need Rare Species Administrator or any other special editing rights to manage the list
 3. Checklist editors add species needing protection using the normal checklist editing tools.
     * See [checklist tutorials](/symbiota-docs/user/checklist/) for help creating and managing checklists.
+  
+   ![Checklist Example](/symbiota-docs/images/checklist_protected.png)
     
 ## How users can request access to redacted data
 
