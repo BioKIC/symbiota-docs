@@ -1,16 +1,21 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2022-02-28
+lastmod: 2023-09-29
 draft: false
 authors: ["Ed Gilbert"]
-editors: ["Laura Rocha Prado","Katie Pearson"]
-keywords: ["edit","fields","data fields", "terms", "dwc terms"]
+editors: ["Laura Rocha Prado","Katie Pearson", "Lindsay Walker"]
+keywords: ["edit","fields","data fields", "terms", "dwc terms", "paleontology fields", "material sample fields"]
 ---
 
 The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
 - [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 - [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+
+ ### Table of Contents
+ - [Standard Fields](#standard-fields)
+ - [Material Sample Fields](#material-sample-fields)
+ - [Paleontology Fields](#paleontology-fields)
 
 {{< notice note >}}
   Since portals have the ability to customize the field names found on their data entry form, field names may differ from the core field definition and how it is mapped to Darwin Core export tools.
@@ -18,7 +23,6 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 {{< button href="../../../documents/SymbiotaDataFields_202111.csv" text="Download full content as a CSV" >}}
 {{< button href="https://github.com/BioKIC/symbiota-docs/blob/master/static/documents/SymbiotaDataFields_202111.csv" text="See full content as a CSV" >}}
-
 
 ### Standard Fields
 
@@ -160,8 +164,51 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for specimen." ex="10" >}}
 
+### Material Sample Fields
+
+| ![Material Sample Module](/symbiota-docs/images/materialsampleblank.png) |
+|:--:|
+| Material Sample tab |
+
+{{< notice note >}}
+  Controlled vocabularies for Material Sample data fields are managed per portal, and the suggested examples provided below are derived from vocabularies used for the [NEON Biorepository](https://biorepo.neonscience.org/portal/). These vocabularies vary by portal, and modifications may require community input. Contact your Portal Administrator for more information.
+{{</ notice >}}
+
+{{< dwc-term id="sampleType" verbatim="Sample Type" descr="Controlled vocabulary defining the sample type, which is often anatomical in nature." ex="skull, liver, gastrointestinal tract, ectoparasite" dwc="" >}}
+
+{{< dwc-term id="catalogNumber" verbatim="Catalog Number / Barcode" descr="The unique identifier for the specimen occurrence from which the material sample was derived. This field can also be used to assign a unique catalog number to the sample itself." ex="WIS-L-0123456, ASU0012345" dwc="catalogNumber" >}}
+
+{{< dwc-term id="matSampleID" verbatim="Material Sample ID (GUID)" descr="An identifier for the material sample, which is a material entity that represents an entity of interest in whole or in part. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will make this identifier globally unique." ex="06809dc5-f143-459a-be1a-6f03e63fc083" dwc="materialSampleID" >}}
+
+{{< dwc-term id="sampleCondition" verbatim="Condition" descr="Free text field to describe the physical condition of the sample. Use of a controlled vocabulary is recommended but not forced." ex="very poor, poor, fair, good, unknown" dwc="" >}}
+
+{{< dwc-term id="disposition" verbatim="Disposition" descr="Controlled vocabulary describing the current state of a sample with respect to its collection." ex="in collection, being processed, consumed, on loan" dwc="disposition" >}}
+
+{{< dwc-term id="preservationType" verbatim="Preservation type" descr="Controlled vocabulary defining the physical storage/preservation method of a sample." ex="dry, ethanol, frozen, pinned" dwc="" >}}
+
+{{< dwc-term id="preparationDate" verbatim="Preparation date" descr="The date of a sample's physical preparation. Dates in this field visually conform to MM/DD/YYYY formatting. Manual data entry into this field is validated using a calendar form." ex="08/01/2022" dwc="" >}}
+
+{{< dwc-term id="preparedByUid" verbatim="Prepared by" descr="Name of the individual who prepared a sample. The individual must have an user account in the portal to be recorded in this field." ex="Liao, Rosie; Johnston, Andrew" dwc="" >}}
+
+{{< dwc-term id="preparationDetails" verbatim="Preparation details" descr="Free text field to record notes providing more context about the physical preparation and condition of the sample." ex="upper and lower GI tract; kidney, left, whole; prepared with borax" dwc="" >}}
+
+{{< dwc-term id="individualCount" verbatim="Individual count" descr="The number of loanable objects associated with the sample, i.e. all pieces of the sample assigned to the same unique materialSampleID (see above)." ex="0, 1, 100" dwc="individualCount" >}}
+
+{{< dwc-term id="sampleSize" verbatim="Sample Size" descr="Free text field to quantify the sample beyond counted number of objects, e.g. dry weight." ex="200 uL" dwc="" >}}
+
+{{< dwc-term id="storageLocation" verbatim="Storage Location" descr="Free text field to describe a sample's permanent physical storage location." ex="Freezer 3; Oversize Storage; Cab011, Dwr002" dwc="" >}}
+
+{{< dwc-term id="remarks" verbatim="Remarks" descr="Free text field to provide additional notes, comments, and context unique to a sample that cannot be captured by other existing data fields. Limited to 250 characters." ex="genotype sampling; left jaw consumed in research; with post-cranial skeleton" dwc="" >}}
 
 ### Paleontology Fields
+
+| ![Paleo Module](/symbiota-docs/images/paleo_module.png) |
+|:--:|
+| Paleo Module on the Occurrence Data tab |
+
+{{< notice note >}}
+  Controlled vocabularies for the following data fields are managed per portal. Modifications to these values may require community discussion. Contact your Portal Administrator for more information.
+{{</ notice >}}
 
 <a id="eon"><b>Eon:</b></a> The longest geologic time intervals.
 Ex: Archean, Proterozoic, Phanerozoic
