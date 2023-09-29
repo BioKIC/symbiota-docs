@@ -22,7 +22,7 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 **Images** – provides information on image(s) associated with the record. See [Images](https://biokic.github.io/symbiota-docs/editor/images/)
 
-**Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information.
+**Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](https://biokic.github.io/symbiota-docs/editor/materialsample/)
 
 **Linked Resources** – allows linkage of checklists, duplicates, and genetic resources to the record. See [Linking Records/Resources](https://biokic.github.io/symbiota-docs/editor/links/)
 
