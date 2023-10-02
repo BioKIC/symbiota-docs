@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2023-09-29
+lastmod: 2023-10-02
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Laura Rocha Prado","Katie Pearson", "Lindsay Walker"]
@@ -28,7 +28,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 {{< dwc-term id="catalogNumber" verbatim="Catalog Number" descr="The unique identifier (primary key) for the specimen record. This field should be used to store the barcode or the accession number (herbaria only). This field is enforced to be unique per collection" ex="WIS-L-0123456, ASU0012345, 12345" dwc="catalogNumber" >}}
 
-{{< dwc-term id="otherCatalogNumbers" verbatim="Other Numbers" descr="Any other identifier for a specimen record that is not the central catalog number. This field is typically used to store the old catalog numbers, accession numbers, National Park identifiers, etc. Identifiers can be assigned a tag name to distinguish it from other identifiers (e.g. old accession #, NPS#, etc). These identifiers map best to dwc:otherCatalogNumbers definition, and thus included in the exports under this field. More information about this system can be found on the Catalog Numbers documentation page." ex="12345, TUZI 3082, NPS Acc #: GUIS-M-00126" dwc="otherCatalogNumbers" >}}
+{{< dwc-term id="otherCatalogNumbers" verbatim="Additional Identifier Values" descr="Any other identifier for a specimen record that is not the central catalog number. This field is typically used to store the old catalog numbers, accession numbers, National Park identifiers, etc. Identifiers can be assigned a tag name to distinguish it from other identifiers (e.g. old accession #, NPS#, etc). These identifiers map best to dwc:otherCatalogNumbers definition, and thus included in the exports under this field. More information about this system can be found on the <a href="https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/" target="_blank">Catalog Numbers documentation page</a>." ex="12345, TUZI 3082, NPS Acc #: GUIS-M-00126" dwc="otherCatalogNumbers" >}}
 
 {{< dwc-term id="recordedBy" verbatim="Collector" descr="The name of the person who collected the specimen or made the observation." ex="C.G. Pringle, Goodding, L.N." dwc="recordedBy" >}}
 
