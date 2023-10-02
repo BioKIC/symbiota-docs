@@ -177,9 +177,9 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="sampleType" verbatim="Sample Type" descr="Controlled vocabulary defining the sample type, which is often anatomical in nature." ex="skull, liver, gastrointestinal tract, ectoparasite" dwc="" >}}
 
-{{< dwc-term id="catalogNumber" verbatim="Catalog Number / Barcode" descr="The unique identifier for the specimen occurrence from which the material sample was derived. This field can also be used to assign a unique catalog number to the sample itself." ex="WIS-L-0123456, ASU0012345" dwc="catalogNumber" >}}
+{{< dwc-term id="catalogNumber" verbatim="Catalog Number / Barcode" descr="A unique identifier for the material sample, analagous to _catalogNumber_ for specimen occurrences." ex="WIS-L-0123456, ASU0012345" dwc="catalogNumber" >}}
 
-{{< dwc-term id="matSampleID" verbatim="Material Sample ID (GUID)" descr="An identifier for the material sample, which is a material entity that represents an entity of interest in whole or in part. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will make this identifier globally unique." ex="06809dc5-f143-459a-be1a-6f03e63fc083" dwc="materialSampleID" >}}
+{{< dwc-term id="matSampleID" verbatim="Material Sample ID (GUID)" descr="A globally unique identifier for the material sample. In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will make this identifier globally unique." ex="06809dc5-f143-459a-be1a-6f03e63fc083" dwc="materialSampleID" >}}
 
 {{< dwc-term id="sampleCondition" verbatim="Condition" descr="Free text field to describe the physical condition of the sample. Use of a controlled vocabulary is recommended but not forced." ex="very poor, poor, fair, good, unknown" dwc="" >}}
 
