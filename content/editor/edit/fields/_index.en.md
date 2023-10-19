@@ -147,7 +147,7 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="typeStatus" verbatim="Type Status" descr="The type designation of a specimen, if it is a type specimen" ex="HOLOTYPE, ISOTYPE, PARATYPE" dwc="typeStatus" >}}
 
-{{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan, cone collection" dwc="disposition" >}}
+{{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan, in collection" dwc="disposition" >}}
 
 {{< dwc-term id="occurrenceID" verbatim="Occurrence Id" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
 
