@@ -2,7 +2,7 @@
 title: "Requesting Endorsement as a Publisher"
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
-date: 2022-08-26
+date: 2023-10-27
 weight: 50
 keywords: ["aggregator","gbif","data publishing"]
 ---
@@ -34,7 +34,7 @@ To complete the form:
 * Add your organizational details. This information may be somewhat similar to your collections profile in your Symbiota portal. However, if you are requesting endorsement for an organization that houses multiple collections that could potentially publish data to GBIF (now or in the future), this description should be more generalized. Refer to the description on [the publisher page for the ASU Biocollections](https://www.gbif.org/publisher/814cdfb5-d4f8-4453-815f-ea5df98e76bf) as an example.
 * Use the map interface to create a placemark for your organization's physical location. 
 
-5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "**Symbiota Support Hub**" as your endorsing node.
+5. **_Endorsing Node:_** If you are publishing your dataset through a Symbiota portal, select "**Symbiota Support Hub**" as your endorsing node if your collection is located in the United States. **If your insitution is not US-based**, please contact [the GBIF-designated Node Manager for your country](https://www.gbif.org/the-gbif-network) to see if they would like to complete your endorsement. If your country does not have a node, the Symbiota Support Hub may be able to assist with endorsement. Contact our [Help Desk](mailto:help@symbiota.org) if you have questions about this step.
 
 6. **_GBIF Projects:_** For most collections in Symbiota portals, the answer is "**no**". Answer "yes" only if you are funded through a BID project.
 
