@@ -1,20 +1,19 @@
 ---
-title: "Importing & Uploading Data"
-date: 2021-10-07
-authors: ["Ed Gilbert"]
-editors: ["Katie Pearson"]
+title: "Importing Determinations"
+date: 2023-10-30
+authors: ["Lindsay Walker, Katie Pearson"]
 weight: 150
-keywords: ["data upload","data import","file upload","IPT"]
+keywords: ["data upload","data import","determinations", "annotations"]
 ---
 
 {{< notice note >}}
-  This page provides instructions for uploading data into an existing collection in a Symbiota portal. Contact your portal manager if you do not already have a collection in your desired Symbiota portal.
+  This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records.
 {{</ notice >}}
 
 ## Initiating the Upload
 
-1. Navigate to your Administration Control Panel (My Profile > Occurrence Management > name of your collection).
-2. Click Import/Update Specimen Records, then select "Create a new Import Profile".
+1. Navigate to your Administration Control Panel (_My Profile > Occurrence Management > name of your collection__).
+2. Click _Import/Update Specimen Records > Extended Data Import_.
 3. Create a title for your upload in the Title field.
 4. Select the desired Upload Type from the dropdown menu.
     * **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and images.
