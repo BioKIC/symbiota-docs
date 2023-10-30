@@ -3,7 +3,7 @@ title: "Paleo Data"
 date: 2022-11-23
 authors: ["Lindsay Walker"]
 draft: "false"
-weight: 24
+weight: 155
 keywords: ["paleo","fossil"]
 ---
 
