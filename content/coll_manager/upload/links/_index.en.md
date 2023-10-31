@@ -60,6 +60,10 @@ Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, 
 
 **Simple Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
+{{< notice note >}}
+  Associated taxa added in the Linked Resource tab (either individually or in batch) will be placed in the associatedTaxa field when you download the data (e.g., as a Darwin Core Archive). In the download, any information stored in the associatedTaxa field will NOT be included in deference to the provided Linked Resources. Therefore, if you translate any associatedTaxa into Linked Resources, make sure to translate _all_ the associated taxa!
+{{</ notice >}}
+
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/SimpleObservationUploadTemplate.xlsx).
 
 The required fields for this upload type are (1) an identifier for the occurrence (subject) you are linking to (occurrenceID, catalog number, and/or other catalog number) and (2) scientific name (of the object association being added).
