@@ -1,7 +1,9 @@
 ---
 title: "Importing Determinations"
 date: 2023-10-31
+lastmod: 2023-10-31
 authors: ["Lindsay Walker"]
+editors: ["Katie Pearson"]]
 weight: 150
 keywords: ["data upload","data import","determinations", "annotations"]
 ---
