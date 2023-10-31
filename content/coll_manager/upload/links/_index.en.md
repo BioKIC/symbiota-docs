@@ -30,7 +30,7 @@ This tool uses terms **subject** and **object** to refer to two different types 
 
 **General Resource:** a URL to an external resource (e.g., record in a non-Symbiota database, repository for field notes) that provides information or extended data relating to the occurrence
 
-A template for this upload type can be found here[LINK].
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
 
 The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationships type (selected from the pulldown menu in the portal), and (4) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
@@ -40,7 +40,7 @@ Optional fields include accordingTo, basisOfRecord, establishedDate, identifier,
 
 **Occurrence - Externally Managed:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal. 
 
-A template for this upload type can be found here[LINK].
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx).
 
 The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl.
 
@@ -50,7 +50,7 @@ Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, 
 
 **Occurrence - Internally Managed:** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
 
-A template for this upload type can be found here[LINK].
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
 
 The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
 
@@ -60,7 +60,7 @@ Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, 
 
 **Simple Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
-A template for this upload type can be found here[LINK].
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/SimpleObservationUploadTemplate.xlsx).
 
 The required fields for this upload type are (1) an identifier for the occurrence (subject) you are linking to (occurrenceID, catalog number, and/or other catalog number) and (2) scientific name (of the object association being added).
 
