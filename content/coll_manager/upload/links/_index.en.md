@@ -1,10 +1,11 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2023-10-30
+lastmod: 2023-10-31
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 keywords: ["associated occurrences","extended specimen","linked resources","batch upload","relationships"]
 ---
 
@@ -26,37 +27,53 @@ This tool uses terms **subject** and **object** to refer to two different types 
   9. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching 'identifiers' ".
   10. Click the Import Data button.
 
-#### General Resource Uploads
+#### "General Resource" Uploads
 
-**General Resource:** a URL to an external resource (e.g., record in a non-Symbiota database, repository for field notes) that provides information or extended data relating to the occurrence
+| ![Example General Resource](/symbiota-docs/images/linkedresources_genetic.png) |
+|:--:|
+| Genetic Resources and Field Notes are two association types that can be bulk imported through the "General Resource" upload option.  |
+
+**General Resource:** a URL to an external resource (e.g., record in a non-Symbiota database, such as a repository for field notes) that provides information or extended data relating to the occurrence
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
 
-The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationships type (selected from the pulldown menu in the portal), and (4) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationships type (selected from the pulldown menu in the portal), and (4) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
-Optional fields include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
 
 #### "Occurrence - Externally Managed" Uploads
+
+| ![Example General Resource](/symbiota-docs/images/linkedresources_relatedoccurrences.png) |
+|:--:|
+| Linkages to occurrences and similar resources that are managed outside of your Symbiota portal can be bulk imported using the "Occurrence - Externally Managed" upload option.  |
 
 **Occurrence - Externally Managed:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal. 
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx).
 
-The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl.
 
-Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalogNumber, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
 
 #### "Occurrence - Internally Managed" Uploads
+
+| ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
+|:--:|
+| Linkages to other occurrences, such as botanical duplicates, that are managed within your Symbiota portal can be bulk imported using the "Occurrence - Internally Managed" upload option.  |
 
 **Occurrence - Internally Managed:** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
 
-The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
 
-Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
 
-#### Simple Observation Uploads
+#### "Simple Observation" Uploads
+
+| ![Example General Resource](/symbiota-docs/images/linkedresources_assoctaxa.png) |
+|:--:|
+| Observations that are not associated with digitized occurrences can be bulk imported using the "Simple Observation" upload option. |
 
 **Simple Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
@@ -66,9 +83,9 @@ Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, 
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/SimpleObservationUploadTemplate.xlsx).
 
-The required fields for this upload type are (1) an identifier for the occurrence (subject) you are linking to (occurrenceID, catalog number, and/or other catalog number) and (2) scientific name (of the object association being added).
+The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (occurrenceID, catalog number, and/or other catalog number) and (2) scientific name (of the object association being added).
 
-Optional fields include accordingTo, basisOfRecord, establishedDate, identifer, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, resourceUrl, and subType.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, resourceUrl, and subType.
 
 ### Linked Resources Upload Fields
 
