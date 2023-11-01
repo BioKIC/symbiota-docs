@@ -27,13 +27,13 @@ This tool uses terms **subject** and **object** to refer to two different types 
   9. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching 'identifiers' ".
   10. Click the Import Data button.
 
-#### "General Resource" Uploads
+#### Non-occurrence Resource Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_genetic.png) |
 |:--:|
 | Genetic Resources and Field Notes are two association types that can be bulk imported through the "General Resource" upload option.  |
 
-**General Resource:** a URL to an external resource (e.g., record in a non-Symbiota database, such as a repository for field notes) that provides information or extended data relating to the occurrence
+**Non-occurrence Resource:** a URL to an external resource that provides information or extended data relating to the occurrence, but is itself not an [occurrence](https://dwc.tdwg.org/terms/#occurrence). Examples include field notes, a compiled dataset, etc.
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
 
@@ -41,27 +41,27 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
 
-#### "Occurrence - Externally Managed" Uploads
+#### "Occurrence - External Link" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_relatedoccurrences.png) |
 |:--:|
 | Linkages to occurrences and similar resources that are managed outside of your Symbiota portal can be bulk imported using the "Occurrence - Externally Managed" upload option.  |
 
-**Occurrence - Externally Managed:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal. 
+**Occurrence - External Link:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal. 
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx).
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalogNumber, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
 
-#### "Occurrence - Internally Managed" Uploads
+#### "Occurrence - Internal (this portal)" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
 |:--:|
 | Linkages to other occurrences, such as botanical duplicates, that are managed within your Symbiota portal can be bulk imported using the "Occurrence - Internally Managed" upload option.  |
 
-**Occurrence - Internally Managed:** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
+**Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
 
@@ -69,13 +69,13 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
 
-#### "Simple Observation" Uploads
+#### "Taxon Observation" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_assoctaxa.png) |
 |:--:|
 | Observations that are not associated with digitized occurrences can be bulk imported using the "Simple Observation" upload option. |
 
-**Simple Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
+**Taxon Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
 {{< notice note >}}
   Associated taxa added in the Linked Resource tab (either individually or in batch) will be placed in the associatedTaxa field when you download the data (e.g., as a Darwin Core Archive). In the download, any information stored in the associatedTaxa field will NOT be included in deference to the provided Linked Resources. Therefore, if you translate any associatedTaxa into Linked Resources, make sure to translate _all_ the associated taxa!
@@ -97,7 +97,7 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 | [**accordingTo**](https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo)                           | Text (45)                               | The source asserting the relationship between the subject and object. |
 | [**basisOfRecord**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)                           | Text (45)                               | The nature of the record, from the Darwin Core controlled vocabulary. The most commonly used are _PreservedSpecimen_, _FossilSpecimen_, and _HumanObservation_. |
 | [**establishedDate**](https://dwc.tdwg.org/terms/#dwc:relationshipEstablishedDate)                           | Datetime                               | The date when the relationship between the subject and the object was asserted. |
-| identifier                          | Text (250)                               | A string used to identify the object record that it is not its catalog number or occurrenceID. For reference only, not used to link directly to the external or internal resource. |
+| [**identifier**](https://dwc.tdwg.org/terms/#dwc:resourceRelationshipID)                          | Text (250)                               | A string used to identify the relationship between the subject and the object, ideally (but not necessarily) globally unique. |
 | [**notes**](https://dwc.tdwg.org/terms/#dwc:relationshipRemarks)                          | Text (250)                               | Comments about the relationship between the subject and the object. |
 | object identifier: [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)                           | Text (32)                               | The primary human-readable identifier for the object record you are linking to the subject. |
 | object identifier:occid                           | Integer (10)                               | The occid (internal Symbiota reference number) for the object record you are linking to the subject. The occid is not the same as the occurrenceID (see below). |
