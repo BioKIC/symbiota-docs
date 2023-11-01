@@ -1,7 +1,7 @@
 ---
 title: "Importing Determinations"
 date: 2023-10-31
-lastmod: 2023-10-31
+lastmod: 2023-11-01
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
 weight: 150
@@ -55,25 +55,23 @@ For example:
 | Target Field (🔸 = required)| Data Type (Length)| Notes |
 | --- | --- | --- |
 | subject identifier 🔸 | | catalogNumber, otherCatalogNumber, or occurrenceID | 
-| appliedStatus | Integer (2) | ???? ["applied" worked but "1" did not] |
 | [**dateIdentified**](https://dwc.tdwg.org/terms/#dwc:dateIdentified) 🔸 | Text (45) | The date the identification was made. |
-| detType | Text (45) | ???? |
-| family | Text (255) | The family to which the taxon belongs. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
-| higherClassification | | ???? |
+| family (Override)| Text (255) | The family to which the taxon belongs. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
+| [**higherClassification**](http://rs.tdwg.org/dwc/terms/higherClassification) (Override) | Text (150) | A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the referenced dwc:Taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry for the current identification. |
 | [**identificationQualifier**](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) | Text (255) | The determiner's expression of uncertainty in their identification. This will be listed on the label along with the scientific name. (e.g., cf., aff.) |
 | [**identificationReferences**](https://dwc.tdwg.org/terms/#dwc:identificationReferences) | Text (2000) | The reference source used to make the identification. |
 | [**identificationRemarks**](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Text (2000) | Any additional notes regarding the identification of the specimen. |
-| identificationUncertain | | ???? |
-| identificationVerificationStatus | Text (45) | ???? |
+| identificationUncertain | Integer (2) | Use the value "1" to indicate an uncertain identification or "0" for certain identifications. |
+| [**identificationVerificationStatus**](http://rs.tdwg.org/dwc/terms/identificationVerificationStatus) | Text (45) | A categorical indicator of the extent to which the taxonomic identification has been verified to be correct. |
 | [**identifiedBy**](https://dwc.tdwg.org/terms/#dwc:identifiedBy)🔸 | Text (255) | The name of the person who identified the specimen. Also called a determiner. |
 | isCurrent | Integer (2) | Use the value "Y" to flag a determination as the most current. However, doing so will not override existing determinations that have already been flagged as the most current. [Y worked but 1 didn't?!] |
 | printQueue | Integer (2) | Use the value "1" to add a determination to the annotation print queue. |
 | [**scientificNameAuthorship**](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | The name of the person who first named the taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
 | sciname 🔸 | | Taxonomic identification without authorship string. See [Data Import Fields](/symbiota-docs/coll_manager/upload/fields/). |
-| securityStatus | Integer (11) | Use the value "1" to [redact images and locality data](/symbiota-docs/coll_manager/data_publishing/redaction/) for the associated occurrence record; use "0" to keep all details visible. See [Symbiota Data Fields](/symbiota-docs/editor/edit/fields/). [DOES NOT SEEM TO WORK?] |
+| securityStatus | Integer (11) | Use the value "1" to [redact images and locality data](/symbiota-docs/coll_manager/data_publishing/redaction/) for the associated occurrence record; use "0" to keep all details visible. See [Symbiota Data Fields](/symbiota-docs/editor/edit/fields/). |
 | securityStatusReason | Text (100) | Explanation for data redaction. See [Symbiota Data Fields](/symbiota-docs/editor/edit/fields/). |
 | sortSequence | Integer (10) | Specifies the sequential sort order of multiple determinations on the determination history tab and in the public display. Low numbers will sort higher than high numbers. |
-| sourceIdentifier | Text (45) | Identifier for the source of the taxonomic information, such as [https://powo.science.kew.org/taxon/](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:673954-1) [urn:lsid:ipni.org:names:673954-1](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:673954-1) |
+| [**sourceIdentifier**](https://dwc.tdwg.org/terms/#dwc:identificationID) | Text (45) | An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set. |
 | [**taxonConceptID**](https://dwc.tdwg.org/terms/#dwc:taxonConceptID) | Text (45) | An identifier for the taxonomic concept to which the determination refers. |
 | [**taxonRemarks**](https://dwc.tdwg.org/terms/#dwc:taxonRemarks) | Text (2000) | Any additional notes regarding the taxonomic name to which the specimen was identified. |
-| verbatimIdentification | Text (250) | See [dwc:verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification) [UNCLEAR WHERE THIS FIELD LIVES.] |
+| [**verbatimIdentification**]((https://dwc.tdwg.org/terms/#dwc:verbatimIdentification)) | Text (250) | A string representing the taxonomic identification as it appeared in the original record. |
