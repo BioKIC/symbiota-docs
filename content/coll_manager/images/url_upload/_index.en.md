@@ -4,11 +4,12 @@ date: 2023-10-31
 lastmod: 2023-10-31
 weight: 10
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 keywords: ["images"]
 ---
 
 {{< notice info >}}
-  This page describes how to link images to records from a CSV of image links/URLs.
+  This page describes how to associate externally hosted images with records in your portal using a CSV of image links/URLs. 
 {{</ notice >}}
 
 ### Adding Images via URLs
@@ -24,7 +25,7 @@ keywords: ["images"]
 ### Setting Up an Image Import File
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
 
-The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), and (2) originalUrl. The originalUrl should include a direct link to the desired image (i.e., ideally ending in .jpg or .tif or some other image file extension). Note that uploading a link to a webpage where that image may be found rather than directly to the image may result in images not displaying as expected.
+The required fields for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), and (2) originalUrl. The originalUrl should include **a direct link to the desired image** (i.e., ideally ending in .jpg or .tif or some other image file extension). Note that uploading a link to a webpage where that image may be found rather than directly to the image may result in images not displaying as expected.
 
 Optional fields are listed in the table below.
 
