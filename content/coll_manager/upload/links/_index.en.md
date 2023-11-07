@@ -1,7 +1,7 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2023-10-31
+lastmod: 2023-11-07
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -22,16 +22,23 @@ This tool uses terms **subject** and **object** to refer to two different types 
   4. Select "Associations" from the Import Type dropdown menu.
   5. Select the desired Association Type (of the four described below) from the next dropdown menu.
   6. Click the "Initialize Import" button.
-  7. Select the desired Relationship type from the dropdown menu 
-  8. Map the fields in your input file (shown on the left) to appropriate target fields (see table below).
-  9. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching 'identifiers' ".
+  7. Select the desired Relationship Type from the dropdown menu.
+
+{{< notice note >}}
+  The available **Relationship Type** values are defined per portal and ideally correspond to a community-created controlled vocabulary, such as terms from the [Relation Ontology](http://purl.obolibrary.org/obo/ro).
+{{</ notice >}}
+
+  8. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)).
+  9. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching identifiers."
   10. Click the Import Data button.
 
-#### Non-occurrence Resource Uploads
+#### Association Types
 
-| ![Example General Resource](/symbiota-docs/images/linkedresources_genetic.png) |
+##### 1. "Non-occurrence Resource" Uploads
+
+| ![Field Notes Linkage Example](/symbiota-docs/images/linkedresources_fieldnotes.png) |
 |:--:|
-| Genetic Resources and Field Notes are two association types that can be bulk imported through the "General Resource" upload option.  |
+| Field Notes is an example of an association type that can be bulk imported through the "Non-occurrence Resource" upload option.  |
 
 **Non-occurrence Resource:** a URL to an external resource that provides information or extended data relating to the occurrence, but is itself not an [occurrence](https://dwc.tdwg.org/terms/#occurrence). Examples include field notes, a compiled dataset, etc.
 
@@ -41,7 +48,7 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
 
-#### "Occurrence - External Link" Uploads
+##### 2. "Occurrence - External Link" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_relatedoccurrences.png) |
 |:--:|
@@ -55,7 +62,7 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalogNumber, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
 
-#### "Occurrence - Internal (this portal)" Uploads
+##### 3. "Occurrence - Internal (this portal)" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
 |:--:|
@@ -69,7 +76,7 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
 
-#### "Taxon Observation" Uploads
+##### 4. "Taxon Observation" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_assoctaxa.png) |
 |:--:|
@@ -87,7 +94,11 @@ The **required fields** for this upload type are (1) an identifier for the occur
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, resourceUrl, and subType.
 
-### Linked Resources Upload Fields
+### Table 1. Linked Resources Upload Fields
+
+{{< notice note >}}
+  The **Data Type** column defines what type of data (e.g., text or numeric) can be included in this field, as well as the maximum number of characters that are allowed in the field. If the number of characters in your input file exceeds this maximum, the upload process will fail.
+{{</ notice >}}
 
 | Field Name                           | Data Type (Length in characters)                                     | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
