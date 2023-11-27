@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2023-10-02
+lastmod: 2023-11-27
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Laura Rocha Prado","Katie Pearson", "Lindsay Walker"]
@@ -91,7 +91,7 @@ This field is not defined by the Darwin Core standard.
 {{< dwc-term id="geodeticDatum" verbatim="Datum" descr="The geographic system that was used to get the coordinates. This field autofills when using [http://www.museum.tulane.edu/geolocate/|GeoLocate] or the Google Maps tool for georeferencing." ex="NAD27, NAD83, WGS84" dwc="geodeticDatum" >}}
 
 <a id="verbatimCoordinates"><b>Verbatim Coordinates:</b></a> If the coordinates recorded on the specimen label are in a format other than decimal degrees, enter them here. When decimal lat/long fields are blank and one enters UTM or DMS using one of the formats displayed in the example below, decimal lat/long values will be automatically generated. Click the "&lt;&lt;" symbol to replace existing decimal values. This field autofills when using the DMS, UTM, and TRS georeferencing tools.<br>
-Ex: 34° 13.940' N 112° 2.370' W, 34d 13m 12.940s N 112d 20m 46.370s W, 12 420944E 4064025N, TRS: T40N R32E S29 <br>
+Ex: 34° 13.940' N 112° 2.370' W, 12 420944E 4064025N, TRS: T40N R32E S29 <br>
 See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates" target="_blank" rel="noopener noreferrer">verbatimCoordinates</a>.
 
 {{< dwc-term id="minimumElevationInMeters" verbatim="Elevation in Meters" descr="The elevation in meters at which the specimen was collected. Also called altitude. Use only the left field with the right field blank when a single elevation exists." ex="1400, 2000-2200" dwc="minimumElevationInMeters" >}}
