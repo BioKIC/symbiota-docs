@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2023-11-01
+lastmod: 2023-11-28
 authors: ["Katie Pearson","Ed Gilbert"]
 editors: ["Lindsay Walker"]
 weight: 80
@@ -90,5 +90,7 @@ Keep in mind that the _Security_ field must contain a value of "1" for your data
 ## How users can request access to redacted data
 
 Individuals who require access to redacted data for legitimate reasons are encouraged to [directly reach out](/symbiota-docs/user/contact/) to the contact(s) listed on collections profiles to acquire data access. However, if the request is complex and requires contacting numerous collections, individuals can contact the Symbiota Support Hub for assistance in reaching out to the relevant collections. Please keep your [collection's contact information](/symbiota-docs/coll_manager/metadata/#collectioncontacts) up to date so that portal users and the Support Hub can contact you about these requests. It is also recommended that you add hub@symbiota.org to your own contacts so these messages are not blocked by an institutional firewall or routed to spam.
+
+## Related Resources
 
 {{< vimeo 584160186 >}}
