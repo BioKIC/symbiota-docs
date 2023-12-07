@@ -2,6 +2,8 @@
 title: "Commenting on Records"
 date: 2022-01-21
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
+lastmod: 2023-12-06
 draft: false
 weight: 32
 keywords: ["comment","correction","contact"]
@@ -14,5 +16,9 @@ First, make sure you are logged in to your account. Any user can create an accou
 Next, open the public display page of the record. To do so from the results of a search in "list display", click **Full Record Details** below the occurrence. To do so from the results of a search in "table display", click on the SymbiotaID number (far left column) of the occurrence. To do so from a map search, hover over the point, then click See Details.
 
 From the public display page of the record, click the Comments tab, enter your comment, and click Submit Comment.
+
+{{< notice note >}}
+  ⚠️ Symbiota does not automatically associate your contact information with your comments on specimen records. If you would like to be contacted in response to your comment, please include your name and contact information to assist the collections administrator with reaching out.
+{{</ notice >}}
 
 ![Comment Tab on the Public Display](/symbiota-docs/images/comment.PNG)
