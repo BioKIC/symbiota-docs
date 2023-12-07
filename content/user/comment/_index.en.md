@@ -18,7 +18,7 @@ Next, open the public display page of the record. To do so from the results of a
 From the public display page of the record, click the Comments tab, enter your comment, and click Submit Comment.
 
 {{< notice note >}}
-  ⚠️ Symbiota does not automatically associate your user account information with comments left on specimen records. If you would like to be contacted in response to your comment, please include your name and contact information to assist the collections administrator with reaching out.
+  ⚠️ Symbiota does not automatically provide contact information in association with your comments on specimen records. If you would like to be contacted in response to your comment, please include your name and contact information to assist the collections administrator with reaching out.
 {{</ notice >}}
 
 ![Comment Tab on the Public Display](/symbiota-docs/images/comment.PNG)
