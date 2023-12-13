@@ -1,9 +1,11 @@
 ---
 title: "Crowdsourcing (Volunteer Instructions)"
 date: 2021-10-07
+lastmod: 2023-12-12
 weight: 3
 draft: false
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 keywords: ["crowdsourcing","volunteer", "citizen science","community science"]
 ---
 
@@ -35,5 +37,7 @@ First, you’ll need to create an account in the portal for which you will be cr
 _This material is based upon work supported by the National Science Foundation under Grant Numbers 2001500, 2001509, 2001394, 2001422, 2001427, 2001431, 2001299, 2001354, 2001288, and 2001345. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation._
 
 Additional resources about crowdsourcing in a Symbiota portal can be found below:
-* [Transcription Guide for the Mid-Atlantic Megalopolis project](https://www.mamdigitization.org/_files/ugd/6f7156_68c677d23b9748f8a9729827cd0cb6e6.pdf)
+* [Transcription Guide for the Mid-Atlantic Megalopolis project](https://docs.wixstatic.com/ugd/6f7156_800579c353574e59918cfb541172d749.pdf)
 * [Intro to Crowdsourcing for the GLOBAL project](https://youtu.be/cKHnaYzvI8E)
+* [Navigating Crowdsourcing in the Pteridophyte Portal](https://pteridophytes.berkeley.edu/wp-content/uploads/sites/34/2020/06/Navigating-PteridoPortal-Crowdsourcing-Module.pdf)
+* [Transcription Rules for Crowdsourcing in Pteridoportal](https://pteridophytes.berkeley.edu/wp-content/uploads/sites/34/2020/06/Transcription-Rules-for-Crowdsourcing.pdf)
