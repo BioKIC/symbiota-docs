@@ -15,14 +15,14 @@ keywords: ["data upload","data import","file upload","IPT"]
 ## Upload Types
 
 There are several options for uploading data into a Symbiota portal:
-    * **Full Text File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing ALL fields of your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types. **Note that, if data exists in the portal for any of the occurrences you are uploading, those data will be overwritten by the incoming data.** To upload partial records, use a Skeletal File Upload.
-    * **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). **Note that this upload type can only fill in fields that are currently _empty_ in the portal.** The data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
-    * **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and images.
-    * **IPT Resource / Darwin Core Archive Provider:** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
-    * **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
-    * **Direct Database Mapping:**
-    * **Stored Procedure:** Use this option if you are transferring from a source schema to a Symbiota database located on the same MySQL database server.
-    * **Script Upload:** Use this option if you are transferring from a MySQL source to Symbiota database that is located on a different server.
+* **Full Text File Upload:** Use this upload type if you will provide a comma-separated value (CSV) or tab-separated value (TSV) file containing ALL fields of your occurrence data. You can convert an Excel document into a CSV file by clicking Save As, then selecting comma-delimited (CSV) from the file types. **Note that, if data exists in the portal for any of the occurrences you are uploading, those data will be overwritten by the incoming data.** To upload partial records, use a Skeletal File Upload.
+* **Skeletal File Upload:** Use this upload type if you will provide a CSV or TSV file containing data from only a few fields (e.g., georeferences or other ancillary data). **Note that this upload type can only fill in fields that are currently _empty_ in the portal.** The data provided in a skeletal file upload will NOT overwrite existing data in the database, so any pre-existing data in the desired fields must be deleted if you wish to replace it with the data from the skeletal file.
+* **Darwin Core Archive Manual Upload:** Use this upload type if the data you wish to upload is in the format of a [Darwin Core Archive](http://en.wikipedia.org/wiki/Darwin_Core_Archive). A Darwin Core Archive (DwC-A) is a data standard that is commonly used to package species occurrence data into a single, self-contained dataset. A DwC-A includes metadata, a file of occurrence data, and, often, files for determinations (identifications) and images.
+* **IPT Resource / Darwin Core Archive Provider:** Use this upload type if you will provide a URL to an existing Darwin Core Archive published on the web, such as one provided through an IPT.
+* **NfN File Upload:** Use this upload type if you will provide a CSV file produced from Notes from Nature.
+* **Direct Database Mapping:**
+* **Stored Procedure:** Use this option if you are transferring from a source schema to a Symbiota database located on the same MySQL database server.
+* **Script Upload:** Use this option if you are transferring from a MySQL source to Symbiota database that is located on a different server.
 
 ## Initiating the Upload
 
