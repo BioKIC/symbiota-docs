@@ -1,6 +1,7 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
+lastmod: 2023-12-18
 authors: ["Ed Gilbert"]
 editors: ["Katie Pearson"]
 weight: 150
