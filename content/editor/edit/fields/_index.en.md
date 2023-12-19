@@ -1,7 +1,7 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2023-11-27
+lastmod: 2023-12-19
 draft: false
 authors: ["Ed Gilbert"]
 editors: ["Laura Rocha Prado","Katie Pearson", "Lindsay Walker"]
@@ -11,6 +11,10 @@ keywords: ["edit","fields","data fields", "terms", "dwc terms", "paleontology fi
 The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a> data exchange standard. For more details, links to the Darwin Core definitions are supplied for each term. Learn more about Darwin Core terms in the following TDWG pages:
 - [TDWG - Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 - [TDWG - List of Darwin Core terms](https://dwc.tdwg.org/list)
+
+{{< notice note >}}
+  Fields listed here differ from the fields visible in the data uploading tools. For field information specific to the data upload tools, see the [Data Import fields page](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
+{{</ notice >}}
 
  ### Table of Contents
  - [Standard Fields](#standard-fields)
