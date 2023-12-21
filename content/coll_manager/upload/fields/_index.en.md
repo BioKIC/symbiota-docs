@@ -1,7 +1,8 @@
 ---
 title: "Data Import Fields"
 date: 2021-10-22
-authors: ["Ed Gilbert"]
+lastmod: 2023-12-21
+authors: ["Ed Gilbert","Katie Pearson"]
 weight: 10
 editors: ["Katie Pearson"]
 keywords: ["data upload","data import","file upload","IPT"]
@@ -11,7 +12,11 @@ keywords: ["data upload","data import","file upload","IPT"]
   This page lists the possible specimen fields that can be imported into a Symbiota data portal. The type of field (text, number, etc.) is listed in the **Type** field. The number of characters allowed in that field is displayed in parentheses.
 {{</ notice >}}
 
-If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names.
+You can select any number of fields in the table below to include in your file upload, but some fields are more commonly used than others. At the button below, you will find a template based on plant collections in Excel format. The second row provides field explanataions and the third row provides an example. Delete these rows and save the file as a CSV (UTF-8) before attempting to upload.
+
+{{< button href="https://biokic.github.io/symbiota-docs/documents/UploadTemplateForCollectors.xlsx" text="Download Example Template" >}}
+
+If the data portal is being used to displaying a “snapshot” of your data stored in your local central database, the upload file MUST have a field that serves as the unique identifier for each incoming specimen record (dbpk). This field serves a link between the source record and the snapshot record within the portal. If the import is a CSV file, the first row must contain field names. Note that field names do not have to match the name used below, but there cannot be any characters ($#@&%) in the column names. If you have issues saving your import profile, your field names may be too long! Try shortening the field names in the CSV file.
 
 For more information about data fields, also see our [Symbiota Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/) page.
 
@@ -25,7 +30,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 
 | Name | Type | Notes |
 |-|-|-|
-| associatedCollectors | Text (255) | All collectors except the primary collector. |
+| associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
 | [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text | URL to jpg images, delimited by commas or semicolons. More information about uploading images can be found on [this page](https://biokic.github.io/symbiota-docs/editor/images/upload/). |
 | [_associatedSequences_](https://dwc.tdwg.org/terms/#dwc:associatedSequences) | | **Note:** This field is not yet accessible in the occurrence editor.|
 | [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text | Associated taxa delimited by commas or semicolons |
@@ -42,7 +47,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | coordinateUncertaintyRadius | Integer | The value of the uncertainty radius of the georeference (used in concert with coordinateUncertaintyUnits). If all your coordinate uncertainty values are in meters, use the coordinateUncertaintyInMeters field instead. |
 | coordinateUncertaintyUnits | Text | The units of the uncertainty radius of the georeference (used in concert with coordinateUncertaintyRadius). |
 | [**_country_**](https://dwc.tdwg.org/terms/#dwc:country) | Text (64) | |
-| [**_countryCode_**](https://dwc.tdwg.org/terms/#dwc:countryCode) | | |
+| [_countryCode_](https://dwc.tdwg.org/terms/#dwc:countryCode) | | |
 | [**_county_**](https://dwc.tdwg.org/terms/#dwc:county) | Text (255) | |
 | cultivationStatus | Integer | 0 = wild, 1 = cultivated |
 | [_dataGeneralizations_](https://dwc.tdwg.org/terms/#dwc:dataGeneralizations) | Text (250) | Notes or remarks about the record. This field is not publicly accessible, so it is a good place to put curatorial notes or temporary comments. |
@@ -66,7 +71,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | exsiccatiIdentifier | Integer | Identifier from exsiccati indexing table |
 | exsiccatiNotes | | (Documentation coming soon!) |
 | exsiccatiNumber | | (Documentation coming soon!) |
-| [**_family_**](https://dwc.tdwg.org/terms/#dwc:family) | Text | This need only be provided when the scientific name is not in the taxonomic thesaurus, or you would like to override the automatically-assigned family that would come from the taxonomic thesaurus.|
+| [_family_](https://dwc.tdwg.org/terms/#dwc:family) | Text | This need only be provided when the scientific name is not in the taxonomic thesaurus, or you would like to override the automatically-assigned family that would come from the taxonomic thesaurus.|
 | [_fieldNumber_](https://dwc.tdwg.org/terms/#dwc:fieldNumber) | | |
 | [_footprintWKT_](https://dwc.tdwg.org/terms/#dwc:footprintWKT) | Text | |
 | [_genus_](https://dwc.tdwg.org/terms/#dwc:genus) | Text (255)  | |
@@ -101,10 +106,10 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | \*lngMin | Double  | Longitude minutes |
 | \*lngSec | Double | Longitude seconds |
 | [**_locality_**](https://dwc.tdwg.org/terms/#dwc:locality) | Text | |
-| localitySecurity | Integer | 0=don’t hide locality details from general public, 1=hide locality |
+| localitySecurity | Integer | 0=don’t hide locality details from general public, 1=hide locality, coordinates, and images . For more information about redacting locality information, see [this page](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/). |
 | localitySecurityReason | Text (100) | Description of why a locality is hidden from public view. |
 | [_locationID_](https://dwc.tdwg.org/terms/#dwc:locationID) | | |
-| [_locationRemarks_](https://dwc.tdwg.org/terms/ |
+| [_locationRemarks_](https://dwc.tdwg.org/terms/#dwc:locationRemarks) |
 | materialSampleJSON | | |
 | [_maximumDepthInMeters_](https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters) | Integer | |
 | [_maximumElevationInMeters_](https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters) | Integer | |
