@@ -1,7 +1,9 @@
 ---
 title: "Paleo Data"
 date: 2022-11-23
+lastmod: 2024-01-17
 authors: ["Lindsay Walker"]
+editors: ["Lindsay Walker"]
 draft: "false"
 weight: 24
 keywords: ["paleo","fossil"]
@@ -50,7 +52,7 @@ At present, the default value for [_basisOfRecord_](https://dwc.tdwg.org/terms/#
  ![Paleo Module for Symbiota Portals](/symbiota-docs/images/paleo_basisofrecord.png)
 
  ## Fossil Localities/Sites
- At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Contact the Symbiota Support Hub if this may be problematic for the managing your locality data.
+ At present, locality (site) data are entered at the specimen occurence level--i.e., on a record-by-record basis--in Symbiota portals. Locality data are also **publicly visible by default**. Refer to the documentation on [locality redaction](/symbiota-docs/coll_manager/data_publishing/redaction/) for instructions on how to obscure this information for sensitive localities.
  
  ## Extinct Taxa
  Extinct taxa are supported in Symbiota. Refer to the [Taxonomy Tree Viewer](https://www.pteridoportal.org/portal/taxa/taxonomy/taxonomydisplay.php) in Pteridoportal for [examples](https://www.pteridoportal.org/portal/taxa/index.php?taxon=66863).
