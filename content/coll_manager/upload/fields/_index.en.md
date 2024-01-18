@@ -89,7 +89,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | [_identificationRemarks_](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Text (2000) | |
 | [_identifiedBy_](https://dwc.tdwg.org/terms/#dwc:identifiedBy) | Text (255) | |
 | [_individualCount_](https://dwc.tdwg.org/terms/#dwc:individualCount) | Text (45) | |
-| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Text (250) | E.g., "coordinates not provided due to rare species" |
+| [_informationWithheld_](https://dwc.tdwg.org/terms/#dwc:informationWithheld) | Text (250) | E.g., "coordinates not provided due to rare species". If a record's locality data are redacted using _localitySecurity_, the public version of this field will autopopulate a list field names that contain redacted data. More information [here](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/). |
 | [_infraspecificEpithet_](https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet) | Text (255) | |
 | [_institutionCode_](https://dwc.tdwg.org/terms/#dwc:institutionCode) | Text (32) | Populate only if different than source collection (i.e., the manager/metadata/) associated with your collection) |
 | [_island_](https://dwc.tdwg.org/terms/#dwc:island) | Text (75) | **Note:** This field is not yet accessible in the occurrence editor. |
@@ -124,7 +124,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | [_organismID_](https://dwc.tdwg.org/terms/#dwc:organismID) | | |
 | [_otherCatalogNumbers_](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers) | Text (255) | To take advantage of the [Tag Name + Identifier system](https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/) (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876" |
 | [_ownerInstitutionCode_](https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode) | Text (32) | |
-| paleoJSON | Text (65,535) | A JSON-formatted field containing the data to be included in the Symbiota paleo module. Documentation coming soon! |
+| paleoJSON | Text (65,535) | A JSON-formatted field containing the data to be included in the Symbiota [paleo module](https://biokic.github.io/symbiota-docs/coll_manager/paleo/).  Documentation coming soon! |
 | [_parentLocationID_](https://dwc.tdwg.org/terms/#dwc:parentLocationID) | | **Note:** This field is not yet accessible in the occurrence editor. |
 | [_preparations_](https://dwc.tdwg.org/terms/#dwc:preparations) | Text (100) | |
 | processingStatus | | Processing status for digitization tasks. This field is not publicly accessible. |
