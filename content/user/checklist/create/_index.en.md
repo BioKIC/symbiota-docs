@@ -2,6 +2,8 @@
 title: "Creating a Checklist"
 date: 2021-10-14
 authors: ["Katie Pearson"]
+editors: ["Katie Pearson"]
+lastmod: 2024-01-26
 draft: false
 weight: 20
 keywords: ["checklist","inventory","flora"]
