@@ -14,7 +14,7 @@ keywords: ["listado de especies","inventario","flora"]
 
 1.	Ingrese en su perfil en el portal Symbiota (si aún no tiene una cuenta, haga click en Nueva Cuenta para crearla).
 2.	Haga click “Mi Perfil”
-3.	Bajo la pestaña "Listados de Especies", haga click en el signo más verde. ![Plus Sign](/symbiota-docs/images/add.png)
+3.	Bajo la pestaña "Listados de Especies", haga clic en el icono agregar. ![Plus Sign](/symbiota-docs/images/add.png)
 4.	Complete la ventana “Crear un Nuevo Listado de Especies” con la información deseada.
       * La mayoría de listados serán Listados Generales. De manera alterna, puede elegir otro tipo de listado en el menú desplegable Tipo de Listado. Un Listado de Exclusión de Especies es utilizado para curar un subset de taxa que son excluídos a propósito de otro listado, y Listados de Especies Raras, amenazadas o protegidas, son utilizados para compilar un listado a nivel de estado de especies raras, amenazadas o protegidas para los cuales los datos de localidad han sido oscurecidos en ese estado.
       * Para indicar que este listado es un subset dentro de un listado más grande, seleccione el listado "padre" (más grande) en el menú desplegable de Listados de Especies más Inclusivos.

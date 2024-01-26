@@ -17,7 +17,7 @@ keywords: ["checklist","inventory","flora"]
 
 1.	Log in to the Symbiota profile (if you don't already have an account, click New Account to create one).
 2.	Click “My Profile”
-3.	Under the “Species Checklists” tab, click the green plus sign. ![Plus Sign](/symbiota-docs/images/add.png)
+3.	Under the “Species Checklists” tab, click the add icon. ![Plus Sign Icon](/symbiota-docs/images/add.png)
 4.	Fill out the “Create New Checklist” box with the desired information.
       * Most checklists will be a General Checklist. Alternatively, you can another list type from the Checklist Type dropdown menu. A Species Exclusion List is used to curate a subset of taxa that are purposely excluded from another list, and a Rare, threatened, protected species list is used to compile a state-level list of rare, threatened, and protected taxa for which locality data will be redacted for specimens in that state.
       * To indicate that this checklist is a subset within a larger checklist, select the “parent” (larger) checklist from the More Inclusive Reference Checklist dropdown menu.
