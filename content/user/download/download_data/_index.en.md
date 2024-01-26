@@ -1,12 +1,13 @@
 ---
 title: "Downloading Data"
 date: 2021-11-12
-lastmod: 2021-10-11
+lastmod: 2024-01-26
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
+editors: ["Katie Pearson"]
 keywords: ["download"]
----
+-----
 
 Downloading data from Symbiota portals can easily be done from a public search.
 
