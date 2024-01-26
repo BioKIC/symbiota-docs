@@ -2,7 +2,9 @@
 title: "Creando un Listado de Especies"
 date: 2021-10-14
 authors: ["Katie Pearson"]
+editors: ["Katie Pearson"]
 translators: ["Samanta Orellana"]
+lastmod: 2024-01-26
 draft: false
 weight: 20
 keywords: ["listado de especies","inventario","flora"]
