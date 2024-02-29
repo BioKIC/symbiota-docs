@@ -1,9 +1,8 @@
 ---
 title: "Geographic Harvester"
 date: 2024-02-08
-lastmod: 2024-02-14
+lastmod: 2024-02-29
 authors: ["Katie Pearson"]
-editors: [""]
 draft: false
 weight: 10
 keywords: ["geography","geographic thesaurus","country","continent","state","province","county","municipality"]
@@ -15,7 +14,7 @@ To use this tool, use the Sitemap to navigate to the Geographic Thesaurus under 
 
 The resulting page will show you a list of all countries in the geoBoundaries API and their associated metadata.
 
-* The **In Database** field indicates ....
+* The **In Database** field indicates whether that country exists in the geographic thesaurus.
 * The **Has Polygon** field indicates whether that country has a polygon loaded into your geographic thesaurus.
 * To view the polygon associated with the country, you can click the **IMG** link in the Preview Image column.
 
@@ -29,6 +28,7 @@ To import polygons associated with the countries and their lower geographic unit
 
 ![Geographic Harvester Page 2](/symbiota-docs/images/GeoHarvesterRanks.PNG)
 
+Check the box next to the geographic ranks for which you would like to import polygons. Check the "Add geographical units if missing" box if you would like to import the geographic units themselves into your geographic thesaurus as well. Click the Add Boundaries button to import the selected polygon(s) and/or geographic units.
 
 The Symbiota Support Hub gratefully acknowledges the work of the geoBoundaries project, which is essential to the functioning of this tool:
 
