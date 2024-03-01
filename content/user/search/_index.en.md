@@ -36,10 +36,11 @@ Symbiota portals serve data from specimens and observations according to regiona
 
 3. Click the Search button on the far right.
 4. On the next page, you can enter search criteria to find records of interest.
-      * The criteria you can use will vary depending on the portal, but generally include taxonomic criteria, locality criteria, collector criteria, and specimen criteria.
+      * The criteria you can use will vary depending on the portal, but generally include the following categories: 1) Taxonomic Criteria, 2) Locality Criteria, 3) Latitude and Longitude, 4) Collector Criteria, 5) Specimen Criteria, and 6) Trait Criteria (if enabled).
       * Any number of criteria can be entered and search at the same time.
-      * To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the Google Maps icon to create the box, shape, or point radius in a Google Maps interface.
       * You can search for multiple values in a single field by separating the values by semicolons. For example, if you want to search by both Kern and Inyo counties, you should enter "Kern;Inyo" in the county field.
+      * **Latitude and Longitude**: To define a latitude/longitude bounding box, polygon, or point with radius in which to search, enter the values in the provided fields or click the Mapping Aid icon to create the box, shape, or point radius in the Leaflet mapping interface.
+      * **Specimen Criteria**: If enabled for your portal, this search category may contain a dropdown list to query _materialSampleType_. Further documentation on the Material Sample module can be found [here](/symbiota-docs/editor/edit/materialsample/). 
 5. Click List Display to conduct the search and view results as a list, or click Table Display to conduct the search and view results in a table.
 
 ![List Display](/symbiota-docs/images/search3.PNG)
