@@ -1,7 +1,9 @@
 ---
 title: "Searching for Records"
 date: 2021-10-11
+lastmod: 2024-03-01
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 draft: false
 weight: 100
 keywords: ["search","specimens","observations"]
@@ -9,7 +11,12 @@ keywords: ["search","specimens","observations"]
 
 Symbiota portals serve data from specimens and observations according to regional and taxonomic themes. To search and view these data, you can use one of the tools described below.
 
-### Basic Search
+ # Table of Contents
+ - [Basic Search](#basic-search)
+ - [Map Search](#map-search)
+ - [Quick Search](#quick-search)
+
+# Basic Search
 
 1. From the home page of the portal, click Search Collections from the top or side menu.
 2. If prompted on the next page, select or deselect collections from the provided list depending on which collections you would like to search.
@@ -50,7 +57,7 @@ Symbiota portals serve data from specimens and observations according to regiona
    To sort the search results, click Display Table (or the Table Display button ![Table Display Button](/symbiota-docs/images/tabledisplaybutton.PNG) In the Search Results box at the top of the page, select the field you would like to sort by, a second field you would like to sort by (if applicable), then whether you would like to sort results in ascending or descending order. Then click Sort.
 {{</ notice >}}
 
-### Map Search
+# Map Search
 
 Depending on the portal, the Map Search function may be under the Search Collections menu item, or listed as a separate menu item on the homepage.
 
@@ -63,3 +70,19 @@ Further customizations can be made in the Map Options tab of the search panel in
 Once you have conducted a search, you can view a list of specimens by clicking the Open Search Panel button and viewing the Records and Taxa menu item. You can also download the specimen records, download a KML file of the specimen records, or generate a shareable link to these search results by clicking on the respective buttons on this page.
 
 ![Map Search Display](/symbiota-docs/images/search5.PNG)
+
+# Quick Search
+{{< notice note >}}
+  Using Quick Search forms, you can search for multiple taxa (_scientificName_ values) or, where applicable, _Catalog Number_ values by listing your search criteria in a semi-colon delimited list, e.g. "Rosa abietorum;Rosa alba" or "100;1000". 
+{{</ notice >}}
+
+## By portal
+Some Symbiota portals feature a portal-wide taxon quick search form on theor homepage. Use this form to search for all specimen records in the portal that are linked to the portal's central taxonomic thesaurus by typing directly into the form and then selecting the "Search" button. If you begin typing a scientific name in this box and a dropdown list does not appear (shown below), then the taxon you are searching for does not exist in the portal's taxonomic thesaurus.
+![Homepage Quick Search](/symbiota-docs/images/quicksearch_homepage.png)
+![Homepage Quick Search](/symbiota-docs/images/quicksearch_dropdown.png)
+
+## By collection
+Similar to the portal-wide quick search forms described above, some Symbiota portals feature quick search forms on Collection Profiles to facilitate searching for records limited to individual datasets. Currently, these forms can be used to search within a given Collection Profile by _Catalog Number_ or _Scientific Name_ (Taxon). 
+
+![Homepage Quick Search](/symbiota-docs/images/quicksearch_collprofile.png)
+ 
