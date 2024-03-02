@@ -25,9 +25,21 @@ You can change the base layer of the map by clicking the layers icon in the top 
 
 Start typing the name of taxon for which you would like to generate a map in the "Taxon Name" field and select a matching taxon from the taxonomic thesaurus. If you can't find your taxon of interest in the dropdown list, [add it to the taxonomic thesaurus](https://biokic.github.io/symbiota-docs/portal_manager/taxonomy/add/).
 
-If you want to create a map of points where records are located, select the "Dot Map" option from the Map Type box. Select "Heat Map" for a heat map.
+{{< notice note >}}
+  If you select a taxon with any children taxa (e.g., you select a genus or family name), clicking the "Build Map(s)" button will run through all the children taxa of that taxon and build thumbnail maps for all with available specimens using the parameters you have selected. A thumbnail map will not be created for the parent taxon (genus or family)
+{{</ notice >}}
 
-#### Heat Maps
+![Screenshot of Available Criteria for Taxon Profile Map Tool](/symbiota-docs/images/MapThumbnailCriteria.PNG)
+
+Adjust the parameters and click the "Preview Map" button to adjust the appearance of your thumbnail map. Depending on number of available records and the distribution of your taxon, you may need to play with the available parameters to produce a useful thumbnail.
+
+* If you want to create a map of points where records are located, select the "Dot Map" option from the Map Type box. Select "Heat Map" for a heat map.
+* Check the box next to "Automatically adjust bounds to fit coordinate data" if you would like the map boundaries to adjust automatically to include all the georeferenced records of that taxon.
+* ⚠️ If you adjust the boundaries of the map manually and would like to keep those boundaries, make sure you uncheck the "Automatically adjust bounds to fit coordinate data" box before clicking "Build Map(s)".
+
+Once you are satisfied with the appearance of your map, click "Build Map(s)".
+
+#### Heat Map Parameters
 
 The appearance of the heat map can be adjusted by changing the **heat radius** (using the slider) and the **heat density** (using the minimum and maximum density fields).
 
@@ -41,12 +53,6 @@ Whereas a smaller heat radius makes each point represent a smaller colored area 
 
 Setting a smaller Minimum Density value will require a certain number of records to be present in an area before it will show up as "heat" on the map, and it will intensify the "heat" of locations with multiple records. Setting a larger Minimum Density value will lower the relative "heat" of hot spots.
 
-Depending on number of available records and the distribution of this taxon, you may need to play with both parameters to produce a useful thumbnail. To experiment, adjust the parameters and click the "Preview Map" button to see how the parameters change your map. Do not click "Build Map(s)" until you are happy with the appearance of your map.
-
-{{< notice note >}}
-  If you select a taxon with any children taxa (e.g., you select a genus or family name), clicking the "Build Map(s)" button will run through all the children taxa of that taxon and build thumbnail maps for all with available specimens using the parameters you have selected. A thumbnail map will not be created for the parent taxon (genus or family)
-{{</ notice >}}
-
-#### Dot Maps
+#### Dot Map Parameters
 
 To adjust the color of the map, click the grey square and adjust the hue and saturation in the pop-up box. Click outside of the pop-up box to close.
