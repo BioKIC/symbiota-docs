@@ -12,7 +12,7 @@ keywords: ["georreferenciando"]
 
 **Georreferenciar** es el proceso de asignar coordenadas a descripciones generalmente textuales de localidades de ocurrencia (e.g., la ubicación donde un espécimen fue colectado). Algunos recursos útiles acerca de georreferenciar pueden ser encontrados [en el sitio web de iDigBio](https://www.idigbio.org/wiki/index.php/Georeferencing). Symbiota incluye varias herramientas para facilitar este proceso:
 
-- **Herramienta de Leaflet Maps**: vea un Mapa de Leafly, coloque un punto en la localidad de ocurrencia y asigne un radio de error
+- **Herramienta de Mapeo**: vea un mapa, coloque un punto en la localidad de ocurrencia y asigne un radio de error
 - **Herramienta de GEOLocate**: vea un mapa (muchas capas disponibles, incluyendo Topo Maps de USGS, Open Street Maps, Bing Maps, y Leaflet Maps), vea puntos potenciales de georreferenciación generados automáticamente, edite puntos de localidad y radio de error
 - **Herramienta de clonación de Coordenadas**: busque registros con información de localidad similar o idéntica e importe cualquier coordenada asociada con esa localidad
 - **Importación de datos de especímenes o localidades duplicados**: busque registros con información de colectores o localidades idéntica o similar, e importe cualquier coordenada asociada con la localidad duplicada
