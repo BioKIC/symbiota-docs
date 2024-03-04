@@ -11,7 +11,7 @@ keywords: ["georeferencing"]
 
 **Georeferencing** is the process of assigning coordinates to generally textual descriptions of occurrence localities (e.g., the location where a specimen was collected). Some helpful resource about georeferencing can be found [on the iDigBio website](https://www.idigbio.org/wiki/index.php/Georeferencing). Symbiota includes several tools for facilitating this process:
 
-- **Leaflet mapping tool**: view the map, place a point on the occurrence location, and assign an error radius
+- **Mapping tool**: view the map, place a point on the occurrence location, and assign an error radius
 - **GEOLocate tool**: view a map (many layers available, including USGS Topo Maps, Open Street Maps, Bing Maps, and Leaflet maps), view auto-generated potential georeference points, edit point location and error radius
 - **Coordinate cloning tool**: search for records with similar or identical locality information and import any coordinates associated with that locality
 - **Duplicate specimen/locality data import**: search for records with identical or similar collector information or locality information and import any coordinates associated with the duplicate's locality
