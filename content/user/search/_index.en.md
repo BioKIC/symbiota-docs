@@ -108,7 +108,7 @@ Once you have conducted a search, you can view a list of specimens by clicking t
 {{</ notice >}}
 
 ### By portal
-Some Symbiota portals feature a portal-wide taxon quick search form on theor homepage. Use this form to search for all specimen records in the portal that are linked to the portal's central taxonomic thesaurus by typing directly into the form and then selecting the "Search" button. If you begin typing a scientific name in this box and a dropdown list does not appear (shown below), then the taxon you are searching for does not exist in the portal's taxonomic thesaurus.
+Some Symbiota portals feature a portal-wide taxon quick search form on their homepage. Use this form to search for all specimen records in the portal that are linked to the portal's central taxonomic thesaurus by typing directly into the form and then selecting the "Search" button. If you begin typing a scientific name in this box and a dropdown list does not appear (shown below), then the taxon you are searching for does not exist in the portal's taxonomic thesaurus.
 ![Homepage Quick Search](/symbiota-docs/images/quicksearch_homepage.png)
 ![Homepage Quick Search](/symbiota-docs/images/quicksearch_dropdown.png)
 
