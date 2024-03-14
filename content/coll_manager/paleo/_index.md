@@ -5,7 +5,7 @@ lastmod: 2024-01-17
 authors: ["Lindsay Walker"]
 editors: ["Lindsay Walker"]
 draft: "false"
-weight: 24
+weight: 155
 keywords: ["paleo","fossil"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Linking Records/Resources"
 date: 2021-12-08
+lastmod: 2023-10-30
 draft: false
 weight: 110
 authors: ["Katie Pearson"]
@@ -8,7 +9,7 @@ keywords: ["genetic resources","DNA sequences","sequences","checklist","voucher"
 ---
 
 {{< notice info >}}
-  This page describes how to link associated occurrences, checklists, duplicates, or genetic resources with occurrence records.
+  This page describes how to link single associated occurrences, checklists, duplicates, or genetic resources with occurrence records. For batch adding linked resources, see [this page](https://biokic.github.io/symbiota-docs/coll_manager/upload/links). Note that you must be a collection administrator to use the batch upload tool.
 {{</ notice >}}
 
 A video introduction to using the Linked Resource Tab can be found here:
