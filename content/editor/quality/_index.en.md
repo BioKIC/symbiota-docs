@@ -18,6 +18,34 @@ For more help with data quality, see the following resources:
 
 ### Table of Contents
 
+* [Catalog Numbers and Other Identifiers](#catalog-numbers-and-other-identifiers)
+  * [Duplicate Catalog Numbers](#duplicate-catalog-numbers)
+* [Dates](#dates)
+  * [Date Hasn't Happened Yet](#date-hasnt-happened-yet)
+  * [Date is Suspiciously Old](#date-is-suspiciously-old)
+  * [Identified Date Earlier than Collected Date](#identified-date-earlier-than-collected-date)
+  * [Year, Month, and Day Values Do Not Match Date](#year-month-and-day-values-do-not-match-date)
+* [Geography](#geography)
+  * [Coordinates are Zero](#coordinates-are-zero)
+  * [Coordinates Do Not Fall Within Named Geographic Unit](#coordinates-do-not-fall-within-named-geographic-unit)
+  * [Georeference Metadata with no Associated Georeference](#georeference-metadata-with-no-associated-georeference)
+  * [Elevation is Unlikely](#elevation-is-unlikely)
+  * [Improperly Negated Latitudes/Longitudes](#improperly-negated-latitudeslongitudes)
+  * [Invalid Coordinates](#invalid-coordinates)
+  * [Lower Geography Values are Provided, but No Higher Geography](#lower-geography-values-are-provided-but-no-higher-geography)
+  * [Minimum and Maximum Elevation Values Mismatched](#minimum-and-maximum-elevation-values-mismatched)
+  * [Mismatched Country and CountryCode Values](#mismatched-country-and-countrycode-values)
+  * [Mismatched Geographic Terms](#mismatched-geographic-terms)
+  * [Missing Geodetic Datum](#missing-geodetic-datum)
+  * [Missing Latitudes/Longitudes](#missing-latitudeslongitudes)
+  * [Misspelled Geographic Unit Names](#misspelled-geographic-unit-names)
+* [Taxonomy](#taxonomy)
+  * [Misspelled or Invalid Taxonomic Names](#misspelled-or-invalid-taxonomic-names)
+  * [Unknown Higher Taxonomy](#unknown-higher-taxonomy)
+* [Other Issues](#other-issues)
+  * [Incorrect Character Encodings](#incorrect-character-encodings)
+  * [Incorrect Line Endings](#incorrect-line-endings)
+  * [Invalid Individual Count](#invalid-individual-count)
 
 ### Catalog Numbers and Other Identifiers
 
