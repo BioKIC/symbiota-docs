@@ -46,6 +46,7 @@ For more help with data quality, see the following resources:
   * [Incorrect Character Encodings](#incorrect-character-encodings)
   * [Incorrect Line Endings](#incorrect-line-endings)
   * [Invalid Individual Count](#invalid-individual-count)
+  * [Non-standardized BasisOfRecord Values](#non-standardized-basisofrecord-values)
 
 ### Catalog Numbers and Other Identifiers
 
