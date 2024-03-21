@@ -244,7 +244,10 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Problem:** When transferring text files between Unix/Linux and DOS/Windows systems, line endings can become inconsistent. Unix/Linux systems typically use line feed (LF) characters, while DOS/Windows systems use carriage return (CR) and line feed (LF) combinations. This mismatch can result in extra characters appearing in the data, causing visual artifacts and processing errors.
 
-**Solution:**
+**Solution:** This is unlikely to be a problem for data that has already been imported into a Symbiota portal. It is possible that erroneous (¶) symbols will be retained. In this case:
+1. Navigate to the [Record Search Form](https://biokic.github.io/symbiota-docs/editor/edit/) for your collection.
+2. In Custom Field 1, select a field to search from the first dropdown list (such as Locality), select CONTAINS from the second dropdown, and enter ¶ into the blank field.
+3. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries with this symbol using the [Batch Editing Tool](https://biokic.github.io/symbiota-docs/coll_manager/edit/batch/).
 
 #### Invalid Individual Count
 
