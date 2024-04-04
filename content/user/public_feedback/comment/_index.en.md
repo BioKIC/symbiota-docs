@@ -1,9 +1,9 @@
 ---
-title: "Commenting on Records"
+title: "Leave Comments"
 date: 2022-01-21
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
-lastmod: 2023-12-06
+lastmod: 2024-04-03
 draft: false
 weight: 32
 keywords: ["comment","correction","contact"]

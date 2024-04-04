@@ -8,7 +8,9 @@ authors: ["Lindsay Walker"]
 keywords: ["crowdsourcing","annotations", "comments", "public feedback"]
 ---
 
-Sourcing public feedback on your specimen occurrences is one way to improve the "cleanliness", or quality, of your data. Symbiota offers several tools to help you gather this information from anyone with a portal user account:
+{{< notice info >}}
+Sourcing public feedback on your specimen occurrences is one way to improve the "cleanliness", or quality, of your data. Symbiota offers several tools to help you gather this information from anyone with a portal user account.
+{{</ notice >}}
 - [Commenting](/symbiota-docs/coll_manager/public_feedback/comment/)
 - [Public Edits](/symbiota-docs/coll_manager/public_feedback/public_edits/)
  
