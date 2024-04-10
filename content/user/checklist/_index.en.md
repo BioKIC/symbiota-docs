@@ -1,7 +1,7 @@
 ---
 title: "Checklists"
 date: 2021-10-14
-lastmod: 2022-07-11
+lastmod: 2024-04-10
 authors: ["Katie Pearson", "Lindsay Walker"]
 draft: false
 weight: 30
@@ -29,15 +29,17 @@ To create a checklist, you can:
 Additional resources about creating checklists in association with a floristics project can be found below:
 * [Mid-Atlantic Megalopolis Creating a Flora](https://www.mamdigitization.org/_files/ugd/6f7156_e81b7b8abc6746b9af680bad1d60911a.pdf)
 
-## Checklist use cases
+## Checklist Use Cases
 - Generate lists for field use (species inventories)
 - Link taxa and inventories in publications to voucher specimens
 - Visualize species distributions within a given area 
 - Export lists as Word documents and spreadsheets for printing and field use
 - Create study aids for students via games
 
-
 ## Sample checklist
 - [West Fork of Oak Creek Flora](https://swbiodiversity.org/seinet/checklists/checklist.php?clid=2&pid=1)
 
 ![Checklist Sample](/symbiota-docs/images/checklists_oakcreekexample.png)
+
+## Related Resources
+- Bell, M., E., & Landrum, L. R. (2021). Making Checklists with the SEINet Database/Symbiota Portals. _Canotia, 17_, 1–24. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
