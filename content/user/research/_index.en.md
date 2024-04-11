@@ -9,7 +9,7 @@ keywords: ["research", "use case"]
 ---
 
 {{< notice info >}}
-  This page contains examples of how Symbiota-mediated data have been used for research and, where applicable, includes links to related documentation. If you would like to contribute an example, please contact [help@symbiota.org](mailto:help@symbiota.org).
+  This page contains user-contributed content related to research uses of Symbiota-mediated data. If you would like to contribute an example, please contact [help@symbiota.org](mailto:help@symbiota.org).
 {{</ notice >}}
 
 {{< notice note >}}
@@ -17,13 +17,17 @@ keywords: ["research", "use case"]
 {{</ notice >}}
 
 ## Checklists
-- Bell, M., E., & Landrum, L. R. (2021). Making Checklists with the SEINet Database/Symbiota Portals. _Canotia, 17_, 1–24. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
+
+##### Making Checklists in Symbiota Portals
+- **Reference**: Bell, M., E., & Landrum, L. R. (2021). Making Checklists with the SEINet Database/Symbiota Portals. _Canotia, 17_, 1–24. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
 
 ## Spatial Data
 
 ##### Phytogeographic Analysis Using Georeferenced Specimen Data
-- Lafferty, D. L., & Landrum, L. R. (2021). NEARBY, a Computer Program for Phytogeographic Analysis Using Georeferenced Specimen Data. _Canotia, 17_, 25–45. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
+- **NEARBY Software**: [serv.biokic.asu.edu/dlafferty/Nearby/index.php](https://serv.biokic.asu.edu/dlafferty/Nearby/index.php)
+- **Citation**: Lafferty, D. L., & Landrum, L. R. (2021). NEARBY, a Computer Program for Phytogeographic Analysis Using Georeferenced Specimen Data. _Canotia, 17_, 25–45. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
 
+{{< youtube GWSqlmpT6Y8 >}}
 {{< youtube dWo8vSqbVe4 >}}
 
 
