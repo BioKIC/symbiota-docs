@@ -1,7 +1,7 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2023-11-07
+lastmod: 2024-04-29
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -20,7 +20,7 @@ This tool uses terms **subject** and **object** to refer to two different types 
   2. Click Import/Update Specimen Records, then select "Extended Data Import".
   3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
   4. Select "Associations" from the Import Type dropdown menu.
-  5. Select the desired Association Type (of the four described below) from the next dropdown menu.
+  5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](#3-occurrence---external-link-uploads), or [Taxon Observation](#4-taxon-observation-uploads).
   6. Click the "Initialize Import" button.
   7. Select the desired Relationship Type from the dropdown menu.
 
@@ -34,7 +34,7 @@ This tool uses terms **subject** and **object** to refer to two different types 
 
 #### Association Types
 
-##### 1. "Non-occurrence Resource" Uploads
+##### 1. "Non-occurrence Resource Link" Uploads
 
 | ![Field Notes Linkage Example](/symbiota-docs/images/linkedresources_fieldnotes.png) |
 |:--:|
@@ -48,7 +48,21 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
 
-##### 2. "Occurrence - External Link" Uploads
+##### 2. "Occurrence - Internal (this portal)" Uploads
+
+| ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
+|:--:|
+| Linkages to other occurrences, such as botanical duplicates, that are managed within your Symbiota portal can be bulk imported using the "Occurrence - Internally Managed" upload option.  |
+
+**Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
+
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
+
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
+
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
+
+##### 3. "Occurrence - External Link" Uploads
 
 | ![Example General Resource](/symbiota-docs/images/linkedresources_relatedoccurrences.png) |
 |:--:|
@@ -62,19 +76,7 @@ The **required fields** for this upload type are (1) a subject identifier for th
 
 Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalogNumber, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
 
-##### 3. "Occurrence - Internal (this portal)" Uploads
 
-| ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
-|:--:|
-| Linkages to other occurrences, such as botanical duplicates, that are managed within your Symbiota portal can be bulk imported using the "Occurrence - Internally Managed" upload option.  |
-
-**Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
-
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
-
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
-
-Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
 
 ##### 4. "Taxon Observation" Uploads
 
