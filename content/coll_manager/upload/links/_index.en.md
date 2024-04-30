@@ -1,7 +1,7 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2024-04-29
+lastmod: 2024-04-30
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -20,17 +20,18 @@ This tool uses terms **subject** and **object** to refer to two different types 
   2. Click Import/Update Specimen Records, then select "Extended Data Import".
   3. Click the "Choose File" button to upload a properly formatted associations file into the uploader (see sections below for formatting requirements).
   4. Select "Associations" from the Import Type dropdown menu.
-  5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](#3-occurrence---external-link-uploads), or [Taxon Observation](#4-taxon-observation-uploads).
+  5. Select the desired Association Type from the next dropdown menu: [Non-occurrence Resource Link](#1-non-occurrence-resource-link-uploads), [Occurrence - Internal (this portal)](#2-occurrence---internal-this-portal-uploads), [Occurrence - External Link](#3-occurrence---external-link-uploads), or [Taxon Observation](#4-taxon-observation-uploads). Only one Association Type may be uploaded per import file.
   6. Click the "Initialize Import" button.
   7. Select the desired Relationship Type from the dropdown menu.
 
 {{< notice note >}}
-  The available **Relationship Type** values are defined per portal and ideally correspond to a community-created controlled vocabulary, such as terms from the [Relation Ontology](http://purl.obolibrary.org/obo/ro).
+  The available **Relationship Type** values are defined per portal and ideally correspond to a community-created controlled vocabulary, such as terms from the [Relation Ontology](http://purl.obolibrary.org/obo/ro). The term you select refers to the occurrence as the "subject" and the linked resource as the "object". For example, if you select the relationship "siblingOf", the inferred relationship is "My occurrence is the sibling of this other resource/link/occurrence."
 {{</ notice >}}
 
-  8. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)).
-  9. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching identifiers."
-  10. Click the Import Data button.
+  8. (Optional) Select the desired Relationship Subtype from the dropdown menu. The options in this list are also defined per portal as with Relationship Type.
+  9. Map the fields in your input file (on the left of the resulting page) to appropriate target fields (see [Table 1. Linked Resources Upload Fields](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)). **The fields available in the dropdown list will depend on the Association Type you are uploading.**
+  10. If you would like to overwrite previously-uploaded associations with identical values of the "identifier" field, check the box labeled "Update records with matching identifiers."
+  11. Click the Import Data button.
 
 #### Association Types
 
@@ -44,23 +45,19 @@ This tool uses terms **subject** and **object** to refer to two different types 
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationships type (selected from the pulldown menu in the portal), and (4) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID),  and (2) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
-Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, subType, or verbatimSciname.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, object identifier (catalog number, occurrenceID, or occid), and relationshipID.
 
 ##### 2. "Occurrence - Internal (this portal)" Uploads
-
-| ![Example General Resource](/symbiota-docs/images/linkedresources_duplicates.png) |
-|:--:|
-| Linkages to other occurrences, such as botanical duplicates, that are managed within your Symbiota portal can be bulk imported using the "Occurrence - Internally Managed" upload option.  |
 
 **Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu), (3) relationship (selected from the pulldown menu in the portal), and (4) an object identifier for the occurrence object you are linking to the subject occurrence (occid, occurrenceID, or catalog number). The object identifier will be used to link to an existing record within the portal.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, and/or occurrenceID), and (2) an object identifier for the occurrence object you are linking to the subject occurrence (catalog number, occurrenceID, or occid/Symbiota number). The object identifier will be used to link to an existing record within the portal.
 
-Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, relationshipID, resourceUrl, subType, and verbatimSciname.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, and relationshipID.
 
 ##### 3. "Occurrence - External Link" Uploads
 
@@ -72,17 +69,15 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx).
 
-The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (occurrenceID, catalog number, and/or other catalog number), (2) association type (selected from the pulldown menu in the portal), (3) relationship (selected from the pulldown menu in the portal), and (4) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
+The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
 
-Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifier, notes, object identifier (catalogNumber, occurrenceID, or occid), relationshipID, resourceUrl, subType, or verbatimSciname.
-
-
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, relationshipID, resourceUrl, and verbatimSciname.
 
 ##### 4. "Taxon Observation" Uploads
 
-| ![Example General Resource](/symbiota-docs/images/linkedresources_assoctaxa.png) |
+| ![Example Taxon Observation Linkage](/symbiota-docs/images/linkedresources_assoctaxa.png) |
 |:--:|
-| Observations that are not associated with digitized occurrences can be bulk imported using the "Simple Observation" upload option. |
+| Observations that are not associated with digitized occurrences can be bulk imported using the "Taxon Observation" upload option. |
 
 **Taxon Observation:** the assertion of a taxon being associated with the occurrence you are linking to. This may be, for example, the host taxon of the occurrence, a parasite, a taxon sharing the same habitat, etc.
 
@@ -90,11 +85,11 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
   Associated taxa added in the Linked Resource tab (either individually or in batch) will be placed in the associatedTaxa field when you download the data (e.g., as a Darwin Core Archive). In the download, any information stored in the associatedTaxa field will NOT be included in deference to the provided Linked Resources. Therefore, if you translate any associatedTaxa into Linked Resources, make sure to translate _all_ the associated taxa!
 {{</ notice >}}
 
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/SimpleObservationUploadTemplate.xlsx).
+A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/TaxonObservationUploadTemplate.xlsx).
 
-The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (occurrenceID, catalog number, and/or other catalog number) and (2) scientific name (of the object association being added).
+The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (catalog number, other catalog number, or occurrenceID) and (2) scientific name (of the object association being added).
 
-Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, identifer, notes, object identifier (catalog number, occurrenceID, or occid), relationshipID, resourceUrl, and subType.
+Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linked-resources-upload-fields)) include accordingTo, basisOfRecord, establishedDate, notes, objectID, and relationshipID.
 
 ### Table 1. Linked Resources Upload Fields
 
@@ -110,13 +105,11 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 | [**accordingTo**](https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo)                           | Text (45)                               | The source asserting the relationship between the subject and object. |
 | [**basisOfRecord**](https://dwc.tdwg.org/terms/#dwc:basisOfRecord)                           | Text (45)                               | The nature of the record, from the Darwin Core controlled vocabulary. The most commonly used are _PreservedSpecimen_, _FossilSpecimen_, and _HumanObservation_. |
 | [**establishedDate**](https://dwc.tdwg.org/terms/#dwc:relationshipEstablishedDate)                           | Datetime                               | The date when the relationship between the subject and the object was asserted. |
-| [**identifier**](https://dwc.tdwg.org/terms/#dwc:resourceRelationshipID)                          | Text (250)                               | A string used to identify the relationship between the subject and the object, ideally (but not necessarily) globally unique. |
 | [**notes**](https://dwc.tdwg.org/terms/#dwc:relationshipRemarks)                          | Text (250)                               | Comments about the relationship between the subject and the object. |
+| [**objectID**](https://dwc.tdwg.org/terms/#dwc:relatedResourceID)                           | Text (250)                               | An identifier for a related resource (the object, rather than the subject of the relationship). |
 | object identifier: [**catalogNumber**](https://dwc.tdwg.org/terms/#dwc:catalogNumber)                           | Text (32)                               | The primary human-readable identifier for the object record you are linking to the subject. |
 | object identifier:occid                           | Integer (10)                               | The occid (internal Symbiota reference number) for the object record you are linking to the subject. The occid is not the same as the occurrenceID (see below). |
 | object identifier: [**occurrenceID**](https://dwc.tdwg.org/terms/#dwc:occurrenceID)                           | Text (255)                               | The global unique identifier (GUID) of the object record you are linking to the subject. |
-| [**relationship**](https://dwc.tdwg.org/terms/#dwc:relationshipOfResource)                           | Text (150)                               | The relationship of the subject to the object. |
 | [**relationshipID**](https://dwc.tdwg.org/terms/#dwc:relationshipOfResourceID)                           | Text (45)                               | An identifier for the relationship type that connects the subject to its object.|
 | resourceUrl                           | Text (250)                               | A URL/link to the object in the association/relationship.|
-| subType                           | Text (45)                               | A relationship type that falls hierarchically beneath the selected relationship type.|
 | verbatimSciname                           | Text (250)                               | The taxonomic name of the object of the association/relationship.|
