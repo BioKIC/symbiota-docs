@@ -1,9 +1,11 @@
 ---
 title: "Deleting Records"
 date: 2021-12-08
+lastmod: 2024-04-30
 draft: false
 weight: 60
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 keywords: ["delete","remove"]
 ---
 
@@ -15,6 +17,11 @@ Only users with Administrator permissions can delete a specimen record, and only
 
 Deleting a specimen record is only appropriate when that specimen no longer exists or the record was added erroneously (e.g., it was an exact duplicate of an existing record). You should not delete a record for the purpose of updating it or adding a new version of the record.
 
-To delete a record, navigate to the occurrence editor page of that record (see [this page](https://biokic.github.io/symbiota-docs/editor/edit/) for help navigating to specific records) and click the Admin tab. Click the “Evaluate record for deletion” button to determine whether the record can be safely deleted. If an image exists for the record, you will need to disassociate the image from the specimen (see the [deleting/remapping images page](https://biokic.github.io/symbiota-docs/editor/images/delete/)) prior to deleting the record. If there are no warnings at this point, click the Delete Occurrence button.
+To delete a record:
+1) Navigate to the specimen record that you would like to delete and open the Occurrence Editor form for that record. (See [this page](https://biokic.github.io/symbiota-docs/editor/edit/) for help navigating to specific records.)
+2) Open the Admin tab.
+3) Select the “Evaluate record for deletion” button to determine whether the record can be safely deleted. If an image is associated with the record, you will need to disassociate the image from the specimen record before it can be deleted (see the [deleting/remapping images page](https://biokic.github.io/symbiota-docs/editor/images/delete/)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
+
+![Admin tab of the Occurrence Editor](/symbiota-docs/images/admintab_delete.png)
 
 To batch delete records, contact your portal manager.
