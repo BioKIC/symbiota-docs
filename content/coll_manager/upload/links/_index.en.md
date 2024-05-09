@@ -37,10 +37,6 @@ This tool uses terms **subject** and **object** to refer to two different types 
 
 ##### 1. "Non-occurrence Resource Link" Uploads
 
-| ![Field Notes Linkage Example](/symbiota-docs/images/linkedresources_fieldnotes.png) |
-|:--:|
-| Field Notes is an example of an association type that can be bulk imported through the "Non-occurrence Resource" upload option.  |
-
 **Non-occurrence Resource:** a URL to an external resource that provides information or extended data relating to the occurrence, but is itself not an [occurrence](https://dwc.tdwg.org/terms/#occurrence). Examples include field notes, a compiled dataset, etc.
 
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
