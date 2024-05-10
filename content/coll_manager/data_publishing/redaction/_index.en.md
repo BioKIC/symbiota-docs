@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2023-11-28
+lastmod: 2024-05-10
 authors: ["Katie Pearson","Ed Gilbert"]
 editors: ["Lindsay Walker"]
 weight: 80
@@ -29,6 +29,10 @@ Specimen occurrences with locality security applied affects portal users as foll
  
  ![Occurrence Editor Example](/symbiota-docs/images/redaction_informationwithheld.png)
  
+ {{< notice tip >}}
+  The complete list of fields that are redacted when locality security is applied includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, l_ocationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+{{</ notice >}}
+
  {{< notice tip >}}
   Users with Administrator permissions can grant or remove access to their collections data through the Administation Control Panel. [Learn how here](/symbiota-docs/coll_manager/users/).
 {{</ notice >}}
