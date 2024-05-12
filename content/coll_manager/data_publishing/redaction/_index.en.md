@@ -30,7 +30,7 @@ Specimen occurrences with locality security applied affects portal users as foll
  ![Occurrence Editor Example](/symbiota-docs/images/redaction_informationwithheld.png)
  
  {{< notice tip >}}
-  The complete list of fields that are redacted when locality security is applied includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, l_ocationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
+  The complete list of fields that are redacted when locality security is applied includes: _recordnumber_, _eventdate_, _verbatimeventdate_, _locality_, _locationid_, _decimallatitude_, _decimallongitude_, _verbatimcoordinates_, _locationremarks_, _georeferenceremarks_, _geodeticdatum_, _minimumelevationinmeters_, _maximumelevationinmeters_, _verbatimelevation_, _habitat_, _associatedtaxa_
 {{</ notice >}}
 
  {{< notice tip >}}
