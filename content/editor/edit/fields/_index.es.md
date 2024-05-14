@@ -9,31 +9,31 @@ translators: ["Samanta Orellana","Google Translate"]
 keywords: ["editar","campos","campos de datos", "términos", "términos dwc"]
 ---
 
-El esquema de datos Symbiota está fuertemente alineado con el del estándar de intecambio de datos <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a>. Para más detalles, enlaces a las definiciones Darwin Core definitions son proporcionadas para cada término. Aprenda más acerca de los términos Darwin Core en las siguientes páginas de TDWG:
+El esquema de datos Symbiota está fuertemente alineado con el estándar de intecambio de datos <a href="https://www.tdwg.org/standards/dwc/" target="_blank" rel="noopener noreferrer">Darwin Core</a>. Para más detalles, enlaces a las definiciones de Darwin Core son proporcionadas para cada término. Aprenda más acerca de los términos Darwin Core en las siguientes páginas de TDWG:
 - [TDWG - Guía de Referencia Rápida de Darwin Core](https://dwc.tdwg.org/terms/)
 - [TDWG - Lista de Términos de Darwin Core](https://dwc.tdwg.org/list)
 
 {{< notice note >}}
-  Los campos enumerados aquí difieren de los campos visibles en las herramientas de carga de datos. Para obtener información de campo específica de las herramientas de carga de datos, consulte la [página de Campos de Importación de Datos](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
+  Los campos enumerados aquí difieren de los campos visibles en las herramientas de carga de datos. Para obtener información específica de los campos de las herramientas de carga de datos, consulte la [página de Campos de Importación de Datos](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
 {{</ notice >}}
 
  ### Tabla de Contenido
  - [Campos Estándar](#campos-estándar)
- - [Campos de Muestra de Materiales](#campos-de-muestra-de-material)
+ - [Campos de Muestra de Material](#campos-de-muestra-de-material)
  - [Campos Paleontología](#campos-de-paleontología)
 
  {{< button href="../../../documents/SymbiotaDataFields_202111.csv" text="Descargar contenido completo como un archivo CSV" >}}
 {{< button href="https://github.com/BioKIC/symbiota-docs/blob/master/static/documents/SymbiotaDataFields_202111.csv" text="Ver contenido completo como un archivo CSV" >}}
 
 {{< notice note >}}
-   Dado que los portales tienen la capacidad de personalizar los nombres de los campos que se encuentran en su formulario de entrada de datos, los nombres de los campos pueden diferir de la definición del campo principal y de cómo se asigna a las herramientas de exportación de Darwin Core.
+   Dado que los portales tienen la capacidad de personalizar los nombres de los campos que se encuentran en su formulario de ingreso de datos, los nombres de los campos pueden diferir de la definición del campo principal y de cómo se asigna a las herramientas de exportación de Darwin Core.
 {{</ notice >}}
 
 ### Campos Estándar
 
 {{< dwc-term id="catalogNumber" verbatim="Número de catálogo" descr="El identificador único (clave principal) para el registro de muestra. Este campo debe usarse para almacenar el código de barras o el número de acceso (solo herbarios). Se exige que este campo sea único por colección" ex="WIS-L-0123456, ASU0012345, 12345" dwc="catalogNumber" >}}
 
-<a id="otherCatalogNumbers"><b>Valores de identificador adicionales:</b></a> Cualquier otro identificador para un registro de muestra que no sea el número de catálogo central. Este campo se utiliza normalmente para almacenar los números de catálogo antiguos, números de acceso, identificadores de parques nacionales, etc. A los identificadores se les puede asignar un nombre de etiqueta para distinguirlos de otros identificadores (por ejemplo, número de acceso antiguo, número de NPS, etc.). Estos identificadores se asignan mejor a la definición de dwc:otherCatalogNumbers y, por lo tanto, se incluyen en las exportaciones de este campo. Puede encontrar más información sobre este sistema en <a href="https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/" target="_blank" rel="noopener noreferrer"> Página de documentación de números de catálogo</a>.<br>Ej: 12345, TUZI 3082, número de cuenta NPS: GUIS-M-00126.<br>Consulte <a href="https://dwc.tdwg.org/ de Darwin Core Terms/#dwc:otherCatalogNumbers" target="_blank" rel="noopener noreferrer">otherCatalogNumbers</a>
+<a id="otherCatalogNumbers"><b>Valores de identificador adicionales:</b></a> Cualquier otro identificador para un registro de muestra que no sea el número de catálogo central. Este campo se utiliza normalmente para almacenar los números de catálogo antiguos, números de acceso, identificadores de parques nacionales, etc. A los identificadores se les puede asignar un nombre de etiqueta para distinguirlos de otros identificadores (por ejemplo, número de acceso antiguo, número de parque nacional, etc.). Estos identificadores se asignan mejor a la definición de dwc:otherCatalogNumbers y, por lo tanto, se incluyen en las exportaciones de este campo. Puede encontrar más información sobre este sistema en <a href="https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/" target="_blank" rel="noopener noreferrer"> Página de documentación de números de catálogo</a>.<br>Ej: 12345, TUZI 3082, número de cuenta NPS: GUIS-M-00126.<br>Consulte <a href="https://dwc.tdwg.org/ de Darwin Core Terms/#dwc:otherCatalogNumbers" target="_blank" rel="noopener noreferrer">otherCatalogNumbers</a>
 
 {{< dwc-term id="recordedBy" verbatim="Coleccionista" descr="El nombre de la persona que recolectó el espécimen o realizó la observación." ex="CG Pringle, Goodding, L.N." dwc="recordedBy" >}}
 
@@ -43,20 +43,20 @@ El esquema de datos Symbiota está fuertemente alineado con el del estándar de 
 
 {{< dwc-term id="eventDate" verbatim="Fecha" descr="La fecha en que se recolectó el espécimen o, si se indica un rango de fechas, el primer día en el rango de fechas de recolección. Se pueden ingresar fechas mientras utilizando su formato preferido, el valor se convertirá y almacenará como formato numérico ISO-8601 (AAAA-MM-DD). Tenga en cuenta que los meses y días desconocidos se pueden ingresar como \"00\". la fecha de \"marzo de 1956\" se puede ingresar como \"1956-03-00\"." ex="1983-09-15, 1983-07-00, 1934-00-00" dwc="eventDate" >}}
 
-<a id="endDate"><b>Fecha de finalización: </b></a>La última fecha de recopilación, en el caso de un rango de fechas de recopilación. Si bien las fechas se pueden ingresar usando su formato preferido, el valor se convertirá y almacenará en formato numérico ISO-8601 (AAAA-MM-DD). Tenga en cuenta que los meses y días desconocidos se pueden ingresar como \"00\". Por ejemplo, una colección con fecha de \"Marzo de 1956\" se puede ingresar como \"1956-03-00\".<br>Ej: 1983-09-15, 1983-07-00, 1934-00- 00 </br> Consulte <a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank" rel="noopener noreferrer">eventDate</a> de Darwin Core.
+<a id="endDate"><b>Fecha de finalización: </b></a>La última fecha de recolección, en el caso de un rango de fechas de muestreo. Si bien las fechas se pueden ingresar usando su formato preferido, el valor se convertirá y almacenará en formato numérico ISO-8601 (AAAA-MM-DD). Tenga en cuenta que los meses y días desconocidos se pueden ingresar como \"00\". Por ejemplo, una colección con fecha de \"Marzo de 1956\" se puede ingresar como \"1956-03-00\".<br>Ej: 1983-09-15, 1983-07-00, 1934-00- 00 </br> Consulte <a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank" rel="noopener noreferrer">eventDate</a> de Darwin Core.
 
 {{< dwc-term id="verbatimEventDate" verbatim="Fecha literal" descr="Se puede utilizar para registrar la fecha exactamente como se ingresó en la etiqueta. Particularmente útil para formatos de fecha o rangos de fechas no estándar." ex="primavera de 1901, marzo-abril de 1952, finales de septiembre de 1909" dwc="verbatimEventDate" >}}
 
-{{< dwc-term id="year" verbatim="Año" descr="El valor numérico del año en el momento de la recopilación. Este campo (junto con el mes y el día) se completa automáticamente cuando se ingresa la fecha." ex="1959" dwc="year" >}}
+{{< dwc-term id="year" verbatim="Año" descr="El valor numérico del año en el momento de la recolección. Este campo (junto con el mes y el día) se completa automáticamente cuando se ingresa la fecha." ex="1959" dwc="year" >}}
 
-{{< dwc-term id="month" verbatim="Mes" descr="El valor numérico del mes en el momento de la recopilación. Este campo (junto con el año y el día) se completa automáticamente cuando se ingresa la fecha." ex="10" dwc="month" >}}
+{{< dwc-term id="month" verbatim="Mes" descr="El valor numérico del mes en el momento de la recolección. Este campo (junto con el año y el día) se completa automáticamente cuando se ingresa la fecha." ex="10" dwc="month" >}}
 
-{{< dwc-term id="day" verbatim="Día" descr="El valor numérico del día en el momento de la recopilación. Este campo (junto con el año y el mes) se completa automáticamente cuando se ingresa la fecha." ex="28" dwc="day" >}}
+{{< dwc-term id="day" verbatim="Día" descr="El valor numérico del día en el momento de la recolección. Este campo (junto con el año y el mes) se completa automáticamente cuando se ingresa la fecha." ex="28" dwc="day" >}}
 
 <a id="dayRange"><b>Rango de días del año:</b></a> Aquí se puede representar un rango de fechas de recolección como valores numéricos del día del año. Estos valores se calcularán automáticamente si ingresa un rango de fechas en el campo de fecha textual (por ejemplo, del 12 de septiembre de 1968 al 19 de septiembre de 1968, del 12 de septiembre de 1968 al 19 de septiembre de 1968) <br>
 Consulte <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" target="_blank" rel="noopener noreferrer">startDayOfYear</a>, <a href="http: //rs.tdwg.org/dwc/terms/index.htm#endDayOfYear" target="_blank" rel="noopener noreferrer">endDayOfYear</a>.
 
-{{< dwc-term id="scientificName" verbatim="Nombre científico" descr="El nombre latino del espécimen sin el autor. Podría ser cualquier cosa, desde reino hasta subespecie o variedad, dependiendo del nivel de identificación." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
+{{< dwc-term id="scientificName" verbatim="Nombre científico" descr="El nombre en latín del espécimen sin el autor. Podría ser cualquier cosa, desde reino hasta subespecie o variedad, dependiendo del nivel de identificación." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
 
 {{< dwc-term id="scientificNameAuthorship" verbatim="Autor" descr="El nombre de la persona que nombró por primera vez los taxones. Este campo se completa automáticamente después de ingresar el nombre científico." ex="L., Asa A. Gray" dwc="scientificNameAuthorship" >}}
 
@@ -64,7 +64,7 @@ Consulte <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" target="_blank
 
 {{< dwc-term id="family" verbatim="Familia" descr="La familia a la que pertenece el taxón. Este campo se completa automáticamente después de ingresar el nombre científico." ex="Pinaceae" dwc="family" >}}
 
-{{< dwc-term id="identifiedBy" verbatim="Identificado por" descr="El nombre de la persona que identificó el espécimen. También llamado determinante." ex="L. R. Landrum" dwc="identifiedBy" >}}
+{{< dwc-term id="identifiedBy" verbatim="Identificado por" descr="El nombre de la persona que identificó el espécimen. También llamado determinador" ex="L. R. Landrum" dwc="identifiedBy" >}}
 
 {{< dwc-term id="dateIdentified" verbatim="Fecha de identificación" descr="La fecha en que se realizó la identificación. La fecha se puede ingresar como texto libre y no es necesario que esté en un formato de fecha estándar." ex="1992, mayo de 1992, 2 de mayo de 1992" dwc="dateIdentified" >}}
 
