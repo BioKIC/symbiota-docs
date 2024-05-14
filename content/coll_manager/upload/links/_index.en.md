@@ -39,7 +39,7 @@ This tool uses terms **subject** and **object** to refer to two different types 
 
 **Non-occurrence Resource:** a URL to an external resource that provides information or extended data relating to the occurrence, but is itself not an [occurrence](https://dwc.tdwg.org/terms/#occurrence). Examples include field notes, a compiled dataset, etc.
 
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
+{{< button href="https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx" text="Download Example Template" >}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID),  and (2) resourceUrl. The resourceUrl should be a link to the external resource that you would like to be associated with your records.
 
@@ -49,7 +49,7 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 
 **Occurrence - Internal (this portal):** a link to an occurrence (specimen/observation) that exists in the same portal as the occurrence you are linking to; when creating associations within a portal, the portal will automatically update the corresponding occurrence with the reciprocal relationship
 
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx).
+{{< button href="https://biokic.github.io/symbiota-docs/documents/OccurrenceInternalUploadTemplate.xlsx" text="Download Example Template" >}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, and/or occurrenceID), and (2) an object identifier for the occurrence object you are linking to the subject occurrence (catalog number, occurrenceID, or occid/Symbiota number). The object identifier will be used to link to an existing record within the portal.
 
@@ -63,7 +63,7 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 
 **Occurrence - External Link:** a link to an occurrence (specimen/observation) that is available in another Symbiota-based portal. 
 
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx).
+{{< button href="https://biokic.github.io/symbiota-docs/documents/OccurrenceExternalUploadTemplate.xlsx" text="Download Example Template" >}}
 
 The **required fields** for this upload type are (1) a subject identifier for the occurrence you are linking to (catalog number, other catalog number, or occurrenceID), and (2) resourceUrl. It is also strongly recommended to include a value for verbatimSciname (scientific name) so that the relationship can be searchable.
 
@@ -81,7 +81,7 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
   Associated taxa added in the Linked Resource tab (either individually or in batch) will be placed in the associatedTaxa field when you download the data (e.g., as a Darwin Core Archive). In the download, any information stored in the associatedTaxa field will NOT be included in deference to the provided Linked Resources. Therefore, if you translate any associatedTaxa into Linked Resources, make sure to translate _all_ the associated taxa!
 {{</ notice >}}
 
-A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/TaxonObservationUploadTemplate.xlsx).
+{{< button href="https://biokic.github.io/symbiota-docs/documents/TaxonObservationUploadTemplate.xlsx" text="Download Example Template" >}}
 
 The **required fields** for this upload type are (1) an identifier for the occurrence (subject) you are linking to (catalog number, other catalog number, or occurrenceID) and (2) scientific name (of the object association being added).
 
