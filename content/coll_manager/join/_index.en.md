@@ -1,5 +1,5 @@
 ---
-title: "Joining an Existing Portal"
+title: "**Joining an Existing Portal**"
 date: 2014-08-23
 lastmod: 2021-12-16
 weight: 3
