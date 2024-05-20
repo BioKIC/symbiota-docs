@@ -8,7 +8,7 @@ keywords: ["Material Sample"]
 ---
 
 {{< notice info >}}
-  This page describes how to add and edit material sample records associated with specimen occurrences. This tab will only be visible if it has been activated for your collection. Contact your Portal Manager to determine whehter this tab has been configured for your Symbiota portal.
+  This page describes how to add and edit material sample records associated with specimen occurrences. This tab will only be visible if it has been activated for your collection. Contact your Portal Manager to determine whether this tab has been configured for your Symbiota portal.
 {{</ notice >}}
 
 | ![Material Sample Module](/symbiota-docs/images/materialsampleblank.png) |
