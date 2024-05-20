@@ -1,11 +1,11 @@
 ---
-title: "Leave Comments"
+title: "Leaving Comments"
 date: 2022-01-21
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
 lastmod: 2024-04-03
 draft: false
-weight: 32
+weight: 12
 keywords: ["comment","correction","contact"]
 ---
 

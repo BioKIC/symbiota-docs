@@ -3,7 +3,7 @@ title: "Contacting a Collection"
 date: 2023-04-19
 authors: ["Katie Pearson, Lindsay Walker"]
 draft: false
-weight: 35
+weight: 10
 keywords: ["contact"]
 ---
 

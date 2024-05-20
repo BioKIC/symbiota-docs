@@ -2,9 +2,10 @@
 title: "Research Use Cases"
 date: 2024-04-10
 authors: ["Lindsay Walker"]
+editors: ["Katie Pearson"]
 lastmod: 2024-04-10
 draft: false
-weight: 32
+weight: 81
 keywords: ["research", "use case"]
 ---
 
