@@ -3,12 +3,12 @@ title: "Material Samples"
 date: 2023-09-29
 draft: false
 authors: ["Lindsay Walker"]
-weight: 10
+editors: ["Katie Pearson"]
 keywords: ["Material Sample"]
 ---
 
 {{< notice info >}}
-  This page describes how to add and edit material sample records associated with specimen occurrences. This tab will only be visible if it has been activated for your collection. Contact your Collection Administrator or Portal Manager to find out if this tab has been configured for your Symbiota portal.
+  This page describes how to add and edit material sample records associated with specimen occurrences. This tab will only be visible if it has been activated for your collection. Contact your Portal Manager to determine whehter this tab has been configured for your Symbiota portal.
 {{</ notice >}}
 
 | ![Material Sample Module](/symbiota-docs/images/materialsampleblank.png) |
@@ -47,7 +47,7 @@ Definitions for data fields displayed on the Material Sample tab are defined in 
 
 ### Batch Adding Material Samples
 
-At present, material sample records cannot be [batch uploaded](/symbiota-docs/coll_manager/upload/) from within a Symbiota portal's user interface, which is a task reserved for users with Administrator permissions. Collection Administrators are advised to contact the Symbiota Support Hub for assistance if this is desired. 
+At present, material sample records cannot be [batch uploaded](/symbiota-docs/coll_manager/upload/) from within a Symbiota portal's user interface. Collection Administrators are advised to contact the Symbiota Support Hub for assistance if this is desired. 
 
 ### Downloading Material Samples
 Data entered into the Material Sample tab can be [downloaded](/symbiota-docs/editor/download/dwc/) from Symbiota as Darwin Core Archive or Symbiota data backup file. The output file will be named _materialSample.csv_.
