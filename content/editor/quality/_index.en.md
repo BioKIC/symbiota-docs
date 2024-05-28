@@ -99,12 +99,12 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 #### Identified Date Earlier than Collected Date
 **Problem:** The date the specimen was identified (dateIdentified field) is earlier than the date the specimen was collected (eventDate).
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions here).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Identified_Date_Earlier_than_Collected_Date)).
 
 #### Year, Month, and Day Values Do Not Match Date
 **Problem:** The event [year](https://dwc.tdwg.org/terms/#dwc:year), [month](https://dwc.tdwg.org/terms/#dwc:month), and [day](https://dwc.tdwg.org/terms/#dwc:day) values do not match the provided [event date](https://dwc.tdwg.org/terms/#dwc:eventDate). The event date is often the date of collection for preserved specimens.
 
-**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions here).
+**Solution:** This problem cannot be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the dateIdentified to the eventDate field (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Year,_Month,_and_Day_Values_Do_Not_Match_Date)).
 
 ### Geography
 
@@ -180,7 +180,7 @@ In step 3, enter 0001-01-01 in the first Collection Date field (or the Collectio
 
 **Problem:** The provided value for country and countryCode do not match.
 
-**Solution:** This problem cannot currently be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions here).
+**Solution:** This problem cannot currently be identified using Symbiota portal tools. To locate records with this issue, download your data from the [public search page](https://biokic.github.io/symbiota-docs/user/download/download_data/), as a [backup file](https://biokic.github.io/symbiota-docs/coll_manager/download/), or using the [exporter tool](https://biokic.github.io/symbiota-docs/coll_manager/download/exporter/). You can then use a spreadsheet program to compare the unique combinations of country and countryCode to look for deviations (see Excel instructions [here](https://www.idigbio.org/wiki/index.php/Excel_Data_Quality_Toolkit#Mismatched_Country_and_CountryCode_Values)).
 
 #### Missing Geodetic Datum
 
