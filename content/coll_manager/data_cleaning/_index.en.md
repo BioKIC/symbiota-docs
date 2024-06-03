@@ -1,8 +1,9 @@
 ---
 title: "Data Cleaning"
 date: 2021-10-08
-lastmod: 2023-04-20
+lastmod: 2024-06-03
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 draft: false
 weight: 40 
 keywords: ["data cleaning","taxonomy","geography","duplicates"]
@@ -14,6 +15,7 @@ Symbiota has a number of useful built-in tools for data cleaning processes. Each
 - [Duplicate Catalog Numbers](/symbiota-docs/coll_manager/data_cleaning/dupes/)
 - [Geographic Cleaning Tools](/symbiota-docs/coll_manager/data_cleaning/geography/)
 - [Taxonomic Cleaning Tools](/symbiota-docs/coll_manager/data_cleaning/taxonomy/)
+- [Data Quality Toolkit](/symbiota-docs/editor/quality/) (designed for Collection Administrators and Editors)
 
 A webinar about data cleaning can be found here:
 
