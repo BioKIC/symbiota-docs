@@ -1,19 +1,19 @@
 ---
 title: "Importing Determinations"
 date: 2023-10-31
-lastmod: 2023-11-01
+lastmod: 2024-06-06
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
-weight: 150
+weight: 40
 keywords: ["data upload","data import","determinations", "annotations"]
 ---
 
 {{< notice info >}}
-  This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](https://biokic.github.io/symbiota-docs/editor/edit/annotations/).
+  This page provides instructions for bulk uploading specimen determinations/annotations and associating them with their respective specimen records. For instructions for adding individual determinations or the batch annotation tool, see [this page](https://biokic.github.io/symbiota-docs/editor/edit/annotations/). This tool can only be accessed by a superadministrator.
 {{</ notice >}}
 
 {{< notice tip >}}
-  **If you are new to using this tool**, try importing only a few new determinations to familiarize yourself with how the tool behaves before ingesting a large batch. For instance, **this tool cannot be used to overwrite existing determinations**; it can only be used to add new determinations to one or more occurrence records. Contact the Symbiota Support Hub or your Portal Manager if you need assistance deleting or replacing determinations.
+  **If you are new to using this tool**, try importing only a few new determinations to familiarize yourself with how the tool behaves before ingesting a large batch. For instance, **this tool cannot be used to overwrite existing determinations**; it can only be used to add new determinations to one or more occurrence records.
  {{</ notice >}}
   
   | ![Single Determination History Form](/symbiota-docs/images/determinationhistoryform.png) |
@@ -55,7 +55,7 @@ For example:
 | Target Field (🔸 = required)| Data Type (Length)| Notes |
 | --- | --- | --- |
 | subject identifier 🔸 | | catalogNumber, otherCatalogNumber, or occurrenceID | 
-| [**dateIdentified**](https://dwc.tdwg.org/terms/#dwc:dateIdentified) 🔸 | Text (45) | The date the identification was made. |
+| [**dateIdentified**](https://dwc.tdwg.org/terms/#dwc:dateIdentified) 🔸 | Text (45) | The date the identification was made. If the date is unknown, use "s.d." in this field.|
 | family (Override)| Text (255) | The family to which the taxon belongs. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
 | [**higherClassification**](http://rs.tdwg.org/dwc/terms/higherClassification) (Override) | Text (150) | A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the referenced dwc:Taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry for the current identification. |
 | [**identificationQualifier**](https://dwc.tdwg.org/terms/#dwc:identificationQualifier) | Text (255) | The determiner's expression of uncertainty in their identification. This will be listed on the label along with the scientific name. (e.g., cf., aff.) |
@@ -63,7 +63,7 @@ For example:
 | [**identificationRemarks**](https://dwc.tdwg.org/terms/#dwc:identificationRemarks) | Text (2000) | Any additional notes regarding the identification of the specimen. |
 | identificationUncertain | Integer (2) | Use the value "1" to indicate an uncertain identification or "0" for certain identifications. |
 | [**identificationVerificationStatus**](http://rs.tdwg.org/dwc/terms/identificationVerificationStatus) | Text (45) | A categorical indicator of the extent to which the taxonomic identification has been verified to be correct. |
-| [**identifiedBy**](https://dwc.tdwg.org/terms/#dwc:identifiedBy)🔸 | Text (255) | The name of the person who identified the specimen. Also called a determiner. |
+| [**identifiedBy**](https://dwc.tdwg.org/terms/#dwc:identifiedBy)🔸 | Text (255) | The name of the person who identified the specimen. Also called a determiner. If the determiner is unknown, use "unknown" in this field. |
 | isCurrent | Integer (2) | Use the value "Y" to flag a determination as the most current. However, doing so will not override existing determinations that have already been flagged as the most current. [Y worked but 1 didn't?!] |
 | printQueue | Integer (2) | Use the value "1" to add a determination to the annotation print queue. |
 | [**scientificNameAuthorship**](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | The name of the person who first named the taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
