@@ -42,7 +42,7 @@ However, if the higher taxonomy for this name does not already exist in your por
 
 ### Tips for preparing your input file
 - **Parent taxa must already exist in the portal's thesaurus or be included in the input file.** As an alternative to a parent taxon column, as shown above, the input file can contain columns for the core hierarchy that is defined within the _taxonunits_ table (e.g. kingdom, division, class, subclass, order, family, etc).
-- Values for *_rankid_* are assigned on the backend of your database in the table _taxonunits_. These value may vary between Symbiota portals.
+- Values for *_rankid_* are assigned on the backend of your database in the table _taxonunits_. These value may vary between Symbiota portals. If you do not have access to these values, the Symbiota Support Hub can provide them to you for SSH-hosted portals.
 - If a taxon's acceptance status is not defined (0 = not accepted, 1 = accepted ), all taxa will be assumed to be accepted. Include a separate column in your input file to denote acceptance status, if desired.
 - In the absence of a hierarchical definition (e.g. the parent taxa), infraspecific, specific, and genus linkages will be determined from _ScientificName_ and linked to Family. If the Family value does not yet exist in the thesaurus _and_ the hierarchy above Family is not defined in upload field, the taxon will be linked directly to Kingdom.
 - You can only batch input taxonomy for one Kingdom at a time (Animalia, Fungi, etc.)
