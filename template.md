@@ -1,8 +1,8 @@
 # Symbiota Docs Documentation Style Guide
-Please refer to and update this style guide to help maintain consistency across the user documentation for [Symbiota](https://github.com/BioKIC/Symbiota).
+Please refer to and update this style guide to help maintain consistency and readability across the user documentation for [Symbiota](https://github.com/BioKIC/Symbiota).
 
 ## Page-level Frontmatter
-Each page in Symbiota Docs should contain the following elements, some of which format the citation that appears at the bottom of each page:
+Each page in Symbiota Docs should contain the following elements, some of which format the citations on the bottom of each page:
 ```
 title: "Page Title in Title Case"
 date: 20XX-MM-DD
@@ -12,7 +12,7 @@ authors: ["Firstname Lastname"]
 keywords: ["x", "y", "z", "etc"]
 ```
 - `date` should refer to the first day that the page was created, not modified (see below).
-- Title values shoule be succicent and often reflect an action, e.g. "Deleting Records".
+- Title values should be succicent and often reflect an action using a gerund, e.g. "Deleting Records".
 
 If a page is modified, add values for `lastmod` and `editors`:
 ```
@@ -40,10 +40,10 @@ Or to add tips:
 {{</ notice >}}
 ```
 
-Use _italics_ for
+Use _italics_ for:
 - Filenames, e.g. _identifications.csv_  
 - Names of columns/fields, e.g. _Additional Identifier Value_ or _basisOfRecord_
-- File and navigation paths, paired with carrots, e.g. _My Profile > Occurrence Management > Administration Control Panel_ or _Sitemap > Additional Resources > Glossary_
+- File and navigation paths paired with carrots, e.g. _My Profile > Occurrence Management > Administration Control Panel_ or _Sitemap > Additional Resources > Glossary_
 
 Use quotation marks `"..."` when referencing:
 - Example values, e.g. "PreservedSpecimen"
@@ -56,9 +56,18 @@ Use capitalization for:
 Use **bold** for:
 - emphasis, e.g. "Before batch editing, remember to **backup your dataset**".
 
+For code and commands:
+- Format shorter code snippets with \`...\`, e.g. `bundle exec jekyll serve`.
+- More extensive code and commands can be recorded à la:
+```
+{{< highlight batchfile >}}
+cd Documents/symbiota-docs/
+hugo server -D
+{{< /highlight >}}
+```
+
 Additionally:
-- Top-level headings within documentation pages should use `##` and should generally use title case.
-- Format code snippets with \`...\`, e.g. `bundle exec jekyll serve`.
+- Top-level headings within documentation pages should use `##` and generally should be written in title case.
 - File extensions written as part of a filename are lowercase, e.g. *example.jpg*, but when written alone are uppercase, e.g. "The file should be a JPG."
 
 ## Including Media
@@ -94,5 +103,5 @@ Image files should be named descriptively in lowercase. Do not use any character
 
 ## Related Resources
 - [GitHub Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Guide's Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 - [Markdown Emojis Directory](https://gist.github.com/rxaviers/7360908)
