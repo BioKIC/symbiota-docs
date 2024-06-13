@@ -59,3 +59,7 @@ There are several things you may wish to control at the page level by overwritin
 Markdown files being added to the *_documentation* collection should be named descriptively yet succinctly. Do not use any character other than a-z.
 
 Image files should be named descriptively. Recommendation is to name them according to the page they are being linked to, e.g. *labels_designs.jpg* is linked to the labels page.
+
+## Other helpful resources
+- [GitHub Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Markdown Emojis Directory](https://gist.github.com/rxaviers/7360908)
