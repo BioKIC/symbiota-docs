@@ -12,7 +12,7 @@ authors: ["Firstname Lastname"]
 keywords: ["x", "y", "z", "etc"]
 ```
 - `date` should refer to the first day that the page was created, not modified (see below).
-- Title values should be succicent and often reflect an action using a gerund, e.g. "Deleting Records".
+- Title values should be succinct and often reflect an action using a gerund, e.g. "Deleting Records".
 
 If a page is modified, add values for `lastmod` and `editors`:
 ```
@@ -20,7 +20,7 @@ lastmod: 20XX-MM-DD
 editors: ["Firstname Lastname"]
 ```
 
-Include a weight value (an integer) to organize the order in which a page's title appears within the left-hand navigation menu in Symbiota Docs:
+Include a weight value (an integer) to organize the order in which a page's title appears within the left-hand navigation menu in Symbiota Docs. It's best to keep the organization alphabetical:
 ```
 weight: #
 ```
@@ -88,7 +88,7 @@ To include a basic image without a caption, do so e.g.:
 ```
 To resize, align, or add an alt attribute (for screenreaders) to an image:
 ```
-<img src="/symbiota-docs/static/images/filename.png" alt="This image shows XYZ" width="100"/>{: .align-right}
+<img src="/symbiota-docs/static/images/filename.png" alt="Description of image" width="100"/>{: .align-right}
 ```
 
 To include a video, do so e.g.:
