@@ -39,7 +39,7 @@ For example:
   | catalogNumber | identifiedBy | dateIdentified | sciname |
 | --- | --- | --- | --- |
 | OBI000001 | Don Cole | 1950 | Rosa woodsii var. gratissima |
-| OBI000001 | unknown |  | Rosa |
+| OBI000001 | unknown | s.d. | Rosa |
 | OBI000002 | Edward Gilbert | 2023-10-01 | Rosa woodsii |
 
 ### Data Import Fields
