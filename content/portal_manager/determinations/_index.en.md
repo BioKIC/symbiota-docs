@@ -64,7 +64,7 @@ For example:
 | identificationUncertain | Integer (2) | Use the value "1" to indicate an uncertain identification or "0" for certain identifications. |
 | [**identificationVerificationStatus**](http://rs.tdwg.org/dwc/terms/identificationVerificationStatus) | Text (45) | A categorical indicator of the extent to which the taxonomic identification has been verified to be correct. |
 | [**identifiedBy**](https://dwc.tdwg.org/terms/#dwc:identifiedBy)🔸 | Text (255) | The name of the person who identified the specimen. Also called a determiner. If the determiner is unknown, use "unknown" in this field. |
-| isCurrent | Integer (2) | Use the value "Y" to flag a determination as the most current. However, doing so will not override existing determinations that have already been flagged as the most current. [Y worked but 1 didn't?!] |
+| isCurrent | Integer (2) | Use the value "Y" to flag a determination as the most current. However, doing so will not override existing determinations that have already been flagged as the most current. |
 | printQueue | Integer (2) | Use the value "1" to add a determination to the annotation print queue. |
 | [**scientificNameAuthorship**](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship) | Text (255) | The name of the person who first named the taxon. If the scientific name provided is matched to one in the taxonomic thesaurus, this will be auto-filled according to the thesaurus entry. |
 | sciname 🔸 | | Taxonomic identification without authorship string. See [Data Import Fields](/symbiota-docs/coll_manager/upload/fields/). |
