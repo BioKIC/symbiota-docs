@@ -1,6 +1,7 @@
 ---
 title: "Data Quality Toolkit"
 date: 2024-03-20
+lastmod: 2024-07-19
 draft: false
 weight: 42
 authors: ["Katie Pearson"]
@@ -47,6 +48,7 @@ For more help with data quality, see the following resources:
   * [Incorrect Line Endings](#incorrect-line-endings)
   * [Invalid Individual Count](#invalid-individual-count)
   * [Non-standardized BasisOfRecord Values](#non-standardized-basisofrecord-values)
+* [Recordings](#recordings)
 
 ### Catalog Numbers and Other Identifiers
 
@@ -276,3 +278,9 @@ Note that even punctuation and capitalization differences in these values (e.g.,
 4. In Custom Field 2, select Basis of Record from the first dropdown list, select NOT EQUALS from the second dropdown list, and enter "FossilSpecimen" in the blank field.
 5. Repeat steps 3-4 for as many other valid BasisOfRecord values you think might exist in your collection.
 6. Either individually edit erroneous records by clicking the link in the Symbiota ID column (far left), or batch edit all entries using the [Batch Editing Tool](https://biokic.github.io/symbiota-docs/coll_manager/edit/batch/).
+
+### Recordings
+
+#### Workshop: Data Cleaning for Maximum Impact
+{{< youtube j3cxGe_bcC4 >}}
+{{< youtube DCpS-Gkq3a8 >}}
