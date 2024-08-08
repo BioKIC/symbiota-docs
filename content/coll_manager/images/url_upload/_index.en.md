@@ -1,7 +1,7 @@
 ---
 title: "Image URL Upload"
 date: 2023-10-31
-lastmod: 2023-10-31
+lastmod: 2024-08-08
 weight: 10
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
@@ -21,6 +21,10 @@ keywords: ["images"]
   6. Map the fields in your input file (shown on the left) to appropriate target fields (see table below).
   7. If you would like to create a new record for each identifier that does not match an existing identifier in the system, check the box labeled "Link image to new blank record if catalog number does not exist."
   8. Click the Import Data button.
+
+{{< notice tip >}}
+  When providing images via URLs, the URLs should begin with "**https://**" (not "http://") in order for them to display correctly in various browsers. This is especially important for thumbnail images.
+{{</ notice >}}
 
 ### Setting Up an Image Import File
 A template for this upload type can be found [here](https://biokic.github.io/symbiota-docs/documents/GeneralResourceUploadTemplate.xlsx).
