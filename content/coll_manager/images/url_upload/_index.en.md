@@ -23,7 +23,7 @@ keywords: ["images"]
   8. Click the Import Data button.
 
 {{< notice tip >}}
-  When providing images via URLs, the URLs should begin with "**https://**" (not "http://") in order for them to display correctly in various browsers. This is especially important for thumbnail images.
+  ⚠️ When providing images via URLs, the URLs should begin with "**https://**" (not "http://") in order for them to display correctly in various browsers. This is especially important for thumbnail images. If you provide images using URLs containing "https" and they do not display correctly in your Symbiota portal, check that the server that hosts your images maintains an SSL certificate that supports the use of "https".
 {{</ notice >}}
 
 ### Setting Up an Image Import File
