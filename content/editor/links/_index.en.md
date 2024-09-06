@@ -1,10 +1,11 @@
 ---
 title: "Linking Records/Resources"
 date: 2021-12-08
-lastmod: 2024-04-29
+lastmod: 2024-09-06
 draft: false
 weight: 110
 authors: ["Katie Pearson"]
+editors: ["Lindsay Walker"]
 keywords: ["genetic resources","DNA sequences","sequences","checklist","voucher","duplicate","associated occurrences"]
 ---
 
@@ -86,4 +87,6 @@ There are several ways to link an occurrence to duplicate specimens. You can:
 * Batch link records to their duplicates using the [Duplicate Clustering tool](https://biokic.github.io/symbiota-docs/coll_manager/dup).
 
 ### Linking to a Genetic Resource/Sequence
-* In the **Genetic Resources** box of the Linked Resources tab, enter information about the genetic sequence associated with your occurrence in the provided fields. Be sure to provide a URL to the sequence. Here is an example for a URL from GenBank: [https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1](https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1).
+* In the **Genetic Resources** box of the Linked Resources tab, enter information about the genetic sequence associated with your occurrence in the provided fields. Be sure to provide a URL to the sequence. Here is an example of an acceptable URL from GenBank: [`https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1`](https://www.ncbi.nlm.nih.gov/nuccore/BV165924.1). In addition to adding these links one-by-one through the Linked Resources tab, genetic data can also be associated with specimen records in batch by mapping these URLs to _associatedSequences_ as a [bulk data upload](https://biokic.github.io/symbiota-docs/coll_manager/upload/).
+
+  {{< youtube H76eeKxECEs >}}
