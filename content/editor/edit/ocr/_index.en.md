@@ -5,6 +5,7 @@ lastmod: 2021-11-30
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["optical character recognition","automated transcription","OCR"]
+weight: 40
 ---
 
 Optical Character Recognition (OCR) is the use of computer algorithms to detect text information from images. If OCR tools are activated in your Symbiota portal, you can use OCR to attempt to parse textual information from pictures of, e.g., specimen labels and enter data into the appropriate fields from there. Instructions for using OCR in the Occurrence Editor are provided below. For batch OCR workflows, see the [OCR page in the Collection Manager Guide](https://biokic.github.io/symbiota-docs/coll_manager/edit/ocr/).

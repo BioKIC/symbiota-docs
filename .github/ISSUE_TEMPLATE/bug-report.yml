@@ -42,6 +42,7 @@ body:
         - Linux
         - (Phone/Tablet) Android
         - (Phone/Tablet) Apple iOS
+        - Other
   - type: dropdown
     id: browsers
     attributes:
@@ -51,4 +52,6 @@ body:
         - Firefox
         - Chrome
         - Safari
+        - Brave
         - Microsoft Edge
+        - Other

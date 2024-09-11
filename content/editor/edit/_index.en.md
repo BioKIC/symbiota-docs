@@ -32,6 +32,10 @@ To search according to fields not explicitly stated in the Record Search Form, s
 
 To conduct a search, click the Display Editor (to view one record at a time) or Display Table (to view the first 1000 records at a time) buttons.
 
+{{< notice note >}}
+  When searching for the characters "_" or "%" in your record fields, you must precede this character with the backwards slash "escape" character (\). E.g., when searching for the value "_1", you should enter "\_1".
+{{</ notice >}}
+
 To search by specimens entered by you (the current user), click the CU button.
 
 To sort your search results, select a field from the dropdown menu after Sort By (bottom right of Record Search Form), then select whether you wish to sort in ascending or descending order.

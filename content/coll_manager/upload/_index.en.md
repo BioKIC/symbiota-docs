@@ -1,9 +1,9 @@
 ---
 title: "Importing & Uploading Data"
 date: 2021-10-07
-lastmod: 2023-12-18
+lastmod: 2024-08-29
 authors: ["Ed Gilbert"]
-editors: ["Katie Pearson"]
+editors: ["Katie Pearson", "Lindsay Walker"]
 weight: 150
 keywords: ["data upload","data import","file upload","IPT"]
 ---
@@ -112,6 +112,10 @@ The same cautions as a manual Darwin Core Archive upload apply to this upload ty
 
 {{< notice tip >}}
   A list of fields that can be imported into a Symbiota data portal can be [found here](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/).
+{{</ notice >}}
+
+{{< notice tip >}}
+ If you're new to using data ingestion tools in Symbiota portals, start by uploading a small number of records before ingesting larger datasets. You will be able to delete erroneous records [one-by-one](https://biokic.github.io/symbiota-docs/coll_manager/delete/), but not in batch.
 {{</ notice >}}
 
 * To take advantage of the [Tag Name + Identifier](https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/) system (in which you can tag an identifier/other catalog number with a specific title), enter the tag name followed by a colon and then the identifier value, e.g., "Old Accession Number: 12345". For multiple identifiers, separate the tag name + identifiers by semicolons, e.g., "NP #: 4321; Accession #: 9876"

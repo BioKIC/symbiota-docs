@@ -41,7 +41,9 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 
 {{< dwc-term id="recordNumber" verbatim="Number" descr="The collection number assigned to the specimen by the collector." ex="1294, 12490b, 94-132" dwc="recordNumber" >}}
 
-{{< dwc-term id="eventDate" verbatim="Date" descr="The date the specimen was collected. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as \"00\". For example, a collection with a date of \"March 1956\" can be entered as \"1956-03-00\"." ex="1983-09-15, 1983-07-00, 1934-00-00" dwc="eventDate" >}}
+{{< dwc-term id="eventDate" verbatim="Date" descr="The date the specimen was collected or, if a range of dates is indicated, the first day in the range of collecting dates. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as \"00\". For example, a collection with a date of \"March 1956\" can be entered as \"1956-03-00\"." ex="1983-09-15, 1983-07-00, 1934-00-00" dwc="eventDate" >}}
+
+<a id="endDate"><b>End Date: </b></a>The last date of collection, in the case of a range of collecting dates. While dates can be entered using your preferred format, the value will be converted and stored as an ISO-8601 numeric format (YYYY-MM-DD). Note that unknown month and days can be entered as \"00\". For example, a collection with a date of \"March 1956\" can be entered as \"1956-03-00\".<br>Ex: 1983-09-15, 1983-07-00, 1934-00-00 </br> See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank" rel="noopener noreferrer">eventDate</a>
 
 {{< dwc-term id="verbatimEventDate" verbatim="Verbatim Date" descr="Can be used to record date exactly as entered on label. Particularly useful for non-standard date formats or date ranges." ex="Spring 1901, March-April 1952, late Sept. 1909" dwc="verbatimEventDate" >}}
 
@@ -54,7 +56,7 @@ The Symbiota data schema is strongly aligned to the <a href="https://www.tdwg.or
 <a id="dayRange"><b>Day of year range:</b></a> A range of collection dates can be represented here as numeric day of year values. These values will be automatically calculated if you enter a date range in the verbatim date field (e.g. 12 Sept 1968 to 19 Sept 1968, 1968-09-12 to 1968-09-19) <br>
 See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" target="_blank" rel="noopener noreferrer">startDayOfYear</a>, <a href="http://rs.tdwg.org/dwc/terms/index.htm#endDayOfYear" target="_blank" rel="noopener noreferrer">endDayOfYear</a>.
 
-{{< dwc-term id="sciname" verbatim="Scientific Name" descr="The Latin name of the specimen without the author. Could be anything from kingdom down to subspecies or variety, depending on the level of the identification." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
+{{< dwc-term id="scientificName" verbatim="Scientific Name" descr="The Latin name of the specimen without the author. Could be anything from kingdom down to subspecies or variety, depending on the level of the identification." ex="Pinaceae, Pinus, Pinus edulis, Pinus edulis var. fallax" dwc="scientificName" >}}
 
 {{< dwc-term id="scientificNameAuthorship" verbatim="Author" descr="The name of the person who first named the taxa. This field autofills after entering the scientific name." ex="L., Asa A. Gray" dwc="scientificNameAuthorship" >}}
 
@@ -72,6 +74,14 @@ See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" targe
 
 {{< dwc-term id="taxonRemarks" verbatim="Taxon Remarks" descr="Any additional notes regarding the taxonomic name to which the specimen was identify." dwc="taxonRemarks" >}}
 
+{{< dwc-term id="continent" verbatim="Continent" descr="The name of the continent in which the specimen was collected." ex="North America, Africa" dwc="continent" >}}
+
+{{< dwc-term id="waterBody" verbatim="Water Body" descr="The name of the water body in which the specimen was collected." ex="Pacific Ocean, Black Sea" dwc="waterBody" >}}
+
+{{< dwc-term id="islandGroup" verbatim="Island Group" descr="The name of the island group in which the specimen was collected." ex="Hawaiian Islands, Alexander Archipelago" dwc="islandGroup" >}}
+
+{{< dwc-term id="island" verbatim="Island" descr="The name of the island on which the specimen was collected." ex="Cayo Coco, Maui" dwc="island" >}}
+
 {{< dwc-term id="country" verbatim="Country" descr="The name of the country in which the specimen was collected. To aid data entry, a drop down menu will appear as one types, though names outside of the list can still be entered." ex="USA, Canada, Mexico" dwc="country" >}}
 
 {{< dwc-term id="stateProvince" verbatim="State/Province" descr="The name of the state or province in which the specimen was collected. As one types, a selection list will appear for the given country." ex="New York, Arizona, Sonora" dwc="stateProvince" >}}
@@ -87,6 +97,8 @@ See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:startDayOfYear" targe
 <a id="localitySecurity"><b>Locality Security:</b></a> Checking the Locality Security checkbox will hide locality details below the level of county from unauthorized users. This is typically done because the species is rare or threatened. Images are also hidden to protect locality details that might be viewable from the label. Users that are logged into the system and have the necessary permission to view locality details (e.g. collection managers) will continue to have access to all data. This box will automatically be checked if the species name is on any of the rare species lists &nbsp;(see sitemap). If one wishes to lock protection (on or off), click the Lock Security checkbox and/or enter a reason for security override in the text field. Leaving the locality security unlocked will allow default settings to be applied as determined by the sensitive species administrators, which is the recommendation for most records. <br>
 For more information on sensitive species protection, see the page on <a href="https://biokic.github.io/symbiota-docs/user/redaction/">Sensitive Species Protection</a>. <br>
 This field is not defined by the Darwin Core standard.
+
+{{< dwc-term id="locationRemarks" verbatim="Location Remarks" descr="Comments or notes about the locality" ex="Previously known as Mt. Evans" dwc="locationRemarks" >}}
 
 {{< dwc-term id="decimalLatitude" verbatim="Latitude and Longitude (decimal format)" descr="The geographic latitude and longitude in decimal degrees. Latitudes from the southern hemisphere and longitudes in the western hemisphere (e.g. USA) should be entered as negative values. Click on the \"Tools\" button to enter the coordinates in the degree, minute, seconds (DMS) or the UTM formats. Decimal degrees are the preferred coordinate standard as defined by Darwin Core. See below for more information on using this tool." ex="34.874022, -111.75774" dwc="decimalLatitude" >}}
 
@@ -145,6 +157,10 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="reproductiveCondition" verbatim="Phenology (Reproductive Condition)" descr="The reproductive stage the specimen is in. Typically used for plant and fungal collections." ex="flower, fruit, sterile" dwc="reproductiveCondition" >}}
 
+{{< dwc-term id="behavior" verbatim="Behavior" descr="The behavior exhibited by the organism/occurrence at the time of collection/observation." ex="flying, sitting on eggs" dwc="behavior" >}}
+
+{{< dwc-term id="vitality" verbatim="Vitality" descr="An indication of whether the organism was alive or dead at the time of collection or observation." ex="live, dead" dwc="vitality" >}}
+
 {{< dwc-term id="establishmentMeans" verbatim="Establishment Means" descr="The state of establishment at the time of collection." ex="cultivated, invasive, native" dwc="establishmentMeans" >}}
 
 {{< dwc-term id="isCultivated" verbatim="Cultivated Checkbox" descr="Check when the organism was established with the aid of humans and would not be able to exist on their own. This true/false field enables the ability to filter non-native or naturalized species." obs="Not currently exported in DwC format.">}}
@@ -153,21 +169,28 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="disposition" verbatim="Disposition" descr="The location or status of the physical specimen." ex="missing, on loan, in collection" dwc="disposition" >}}
 
-{{< dwc-term id="occurrenceID" verbatim="Occurrence Id" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
+{{< dwc-term id="occurrenceid" verbatim="Occurrence ID" descr="This is the Global Unique Identification (GUID) for the specimen. This identification code should be stable and uniquely identify the specimen relative to all other specimens within the world. If your collection is set to have occurrenceIDs/GUIDs generated by the portal (this is the suggested setting for all live-managed collections), this field will appear blank in the occurrence editor form. To view the occurrenceID value associated with your specimen, click the Public Display link at the top of the page." ex="000866d2-c177-4648-a200-ead4007051b9, urn:catalog:UWBM:Bird:89776" dwc="occurrenceID" >}}
 
-{{< dwc-term id="fieldNumber" verbatim="Field Number" dwc="fieldNumber" >}}
-
-{{< dwc-term id="ownerInstitutionCode" verbatim="Owner Code" descr="The acronym of the owning institution. Only enter a value if the owning institution is different than what was entered when the metadata for the collection institution was added to the portal." ex="NPS, Forest Service" dwc="ownerInstitutionCode" >}}
-
-{{< dwc-term id="basisOfRecord" verbatim="Basis of Record" descr="The type of record the specimen is classified as. For physical collections, this field defaults to “PreservedSpecimen” (aka herbarium specimen) and for observation projects, the default is “Observation”." ex="PreservedSpecimen, LivingSpecimen, Observation" dwc="basisOfRecord" >}}
+{{< dwc-term id="fieldnumber" verbatim="Field Number" descr="An identifier given to the collecting event in the field. This number often serves as a link between the event indicated in the field notes and the specimen record." ex="2024-04-05-00045, JOSHUATREE_35" dwc="fieldNumber" >}}
 
 {{< dwc-term id="language" verbatim="Language" descr="The language of the label information" ex="English, Spanish, Portuguese" dwc="language" >}}
 
+{{< dwc-term id="labelproject" verbatim="Label Project" descr="Used for printing labels. You can create a label project and print that set of labels after you've entered the data." ex="Plants of Sedona 2012" >}}
+
+{{< dwc-term id="duplicatequantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for specimen." ex="10" >}}
+
+{{< dwc-term id="institutionCode" verbatim="Institution Code" descr="The acronym of the institution that stewards this occurrence. Only enter a value if the institution is different than what was entered when the metadata for the institution was added to the portal." ex="NMNH, FLMNH" dwc="institutionCode" >}}
+
+{{< dwc-term id="collectionCode" verbatim="Collection Code" descr="The acronym of the collection that stewards this occurrence. Only enter a value if the collection is different than what was entered when the metadata for the collection was added to the portal." ex="Herps, F" dwc="collectionCode" >}}
+
+{{< dwc-term id="ownerInstitutionCode" verbatim="Owner Code" descr="The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record." ex="NPS" dwc="ownerInstitutionCode" >}}
+
+{{< dwc-term id="basisOfRecord" verbatim="Basis of Record" descr="The type of record the specimen is classified as. For physical collections, this field defaults to “PreservedSpecimen” (aka herbarium specimen) and for observation projects, the default is “Observation”." ex="PreservedSpecimen, LivingSpecimen, Observation" dwc="basisOfRecord" >}}
+
 {{< dwc-term id="processingStatus" verbatim="Processing Status" descr="The status of the digital record. This field is used for internal data management and review. The values used are dictated by the specific workflow of each institution." >}}
 
-{{< dwc-term id="labelProject" verbatim="Label Project" descr="Used for printing labels. You can create a label project and print that set of labels after you've entered the data." ex="Plants of Sedona 2012" >}}
+{{< dwc-term id="dataGeneralizations" verbatim="Data Generalizations" descr="Internal notes associated with the occurrence record. Data entered in this field is not visible to the public and is not downloaded in a Darwin Core Archive." >}}
 
-{{< dwc-term id="duplicateQuantity" verbatim="Duplicate Quantity" descr="The number of duplicate specimens created. This will dictate the number of labels printed for specimen." ex="10" >}}
 
 ### Material Sample Fields
 
