@@ -153,9 +153,8 @@ See Darwin Core's <a href="http://rs.tdwg.org/dwc/terms/minimumDepthInMeters" ta
 
 {{< dwc-term id="samplingProtocol" verbatim="Sampling Protocol" descr="The names and references to methods used to collect or sample an occurrence" ex="UV light trap, mist net, Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf" dwc="samplingProtocol" >}}
 
-{{< dwc-term id="preparations" verbatim="Preparations" descr="Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example can be found <a href= "https://github.com/tdwg/cd/issues/64#issuecomment-781653290" target="_blank">here</a>." ex="in ethanol, skeleton" dwc="preparations" >}}
-
-<a id="preparations"><b>Preparations:</b></a> Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example can be found <a href="https://github.com/tdwg/cd/issues/64#issuecomment-781653290" target="_blank">here</a>.<br>
+<a id="preparations"><b>Preparations:</b></a> Preparation or preservation method for a specimen. While no universal controlled vocabulary currently exists for this field, a practical example can be found <a href="https://github.com/tdwg/cd/issues/64#issuecomment-781653290" target="_blank" rel="noopener noreferrer">here</a>.<br>
+Ex: in ethanol, skeleton, pressed and dried.<br>
 See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:preparations" target="_blank" rel="noopener noreferrer">preparations</a>.
 
 {{< dwc-term id="reproductiveCondition" verbatim="Phenology (Reproductive Condition)" descr="The reproductive stage the specimen is in. Typically used for plant and fungal collections." ex="flower, fruit, sterile" dwc="reproductiveCondition" >}}
