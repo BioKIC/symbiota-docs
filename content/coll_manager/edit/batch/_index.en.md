@@ -3,8 +3,7 @@ title: "Batch Editing"
 date: 2021-10-28
 lastmod: 2024-09-24
 draft: false
-authors: ["Cynthia Skema", "Ann Barber"]
-editors: ["Katie Pearson", "Lindsay Walker"]
+authors: ["Lindsay Walker","Katie Pearson","Cynthia Skema", "Ann Barber"]
 keywords: ["batch", "edit","change","record search form"]
 ---
 
@@ -24,7 +23,7 @@ There are two options for batch editing specimen records: you can change a value
 2. **Option A:** **To apply batch changes to all records**, click on “Display Table” in the Record Search Form, then click the Batch Edit button  above the resulting table of all records from your collection. Continue to step 3. ![Batch Edit Button](/symbiota-docs/images/batcheditbutton.png)
 
 {{< notice note>}}
-In older versions of Symbiota, the batch edit button was an icon like this: ![Edit Icon](/symbiota-docs/images/editplus.png) 
+In older versions of Symbiota, the batch edit button was an icon like this: ![Edit Icon](/symbiota-docs/images/editplus_old.png) 
 {{</ notice >}}
 
 **Option B:** **To apply batch changes to a subset of records**, first search for the records of interest using the [search form](https://biokic.github.io/symbiota-docs/editor/edit/). Once you have the set of records to which you would like to make a batch edit, click the Batch Edit Button at the top of your selected table of records.
