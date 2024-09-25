@@ -1,10 +1,11 @@
 ---
 title: "Editing Records"
 date: 2021-10-26
+lastmod: 2024-09-24
 draft: false
 authors: ["Katie Pearson"]
 weight: 60
-keywords: ["edit","change","record search form"]
+keywords: ["edit","change","record search form","search"]
 ---
 
 {{< notice info >}}
@@ -19,7 +20,7 @@ To edit individual records, select "Edit Existing Occurrence Records" from the D
 
 ![Record Search Form](/symbiota-docs/images/recordsearchform.PNG)
 
-To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 4 Custom fields in your search. The second dropdown lists after the Custom Fields will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
+To search according to fields not explicitly stated in the Record Search Form, select the field from the dropdown menu after Custom Field 1. You can include up to 8 Custom fields in your search. The second dropdown lists after the Custom Fields will allow you to conduct more specific searches, such as for ranges or fields that are null. The options include:
 * EQUALS: the field contains **only** the provided text
 * NOT EQUALS: the field does not match the provided text exactly (does not only contain the provided text)
 * STARTS WITH: the field starts with the provided text
@@ -42,6 +43,10 @@ To sort your search results, select a field from the dropdown menu after Sort By
 
 To view a specific record from the Table Display, click the Symbiota ID number or the Open in New Window icon in the leftmost SymbiotaID column.
 
-To re-open the record search form after you have conducted a search, click the magnifying glass icon to the right of the name of your collection at the top of the window.
+To re-open the record search form after you have conducted a search, click the Toggle Record Search Form button.
 
-![Return to Record Search Form](/symbiota-docs/images/returntorecordsearchform.PNG)
+![New Return to Record Search Form](/symbiota-docs/images/returntorecordsearchform_new.PNG)
+
+In older versions of Symbiota, you can toggle the search form by clicking the magnifying glass icon to the right of the name of the collection at the top of the window.
+
+![Old Return to Record Search Form](/symbiota-docs/images/returntorecordsearchform.PNG)
