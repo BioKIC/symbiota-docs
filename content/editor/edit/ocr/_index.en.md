@@ -1,7 +1,7 @@
 ---
 title: "OCR"
 date: 2021-12-3
-lastmod: 2027-09-27
+lastmod: 2024-09-27
 draft: false
 authors: ["Katie Pearson"]
 keywords: ["optical character recognition","automated transcription","OCR"]
