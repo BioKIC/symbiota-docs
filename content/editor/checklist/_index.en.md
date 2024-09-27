@@ -1,15 +1,12 @@
 ---
 title: "Checklists"
-authors: ["Laura Rocha Prado"]
+authors: ["Laura Rocha Prado","Katie Pearson"]
+lastmod: 2024-09-27
 draft: "false"
 weight: 30
 keywords: ["checklists","inventories"]
 ---
 
-{{< notice note >}}
- The "Create a Checklist" permission has been granted for the majority of existing users (accounts created before June 2022). If a user does not have "Create a Checklist enabled", and needs it, ask your portal admin (super admin) or the Support Hub to add these user permissions to their account. All new users will need to request permission to create checklists/datasets moving forward.
- {{</ notice >}}
-
  {{< notice info >}} 
- For more information on checklists, please visit the [Checklist chapter in the User Guide](../../user/checklist/)
+ A checklist is a list of taxa for a certain region or use (e.g., a teaching list or prep for a taxonomic treatment). For more information on checklists, please visit the [Checklist chapter in the User Guide](../../user/checklist/).
  {{</ notice >}}
