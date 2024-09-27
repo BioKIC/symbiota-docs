@@ -1,11 +1,10 @@
 ---
 title: "Crowdsourcing (Volunteer Instructions)"
 date: 2021-10-07
-lastmod: 2023-12-12
+lastmod: 2024-09-27
 weight: 3
 draft: false
-authors: ["Katie Pearson"]
-editors: ["Lindsay Walker"]
+authors: ["Katie Pearson","Lindsay Walker"]
 keywords: ["crowdsourcing","volunteer", "citizen science","community science"]
 ---
 
@@ -14,24 +13,23 @@ keywords: ["crowdsourcing","volunteer", "citizen science","community science"]
 {{</ notice >}}
 
 ### Creating an Account
-First, you’ll need to create an account in the portal for which you will be crowdsourcing.
+First, you’ll need an account in the portal for which you will be crowdsourcing.
 1.	Navigate to the portal in which you will be georeferencing.
-2.	On the right side of the grey menu, click New Account.
-3.	Enter the requested information, check the I’m not a robot box, and click Create Login.
+2.	Click the Sign In button or link (generally at the top right of the page), then click the Create an Account link.
+3.	Enter the requested information, check the "I’m not a robot" box, and click Create Login.
 
 {{< notice tip >}}
-  After you’ve created an account once, you will use this login information for all future sessions. Just click Login and enter your username and password.
+  After you’ve created an account once, you will use this login information for all future sessions.
 {{</ notice >}}
 
 ### Navigating to Records to Transcribe
-1.	Once you are logged in, click the Crowdsourcing tab from the main menu.
+1.	Once you are logged in, click the Crowdsourcing tab from the main menu or the link provided by your event leader.
 2.	Your stats will be shown in the top right side of the page under Your User Status. Here you can see how many specimens you have transcribed, as well as how many points are awaiting approval and how many have been approved.
-    * Pending points are those that have not yet been reviewed by a curator
-      * Curators are very busy, please be patient if your pending points don’t turn into approved points very quickly!
+    * Pending points are those that have not yet been reviewed by a curator. _Curators are very busy, please be patient if your pending points don’t turn into approved points very quickly!_
     * Approved points are those that have been reviewed and approved by a curator
-3. In the bottom table that reads Your Stats by Collections, decide which herbarium you would like to work on (or select the herbarium instructed by your event leader). Click the number in the Open Records column that belongs to that collection’s row.
-4. On the resulting page, you’ll see a table of specimen records that require transcription. Randomly select one of the specimens by clicking on its Symbiota ID number (leftmost column).
-    * If you see a message that says Record Locked!, go to the next specimen by clicking the double arrows at the top of the form, just under the magnifying glass
+3. In the table at the bottom of the page (titled **Your Stats by Collection**), click on the link in the "Open Records" column next to the name of the collection you would like to work on (or the collection instructed by your event leader).
+4. On the resulting page, you’ll see a table of specimen records that require transcription. Select one of the specimens by clicking on its Symbiota ID number (leftmost column).
+    * If you see a message that says Record Locked!, go to the next specimen by clicking the double arrows at the top right of the form.
 5. Transcribe the record as instructed.
 
 _This material is based upon work supported by the National Science Foundation under Grant Numbers 2001500, 2001509, 2001394, 2001422, 2001427, 2001431, 2001299, 2001354, 2001288, and 2001345. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation._
