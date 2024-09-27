@@ -1,6 +1,7 @@
 ---
 title: "Annotations / Determinations"
 date: 2021-10-26
+lastmod: 2027-09-27
 draft: false
 authors: ["Katie Pearson"]
 weight: 10
