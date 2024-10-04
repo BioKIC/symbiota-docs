@@ -1,7 +1,7 @@
 ---
 title: "Searching for Records"
 date: 2021-10-11
-lastmod: 2024-03-04
+lastmod: 2024-10-04
 authors: ["Katie Pearson, Lindsay Walker"]
 draft: false
 weight: 100
