@@ -1,6 +1,7 @@
 ---
 title: "Uploading Images"
 date: 2021-10-06
+lastmod: 2024-10-04
 weight: 10
 draft: false
 authors: ["Ed Gilbert","Ben Brandt","Katie Pearson"]
@@ -8,10 +9,16 @@ keywords: ["images"]
 ---
 
 {{< notice info >}}
-  This page describes how to upload individual *field* and *specimen* images directly into a Symbiota portal. It is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/coll_manager/images/batch/) page.
+  This page describes how to upload individual *field* and *specimen* images using the Symbiota portal interface. Technically, images are **not** stored _within_ a Symbiota database. Instead, the URLs of the images are stored. Thus, it is also possible to link images that are stored in external servers. For information about the latter option, visit the [Batch Adding/Linking Images](https://biokic.github.io/symbiota-docs/coll_manager/images/batch/) page.
 {{</ notice >}}
 
-There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading each of these types are provided below.
+Images associated with records in a Symbiota portal may be **Externally Hosted** or **Internally Hosted**.
+
+* **Externally Hosted** images are those stored on servers that are unrelated to the Symbiota portal (e.g., are housed at another institution). These external servers provide image links, which can then be loaded into the Symbiota database.
+
+* **Internally Hosted** images are those stored on servers that are write-accessible to the Symbiota portal server. For example, if you coordinate with Arizona State University to batch upload images to one of their hosted portals (e.g., SEINet, Bryophyte Portal), your images are Internally Hosted.
+
+There are three catefories of images that can be linked to a Symbiota portal. Instructions for uploading individual images of each of these types are provided below. **The below instructions assume that your portal is configured with an image directory that allows upload of images directly through the interface.** This is the case with most portals, but if you run into issues, you may need to contact a portal administrator.
 
 ### Individual specimen images
 
