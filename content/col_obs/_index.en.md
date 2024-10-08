@@ -1,11 +1,13 @@
 ---
 title: 'Collector/Observer Guide'
 date: 2022-11-29
+lastmod: 2024-10-08
 icon: 'ti-pencil-alt'
 weight: 4
 draft: false
 description: 'For collectors of data and/or specimens: learn to add, edit, and transfer your own collections in a Symbiota portal'
 type: 'docs'
+keywords: ["observations"]
 ---
 
 This guide will describe how collectors of data and/or specimens can add records to a Symbiota portal's Personal Observations Profile collection. Editors of Personal Observation Profiles need not be affiliated with any particular institution or collection represented in the portal.
@@ -38,3 +40,6 @@ Sponsored users have the following options for managing their data in the Person
 * **Review/Verify Occurrence Edits:** view, revert, or apply edits that you have made to your records. [Tutorial here](https://biokic.github.io/symbiota-docs/coll_manager/review/).
 * **Download backup file (CSV extract):** download a copy of your data to review or send to a collection. CSV files may be opened in Excel or a similar spreadsheet software.
 * **View User Comments:** because your data are publicly visible, users may leave comments on your records. Use this tool to view and manage those comments. See [this page](https://biokic.github.io/symbiota-docs/coll_manager/comment/) for more information.
+
+## Related Resources
+{{< youtube u65P_3VqGVI >}}
