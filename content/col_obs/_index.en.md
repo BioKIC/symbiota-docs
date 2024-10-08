@@ -1,6 +1,7 @@
 ---
 title: 'Collector/Observer Guide'
 date: 2022-11-29
+lastmod: 2024-10-08
 icon: 'ti-pencil-alt'
 weight: 4
 draft: false
