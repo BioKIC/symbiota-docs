@@ -3,7 +3,7 @@ title: "Research Use Cases"
 date: 2024-04-10
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
-lastmod: 2024-04-10
+lastmod: 2024-10-09
 draft: false
 weight: 81
 keywords: ["research", "use case"]
@@ -26,9 +26,7 @@ keywords: ["research", "use case"]
 
 ##### Phytogeographic Analysis Using Georeferenced Specimen Data
 - **NEARBY Software**: [serv.biokic.asu.edu/dlafferty/Nearby/index.php](https://serv.biokic.asu.edu/dlafferty/Nearby/index.php)
-- **Citation**: Lafferty, D. L., & Landrum, L. R. (2021). NEARBY, a Computer Program for Phytogeographic Analysis Using Georeferenced Specimen Data. _Canotia, 17_, 25–45. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
+- **Citation**: Lafferty, D. L., & Landrum, L. R. (2021). NEARBY, a Computer Program for Phytogeographic Analysis Using Georeferenced Specimen Data. _Canotia, 17_, 25–45. [PDF](https://canotia.org/volumes/vol17/2-Nearby.pdf)
 
 {{< youtube GWSqlmpT6Y8 >}}
 {{< youtube dWo8vSqbVe4 >}}
-
-
