@@ -1,6 +1,6 @@
 ---
 title: "OCR"
-date: 2021-12-3
+date: 2021-12-03
 lastmod: 2021-11-30
 draft: false
 authors: ["Katie Pearson"]
