@@ -1,7 +1,7 @@
 ---
 title: "Linked Resources / Associations"
 date: 2023-10-30
-lastmod: 2024-04-30
+lastmod: 2024-10-28
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -109,3 +109,6 @@ Optional fields ([defined below](/symbiota-docs/coll_manager/upload/links/#linke
 | [**relationshipID**](https://dwc.tdwg.org/terms/#dwc:relationshipOfResourceID)                           | Text (45)                               | An identifier for the relationship type that connects the subject to its object.|
 | resourceUrl                           | Text (250)                               | A URL/link to the object in the association/relationship.|
 | verbatimSciname                           | Text (250)                               | The taxonomic name of the object of the association/relationship.|
+
+### Recorded Tutorial
+{{< youtube Hay3hpGeHNs >}}
