@@ -3,7 +3,7 @@ title: "Research Use Cases"
 date: 2024-04-10
 authors: ["Lindsay Walker"]
 editors: ["Katie Pearson"]
-lastmod: 2024-10-09
+lastmod: 2024-11-04
 draft: false
 weight: 81
 keywords: ["research", "use case"]
@@ -21,6 +21,8 @@ keywords: ["research", "use case"]
 
 ##### Making Checklists in Symbiota Portals
 - **Reference**: Bell, M., E., & Landrum, L. R. (2021). Making Checklists with the SEINet Database/Symbiota Portals. _Canotia, 17_, 1–24. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
+
+{{< youtube ADtwyzyzNwA >}}
 
 ## Spatial Data
 
