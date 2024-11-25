@@ -24,10 +24,9 @@ keywords: ["research", "teaching", "use case"]
 - [Spatial Data](#spatial-data)
   - NEARBY
 - [Teaching](#teaching)
-  - Introducing students to collections data
+  - Incorporating Symbiota into undergraduate teaching
 
 ## Checklists
-
 ##### Making Checklists in Symbiota Portals
 - **Reference**: Bell, M., E., & Landrum, L. R. (2021). Making Checklists with the SEINet Database/Symbiota Portals. _Canotia, 17_, 1–24. [PDF](https://canotia.org/volumes/vol17/1-Checklists.pdf)
 - **Reference**: For teaching checklists, see [Larsen, K. J., 2024](#teaching)
@@ -35,7 +34,6 @@ keywords: ["research", "teaching", "use case"]
 {{< youtube ADtwyzyzNwA >}}
 
 ## Spatial Data
-
 ##### Phytogeographic Analysis Using Georeferenced Specimen Data
 - **NEARBY Software**: [serv.biokic.asu.edu/dlafferty/Nearby/index.php](https://serv.biokic.asu.edu/dlafferty/Nearby/index.php)
 - **Reference**: Lafferty, D. L., & Landrum, L. R. (2021). NEARBY, a Computer Program for Phytogeographic Analysis Using Georeferenced Specimen Data. _Canotia, 17_, 25–45. [PDF](https://canotia.org/volumes/vol17/2-Nearby.pdf)
@@ -44,5 +42,6 @@ keywords: ["research", "teaching", "use case"]
 {{< youtube dWo8vSqbVe4 >}}
 
 ## Teaching
+##### Incorporating Symbiota into undergraduate teaching
 - **Reference**: Larsen, K. J. (2024). Introducing Biology Students to Digitially Available Insect Collections Data. Entomological Society of America, Phoenix. [Abstract](https://entomology2024.eventscribe.net/ajaxcalls/PresentationInfo.asp?PresentationID=1470808) | [Poster](/symbiota-docs/documents/Larsen2024Poster.pdf) | [Handout](/symbiota-docs/documents/Larsen2024-TeachingHandout.pdf)
 ![Larsen, 2024](/symbiota-docs/images/Larsen2024Poster.jpg)
