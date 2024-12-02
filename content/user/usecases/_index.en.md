@@ -10,7 +10,7 @@ keywords: ["research", "teaching", "use case"]
 ---
 
 {{< notice info >}}
-  This page contains user-contributed content related to research uses of Symbiota-mediated data. If you would like to contribute an example, please contact [help@symbiota.org](mailto:help@symbiota.org).
+  This page contains user-contributed content related to various uses of Symbiota-mediated data. If you would like to contribute an example, please contact [help@symbiota.org](mailto:help@symbiota.org).
 {{</ notice >}}
 
 {{< notice note >}}
