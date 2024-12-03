@@ -14,6 +14,7 @@ Symbiota portals serve data from specimens and observations according to regiona
  - [Basic Search (pre-Symbiota 3.1)](#basic-search)
  - [Basic Search (Symbiota 3.1 and beyond)](#symbiota-31-and-beyond)
  - [Map Search](#map-search)
+ - [Cross-Portal Search](#cross-portal-search)
  - [Quick Search](#quick-search)
 
 ## Basic Search
@@ -101,6 +102,19 @@ Further customizations can be made in the Map Options tab of the search panel in
 Once you have conducted a search, you can view a list of specimens by clicking the Open Search Panel button and viewing the Records and Taxa menu item. You can also download the specimen records, download a KML file of the specimen records, or generate a shareable link to these search results by clicking on the respective buttons on this page.
 
 ![Map Search Display](/symbiota-docs/images/search5.PNG)
+
+## Cross-Portal Search
+##### (not available in all portals)
+
+Some portals include the ability to search not only in the portal database, but also in the database of another, connected Symbiota portal. This option is only available in the Map Search interface.
+
+To use this feature, navigate to the Map Search in your portal and check the box next to "Enable Cross Portal Search". You will then see a dropdown list of the available portals to search and new "Taxa" field. Select the desired portal (there will likely only be one) and enter the name of the taxon or taxa that you would like to search in the other portal. The "Taxa" field at the very top of the form will reference your current portal's taxonomic thesaurus, while the "Taxa" field under the Cross Portal Search option will reference the taxonomic thesaurus of the other portal (the one selected in the dropdown list).
+
+![Cross-Portal Search Checkbox](/symbiota-docs/images/crossportalsearch.png)
+
+The resulting map will include results from both portals you have searched. The dots will be colored by taxon by default. To color the dots by portal, click the Portal List tab and click the Auto Color button.
+
+The "Records" tab will list all the records from the portal you are in, and the "External Records" tab will list all the records from the outside portal that you are also searching.
 
 ## Quick Search
 {{< notice note >}}
