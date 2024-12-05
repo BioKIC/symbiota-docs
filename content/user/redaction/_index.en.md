@@ -1,7 +1,9 @@
 ---
 title: "Redacted and Protected Data"
 date: 2021-10-08
+lastmod: 2024-12-05
 authors: ["Ed Gilbert","Katie Pearson"]
+editors: ["Lindsay Walker"]
 draft: false
 weight: 80
 keywords: ["rare species","redacted data","protected data","protected species"]
@@ -12,5 +14,5 @@ Some collections redact location information data (latitude/longitude and locali
 Users may gain access to redacted location information by being granted Rare Species Reader (RSR) permissions, or through a one-time data export. To obtain these permissions, contact the curator or manager of the collection and provide information about yourself and why you would like access to their data.
 
 {{< notice tip >}}
-  Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](https://biokic.github.io/symbiota-docs/user/contact/) page.
+  Not sure how to contact the manager of a collection? Visit the [Contacting a Collection](https://biokic.github.io/symbiota-docs/user/public_feedback/contact/) page.
 {{</ notice >}}
