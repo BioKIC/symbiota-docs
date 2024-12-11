@@ -1,7 +1,7 @@
 ---
 title: "(Admin) Adding/Editing ID Key Characters & States"
 date: 2022-10-31
-lastmod: 2022-11-02
+lastmod: 2024-12-11
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -63,6 +63,6 @@ The final "Admin" tab allows you to delete the character. All character states m
 
 From the Character Management page, click on the name of the character that belongs to the state you wish to edit. Navigate to the **Character States** tab. To edit an existing character state, click on the name of the character state. In the **Character State Details** box, you can edit the state name, the description, the related glossary term, the notes, and the sort sequence of the character. Scroll down to the **Illustration** box to add an illustration of the character state. Scroll down to the **Delete Character State** box to evaluate the state for deletion. All images, languages, and descriptions to the character state must be unlinked before a state can be deleted.
 
-To add a new character state, click the green plus sign at the top right side of the page (highlighted below).
+To add a new character state, click the green plus sign at the top right side of the page (circled below).
 
 ![Character State Editor Page](/symbiota-docs/images/editcharacterstate.JPG)

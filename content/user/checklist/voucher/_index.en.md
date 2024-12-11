@@ -3,7 +3,7 @@ title: "Adding Vouchers to Checklist"
 date: 2021-10-14
 authors: ["Katie Pearson","Neil Cobb","Ed Gilbert"]
 editors: ["Katie Pearson"]
-lastmod: 2024-01-26
+lastmod: 2024-12-11
 draft: false
 weight: 15
 keywords: ["checklist","inventory","flora","voucher"]
@@ -18,9 +18,9 @@ There are two main ways to add voucher specimens to a research checklist. You ca
 {{< youtube NRW2kh6xln0 >}}
 
 1. Navigate to the homepage of your checklist.
-2. Click the pencil icon that has a V next to it (the center icon in the top right corner of the page, circled below).
+2. Click the pencil icon that has a V next to it (the center icon in the top right corner of the page, highlighted below).
 
-![Manage Linked Vouchers](/symbiota-docs/images/checklistexample.jpg)
+![Manage Linked Vouchers](/symbiota-docs/images/checklistexample.png)
 
 3. If this is the first time you have used this tool, you will be asked to first define the search statement (i.e., search parameters) that will be used to find the specimens that might pertain to your checklist. You can use a variety of fields to define your search, as described below.
 

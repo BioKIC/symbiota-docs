@@ -1,6 +1,7 @@
 ---
 title: "Adding Taxa to Checklist"
 date: 2021-10-14
+lastmod: 2024-12-11
 authors: ["Neil Cobb", "Katie Pearson"]
 draft: false
 weight: 10

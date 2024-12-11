@@ -1,7 +1,9 @@
 ---
 title: "Games in Checklists"
 date: 2022-04-08
+lastmod: 2024-12-11
 authors: ["Lindsay Walker"]
+editors: ["Katie Pearson"]
 draft: false
 weight: 48
 keywords: ["checklist","inventory","flora","games"]
@@ -12,9 +14,8 @@ keywords: ["checklist","inventory","flora","games"]
 {{</ notice >}}
 
 1. Log into your Symbiota profile and navigate to your portal's list of existing checklists. Look for a "Projects" or "Checklists" tab at the top of your portal interface.
-![Projects Tab from Checklist](/symbiota-docs/images/games_projectstab.png)
 
-2. Select the checklist containing content that you wish to create a game from. When the checklist's page opens, hover over the "Games" icon to select the game you wish to use.
+2. Select the checklist containing content that you wish to play with. On the checklist page, click the "Games" link at the top of the Options box.
 ![Games Navigation from Checklist](/symbiota-docs/images/games_navigation.png)
 
 ## Name Game

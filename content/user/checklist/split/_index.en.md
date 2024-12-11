@@ -1,7 +1,7 @@
 ---
 title: "Splitting Checklists"
 date: 2023-01-04
-lastmod: 2023-01-04
+lastmod: 2024-12-11
 authors: ["Katie Pearson"]
 draft: false
 weight: 50

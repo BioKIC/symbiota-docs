@@ -1,7 +1,7 @@
 ---
 title: "(Editor) Editing ID Key States for Taxa"
 date: 2022-10-31
-lastmod: 2022-11-02
+lastmod: 2024-12-11
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
@@ -29,7 +29,7 @@ Setting up identification keys in a portal requires the administrator to import 
 ### Editing Character States Assigned to Taxa
 The character states applied to taxa can be edited from the checklist editor. If you would like to edit the character states for taxa, but don't have a specific checklist in which to do so, you can [create a temporary checklist](https://biokic.github.io/symbiota-docs/user/checklist/create/) in which to do this and then delete the checklist once you are done.
 
-Ensure that you are logged in, then navigate to the checklist containing the taxa you would like to edit. Click the small pencil icon with "CM" next to it in the top right corner of the page.
+Ensure that you are logged in, then navigate to the checklist containing the taxa you would like to edit. Click the small pencil icon with "Edit Character Matrix" next to it in the top right corner of the page.
 
 ![Character Matrix Editor link](/symbiota-docs/images/editcharactermatrix.JPG)
 
