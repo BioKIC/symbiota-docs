@@ -1,10 +1,10 @@
 ---
 title: "Symbiota Data Fields"
 date: 2014-07-21
-lastmod: 2024-09-12
+lastmod: 2025-01-13
 draft: false
-authors: ["Ed Gilbert"]
-editors: ["Laura Rocha Prado","Katie Pearson", "Lindsay Walker"]
+authors: ["Ed Gilbert","Katie Pearson", "Lindsay Walker"]
+editors: ["Laura Rocha Prado"]
 keywords: ["edit","fields","data fields", "terms", "dwc terms", "paleontology fields", "material sample fields"]
 ---
 
@@ -106,7 +106,7 @@ This field is not defined by the Darwin Core standard.
 
 {{< dwc-term id="geodeticDatum" verbatim="Datum" descr="The geographic system that was used to get the coordinates. This field autofills when using [http://www.museum.tulane.edu/geolocate/|GeoLocate] or the Mapping tool for georeferencing." ex="NAD27, NAD83, WGS84" dwc="geodeticDatum" >}}
 
-<a id="verbatimCoordinates"><b>Verbatim Coordinates:</b></a> If the coordinates recorded on the specimen label are in a format other than decimal degrees, enter them here. When decimal lat/long fields are blank and one enters UTM or DMS using one of the formats displayed in the example below, decimal lat/long values will be automatically generated. Click the "&lt;&lt;" symbol to replace existing decimal values. This field autofills when using the DMS, UTM, and TRS georeferencing tools.<br>
+<a id="verbatimCoordinates"><b>Verbatim Coordinates:</b></a> Enter coordinate vlaues here from the specimen label if they are in a format other than decimal degrees. If your coordinates are in "degrees, minutes, seconds", "UTM", or "township-range-section" (TRS) format, click the "F" button to view the formatting tools. Fill in the appropriate box with the coordinates on your label and click the Insert Values button. Valid values in "degrees-minutes-seconds" or "UTM" formats will be automatically converted into decimal latitude and longitude values. If a value has previously been entered into the Verbatim Coordinates field, you can try to click the double arrows ("&lt;&lt;") to the left of this field to try to auto-convert them into decimal latitude and longitude. Township-range-section coordinates cannot be automatically converted in the data entry form, but they may be converted into an appropriate georeference using the GEOLocate tool. For more information about this and about using the coordinate tools, <a href="https://www.youtube.com/watch?v=XyYPYJ1guMY&t=70s" target="_blank">see this tutorial video</a>.<br>
 Ex: 34° 13.940' N 112° 2.370' W, 12 420944E 4064025N, TRS: T40N R32E S29 <br>
 See Darwin Core's <a href="https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates" target="_blank" rel="noopener noreferrer">verbatimCoordinates</a>.
 
