@@ -1,7 +1,7 @@
 ---
 title: "Adding Taxa to the Taxonomic Thesaurus"
 date: 2023-02-09
-lastmod: 2023-02-09
+lastmod: 2025-01-30
 authors: ["Katie Pearson"]
 editors: [""]
 draft: false
@@ -27,21 +27,22 @@ Additional information about options 1 and 2 are provided below (see the link ab
 {{</ notice >}}
 
 1. Navigate to the taxonomic thesaurus (Sitemap > scroll down to Taxonomy > Taxonomic Tree Viewer), or just add "taxa/taxonomy/taxonomydisplay.php" to your base path.
-2. Click the green plus sign at the top right corner of the screen.
-3. Enter information about the taxon in the provided form.
+2. Click the "add" icon at the top right corner of the screen.
+3. Enter information about the taxon in the provided form (see below for guidance).
 ![Taxon Data Entry Form](/symbiota-docs/images/addnewtaxon.PNG)
 
-* Enter the taxonomic name *without the authorship* in the **Taxon Name** field
-* Enter the authorship into the **Author** field
-* For hybrid taxa, select the multiplication symbol from the dropdown list in front of the UnitName2 field
-* For infraspecific taxa, use the small UnitName3 field for the infraspecific epithet type (e.g., var., subsp., f.), if applicable, and the long UnitName3 field for the infraspecific epithet.
-* Select the appropriate taxon rank from the dropdown **Taxon Rank** field
-* The form will automatically parse out the UnitName1, UnitName2, and UnitName3. Adjust these if necessary.
+* You can copy and paste the entire name (with authorship) into the Quick Parser at the top of the form to have the page attempt to parse out the pieces of the name. Make sure to check that the form has correctly assigned a Taxon Rank and has properly parsed the pieces of the name. If not, manually replace the values in form with the correct ones.
+* Select the appropriate value from the Taxon Rank dropdown menu. The fields you will see afterward will depend on the taxon rank that you specify.
+* Enter the authorship into the **Author** field.
+* For hybrid taxa, select the multiplication symbol from the dropdown list in front of the appropriate field.
+* For infraspecific taxa (e.g., varieties or subspecies), use the small field for the infraspecific epithet type (e.g., var., subsp., f.), if applicable, and the long field for the infraspecific epithet.
+* Begin to type the name of the parent taxon (i.e., the taxon one taxonomic rank above the taxon you are adding) into the Parent Taxon field and select the correct name from the dropdown list. _If you are adding cultivar with a cultivar epithet or trade name, the parent taxon should be the corresponding genus._
 * **IMPORTANT:** Add a link or citation for the source of the scientific name you are adding, for example, a Plants of the World Online entry, a literature citation with DOI, etc.
-* If the taxonomic name you are adding is the currently accepted name, leave the *Accepted* radio button checked. If the taxonomic name is not accepted, select the *Not Accepted* radio button and enter the accepted name in the provided field. *If the name of the accepted species is not found in the taxonomic thesaurus (i.e., does not appear in the dropdown menu), you must add that name to the thesaurus first.*
+* If the taxonomic name you are adding is the currently accepted name, leave the *Accepted* radio button checked. If the taxonomic name is not accepted, select the *Not Accepted* radio button and enter the accepted name in the provided field.
+* As you enter the name into the form, check that it appears as expected at the top of the form after "Sciname will be saved as."
 
-{{< notice note >}}
-  If you edit anything in the **Taxon Name** field after you have added to the **Author**, **Notes**, or **Source** fields, it will reset the form and clear anything you have entered into these fields.
+{{< notice tip >}}
+  If you do not find the Parent Name or the Accepted Name in the dropdown lists, you will need to add the parent name or accepted name to the taxonomic thesaurus **first**.
 {{</ notice >}}
 
 ### Batch adding taxa using the Taxonomic Cleaning Tool
