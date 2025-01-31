@@ -12,7 +12,12 @@ keywords: ["Download", "Darwin Core", "DwC-A", "Archive", "Extensions"]
 
 A [Darwin Core Archive](https://ipt.gbif.org/manual/en/ipt/latest/dwca-guide) is a package of biodiversity data that aligns with the Darwin Core international data standard. The Symbiota data schema was designed to largely align with this schema for data imports and exports.
 
-A Darwin Core Archive (DwC-A) downloaded from a Symbiota portal consists of a core [**occurrences**](https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml) file, containing the core biodiversity data relating to records of a taxon at a place and time (an "occurrence"), a metafile (meta.xml) that describes the structure of the Darwin Core Archive, a metadata file (eml.xml) describing the dataset, and multiple "extension" files with additional data regarding the occurrences. The "id" column in the occurrences file is the central link between the _occurrences_ file and its extensions. The following extensions are currently supported by Symbiota downloads:
+A Darwin Core Archive (DwC-A) downloaded from a Symbiota portal consists of a core [**occurrences**](https://rs.gbif.org/core/dwc_occurrence_2024-02-23.xml) file, containing the core biodiversity data relating to records of a taxon at a place and time (an "occurrence"), a metafile (meta.xml) that describes the structure of the Darwin Core Archive, a metadata file (eml.xml) describing the dataset, and multiple "extension" files with additional data regarding the occurrences. The "id" column in the occurrences file is the central link between the _occurrences_ file and its extensions.
+
+
+![Darwin Core Star Schema](/symbiota-docs/images/dwca.jpg)
+
+The following extensions are currently supported by Symbiota downloads:
 
 * [**identifications**](https://rs.gbif.org/extension/identification_history_2024-02-19.xml): contains data regarding one or many taxonomic identifications of an occurrence. This file contains the history of taxonomic identification or annotation  of the specimen. For example, if the occurrences file contains one record that was identified three times, the _identifications_ file will contain three rows, one for each taxonomic identification. In Symbiota portals, every identification must have a scientific name, a "dateIdentified", and an "identifiedBy" value.
 
