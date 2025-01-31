@@ -1,7 +1,7 @@
 ---
 title: "Downloading a Copy of your Database"
 date: 2021-11-29
-lastmod: 2024-04-30
+lastmod: 2025-01-31
 draft: false
 weight: 55
 authors: ["Katie Pearson"]
@@ -10,7 +10,7 @@ keywords: ["download", "backup"]
 ---
 
 {{< notice info >}}
-  This page describes how to download a copy of your data, including occurrence records, determinations, images (as links only), and any other extensions enabled in your portal (e.g., attribute data). It is strongly recommended that curators or collection managers regularly download and internally archive a backup data file in case of emergency. **Doing so is quick and easy**.
+  This page describes how to download a copy of your data, including occurrence records, determinations, media resources (as links only), and any other extensions enabled in your portal (e.g., attribute data). It is strongly recommended that curators or collection managers regularly download and internally archive a backup data file in case of emergency. **Doing so is quick and easy**.
 {{</ notice >}}
 
 {{< notice note >}}

@@ -1,7 +1,7 @@
 ---
 title: "Batch Uploading/Linking Images"
 date: 2021-10-06
-modified: 2023-12-06
+modified: 2025-01-31
 weight: 1
 authors: ["Ed Gilbert","Katie Pearson"]
 editors: ["Katie Pearson"]
@@ -24,7 +24,7 @@ Images associated with records in a Symbiota portal may be **Externally Hosted**
 
 #### Batch Adding Externally Hosted Images
 
-Externally Hosted images can be added to Symbiota records using one of three primary methods: (1) using the URL mapping tool and a spreadsheet of catalog numbers with image URLs (documentation coming soon!); (2) mapping a column of image links to the associatedMedia field when conducting a Full Text File Upload or Skeletal File Upload. For more information about uploading text files, see <a href=https://biokic.github.io/symbiota-docs/coll_manager/upload/>this page</a>. If you already have data in the portal, and you just want to add image links, do NOT use Full Text File Upload; or (3) importing a Darwin Core Archive of your data with a fully-populated <a href=https://rs.gbif.org/extension/gbif/1.0/multimedia.xml target=_blank>multimedia extension</a>.
+Externally Hosted images can be added to Symbiota records using one of three primary methods: (1) using the URL mapping tool and a [spreadsheet of catalog numbers with image URLs](/symbiota-docs/coll_manager/images/url_upload/); (2) mapping a column of image links to the associatedMedia field when conducting a Full Text File Upload or Skeletal File Upload. For more information about uploading text files, see [this page](/symbiota-docs/coll_manager/upload/). If you already have data in the portal, and you just want to add image links, do NOT use Full Text File Upload; or (3) importing a Darwin Core Archive of your data with a fully-populated <a href=https://rs.gbif.org/extension/gbif/1.0/multimedia.xml target=_blank>multimedia extension</a>.
 
 #### Batch Adding Internally Hosted Images
 

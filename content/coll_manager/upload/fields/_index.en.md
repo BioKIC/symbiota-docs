@@ -31,7 +31,7 @@ For more information about data fields, also see our [Symbiota Data Fields](http
 | Name | Type | Notes |
 |-|-|-|
 | associatedCollectors | Text (255) | All collectors except the primary collector, separated by commas or semicolons. |
-| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text (255) | URL to jpg images, delimited by commas or semicolons. More information about uploading images can be found on [this page](https://biokic.github.io/symbiota-docs/editor/images/upload/). |
+| [_associatedMedia_](https://dwc.tdwg.org/terms/#dwc:associatedMedia) | Text (255) | URL to media resources, delimited by commas or semicolons. More information about uploading links to media resources (e.g., images) can be found on [this page](https://biokic.github.io/symbiota-docs/editor/images/upload/). |
 | [_associatedSequences_](https://dwc.tdwg.org/terms/#dwc:associatedSequences) | Text (65,535) | **Note:** This field is not yet accessible in the occurrence editor.|
 | [_associatedTaxa_](https://dwc.tdwg.org/terms/#dwc:associatedTaxa) | Text (65,535) | Associated taxa delimited by commas or semicolons |
 | authorInfraspecific | Text | The authorship of the infraspecific epithet, if different than the authorship of the specific epithet. If you do not provide authorships, authorships will be automatically assigned according to the taxonomic thesaurus (if the name is found in the thesaurus). See also specify:subspecies_author,  specify:variety_author, and specify:forma_author.  |

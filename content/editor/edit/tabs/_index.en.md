@@ -20,7 +20,7 @@ Upon opening the Record Editor page, you will see 4-5 tabs, depending on your le
 
 **Determination History** – where annotations are shown and can be entered. Annotations can also be batch uploaded from separate files. See [Annotations](https://biokic.github.io/symbiota-docs/editor/edit/annotations/)
 
-**Images** – provides information on image(s) associated with the record. See [Images](https://biokic.github.io/symbiota-docs/editor/images/)
+**Media** – provides information on media resources associated with the record. See [Images](https://biokic.github.io/symbiota-docs/editor/images/)
 
 **Material Sample** - allows for association of multiple material sample records per specimen occurrence. For this tab to be visible, it must be configured per portal and activated per collection. Contact your Collection Administrator for more information. See [Material Sample](https://biokic.github.io/symbiota-docs/editor/materialsample/)
 

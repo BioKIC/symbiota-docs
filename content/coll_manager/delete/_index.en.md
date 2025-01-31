@@ -1,11 +1,11 @@
 ---
 title: "Deleting Records"
 date: 2021-12-08
-lastmod: 2024-04-30
+lastmod: 2025-01-31
 draft: false
 weight: 60
 authors: ["Katie Pearson"]
-editors: ["Lindsay Walker"]
+editors: ["Lindsay Walker","Katie Pearson"]
 keywords: ["delete","remove"]
 ---
 
@@ -20,7 +20,7 @@ Deleting a specimen record is only appropriate when that specimen no longer exis
 To delete a record:
 1) Navigate to the specimen record that you would like to delete and open the Occurrence Editor form for that record. (See [this page](https://biokic.github.io/symbiota-docs/editor/edit/) for help navigating to specific records.)
 2) Open the Admin tab.
-3) Select the “Evaluate record for deletion” button to determine whether the record can be safely deleted. If an image is associated with the record, you will need to disassociate the image from the specimen record before it can be deleted (see the [deleting/remapping images page](https://biokic.github.io/symbiota-docs/editor/images/delete/)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
+3) Select the “Evaluate record for deletion” button to determine whether the record can be safely deleted. If an media resource (e.g., image) is associated with the record, you will need to disassociate the resource from the specimen record before it can be deleted (see the [deleting/remapping images page](https://biokic.github.io/symbiota-docs/editor/images/delete/)). Likewise, a warning will appear if the specimen record is linked to a checklist, which must be resolved before the specimen record can be deleted. If there are no warnings at this point, click the "Delete Occurrence" button to remove the record from your dataset.
 
 ![Admin tab of the Occurrence Editor](/symbiota-docs/images/admintab_delete.png)
 

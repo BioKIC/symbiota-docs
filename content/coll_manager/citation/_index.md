@@ -1,7 +1,9 @@
 ---
 title: "Data Citations"
 date: 2022-10-26
+lastmod: 2025-01-31
 authors: ["Lindsay Walker"]
+editors: ["Katie Pearson"]
 draft: "false"
 weight: 24
 keywords: ["citations","gbif","data publishing"]
@@ -63,7 +65,7 @@ Example CITEME.txt content:
 > For more information on citation formats, please see the following page: https://serv.biokic.asu.edu/ecdysis/includes/usagepolicy.php
 
 ## Data Usage Policy & Portal Citations
-Some portal communities maintain their own portal-wide data usage policies for media and specimen records, which includes a recommended citation format for the portal. This information can typically be found on the **_Sitemap_ > _Image Library_ > _Usage Policy and Copyright Information_**. To request modifications to your portal's data usage policy, or to have one added to your portal, contact your portal manager. 
+Some portal communities maintain their own portal-wide data usage policies for media and specimen records, which includes a recommended citation format for the portal. This information can typically be found on the **_Sitemap_ > _Media Library_ > _Usage Policy and Copyright Information_**. To request modifications to your portal's data usage policy, or to have one added to your portal, contact your portal manager. 
 
 
 
