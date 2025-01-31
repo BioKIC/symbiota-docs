@@ -1,11 +1,11 @@
 ---
-title: "Image URL Upload"
+title: "Image/Media URL Upload"
 date: 2023-10-31
 lastmod: 2025-01-31
 weight: 10
 authors: ["Katie Pearson"]
 editors: ["Lindsay Walker"]
-keywords: ["images"]
+keywords: ["images","media","audio"]
 ---
 
 {{< notice info >}}
