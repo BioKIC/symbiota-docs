@@ -1,10 +1,11 @@
 ---
 title: "Batch Georeferencing"
 date: 2021-11-16
-lastmod: 2021-11-16
+lastmod: 2024-02-05
 draft: false
 weight: 40
 authors: ["Katie Pearson"]
+editiors: ["Lindsay Walker"]
 keywords: ["georeferencing","batch edits"]
 ---
 
@@ -59,5 +60,6 @@ keywords: ["georeferencing","batch edits"]
 
 * [California Phenology Network georeferencing guides](https://www.capturingcaliforniasflowers.org/georeferencing-protocols-and-guides.html)
 * [Florida Museum of Natural History georeferencing workflow overview](https://www.floridamuseum.ufl.edu/mossesinflas/georeferencing/)
+* [Georeferencing for Paleo: Refreshing the approach to fossil localities](https://tdwg.github.io/esp/georeferencing/2020-workshop)
 * [Microfungi TCN batch georeferencing instructions](https://www.microfungi.org/files/1014/7915/7996/Georeferencing.pdf)
 * [MSU Herbarium Georeferencing Guide](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/missa_how_to_geolocate_in_symbiota_0.pdf)
