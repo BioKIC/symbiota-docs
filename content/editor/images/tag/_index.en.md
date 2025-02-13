@@ -1,38 +1,38 @@
 ---
-title: "Tagging Images"
+title: "Tagging Images/Media"
 date: 2021-12-13
-lastmod: 2024-03-04
+lastmod: 2025-01-31
 draft: false
 weight: 6
 authors: ["Katie Pearson"]
-keywords: ["image tags","image annotation"]
+keywords: ["image tags","image annotation","media"]
 ---
 
 {{< notice info >}}
-  This page describes how to tag images of occurrences.
+  This page describes how to tag media resources (e.g., images) linked to occurrences.
 {{</ notice >}}
 
-### Tagging individual images
+### Tagging individual media resources
 
-Occurrence images can be tagged with important metadata about what is contained within that image. For example, a specimen can be marked as representing an adult organism or an immature organism. Some possible tags are shown in the image below:
+Occurrence media resources can be tagged with important metadata about what is contained within that media resource. For example, a specimen image an be marked as representing an adult organism or an immature organism. Some possible tags are shown below:
 
-![Image Tags](/symbiota-docs/images/imagetags.PNG)
+![Media Resource Tags](/symbiota-docs/images/imagetags.PNG)
 
-To tag an image, navigate to the occurrence to which that image belongs (see [this page](https://biokic.github.io/symbiota-docs/editor/edit/)). Then click the Images tab. Click the edit button ![Edit Button](/symbiota-docs/images/edit.png) and scroll down to the checklist of tags that you can add to the image. Click the Submit Image Edits button when complete.
+To tag an media resource, navigate to the occurrence to which that media resource belongs (see [this page](https://biokic.github.io/symbiota-docs/editor/edit/)). Then click the Media tab. Click the pencil icon next to the Taxonomic Name field and scroll down to the checklist of tags that you can add to the media resource. Click the Submit Resource Edits button when complete.
 
-### Batch tagging images
+### Batch tagging media resources
 
-1. Navigate to the Image Search interface in your portal. This is usually listed on main menu of your portal, potentially nested in an "Images" dropdown section. If you can't find it here, navigate to your Sitemap and click "Interactive Search Tool" under the Image Library header.
+1. Navigate to the Media Search interface in your portal. This is usually listed on main menu of your portal, potentially nested in an "Images" dropdown section. If you can't find it here, navigate to your Sitemap and click "Interactive Search Tool" under the Media Library header.
 
 {{< notice note >}}
-  Even though you access this tool through the Image Search interface, you will need editor permissions to tag images in the search results.
+  Even though you access this tool through the Media Search interface, you will need editor permissions to tag images in the search results.
 {{</ notice >}}
 
-2. Enter the search criteria for the images you would like to tag in the Search Criteria box.
-  * To select images from a specific collection, select the "Specimen/Vouchered Images" from the **Image Type** dropdown box and then use the checkboxes to select the collection(s) from which you would like to see images. Click the plus icon to expand the lists of collections, if applicable.
-3. Click the Load Images button.
+2. Enter the search criteria for the media resources you would like to tag in the Search Criteria box.
+  * To select media resources from a specific collection, select the "Specimen/Vouchered Media" from the **Media Type** dropdown box and then use the checkboxes to select the collection(s) from which you would like to see media resources. Click the plus icon to expand the lists of collections, if applicable.
+3. Click the Load Media button.
 4. Click the pencil icon in the top right corner of the Search Criteria box to toggle the batch tagging interface ON. A new box labeled Action Panel will show up below the Search Criteria box.
-5. Select the Image Tag from the dropdown list that you would like to apply, then check the boxes next to the images to which you would like to apply that tag.
-6. Click the Batch Assign Tag button to apply that tag to the selected images.
+5. Select the Media Tag from the dropdown list that you would like to apply, then check the boxes next to the media resources to which you would like to apply that tag.
+6. Click the Batch Assign Tag button to apply that tag to the selected media resources.
 
-![Batch Image Tagging Interface](/symbiota-docs/images/batchtag.PNG)
+![Batch Media Tagging Interface](/symbiota-docs/images/batchtag.PNG)

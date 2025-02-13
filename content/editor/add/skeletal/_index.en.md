@@ -40,7 +40,7 @@ This tool can be used to collect basic collection information, for example, duri
 ![Skeletal Records Added](/symbiota-docs/images/skeletaladded.png)
 
 {{< notice note >}}
-  In the event that a user needs to edit a previously entered skeletal record, you can click the catalog number of the record as it is listed in the Records box below the Skeletal Data box. Note that this list will disappear if the page is refreshed. You can also add an image to the record from this page by clicking the icon to the right of the listed catalog number.
+  In the event that a user needs to edit a previously entered skeletal record, you can click the catalog number of the record as it is listed in the Records box below the Skeletal Data box. Note that this list will disappear if the page is refreshed. You can also add an image or other media resource to the record from this page by clicking the icon to the right of the listed catalog number.
 {{</ notice >}}
 
 Further clarification about the Skeletal Data Entry tool can be found here: [SERNEC Skeletal Data Entry Guide](https://herbarium.appstate.edu/sites/herbarium.appstate.edu/files/sernec-tcn.skeletaldataentryv3.pdf)
