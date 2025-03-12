@@ -157,7 +157,7 @@ hasChildren = true
 
 # Dropdown menu
 [[Languages.en.menu.main]]
-weight = 8
+weight = 9
 name = "Versions"
 hasChildren = true
 
