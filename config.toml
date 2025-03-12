@@ -165,13 +165,13 @@ hasChildren = true
   parent = "Versions"
   name = "v1.0.0"
   url = "v1"
-  weight = 4
+  weight = 1
 
   [[Languages.en.menu.main]]
   parent = "Versions"
   name = "v2.0.0"
   url = "v2"
-  weight = 1
+  weight = 2
 
 ################################ Spanish Language ######################
 [Languages.es]
