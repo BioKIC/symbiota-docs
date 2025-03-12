@@ -155,6 +155,24 @@ hasChildren = true
   url = "coll_manager"
   weight = 3
 
+# Dropdown menu
+[[Languages.en.menu.main]]
+weight = 8
+name = "Versions"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Versions"
+  name = "v1.0.0"
+  url = "v1"
+  weight = 4
+
+  [[Languages.en.menu.main]]
+  parent = "Versions"
+  name = "v2.0.0"
+  url = "v2"
+  weight = 1
+
 ################################ Spanish Language ######################
 [Languages.es]
 languageName = "Es"
