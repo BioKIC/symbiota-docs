@@ -164,7 +164,7 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "Versions"
   name = "v1.0.0"
-  url = "v1"
+  url = "master"
   weight = 1
 
   [[Languages.en.menu.main]]
