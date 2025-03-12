@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://biokic.github.io/symbiota-docs/"
+baseURL = "https://atticus29.github.io/symbiota-docs/"
 # theme
 theme = "dot"
 # site title
@@ -18,7 +18,7 @@ unsafe = true
 
 ############################# Default Parameters ##########################
 [params]
-editURL = "https://github.com/BioKIC/symbiota-docs/edit/master/content/"
+editURL = "https://github.com/atticus29/symbiota-docs/edit/master/content/"
 # logo is for all page
 logo = ""
 # logo white is for homepage logo, you can use colorful logo too...
