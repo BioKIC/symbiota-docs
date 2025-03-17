@@ -1,7 +1,7 @@
 ---
 title: "Redacting / Obscuring Data"
 Date: 2021-11-01
-lastmod: 2024-12-05
+lastmod: 2025-03-14
 authors: ["Katie Pearson","Ed Gilbert"]
 editors: ["Lindsay Walker"]
 weight: 80
@@ -44,6 +44,10 @@ The master list of Protected Species in a given portal can be viewed by all port
 | ![Protected Species](/symbiota-docs/images/redaction_protectedspecies.png) |
 |:--:|
 | To view all protected taxa in a portal, navigate to _Sitemap > Collections > Protected Species_. This example comes [from SEINet](https://swbiodiversity.org/seinet/collections/misc/protectedspecies.php). |
+
+ {{< notice tip >}}
+  To query records in your collection that have location security applied, use the Data Editor Search form to construct a query where **"_Location Security_ EQUALS 1"**. Doing so will recall records where the location data has been obscured from public view.
+{{</ notice >}}
 
 ## How to redact data
 
