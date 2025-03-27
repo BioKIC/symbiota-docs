@@ -1,7 +1,7 @@
 ---
 title: "Linking Records/Resources"
 date: 2021-12-08
-lastmod: 2024-09-06
+lastmod: 2025-03-27
 draft: false
 weight: 110
 authors: ["Katie Pearson"]
@@ -15,9 +15,17 @@ keywords: ["genetic resources","DNA sequences","sequences","checklist","voucher"
 
 To link an occurrence with an external (or internal) resource or record, navigate to that record's occurrence editor page (see [this page](https://biokic.github.io/symbiota-docs/editor/edit/) for instructions) and click the Linked Resources tab.
 
+ ### Table of Contents
+ - [Linking to Associated Resources](#linking-associations)
+   - Such as other specimen occurrences, observations, and related resources
+ - [Linking to Specimen Duplicates](#linking-to-a-duplicate-specimen)
+ - [Linking to Genetic Resources](#linking-to-genetic-resources-and-sequences)
+
+
 ![Linked Resources Tab](/symbiota-docs/images/linkedresourcestab.PNG)
 
-### Linking Associations (External/Internal Resources or Occurrences)
+### Linking Associations
+### (External/Internal Resources or Occurrences)
 
 In the Associated Occurrences box of the Linked Resources tab, you can link an occurrence with a(n) (1) external resource (not another specimen or observation) or website ("[Non-Occurrence Resource Link](#linking-an-occurrence-to-an-external-non-occurrence-resource)"), (2) Internal Occurrence ("[Occurrence - Internal (this portal)](#linking-an-occurrence-to-a-record-within-the-portal-occurrence---internal-this-portal)"), (3) occurrence in another portal or database ("[Occurrence - External Link](#linking-an-occurrence-to-a-record-in-a-different-portaldatabase)"), and/or (4) observational (non-vouchered) occurrence of a specific taxon ("[Taxon Observation](#linking-an-occurrence-to-an-observation-that-lacks-a-record)").
 
@@ -32,6 +40,13 @@ In the Associated Occurrences box of the Linked Resources tab, you can link an o
 5. In the **Resource URL** field, enter the URL/link to the external resource that you would like to link to your occurrence.
 6. (Optional) In the **Additional Identifier of Object** field, enter any unique identifier that belongs to the link you are adding to your occurrence.
 7. Click the Create Association button.
+
+{{< notice note >}}
+  📚 **How do I create links between my specimen records and literature?**<br>
+  You can use the "Non-occurrence Resource" option to create linkages between your specimen records and digitially available literature. This can be accomplished using the Linked Resources tab or by bulk importing references using the [Extended Data Import Tool](/symbiota-docs/coll_manager/upload/links/). The latter option includes [additional fields](/symbiota-docs/images/linkedresources_literatureimport.png) that are not available on the Linked Resources data entry form.
+  <br><br>If you opt to directly enter create a link to a publication using the Linked Resources tab, you can create this associate by using the **Association Type** = "Non-occurrence Resource" + **Relationship** = "isReferencedBy" and including a stable **Resource URL** (permalink or DOI) that points directly to the external resource, as shown below ([example](https://library.big-bee.net/portal/collections/individual/index.php?occid=4003313)). 
+  ![Linked Resources Tab](/symbiota-docs/images/linkedresources_literaturedirectentry.png)
+{{</ notice >}}
 
 #### Linking to a record within the same portal
 
@@ -64,6 +79,13 @@ In the Associated Occurrences box of the Linked Resources tab, you can link an o
 3. (Optional) In the **Additional Identifier of Object** field, enter any unique identifier that belongs to the occurrence object that you are linking to your occurrence subject.
 4. (Optional) In the **Verbatim Scientific Name** field, enter the name of the taxon represented by your external resource that you would like to link to your occurrence.
 5. Click the Create Association button.
+
+{{< notice note >}}
+  📸 **How do I create links between my specimen records and [iNaturalist](https://www.inaturalist.org/)?**<br>
+  If your collection contains a preserved specimen that directly corresponds to an observation in iNaturalist, you can use the "Occurrence - External Link" option to create a link between these records. This can be accomplished using the Linked Resources tab or by bulk importing references using the [Extended Data Import Tool](/symbiota-docs/coll_manager/upload/links/). (Note: If the iNaturalist image does not precisely capture a preserved specimen but still contains relevant information, we suggest using the "Non-occurrence Resource Link Option", described above.)
+  <br><br>You can create this association by using the **Association Type** = "Occurrence - External Link" + **Relationship** = "derivedFromSameIndividual" + **Basis of Record** = "HumanObservation" and including the direct URL to the iNaturalist record as the **Resource URL**, as shown below.
+  ![Linked Resources Tab](/symbiota-docs/images/linkedresources_iNaturalist.png)
+{{</ notice >}}
 
 #### Linking to an observation that lacks a record ("Taxon Observation")
 
